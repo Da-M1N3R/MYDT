@@ -143,7 +143,7 @@
 
     <script>
       // ----- CONFIG -----
-      const START_CASH = 100;
+      const START_CASH = 100.0;
       const ROSTER_KEY = "opdt_roster";
       const CASH_KEY = "opdt_cash";
 
@@ -288,7 +288,7 @@
           card.innerHTML = `
             <img src="${u.img}" alt="${u.name}">
             <div class="name">${u.name}</div>
-            <div class="price">$${u.price}</div>
+            <div class="price">$${Number(u.price).toFixed(2)}</div>
             <button class="${owned ? "owned" : ""}" ${
             owned || u.price > cash ? "disabled" : ""
           }>${owned ? "Owned" : "Buy"}</button>
@@ -303,7 +303,13 @@
           ? roster
               .map(
                 (r) =>
-                  `<div class="item"><span>${r.name}</span><span>$${r.price}</span> <button style="margin-left:8px;padding:2px 8px;font-size:0.8rem;" onclick="sell('${r.name}')">Sell</button></div>`
+                  `<div class="item"><span>${r.name}</span><span>$${Number(
+                    r.price
+                  ).toFixed(
+                    2
+                  )}</span> <button style="margin-left:8px;padding:2px 8px;font-size:0.8rem;" onclick="sell('${
+                    r.name
+                  }')">Sell</button></div>`
               )
               .join("")
           : '<div style="color:#888;text-align:center;margin-top:1rem">Empty crew</div>';
@@ -328,7 +334,7 @@
       }
 
       function updateUI() {
-        bankEl.textContent = cash;
+        bankEl.textContent = Number(cash).toFixed(2);
         renderShop();
         renderRoster();
       }
