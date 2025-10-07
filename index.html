@@ -57,9 +57,11 @@
         display: flex;
         flex-direction: column;
         position: sticky;
-        top: 55px; /* height of header */
-        height: calc(100vh - 100px);
-        overflow-y: clip;
+        top: 60px;
+        height: 650px;
+        min-height: 320px;
+        max-height: 650px;
+        overflow-y: auto;
       }
       #team h2 {
         margin: 0 0 0.5rem;
@@ -81,6 +83,8 @@
         align-items: center;
         text-align: center;
         padding: 0.5rem;
+        height: 320px;
+        justify-content: space-between;
       }
       .card img {
         width: 100%;
@@ -240,10 +244,10 @@
         rosterEl.innerHTML = roster.length
           ? roster
               .map(
-                (r) =>
-                  `<div class="item"><span>${r.name}</span><span>$${Number(
-                    r.price
-                  ).toFixed(
+                (r, i) =>
+                  `<div class="item"><span>${i + 1}. ${
+                    r.name
+                  }</span><span>$${Number(r.price).toFixed(
                     2
                   )}</span> <button style="margin-left:8px;padding:2px 8px;font-size:0.8rem;background:#e53935;color:#fff;border:none;border-radius:4px;cursor:pointer;" onclick="sell('${
                     r.name

@@ -10,11 +10,6 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
   },
   {
-    name: "Kaido",
-    price: 13.8,
-    img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
-  },
-  {
     name: "Rocks D. Xebec (Davy D. Xebec)",
     price: 14,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
@@ -30,6 +25,21 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Shiki_Portrait.png/",
   },
   {
+    name: "Kaido",
+    price: 13.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
+  },
+  {
+    name: "Charlotte Linlin",
+    price: 13.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/52/Charlotte_Linlin_Young_Portrait.png/",
+  },
+  {
+    name: "Streusen",
+    price: 7.2,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Streusen_Young_Portrait.png/",
+  },
+  {
     name: "Buckingham Stussy",
     price: 7.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Buckingham_Stussy_Young_Portrait.png/",
@@ -38,6 +48,26 @@ export const units = [
     name: "Don Marlon",
     price: 8.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/16/Marlon_Portrait.png/",
+  },
+  {
+    name: "Barbel",
+    price: 8.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Barbel_Portrait.png/",
+  },
+  {
+    name: "Ochoku",
+    price: 7.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Ochoku_Portrait.png/",
+  },
+  {
+    name: "Ganzui",
+    price: 8.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/73/Ganzui_Portrait.png/",
+  },
+  {
+    name: "Capt. John",
+    price: 8.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/bf/John_Portrait.png/",
   },
   {
     name: "Harald",
