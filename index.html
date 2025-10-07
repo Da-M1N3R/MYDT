@@ -223,6 +223,9 @@
         renderRoster();
       }
 
+      // Expose sell to global scope for inline onclick
+      window.sell = sell;
+
       // ----- INIT -----
       updateUI();
     </script>
