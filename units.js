@@ -5,16 +5,6 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
   },
   {
-    name: "Monkey D. Luffy",
-    price: 13.6,
-    img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
-  },
-  {
-    name: "Roronoa Zoro",
-    price: 13.3,
-    img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
-  },
-  {
     name: "Rocks D. Xebec (Davy D. Xebec)",
     price: 14.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
@@ -28,6 +18,101 @@ export const units = [
     name: "Monkey D. Garp",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
+  },
+  {
+    name: "St. Figarland Garling",
+    price: 13,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
+  },
+  {
+    name: "Monkey D. Luffy",
+    price: 13.6,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
+  },
+  {
+    name: "Roronoa Zoro",
+    price: 13.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
+  },
+  {
+    name: "St. Jaygarcia Saturn",
+    price: 12.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
+  },
+  {
+    name: "St. Topman Warcury",
+    price: 13.2,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
+  },
+  {
+    name: "St. Marcus Mars",
+    price: 13.2,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
+  },
+  {
+    name: "St. Ethanbaron V. Nusjuro",
+    price: 13.4,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
+  },
+  {
+    name: "St. Shepherd Ju Peter",
+    price: 12.9,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
+  },
+  {
+    name: "Shanks",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
+  },
+  {
+    name: "Dracule Mihawk",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
+  },
+  {
+    name: "Nami",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
+  },
+  {
+    name: "Usopp",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Usopp_Portrait.png/",
+  },
+  {
+    name: "Vinsmoke Sanji",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0c/Sanji_Portrait.png/",
+  },
+  {
+    name: "Tony Tony Chopper",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/84/Tony_Tony_Chopper_Portrait.png/",
+  },
+  {
+    name: "Nico Robin",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Nico_Robin_Post_Timeskip_Portrait.png/",
+  },
+  {
+    name: "Franky",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a8/Franky_Portrait.png/",
+  },
+  {
+    name: "Brook",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/37/Brook_Portrait.png/",
+  },
+  {
+    name: "Jinbe",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f7/Jinbe_Portrait.png/",
+  },
+  {
+    name: "Nefertari Vivi",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/39/Nefertari_Vivi_Portrait.png/",
   },
   {
     name: "Silvers Rayleigh",
@@ -110,36 +195,6 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d0/Harald_Portrait.png/",
   },
   {
-    name: "St. Figarland Garling",
-    price: 13,
-    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
-  },
-  {
-    name: "St. Jaygarcia Saturn",
-    price: 12.3,
-    img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
-  },
-  {
-    name: "St. Topman Warcury",
-    price: 13.2,
-    img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
-  },
-  {
-    name: "St. Marcus Mars",
-    price: 13.2,
-    img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
-  },
-  {
-    name: "St. Ethanbaron V. Nusjuro",
-    price: 13.4,
-    img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
-  },
-  {
-    name: "St. Shepherd Ju Peter",
-    price: 12.9,
-    img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
-  },
-  {
     name: "St. Figarland Shamrock",
     price: 13,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/76/Figarland_Shamrock_Portrait.png/",
@@ -163,6 +218,96 @@ export const units = [
     name: "St. Satchels Maffey",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Satchels_Maffey_Portrait.png/",
+  },
+  {
+    name: "Marco (1st Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Marco_Pre_Timeskip_Portrait.png/",
+  },
+  {
+    name: "Jozu (3rd Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jozu_Portrait.png/",
+  },
+  {
+    name: "Kouzuki Oden (2nd Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/18/Kouzuki_Oden_Pirate_Portrait.png/",
+  },
+  {
+    name: "Portgas D. Ace (2nd Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/8f/Portgas_D._Ace_Portrait.png/",
+  },
+  {
+    name: "Thatch (4th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/48/Thatch_Portrait.png/",
+  },
+  {
+    name: "Vista (5th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Vista_Portrait.png/",
+  },
+  {
+    name: "Blamenco (6th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/75/Blamenco_Portrait.png/",
+  },
+  {
+    name: "Rakuyo (7th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Rakuyo_Portrait.png/",
+  },
+  {
+    name: "Namur (8th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/08/Namur_Portrait.png/",
+  },
+  {
+    name: "Blenheim (9th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fc/Blenheim_Portrait.png/",
+  },
+  {
+    name: "Curiel (10th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1b/Curiel_Portrait.png/",
+  },
+  {
+    name: "Kingdew (11th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b0/Kingdew_Portrait.png/",
+  },
+  {
+    name: "Haruta (12th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1d/Haruta_Portrait.png/",
+  },
+  {
+    name: "Atmos (13th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7f/Atmos_Portrait.png/",
+  },
+  {
+    name: "Speed Jiru (14th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Speed_Jiru_Portrait.png/",
+  },
+  {
+    name: "Fossa (15th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7d/Fossa_Portrait.png/",
+  },
+  {
+    name: "Izou (16th Division)",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/9c/Izou_Pre_Timeskip_Portrait.png/",
+  },
+  {
+    name: "Squard",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Marco_Pre_Timeskip_Portrait.png/",
   },
   {
     name: "Michael Kaiser*",
