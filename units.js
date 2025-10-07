@@ -1,6 +1,6 @@
 export const units = [
   {
-    name: "Monkey D Luffy",
+    name: "Monkey D. Luffy",
     price: 13.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
   },
@@ -15,9 +15,14 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
   },
   {
-    name: "Rocks D Xebec (Davy D Xebec)",
+    name: "Rocks D. Xebec (Davy D. Xebec)",
     price: 14,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
+  },
+  {
+    name: "Edward Newgate",
+    price: 14,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Edward_Newgate_Young_Portrait.png/",
   },
   {
     name: "Harald",
