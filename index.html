@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Make Your Dream Team (MYDT)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        --gold: #ffb703;
+        --dark: #0d1b2a;
+        --card: #1b263b;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui;
+        background: var(--dark);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        min-width: none;
+        min-height: 80vh;
+      }
+      header {
+        background: #000;
+        padding: 0.75rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 1.4rem;
+        color: var(--gold);
+      }
+      #bank {
+        font-weight: 700;
+        font-size: 1.2rem;
+      }
+      main {
+        display: flex;
+        flex: 1;
+      }
+      #shop {
+        flex: 1;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 1rem;
+      }
+      #team {
+        width: 260px;
+        background: #111;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        top: 55px; /* height of header */
+        height: calc(100vh - 100px);
+        overflow-y: clip;
+      }
+      #team h2 {
+        margin: 0 0 0.5rem;
+        font-size: 1.1rem;
+        text-align: center;
+        color: var(--gold);
+      }
+      #roster {
+        flex: 1;
+        overflow: auto;
+      }
+      .card {
+        background: var(--card);
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+      }
+      .card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 4px;
+      }
+      .card .name {
+        margin: 0.5rem 0;
+        font-weight: 600;
+      }
+      .card .price {
+        color: var(--gold);
+        margin-bottom: 0.5rem;
+      }
+      .card button {
+        width: 100%;
+        border: none;
+        padding: 0.4rem;
+        border-radius: 4px;
+        background: var(--gold);
+        color: #000;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+      }
+      .card button.owned {
+        background: #2ecc40 !important;
+        color: #000 !important;
+      }
+      .card button:disabled {
+        background: #444;
+        color: #888;
+        cursor: not-allowed;
+      }
+      .item {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.3rem 0;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Make Your Dream Team</h1>
+      <div id="bank">💰 $<span>100</span></div>
+    </header>
+
+    <main>
+      <section id="shop"></section>
+      <aside id="team">
+        <h2>My Squad</h2>
+        <div id="roster"></div>
+        <div style="margin-top: auto; font-size: 0.75rem; color: #888">
+          Refresh page to reset
+        </div>
+      </aside>
+    </main>
+
+    <script>
+      // ----- CONFIG -----
+      const START_CASH = 100;
+      const ROSTER_KEY = "opdt_roster";
+      const CASH_KEY = "opdt_cash";
+
+      const units = [
+        {
+          name: "Monkey D Luffy",
+          price: 20,
+          img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
+        },
+        {
+          name: "Roronoa ffefef feefe fefee  fdfdffd fdf df df  fdf df Zoro",
+          price: 20,
+          img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
+        },
+        {
+          name: "Kaido",
+          price: 20,
+          img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
+        },
+        {
+          name: "Rocks D Xebec (Davy D Xebec)",
+          price: 20,
+          img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
+        },
+        {
+          name: "Harald",
+          price: 21,
+          img: "https://static.wikia.nocookie.net/onepiece/images/d/d0/Harald_Portrait.png/",
+        },
+        {
+          name: "St. Figarland Garling",
+          price: 14,
+          img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
+        },
+        {
+          name: "St. Jaygarcia Saturn",
+          price: 11,
+          img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
+        },
+        {
+          name: "St. Topman Warcury",
+          price: 9,
+          img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
+        },
+        {
+          name: "St. Marcus Mars",
+          price: 13,
+          img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
+        },
+        {
+          name: "St. Ethanbaron V. Nusjuro",
+          price: 16,
+          img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
+        },
+        {
+          name: "St. Shepherd Ju Peter",
+          price: 14,
+          img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
+        },
+        {
+          name: "St. Figarland Shamrock",
+          price: 17,
+          img: "https://static.wikia.nocookie.net/onepiece/images/7/76/Figarland_Shamrock_Portrait.png/",
+        },
+        {
+          name: "Michael Kaiser*",
+          price: 50,
+          img: "https://static.wikia.nocookie.net/bluelock/images/f/f0/Michael_Kaiser.png/",
+        },
+        {
+          name: "Kriss Lagat*",
+          price: 50,
+          img: "https://static.wikia.nocookie.net/bluelock/images/1/1d/Noel_Noa.png/",
+        },
+        {
+          name: "Megumi Fushiguro*",
+          price: 50,
+          img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/58/MegumiP.png/",
+        },
+        {
+          name: "Lidros Razor*",
+          price: 50,
+          img: "https://static.wikia.nocookie.net/hunterxhunter/images/e/e6/Razor_GI_Portrait.png/",
+        },
+        {
+          name: "Abigail Rolar*",
+          price: 50,
+          img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+        },
+        {
+          name: "the witch*",
+          price: 50,
+          img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+        },
+        {
+          name: "Doorman (Blue Kingdom)*",
+          price: 50,
+          img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+        },
+        {
+          name: "Yoma Hashimoto*",
+          price: 50,
+          img: "https://static.jojowiki.com/images/3/34/latest/20201217170557/YomaAv.jpg",
+        },
+        {
+          name: "Kurosaki Inchigo*",
+          price: 50,
+          img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+        },
+        {
+          name: "Kibutsuji Muzan*",
+          price: 50,
+          img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/91/Muzan_Anime_Profile.png/",
+        },
+        {
+          name: "Irene Belserion*",
+          price: 50,
+          img: "https://static.wikia.nocookie.net/fairytail/images/e/ef/Irene_image.png/",
+        },
+      ];
+
+      // ----- STATE -----
+      let cash = +(localStorage.getItem(CASH_KEY) ?? START_CASH);
+      let roster = JSON.parse(localStorage.getItem(ROSTER_KEY) ?? "[]");
+
+      // ----- DOM -----
+      const shopEl = document.getElementById("shop");
+      const rosterEl = document.getElementById("roster");
+      const bankEl = document.querySelector("#bank span");
+
+      function save() {
+        localStorage.setItem(CASH_KEY, cash);
+        localStorage.setItem(ROSTER_KEY, JSON.stringify(roster));
+      }
+
+      function renderShop() {
+        shopEl.innerHTML = "";
+        units.forEach((u) => {
+          const owned = roster.some((r) => r.name === u.name);
+          const card = document.createElement("div");
+          card.className = "card";
+          card.innerHTML = `
+            <img src="${u.img}" alt="${u.name}">
+            <div class="name">${u.name}</div>
+            <div class="price">$${u.price}</div>
+            <button class="${owned ? "owned" : ""}" ${
+            owned || u.price > cash ? "disabled" : ""
+          }>${owned ? "Owned" : "Buy"}</button>
+          `;
+          card.querySelector("button").onclick = () => buy(u);
+          shopEl.appendChild(card);
+        });
+      }
+
+      function renderRoster() {
+        rosterEl.innerHTML = roster.length
+          ? roster
+              .map(
+                (r) =>
+                  `<div class="item"><span>${r.name}</span><span>$${r.price}</span> <button style="margin-left:8px;padding:2px 8px;font-size:0.8rem;" onclick="sell('${r.name}')">Sell</button></div>`
+              )
+              .join("")
+          : '<div style="color:#888;text-align:center;margin-top:1rem">Empty crew</div>';
+      }
+
+      function buy(u) {
+        if (roster.some((r) => r.name === u.name) || u.price > cash) return;
+        cash -= u.price;
+        roster.push({ name: u.name, price: u.price });
+        save();
+        updateUI();
+      }
+
+      function sell(name) {
+        const idx = roster.findIndex((r) => r.name === name);
+        if (idx === -1) return;
+        const unit = roster[idx];
+        cash += unit.price;
+        roster.splice(idx, 1);
+        save();
+        updateUI();
+      }
+
+      function updateUI() {
+        bankEl.textContent = cash;
+        renderShop();
+        renderRoster();
+      }
+
+      // ----- INIT -----
+      updateUI();
+    </script>
+  </body>
+</html>
