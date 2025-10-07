@@ -1,5 +1,10 @@
 export const units = [
   {
+    name: "Imu",
+    price: 15,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
+  },
+  {
     name: "Monkey D. Luffy",
     price: 13.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
@@ -11,8 +16,28 @@ export const units = [
   },
   {
     name: "Rocks D. Xebec (Davy D. Xebec)",
-    price: 14,
+    price: 14.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
+  },
+  {
+    name: "Gol D. Roger",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
+  },
+  {
+    name: "Monkey D. Garp",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
+  },
+  {
+    name: "Silvers Rayleigh",
+    price: 13.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Silvers_Rayleigh_Pirate_Portrait.png/",
+  },
+  {
+    name: "Scopper Gaban",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/28/Scopper_Gaban_Pirate_Portrait.png/",
   },
   {
     name: "Edward Newgate",
@@ -20,8 +45,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Edward_Newgate_Young_Portrait.png/",
   },
   {
-    name: "Shiki",
-    price: 14,
+    name: "Shiki /Golden Lion",
+    price: 11.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Shiki_Portrait.png/",
   },
   {
@@ -41,7 +66,7 @@ export const units = [
   },
   {
     name: "Buckingham Stussy",
-    price: 7.9,
+    price: 6.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Buckingham_Stussy_Young_Portrait.png/",
   },
   {
@@ -55,7 +80,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Barbel_Portrait.png/",
   },
   {
-    name: "Ochoku",
+    name: "Ochoku /Wang Zhi",
     price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Ochoku_Portrait.png/",
   },
@@ -68,6 +93,16 @@ export const units = [
     name: "Capt. John",
     price: 8.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/bf/John_Portrait.png/",
+  },
+  {
+    name: "Gloriosa /Elder Nyon",
+    price: 7.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e8/Gloriosa_Young_Portrait.png/",
+  },
+  {
+    name: "Kyo /Sliver Axe",
+    price: 8.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Kyo_Portrait.png/",
   },
   {
     name: "Harald",
@@ -123,6 +158,11 @@ export const units = [
     name: "St. Limosiv Killingham",
     price: 12.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3b/Rimoshifu_Killingham_Portrait.png/",
+  },
+  {
+    name: "St. Satchels Maffey",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Satchels_Maffey_Portrait.png/",
   },
   {
     name: "Michael Kaiser*",
