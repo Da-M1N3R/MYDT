@@ -25,6 +25,21 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Edward_Newgate_Young_Portrait.png/",
   },
   {
+    name: "Shiki",
+    price: 14,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Shiki_Portrait.png/",
+  },
+  {
+    name: "Buckingham Stussy",
+    price: 7.9,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Buckingham_Stussy_Young_Portrait.png/",
+  },
+  {
+    name: "Don Marlon",
+    price: 8.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/16/Marlon_Portrait.png/",
+  },
+  {
     name: "Harald",
     price: 13.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d0/Harald_Portrait.png/",

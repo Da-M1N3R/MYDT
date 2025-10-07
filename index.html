@@ -142,10 +142,31 @@
             cursor: pointer;
             padding: 0 8px;
             border-radius: 4px;
+            height: 2.2em;
+            min-width: 2.7em;
             transition: background 0.2s, color 0.2s, border 0.2s;
           "
         >
           &#8734;
+        </button>
+        <button
+          id="reset-btn"
+          title="Reset team and cash"
+          style="
+            font-size: 1.3rem;
+            background: #000;
+            color: var(--gold);
+            border: 2px solid var(--gold);
+            cursor: pointer;
+            padding: 0 8px;
+            border-radius: 4px;
+            height: 2.2em;
+            min-width: 2.7em;
+            margin-left: 4px;
+            transition: background 0.2s, color 0.2s, border 0.2s;
+          "
+        >
+          &#10227;
         </button>
       </div>
     </header>
@@ -157,9 +178,16 @@
         <div id="roster"></div>
         <div
           id="team-total-value"
-          style="margin-top: auto; font-size: 0.75rem; color: #888"
+          style="margin-top: auto; font-size: 1.15rem; color: #888"
         >
-          Team Value: $<span id="team-value">0.00</span>
+          <div
+            style="border-top: 2px solid var(--gold); margin: 8px 0 4px 0"
+          ></div>
+          Team Value: $<span
+            id="team-value"
+            style="color: var(--gold); font-weight: bold"
+            >0.00</span
+          >
         </div>
       </aside>
     </main>
@@ -217,7 +245,7 @@
                     r.price
                   ).toFixed(
                     2
-                  )}</span> <button style="margin-left:8px;padding:2px 8px;font-size:0.8rem;" onclick="sell('${
+                  )}</span> <button style="margin-left:8px;padding:2px 8px;font-size:0.8rem;background:#e53935;color:#fff;border:none;border-radius:4px;cursor:pointer;" onclick="sell('${
                     r.name
                   }')">Sell</button></div>`
               )
@@ -229,6 +257,7 @@
         if (roster.some((r) => r.name === u.name)) return;
         if (!unlimitedCash && u.price > cash) return;
         if (!unlimitedCash) cash -= u.price;
+        // If unlimitedCash, do not change cash
         roster.push({ name: u.name, price: u.price });
         save();
         updateUI();
@@ -238,7 +267,8 @@
         const idx = roster.findIndex((r) => r.name === name);
         if (idx === -1) return;
         const unit = roster[idx];
-        cash += unit.price;
+        if (!unlimitedCash) cash += unit.price;
+        // If unlimitedCash, do not change cash
         roster.splice(idx, 1);
         save();
         updateUI();
@@ -282,6 +312,33 @@
         }
         save();
         updateUI();
+      };
+      // Reset button logic
+      const resetBtn = document.getElementById("reset-btn");
+      // Set default style (deactivated)
+      resetBtn.style.background = "#000";
+      resetBtn.style.color = "var(--gold)";
+      resetBtn.style.borderColor = "var(--gold)";
+      resetBtn.onclick = function () {
+        cash = 100.0;
+        unlimitedCash = false;
+        roster = [];
+        // Active style: gold background, black font
+        this.style.background = "var(--gold)";
+        this.style.color = "#000";
+        this.style.borderColor = "var(--gold)";
+        // Reset infinity button to deactivated
+        infinityBtn.style.background = "#000";
+        infinityBtn.style.color = "var(--gold)";
+        infinityBtn.style.borderColor = "var(--gold)";
+        save();
+        updateUI();
+        // After short delay, revert to deactivated style
+        setTimeout(() => {
+          this.style.background = "#000";
+          this.style.color = "var(--gold)";
+          this.style.borderColor = "var(--gold)";
+        }, 100);
       };
     </script>
   </body>
