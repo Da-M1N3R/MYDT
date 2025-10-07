@@ -85,7 +85,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f0/Michael_Kaiser.png/",
   },
   {
-    name: "Kriss Lagat*",
+    name: "Kazan Lagat*",
     price: 14.4,
     img: "https://static.wikia.nocookie.net/bluelock/images/1/1d/Noel_Noa.png/",
   },

@@ -91,6 +91,8 @@
       .card .name {
         margin: 0.5rem 0;
         font-weight: 600;
+        font-family: cursive, system-ui, sans-serif;
+        letter-spacing: 1px;
       }
       .card .price {
         color: var(--gold);
@@ -127,7 +129,25 @@
   <body>
     <header>
       <h1>Make Your Dream Team</h1>
-      <div id="bank">💰 $<span>100</span></div>
+      <div style="display: flex; align-items: center; gap: 8px">
+        <div id="bank">💰 $<span>100</span></div>
+        <button
+          id="infinity-btn"
+          title="Enable unlimited cash"
+          style="
+            font-size: 1.3rem;
+            background: var(--gold);
+            color: #000;
+            border: 2px solid var(--gold);
+            cursor: pointer;
+            padding: 0 8px;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s, border 0.2s;
+          "
+        >
+          &#8734;
+        </button>
+      </div>
     </header>
 
     <main>
@@ -166,10 +186,13 @@
         localStorage.setItem(ROSTER_KEY, JSON.stringify(roster));
       }
 
+      let unlimitedCash = false;
+
       function renderShop() {
         shopEl.innerHTML = "";
         units.forEach((u) => {
           const owned = roster.some((r) => r.name === u.name);
+          const canBuy = unlimitedCash || u.price <= cash;
           const card = document.createElement("div");
           card.className = "card";
           card.innerHTML = `
@@ -177,7 +200,7 @@
             <div class="name">${u.name}</div>
             <div class="price">$${Number(u.price).toFixed(2)}</div>
             <button class="${owned ? "owned" : ""}" ${
-            owned || u.price > cash ? "disabled" : ""
+            owned || !canBuy ? "disabled" : ""
           }>${owned ? "Owned" : "Buy"}</button>
           `;
           card.querySelector("button").onclick = () => buy(u);
@@ -203,8 +226,9 @@
       }
 
       function buy(u) {
-        if (roster.some((r) => r.name === u.name) || u.price > cash) return;
-        cash -= u.price;
+        if (roster.some((r) => r.name === u.name)) return;
+        if (!unlimitedCash && u.price > cash) return;
+        if (!unlimitedCash) cash -= u.price;
         roster.push({ name: u.name, price: u.price });
         save();
         updateUI();
@@ -235,6 +259,30 @@
 
       // ----- INIT -----
       updateUI();
+
+      // Infinity button logic
+      const infinityBtn = document.getElementById("infinity-btn");
+      // Set default style (deactivated)
+      infinityBtn.style.background = "#000";
+      infinityBtn.style.color = "var(--gold)";
+      infinityBtn.style.borderColor = "var(--gold)";
+
+      infinityBtn.onclick = function () {
+        // Reset cash to 100 and toggle unlimited cash mode
+        cash = 100.0;
+        unlimitedCash = !unlimitedCash;
+        if (unlimitedCash) {
+          this.style.background = "var(--gold)";
+          this.style.color = "#000";
+          this.style.borderColor = "var(--gold)";
+        } else {
+          this.style.background = "#000";
+          this.style.color = "var(--gold)";
+          this.style.borderColor = "var(--gold)";
+        }
+        save();
+        updateUI();
+      };
     </script>
   </body>
 </html>
