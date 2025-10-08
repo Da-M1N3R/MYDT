@@ -643,7 +643,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/a/af/Squard_Portrait.png/",
   },
   {
-    name: "FANFIC*",
+    name: "***FANFIC***",
     price: 999,
     img: "https://cdn.dribbble.com/userupload/9958288/file/original-21646ed1d12d6330af29b7620dc7e76b.jpg?format=webp&resize=400x300&vertical=center",
   },
@@ -670,17 +670,17 @@ export const units = [
   {
     name: "Abigail Rolar*",
     price: 14.5,
-    img: comingSoon,
+    img: "https://upload-os-bbs.hoyolab.com/upload/2024/09/16/172989151/c5c31120d3de572208b8ec5b3aa2c675_5315656865450292593.png",
   },
   {
-    name: "the witch*",
+    name: "Princia Funnybunny [the witch (Purple) SEVEN]*",
     price: 14.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/blackclover/images/f/f8/Princia_square.png/",
   },
   {
-    name: "Doorman (Blue Kingdom)*",
+    name: "Jester Garandros [Doorman (Blue) SEVEN]*",
     price: 14.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/blackclover/images/1/18/Jester_square.png/",
   },
   {
     name: "Yoma Hashimoto*",
@@ -690,10 +690,15 @@ export const units = [
   {
     name: "Kurosaki Inchigo*",
     price: 12.6,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/blackclover/images/c/c5/Gio_square.png/",
   },
   {
-    name: "Kibutsuji Muzan*",
+    name: "Misha Kaiser (Cat with 9 lifes /Black Hanekawa)*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/villains/images/1/1f/Black_Hanekawa.png/",
+  },
+  {
+    name: "Kibutsuji Muzan (the Father)*",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/91/Muzan_Anime_Profile.png/",
   },
@@ -703,18 +708,133 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fairytail/images/e/ef/Irene_image.png/",
   },
   {
-    name: "Santa Claus*",
+    name: "Dante Zogratis (Santa Claus)*",
     price: 14.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/blackclover/images/6/6c/Dante_square.png/",
   },
   {
-    name: "The Emperor /Barrierman*",
+    name: "Nathan Agrippa (the Hitman)*",
+    price: 14.5,
+    img: "https://static.wikia.nocookie.net/blackclover/images/a/ae/Nathan_square.png/",
+  },
+  {
+    name: "Augustus Kira Clover XIII (The Emperor /Barrierman)*",
+    price: 14.1,
+    img: "https://static.wikia.nocookie.net/blackclover/images/3/3f/Augustus_square.png/",
+  },
+  {
+    name: "Damnatio Kira (Emperor's Champion /Barrierman)*",
+    price: 14.1,
+    img: "https://static.wikia.nocookie.net/blackclover/images/b/bb/Damnatio_square.png/",
+  },
+  {
+    name: "Black Ant /GI* (0 Squad)M",
     price: 14.1,
     img: comingSoon,
   },
   {
-    name: "Sigismund /Emperor's Champion* (Barrierman/Doorman)",
+    name: "Caterpillar /GI* (0 Squad)F",
     price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Snowflake Moth /GI* (1 Squad)M",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Staghorn Beetle /GI* (1 Squad)M",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Stickbug /GI* (2 Squad)M",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Centepede /GI* (2 Squad)M",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Fruitfly /GI* (2 Squad)M",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Roach /GI* (5 Squad)M",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Grasshopper /GI* (5 Squad)F",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Scorpion /GI* (5 Squad)F",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Trap-Jaw Ant /GI* (4 Squad)M",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Black Widow /GI* (3 Squad)F",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Wasp /GI* (3 Squad)F",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Light Princess (Yellow) SEVEN*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "idk (Red) SEVEN*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "idk (Green) SEVEN*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "idk (Pink) SEVEN*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "idk (Orange) SEVEN*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Deadpool",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Wolverine",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "the Fox (Battle Planet)*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Lightning Thief*",
+    price: 12.6,
     img: comingSoon,
   },
 ];
