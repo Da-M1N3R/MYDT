@@ -1,6 +1,9 @@
+const comingSoon =
+  "https://img.freepik.com/free-vector/coming-soon-background-with-focus-light-effect-design_1017-27277.jpg?semt=ais_hybrid&w=740&q=80";
+
 export const units = [
   {
-    name: "Imu",
+    name: "St. Imu",
     price: 15,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
   },
@@ -95,7 +98,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Nico_Robin_Post_Timeskip_Portrait.png/",
   },
   {
-    name: "Franky",
+    name: "Franky /Cutty Flam",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a8/Franky_Portrait.png/",
   },
@@ -220,12 +223,102 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Satchels_Maffey_Portrait.png/",
   },
   {
-    name: "King",
+    name: "Dorry",
+    price: 12.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/39/Dorry_Portrait.png/",
+  },
+  {
+    name: "Brogy",
+    price: 12.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Brogy_Portrait.png/",
+  },
+  {
+    name: "Oimo",
+    price: 9.4,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/47/Oimo_Portrait.png/",
+  },
+  {
+    name: "Kashii",
+    price: 9.4,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1b/Kashii_Portrait.png/",
+  },
+  {
+    name: "Thormann",
+    price: 9.2,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/53/Thormann_Portrait.png/",
+  },
+  {
+    name: "Hajrudin",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/50/Hajrudin_Portrait.png/",
+  },
+  {
+    name: "Stansen",
+    price: 8.9,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c3/Stansen_Portrait.png/",
+  },
+  {
+    name: "Road",
+    price: 8.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/94/Road_Portrait.png/",
+  },
+  {
+    name: "Goldberg",
+    price: 9.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Goldberg_Portrait.png/",
+  },
+  {
+    name: "Gerd",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f1/Gerd_Portrait.png/",
+  },
+  {
+    name: "Buggy",
+    price: 5.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6e/Buggy_Portrait.png/",
+  },
+  {
+    name: "Crocodile /Mr. 0",
+    price: 11.6,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3c/Crocodile_Portrait.png/",
+  },
+  {
+    name: "Daz Bones /Mr. 1",
+    price: 9.05,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/72/Daz_Bonez_Portrait.png/",
+  },
+  {
+    name: "Galdino /Mr. 3",
+    price: 6.6,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/75/Galdino_Portrait.png/",
+  },
+  {
+    name: "Alvida",
+    price: 5.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Alvida_Portrait.png/",
+  },
+  {
+    name: "Mohji",
+    price: 4.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b5/Mohji_Portrait.png/",
+  },
+  {
+    name: "Richie",
+    price: 5.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Richie_Portrait.png/",
+  },
+  {
+    name: "Cabaji",
+    price: 5.6,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3f/Cabaji_Portrait.png/",
+  },
+  {
+    name: "Arber /King",
     price: 12.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/70/King_Portrait.png/",
   },
   {
-    name: "Queen",
+    name: "Scien /Queen",
     price: 11.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/aa/Queen_Portrait.png/",
   },
@@ -280,7 +373,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/1/18/Kouzuki_Oden_Pirate_Portrait.png/",
   },
   {
-    name: "Portgas D. Ace (2nd Division)",
+    name: "Portgas D. Ace (2nd Division) /(Gol D. Ace)",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/8f/Portgas_D._Ace_Portrait.png/",
   },
@@ -352,17 +445,22 @@ export const units = [
   {
     name: "Squard",
     price: 10.1,
-    img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Marco_Pre_Timeskip_Portrait.png/",
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/af/Squard_Portrait.png/",
+  },
+  {
+    name: "FANFIC*",
+    price: 999,
+    img: "https://img.freepik.com/free-vector/coming-soon-background-with-focus-light-effect-design_1017-27277.jpg?semt=ais_hybrid&w=740&q=80",
   },
   {
     name: "Michael Kaiser*",
     price: 14,
-    img: "https://static.wikia.nocookie.net/bluelock/images/f/f0/Michael_Kaiser.png/",
+    img: "https://static.wikia.nocookie.net/bluelock/images/5/5c/Kaiser_Blue_Lock.jpg/",
   },
   {
-    name: "Kazan Lagat*",
+    name: "Noel Noa /Six Slots*",
     price: 14.4,
-    img: "https://static.wikia.nocookie.net/bluelock/images/1/1d/Noel_Noa.png/",
+    img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
   },
   {
     name: "Megumi Fushiguro*",
@@ -377,17 +475,17 @@ export const units = [
   {
     name: "Abigail Rolar*",
     price: 14.5,
-    img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+    img: comingSoon,
   },
   {
     name: "the witch*",
     price: 14.3,
-    img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+    img: comingSoon,
   },
   {
     name: "Doorman (Blue Kingdom)*",
     price: 14.4,
-    img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+    img: comingSoon,
   },
   {
     name: "Yoma Hashimoto*",
@@ -397,7 +495,7 @@ export const units = [
   {
     name: "Kurosaki Inchigo*",
     price: 12.6,
-    img: "https://www.pngfind.com/pngs/m/645-6455283_file-not-available-icon-png-transparent-png.png",
+    img: comingSoon,
   },
   {
     name: "Kibutsuji Muzan*",
@@ -408,5 +506,20 @@ export const units = [
     name: "Irene Belserion*",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/e/ef/Irene_image.png/",
+  },
+  {
+    name: "Santa Claus*",
+    price: 14.5,
+    img: comingSoon,
+  },
+  {
+    name: "The Emperor /Barrierman*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Sigismund /Emperor's Champion* (Barrierman/Doorman)",
+    price: 14.1,
+    img: comingSoon,
   },
 ];
