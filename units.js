@@ -220,6 +220,51 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Satchels_Maffey_Portrait.png/",
   },
   {
+    name: "King",
+    price: 12.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/70/King_Portrait.png/",
+  },
+  {
+    name: "Queen",
+    price: 11.2,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/aa/Queen_Portrait.png/",
+  },
+  {
+    name: "Jack",
+    price: 11.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3e/Jack_Portrait.png/",
+  },
+  {
+    name: "Page One",
+    price: 10.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/9f/Page_One_Portrait.png/",
+  },
+  {
+    name: "Ulti",
+    price: 10.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/cb/Ulti_Portrait.png/",
+  },
+  {
+    name: "Who's-Who",
+    price: 10.6,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7c/Who%27s-Who_Portrait.png/",
+  },
+  {
+    name: "Black Maria",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Black_Maria_Portrait.png/",
+  },
+  {
+    name: "Sasaki",
+    price: 9.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Sasaki_Portrait.png/",
+  },
+  {
+    name: "X Drake",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/X_Drake_Portrait.png/",
+  },
+  {
     name: "Marco (1st Division)",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Marco_Pre_Timeskip_Portrait.png/",
