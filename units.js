@@ -73,6 +73,66 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
   },
   {
+    name: "Marshall D. Teach",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
+  },
+  {
+    name: "Sabo",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
+  },
+  {
+    name: "Kuzan /Aokiji",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
+  },
+  {
+    name: "Koby",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
+  },
+  {
+    name: "Monkey D. Dragon",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
+  },
+  {
+    name: "Sakazuki /Akainu",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
+  },
+  {
+    name: "Stussy (clone)",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/30/Stussy_Portrait.png/",
+  },
+  {
+    name: "Drug Peclo",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Drug_Peclo_Portrait.png/",
+  },
+  {
+    name: "Morgans",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Morgans_Portrait.png/",
+  },
+  {
+    name: "Giberson",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/92/Giberson_Portrait.png/",
+  },
+  {
+    name: "Umit",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Umit_Portrait.png/",
+  },
+  {
+    name: "Lu Feld",
+    price: 14.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a7/Lu_Feld_Portrait.png/",
+  },
+  {
     name: "Nami",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
@@ -273,6 +333,51 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f1/Gerd_Portrait.png/",
   },
   {
+    name: "Benn Beckman",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Benn_Beckman_Portrait.png/",
+  },
+  {
+    name: "Lucky Roux",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Lucky_Roux_Portrait.png/",
+  },
+  {
+    name: "Yasopp",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3c/Yasopp_Portrait.png/",
+  },
+  {
+    name: "Limejuice",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5f/Limejuice_Portrait.png/",
+  },
+  {
+    name: "Bonk Punch",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Bonk_Punch_Portrait.png/",
+  },
+  {
+    name: "Monster",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f4/Monster_Portrait.png/",
+  },
+  {
+    name: "Building Snake",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Building_Snake_Portrait.png/",
+  },
+  {
+    name: "Hongo",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5e/Hongo_Portrait.png/",
+  },
+  {
+    name: "Gab",
+    price: 9.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e5/Gab_Portrait.png/",
+  },
+  {
     name: "Buggy",
     price: 5.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6e/Buggy_Portrait.png/",
@@ -356,6 +461,96 @@ export const units = [
     name: "X Drake",
     price: 9.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/X_Drake_Portrait.png/",
+  },
+  {
+    name: "Charlotte Perospero",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/ec/Charlotte_Perospero_Portrait.png/",
+  },
+  {
+    name: "Charlotte Katakuri",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/19/Charlotte_Katakuri_Portrait.png/",
+  },
+  {
+    name: "Charlotte Daifuku",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d7/Charlotte_Daifuku_Portrait.png/",
+  },
+  {
+    name: "Charlotte Oven",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e1/Charlotte_Oven_Portrait.png/",
+  },
+  {
+    name: "Charlotte Smoothie",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Charlotte_Smoothie_Portrait.png/",
+  },
+  {
+    name: "Charlotte Citron",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/82/Charlotte_Citron_Portrait.png/",
+  },
+  {
+    name: "Charlotte Cinnamon",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4d/Charlotte_Cinnamon_Portrait.png/",
+  },
+  {
+    name: "Charlotte Cracker",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Charlotte_Cracker_Portrait.png/",
+  },
+  {
+    name: "Charlotte Snack",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7a/Charlotte_Snack_Portrait.png/",
+  },
+  {
+    name: "Charlotte Compote",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Charlotte_Compote_Portrait.png/",
+  },
+  {
+    name: "Charlotte Amande",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e7/Charlotte_Amande_Portrait.png/",
+  },
+  {
+    name: "Charlotte Opera",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/cc/Charlotte_Opera_Portrait.png/",
+  },
+  {
+    name: "Charlotte Brûlée",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/75/Charlotte_Br%C3%BBl%C3%A9e_Portrait.png/",
+  },
+  {
+    name: "Charlotte Mont-d'Or",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/31/Charlotte_Mont-d%27Or_Portrait.png/",
+  },
+  {
+    name: "Charlotte Galette",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/48/Charlotte_Galette_Portrait.png/",
+  },
+  {
+    name: "Charlotte Praline",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Praline_Portrait.png/",
+  },
+  {
+    name: "Charlotte Moscato",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d9/Charlotte_Moscato_Portrait.png/",
+  },
+  {
+    name: "Charlotte Bavarois",
+    price: 9.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/13/Charlotte_Bavarois_Portrait.png/",
   },
   {
     name: "Marco (1st Division)",
@@ -450,7 +645,7 @@ export const units = [
   {
     name: "FANFIC*",
     price: 999,
-    img: "https://img.freepik.com/free-vector/coming-soon-background-with-focus-light-effect-design_1017-27277.jpg?semt=ais_hybrid&w=740&q=80",
+    img: "https://cdn.dribbble.com/userupload/9958288/file/original-21646ed1d12d6330af29b7620dc7e76b.jpg?format=webp&resize=400x300&vertical=center",
   },
   {
     name: "Michael Kaiser*",
