@@ -134,42 +134,42 @@ export const units = [
   },
   {
     name: "Nami",
-    price: 14.3,
+    price: 7.82, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
   },
   {
     name: "Usopp",
-    price: 14.3,
+    price: 7.55, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Usopp_Portrait.png/",
   },
   {
     name: "Vinsmoke Sanji",
-    price: 14.3,
+    price: 10.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0c/Sanji_Portrait.png/",
   },
   {
     name: "Tony Tony Chopper",
-    price: 14.3,
+    price: 7.61, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/84/Tony_Tony_Chopper_Portrait.png/",
   },
   {
     name: "Nico Robin",
-    price: 14.3,
+    price: 8.43, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Nico_Robin_Post_Timeskip_Portrait.png/",
   },
   {
     name: "Franky /Cutty Flam",
-    price: 14.3,
+    price: 9.11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a8/Franky_Portrait.png/",
   },
   {
     name: "Brook",
-    price: 14.3,
+    price: 8.36, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/37/Brook_Portrait.png/",
   },
   {
     name: "Jinbe",
-    price: 14.3,
+    price: 10.91, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f7/Jinbe_Portrait.png/",
   },
   {
