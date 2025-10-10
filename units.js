@@ -177,6 +177,7 @@ export const units = [
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/39/Nefertari_Vivi_Portrait.png/",
   },
+  // Roger Pirates
   {
     name: "Silvers Rayleigh",
     price: 13.5,
@@ -187,6 +188,113 @@ export const units = [
     price: 13.0,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/28/Scopper_Gaban_Pirate_Portrait.png/",
   },
+  {
+    name: "Crocus",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d4/Crocus_Pirate_Portrait.png/",
+  },
+  {
+    name: "Moon Isaac Jr.",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0e/Moon_Isaac_Jr._Portrait.png/",
+  },
+  {
+    name: "Donquino",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/ec/Donquino_Portrait.png/",
+  },
+  {
+    name: "Millet Pine",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/eb/Millet_Pine_Portrait.png/",
+  },
+  {
+    name: "Rowing",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Rowing_Portrait.png/",
+  },
+  {
+    name: "Erio",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f9/Erio_Portrait.png/",
+  },
+  {
+    name: "Spencer",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/bd/Spencer_Portrait.png/",
+  },
+  {
+    name: "Petermoo",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c4/Petermoo_Portrait.png/",
+  },
+  {
+    name: "Jacksonbanner",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/80/Jacksonbanner_Portrait.png/",
+  },
+  {
+    name: "Blumarine",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/24/Blumarine_Portrait.png/",
+  },
+  {
+    name: "MAX Marx",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/51/MAX_Marx_Portrait.png/",
+  },
+  {
+    name: "Seagull Guns Nozdon",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c8/Seagull_Guns_Nozdon_Portrait.png/",
+  },
+  {
+    name: "Sunbell",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e7/Sunbell_Portrait.png/",
+  },
+  {
+    name: "Taro",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b4/Taro_Portrait.png/",
+  },
+  {
+    name: "Doringo",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e4/Doringo_Portrait.png/",
+  },
+  {
+    name: "Ganryu",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Ganryu_%28Roger_Pirates%29_Portrait.png/",
+  },
+  {
+    name: "CB Gallant",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c2/CB_Gallant_Portrait.png/",
+  },
+  {
+    name: "Mr. Momora",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2a/Mr._Momora_Portrait.png/",
+  },
+  {
+    name: "Yui",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2d/Yui_Portrait.png/",
+  },
+  {
+    name: "Mugren",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/cd/Mugren_Portrait.png/",
+  },
+  {
+    name: "Bankuro",
+    price: 13.0,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b5/Bankuro_Portrait.png/",
+  },
+
+  // Rock Pirates
   {
     name: "Edward Newgate",
     price: 14,
@@ -257,6 +365,8 @@ export const units = [
     price: 13.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d0/Harald_Portrait.png/",
   },
+
+  // World Government Officials
   {
     name: "St. Figarland Shamrock",
     price: 13,
@@ -282,6 +392,7 @@ export const units = [
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Satchels_Maffey_Portrait.png/",
   },
+  // Giant Warriors
   {
     name: "Dorry",
     price: 12.5,
@@ -332,6 +443,7 @@ export const units = [
     price: 9.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f1/Gerd_Portrait.png/",
   },
+  // Red Hair Pirates
   {
     name: "Benn Beckman",
     price: 9.3,
@@ -377,6 +489,7 @@ export const units = [
     price: 9.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e5/Gab_Portrait.png/",
   },
+  // Cross Guild
   {
     name: "Buggy",
     price: 5.1,
@@ -417,6 +530,7 @@ export const units = [
     price: 5.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3f/Cabaji_Portrait.png/",
   },
+  // Beast Pirates
   {
     name: "Arber /King",
     price: 12.1,
@@ -462,6 +576,7 @@ export const units = [
     price: 9.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/X_Drake_Portrait.png/",
   },
+  // Big Mom Pirates
   {
     name: "Charlotte Perospero",
     price: 9.7,
@@ -552,6 +667,7 @@ export const units = [
     price: 9.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/13/Charlotte_Bavarois_Portrait.png/",
   },
+  // Whitebeard Pirates
   {
     name: "Marco (1st Division)",
     price: 10.1,
@@ -642,6 +758,85 @@ export const units = [
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/af/Squard_Portrait.png/",
   },
+  // Firetank Pirates
+  {
+    name: "Capone Bege",
+    price: 9.0, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2a/Capone_Bege_Portrait.png/",
+  },
+  {
+    name: "Vito",
+    price: 4.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7a/Vito_Portrait.png/",
+  },
+  {
+    name: "Gotti",
+    price: 4.7, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e5/Gotti_Portrait.png/",
+  },
+  {
+    name: "Charlotte Chiffon",
+    price: 2.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c9/Charlotte_Chiffon_Portrait.png/",
+  },
+  // Bonney Pirates
+  {
+    name: "Jewelry Bonney",
+    price: 5.0, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/71/Jewelry_Bonney_Portrait.png/",
+  },
+  {
+    name: "Gyogyo",
+    price: 3.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/45/Gyogyo_Portrait.png/",
+  },
+  {
+    name: "Potato",
+    price: 2.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/17/Potato_Portrait.png/",
+  },
+  {
+    name: "Totts",
+    price: 2.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/94/Totts_Portrait.png/",
+  },
+  {
+    name: "Part",
+    price: 2.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/28/Part_Portrait.png/",
+  },
+  // Others
+  {
+    name: "Basil Hawkins",
+    price: 7.8, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7b/Basil_Hawkins_Portrait.png/",
+  },
+  {
+    name: "Scratchmen Apoo",
+    price: 7.9, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Scratchmen_Apoo_Portrait.png/",
+  },
+  {
+    name: "Urouge",
+    price: 9.3, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c7/Urouge_Portrait.png/",
+  },
+  {
+    name: "Caribou",
+    price: 6.6, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6a/Caribou_Portrait.png/",
+  },
+  {
+    name: "Coribou",
+    price: 4.2, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Coribou_Portrait.png/",
+  },
+  {
+    name: "Largo",
+    price: 6.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/47/Largo_Portrait.png/",
+  },
+  // Fanfics & from other animes/mangas
   {
     name: "***FANFIC***",
     price: 999,
@@ -838,27 +1033,27 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "(the hand)*",
+    name: "(the scout) /Kidnapper gang*",
     price: 12.6,
     img: comingSoon,
   },
   {
-    name: "Wolverine",
+    name: "(the sexy) /Kidnapper gang",
     price: 14.1,
     img: comingSoon,
   },
   {
-    name: "the Fox (Battle Planet)*",
+    name: "(the driver) /Kidnapper gang*",
     price: 14.1,
     img: comingSoon,
   },
   {
-    name: "Lightning Thief*",
+    name: "(the rope) /Kidnapper gang*",
     price: 12.6,
     img: comingSoon,
   },
   {
-    name: "(the hand)*",
+    name: "(the hand) /Kidnapper gang*",
     price: 12.6,
     img: comingSoon,
   },
