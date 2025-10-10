@@ -837,4 +837,29 @@ export const units = [
     price: 12.6,
     img: comingSoon,
   },
+  {
+    name: "(the hand)*",
+    price: 12.6,
+    img: comingSoon,
+  },
+  {
+    name: "Wolverine",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "the Fox (Battle Planet)*",
+    price: 14.1,
+    img: comingSoon,
+  },
+  {
+    name: "Lightning Thief*",
+    price: 12.6,
+    img: comingSoon,
+  },
+  {
+    name: "(the hand)*",
+    price: 12.6,
+    img: comingSoon,
+  },
 ];
