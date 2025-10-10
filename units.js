@@ -1017,9 +1017,9 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Roach /GI* (5 Squad)M",
+    name: "Crawford Seam [Roach /GI* (5 Squad)M]",
     price: 14.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/fairytail/images/7/7a/Crawford%27s_image.png/",
   },
   {
     name: "Grasshopper /GI* (5 Squad)F",
@@ -1047,14 +1047,24 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Light Princess [(Yellow) SEVEN]*",
+    name: "Kagura Mikazuchi [Light Princess (Yellow) SEVEN]*",
     price: 11.6, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/fairytail/images/7/7d/Kagura%27s_profile_image.png/",
   },
   {
-    name: "idk (Green) SEVEN*",
+    name: "Faris [Black Wizard /Nun]*",
     price: 14.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/fairytail/images/8/8e/Faris_%28Earth_Land%29_Profile_Pic.jpg/",
+  },
+  {
+    name: "Ignia [Fire Dragon Demi-God]*",
+    price: 14.1,
+    img: "https://static.wikia.nocookie.net/fairytail/images/b/b2/Ignia_human.png/",
+  },
+  {
+    name: "Aldoron [(Green) SEVEN]*",
+    price: 14.1,
+    img: "https://static.wikia.nocookie.net/fairytail/images/2/22/God_Seed_Aldoron_Profile.png/",
   },
   {
     name: "idk (Orange) SEVEN*",
@@ -1077,33 +1087,98 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Lightning Thief*",
+    name: "Midnight /Lightning Thief [(thief) /Kdp. gang]*",
     price: 12.6,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/fairytail/images/a/ae/Midnigh_square.png/",
   },
   {
-    name: "(the scout) /Kidnapper gang*",
+    name: "Jackal [(scout) /Kdp. gang]*",
     price: 12.6,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/fairytail/images/e/ee/Image_of_Jackal.png/",
   },
   {
-    name: "(the sexy) /Kidnapper gang [(Pink) SEVEN]*",
+    name: "Bambietta Basterbine [Kdp. gang /(Pink) SEVEN]*",
     price: 14.1,
-    img: comingSoon,
+    img: "https://shapes.inc/api/public/avatar/bambiettabasterbine-7l5g",
   },
   {
-    name: "(the driver) /Kidnapper gang*",
+    name: "Racer [(driver) /Kdp. gang]*",
     price: 14.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/fairytail/images/c/c4/Racer_Proposal.png/",
   },
   {
-    name: "(the rope) /Kidnapper gang*",
+    name: "Keyes [(rope) /Kdp. gang]*",
     price: 12.6,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/fairytail/images/e/e4/Keyes%27_profile_image.png/",
   },
   {
-    name: "(the hand) /Kidnapper gang*",
+    name: "Pernida Parnkgjas [(hand) /Kdp. gang]*",
     price: 12.6,
-    img: comingSoon,
+    img: "https://i.redd.it/now-that-hes-in-the-anime-here-is-my-art-of-pernida-v0-qfucbsoiz43e1.jpg?width=3000&format=pjpg&auto=webp&s=d86c1387188ca5ef751545d50bc69ec1ab6ce561",
+  },
+  {
+    name: "Draculos Hyberion [(fighter-S) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/9/9b/Hyberion_image.png/",
+  },
+  {
+    name: "August [(fighter-S) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/3/34/August%27s_profile_image.png/",
+  },
+  {
+    name: "Bluenote Stinger [(fighter-S) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/8/85/Bluenote_anime.png/",
+  },
+  {
+    name: "Seilah [(fighter-S) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/2/26/Seilah%27s_profile_image.png/",
+  },
+  {
+    name: "Plutogrim [(car) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/0/00/Plutogrim_Squared.png/",
+  },
+  {
+    name: "Hoteye [(fighter-A) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/4/45/Hoteye_prof.jpg/",
+  },
+  {
+    name: "Hana Adachi [(bait) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/f/fa/Hana_Adachi.PNG/",
+  },
+  {
+    name: "Abel [(bait) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/e/eb/Abel_profile_image.png/",
+  },
+  {
+    name: "Bacchus Groh [(fighter-A) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/4/4a/Bacchus_Mugshot.png/",
+  },
+  {
+    name: "Brandish μ [(bait) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/1/13/Brandish_Anime.png/",
+  },
+  {
+    name: "Dimaria Yesta [(fighter-B) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/0/07/Dimaria%27s_image.png/",
+  },
+  {
+    name: "Guttman Kubrick [(hacker) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/c/cd/Gatman_Kubrick.png/",
+  },
+  {
+    name: "Juvia Lockser [(bait) /Kdp. gang]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/0/03/Juvia_prof.jpg/",
   },
 ];
