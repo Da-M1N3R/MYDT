@@ -3,38 +3,38 @@ const comingSoon =
 
 export const units = [
   {
-    name: "St. Imu",
-    price: 15,
+    name: "Imu",
+    price: 14,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
   },
   {
     name: "Rocks D. Xebec (Davy D. Xebec)",
-    price: 14.5,
+    price: 13.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
   },
   {
     name: "Gol D. Roger",
-    price: 14.3,
+    price: 13.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
   },
   {
     name: "Monkey D. Garp",
-    price: 14.3,
+    price: 13.21, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
   },
   {
     name: "St. Figarland Garling",
-    price: 13,
+    price: 11.99, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
   },
   {
     name: "Monkey D. Luffy",
-    price: 13.6,
+    price: 12.85, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
   },
   {
     name: "Roronoa Zoro",
-    price: 13.3,
+    price: 12.55, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
   },
   {
@@ -758,6 +758,55 @@ export const units = [
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/af/Squard_Portrait.png/",
   },
+  // Kid Pirates
+  {
+    name: "Eustass Kid",
+    price: 10.6, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Eustass_Kid_Portrait.png/",
+  },
+  {
+    name: "Killer",
+    price: 9.1, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d6/Killer_Portrait.png/",
+  },
+  {
+    name: "Heat",
+    price: 6.0, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fc/Heat_Portrait.png/",
+  },
+  {
+    name: "Wire",
+    price: 6.0, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5a/Wire_Portrait.png/",
+  },
+
+  // Heart Pirates
+  {
+    name: "Trafalgar D. Water Law",
+    price: 10.91, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/31/Trafalgar_D._Water_Law_Portrait.png/",
+  },
+  {
+    name: "Bepo",
+    price: 7.8, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7c/Bepo_Portrait.png/",
+  },
+  {
+    name: "Penguin",
+    price: 5.2, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/de/Penguin_Portrait.png/",
+  },
+  {
+    name: "Shachi",
+    price: 5.2, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/92/Shachi_Portrait.png/",
+  },
+  {
+    name: "Jean Bart",
+    price: 6.4, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b5/Jean_Bart_Portrait.png/",
+  },
+
   // Firetank Pirates
   {
     name: "Capone Bege",
@@ -836,6 +885,16 @@ export const units = [
     price: 6.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/47/Largo_Portrait.png/",
   },
+  {
+    name: "Cavendish",
+    price: 8.79, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/21/Cavendish_Portrait.png/",
+  },
+  {
+    name: "Bartolomeo",
+    price: 8.22, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/35/Bartolomeo_Portrait.png/",
+  },
   // Fanfics & from other animes/mangas
   {
     name: "***FANFIC***",
@@ -844,12 +903,12 @@ export const units = [
   },
   {
     name: "Michael Kaiser*",
-    price: 14,
+    price: 13.11, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/5/5c/Kaiser_Blue_Lock.jpg/",
   },
   {
     name: "Noel Noa /Six Slots*",
-    price: 14.4,
+    price: 13.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
   },
   {
@@ -859,22 +918,22 @@ export const units = [
   },
   {
     name: "Lidros Razor*",
-    price: 13.5,
+    price: 11.9, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/e/e6/Razor_GI_Portrait.png/",
   },
   {
     name: "Abigail Rolar*",
-    price: 14.5,
+    price: 12.99, // fixed price
     img: "https://upload-os-bbs.hoyolab.com/upload/2024/09/16/172989151/c5c31120d3de572208b8ec5b3aa2c675_5315656865450292593.png",
   },
   {
     name: "Princia Funnybunny [the witch (Purple) SEVEN]*",
-    price: 14.3,
+    price: 12.6, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/f/f8/Princia_square.png/",
   },
   {
     name: "Jester Garandros [Doorman (Blue) SEVEN]*",
-    price: 14.4,
+    price: 12.3, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/1/18/Jester_square.png/",
   },
   {
@@ -889,17 +948,17 @@ export const units = [
   },
   {
     name: "Misha Kaiser (Cat with 9 lifes /Black Hanekawa)*",
-    price: 12.6,
+    price: 6.2, // fixed price
     img: "https://static.wikia.nocookie.net/villains/images/1/1f/Black_Hanekawa.png/",
   },
   {
     name: "Kibutsuji Muzan (the Father)*",
-    price: 14.1,
+    price: 12.5, // fixed price
     img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/91/Muzan_Anime_Profile.png/",
   },
   {
-    name: "Irene Belserion*",
-    price: 14.1,
+    name: "Irene Belserion [(Red) SEVEN]*",
+    price: 12.1, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/e/ef/Irene_image.png/",
   },
   {
@@ -988,22 +1047,12 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Light Princess (Yellow) SEVEN*",
-    price: 14.1,
-    img: comingSoon,
-  },
-  {
-    name: "idk (Red) SEVEN*",
-    price: 14.1,
+    name: "Light Princess [(Yellow) SEVEN]*",
+    price: 11.6, // fixed price
     img: comingSoon,
   },
   {
     name: "idk (Green) SEVEN*",
-    price: 14.1,
-    img: comingSoon,
-  },
-  {
-    name: "idk (Pink) SEVEN*",
     price: 14.1,
     img: comingSoon,
   },
@@ -1038,7 +1087,7 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "(the sexy) /Kidnapper gang",
+    name: "(the sexy) /Kidnapper gang [(Pink) SEVEN]*",
     price: 14.1,
     img: comingSoon,
   },
