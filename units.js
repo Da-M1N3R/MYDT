@@ -1181,4 +1181,19 @@ export const units = [
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/0/03/Juvia_prof.jpg/",
   },
+  {
+    name: "Erza Scarlet [Police Force]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/c/c3/Erza%27s_picture.png/",
+  },
+  {
+    name: "Erza Knightwalker [Police Force]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/5/5d/Erza_Knightwalker_with_short_hair_%28Close_up%29.JPG/",
+  },
+  {
+    name: "Lucy Heartfilia [Police Force]*",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/9/9c/Lucy_X792_image.png/",
+  },
 ];
