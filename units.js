@@ -2602,7 +2602,8 @@ export const units = [
 
   // GI* (Great Insect) Squad --- fanfic
   {
-    name: "Hendrickson [Black Ant /GI* (ZERO Sqd.)M]*",
+    name: "Hendrickson /GI* (ZERO Sqd.)M*",
+    aka: "Black Ant",
     price: 12.2, // fixed price
     img: "https://htdraw.com/wp-content/uploads/2020/03/How-to-draw-Hendrickson-from-The-Seven-Deadly-Sins.jpg",
   },
@@ -2612,12 +2613,14 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fairytail/images/d/d1/Mirajane_proposal.png/",
   },
   {
-    name: "Gin Ichimaru [Snowflake Moth /GI* (Alpha Sqd.)M]",
+    name: "Gin Ichimaru [/GI* (Alpha Sqd.)M]",
+    aka: "The Snow Moth",
     price: 11.69, // fixed price
     img: "https://media.tenor.com/b7cc9RJn2TQAAAAe/jixiah.png",
   },
   {
     name: "Choe Neng Poww [Staghorn Beetle /GI* (Alpha Sqd.)M]",
+    aka: "The Horned Beetle",
     price: 11.5, // fixed price
     img: "https://tiermaker.com/images/template_images/2022/837161/bleach-reiatsu-list--837161/bleachpoww-base-2png.png",
   },
@@ -2637,17 +2640,20 @@ export const units = [
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/c/ca/Boki_CA_Portrait.png/",
   },
   {
-    name: "Crawford Seam [Roach /GI* (KILL Sqd.)M]",
+    name: "Bug God [/GI* (KILL Sqd.)M]",
+    aka: "The Immortal Roach",
     price: 11.84, // fixed price
-    img: "https://static.wikia.nocookie.net/fairytail/images/7/7a/Crawford%27s_image.png/",
+    img: "https://static.wikia.nocookie.net/onepunchman/images/a/ac/Bug_God_Icon.png/",
   },
   {
-    name: "Neferpitou [Grasshopper /GI* (KILL Sqd.)F]",
+    name: "Neferpitou /GI* (KILL Sqd.)F]",
+    aka: "The Emerald Spring/Grasshopper",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/1/1f/Neferpitou_CA_Portrait.png/",
   },
   {
-    name: "Zazan [Scorpion /GI* (KILL Sqd.)F]",
+    name: "Zazan /GI* (KILL Sqd.)F]",
+    aka: "The Amethyst Bullet/Scorpion",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/0/0d/Zazan_CA_Portrait.png/",
   },
@@ -2715,46 +2721,55 @@ export const units = [
   },
   {
     name: "Jackal [(scout) /Kdp. gang]*",
+    aka: "The Jackal",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/e/ee/Image_of_Jackal.png/",
   },
   {
     name: "Bambietta Basterbine [Kdp. gang]*",
+    aka: "The Tactician",
     price: 14.1,
     img: "https://shapes.inc/api/public/avatar/bambiettabasterbine-7l5g",
   },
   {
-    name: "Racer [(driver) /Kdp. gang]*",
+    name: "Sawyer [(driver) /Kdp. gang]*",
+    aka: "The Racer",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/c/c4/Racer_Proposal.png/",
   },
   {
     name: "Keyes [(rope) /Kdp. gang]*",
+    aka: "The Black Archbishop",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/e/e4/Keyes%27_profile_image.png/",
   },
   {
     name: "Pernida Parnkgjas [(hand) /Kdp. gang]*",
+    aka: "The Walking Hand",
     price: 12.6,
     img: "https://i.redd.it/now-that-hes-in-the-anime-here-is-my-art-of-pernida-v0-qfucbsoiz43e1.jpg?width=3000&format=pjpg&auto=webp&s=d86c1387188ca5ef751545d50bc69ec1ab6ce561",
   },
   {
     name: "Draculos Hyberion [(fighter-S) /Kdp. gang]*",
+    aka: "Wizard Saint of Ishgar",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/9/9b/Hyberion_image.png/",
   },
   {
     name: "August [(fighter-S) /Kdp. gang]*",
+    aka: "General of the Spriggan 12",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/3/34/August%27s_profile_image.png/",
   },
   {
     name: "Bluenote Stinger [(fighter-S) /Kdp. gang]*",
+    aka: "Deputy Commander of Grimoire Heart",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/8/85/Bluenote_anime.png/",
   },
   {
     name: "Seilah [(fighter-S) /Kdp. gang]*",
+    aka: "Goddess of the Chill Moon",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/2/26/Seilah%27s_profile_image.png/",
   },
@@ -2764,13 +2779,14 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fairytail/images/0/00/Plutogrim_Squared.png/",
   },
   {
-    name: "Hoteye [pops(fighter-A) /Kdp. gang]*",
+    name: "Horacio Basterbine /Hoteye [/Kdp. gang]*",
     aka: "The Librarian",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/4/45/Hoteye_prof.jpg/",
   },
   {
-    name: "Hana Adachi [girl(bait) /Kdp. gang]*",
+    name: "Emma Joyous Basterbine [girl(bait) /Kdp. gang]*",
+    aka: "The Tactician",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/f/fa/Hana_Adachi.PNG/",
   },
@@ -2781,6 +2797,7 @@ export const units = [
   },
   {
     name: "Bacchus Groh [bro(fighter-A) /Kdp. gang]*",
+    aka: "The Drunk Falcon",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/4/4a/Bacchus_Mugshot.png/",
   },
@@ -2792,6 +2809,7 @@ export const units = [
   },
   {
     name: "Dimaria Yesta [(fighter-B) /Kdp. gang]*",
+    aka: "Warrior Queen of Alvarez",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/0/07/Dimaria%27s_image.png/",
   },
@@ -2802,11 +2820,13 @@ export const units = [
   },
   {
     name: "Juvia Lockser [(bait) /Kdp. gang]*",
+    aka: "Rain Woman",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/0/03/Juvia_prof.jpg/",
   },
   {
     name: "Erza Knightwalker [Police Spy /Kdp. gang]*",
+    aka: "Fairy Hunter",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/5/5d/Erza_Knightwalker_with_short_hair_%28Close_up%29.JPG/",
   },
@@ -2819,6 +2839,7 @@ export const units = [
   },
   {
     name: "Erza Scarlet [Police Force]*",
+    aka: "Titania",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/c/c3/Erza%27s_picture.png/",
   },
@@ -2944,52 +2965,62 @@ export const units = [
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/d/d9/Kurapika_HCE_Portrait.png/",
   },
   {
-    name: "Mizaistorm Nana /Ox*",
+    name: "Mizaistorm Nana",
+    aka: "The Ox",
     price: 10.74, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/e/e1/Mizaistom_Nana_HCE_Portrait.png/",
   },
   {
-    name: "Kanzai /Tiger*",
+    name: "Kanzai",
+    aka: "The Tiger",
     price: 10.3, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/7/71/Kanzai_HCE_Portrait.png/",
   },
   {
-    name: "Pyon /Rabbit*",
+    name: "Pyon",
+    aka: "The Rabbit",
     price: 6.42, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/3/3b/Pyon_HCE_Portrait.png/",
   },
   {
-    name: "Botobai Gigante /Dragon*",
+    name: "Botobai Gigante",
+    aka: "The Dragon",
     price: 10.31, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/9/9c/Botobai_Gigante_HCE_Portrait.png/",
   },
   {
-    name: "Gel /Snake*",
+    name: "Gel",
+    aka: "The Snake",
     price: 8.21, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/e/eb/Gel_HCE_Portrait.png/",
   },
   {
-    name: "Saccho Kobayakawa /Horse*",
+    name: "Saccho Kobayakawa",
+    aka: "The Horse",
     price: 8.45, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/c/c3/Saccho_Kobayakawa_HCE_Portrait.png/",
   },
   {
-    name: "Ginta /Sheep*",
+    name: "Ginta",
+    aka: "The Sheep",
     price: 7.49, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/3/3e/Ginta_HCE_Portrait.png/",
   },
   {
-    name: "Saiyu /Monkey*",
+    name: "Saiyu",
+    aka: "The Monkey",
     price: 7.83, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/9/95/Saiyu_HCE_Portrait.png/",
   },
   {
-    name: "Cluck /Chicken*",
+    name: "Cluck",
+    aka: "The Rooster",
     price: 6.99, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/c/ca/Cluck_HCE_Portrait.png/",
   },
   {
-    name: "Cheadle Yorkshire /Dog*",
+    name: "Cheadle Yorkshire",
+    aka: "The Dog",
     price: 6.36, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/0/01/Cheadle_Yorkshire_HCE_Portrait.png/",
   },
@@ -3017,6 +3048,7 @@ export const units = [
   },
   {
     name: "Illumi Zoldyck /Gitarakuru*",
+    aka: "The Puppet Master",
     price: 12.01, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/7/72/Illumi_Zoldyck_HCE_Portrait.png/",
   },
@@ -3125,6 +3157,7 @@ export const units = [
   },
   {
     name: "Estarossa (Love) /Mael*",
+    aka: "The Half-Blood Prince",
     price: 3.01,
     img: "https://wallpapers.com/images/hd/seven-deadly-sins-estarossa-1080-x-1080-wallpaper-cauaw09flh5za7f7.jpg",
   },
@@ -3242,7 +3275,6 @@ export const units = [
   },
   {
     name: "Shalnark [6]*",
-    aka: "Black Phone",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/d/dc/Shalnark_GI_Portrait.png/",
   },
@@ -3449,13 +3481,13 @@ export const units = [
   // Bounty Hunters ---> Space Assassin Sisters
   {
     name: "Candice Catnipp [space assassin sis]*",
-    aka: "The Cashinada Twins",
+    aka: "The Lucyna Sisters",
     price: 7.12,
     img: "https://thicc-uwu.mywaifulist.moe/waifus/candice-catnipp/0zte9HGFjtb47KfIKDhpsAev963Qbm7sm20qcilc.jpg?class=thumbnail",
   },
   {
     name: "Lucyna Kushinada [space assassin sis]*",
-    aka: "The Cashinada Twins",
+    aka: "The Lucyna Sisters",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/ghwtde/images/7/79/LucyKushinada.webp/",
   },
