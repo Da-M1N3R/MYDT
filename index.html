@@ -98,6 +98,14 @@
         font-family: Georgia, "Times New Roman", Times, serif, system-ui,
           sans-serif;
         letter-spacing: 1px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .card .aka {
+        margin: 0;
+        font-size: 10px;
+        font-weight: 0;
+        font-style: italic;
       }
       .card .price {
         color: var(--gold);
@@ -231,6 +239,7 @@
           card.innerHTML = `
             <img src="${u.img}" alt="${u.name}">
             <div class="name">${u.name}</div>
+            <div class="aka">~${u.aka}~</div>
             <div class="price">$${Number(u.price).toFixed(2)}</div>
             <button class="${owned ? "owned" : ""}" ${
             owned || !canBuy ? "disabled" : ""

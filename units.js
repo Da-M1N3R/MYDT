@@ -4,6 +4,7 @@ const comingSoon =
 export const units = [
   {
     name: "Imu",
+    aka: "",
     price: 14,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
   },
@@ -13,22 +14,26 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
   },
   {
-    name: "Gol D. Roger [Pirate King]",
+    name: "Gol D. Roger",
+    aka: "Pirate King",
     price: 13.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
   },
   {
-    name: "Monkey D. Garp [The Fist]",
+    name: "Monkey D. Garp",
+    aka: "The Fist",
     price: 13.21, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
   },
   {
-    name: "St. Figarland Garling [Warrior God of Science & Defense]",
+    name: "St. Figarland Garling",
+    aka: "Warrior God of Science & Defense",
     price: 11.99, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
   },
   {
-    name: "Monkey D. Luffy [Strawhat]",
+    name: "Monkey D. Luffy",
+    aka: "Strawhat",
     price: 12.85, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
   },
@@ -38,47 +43,56 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
   },
   {
-    name: "St. Jaygarcia Saturn [Warrior God of Science & Defense]",
+    name: "St. Jaygarcia Saturn",
+    aka: "Warrior God of Science & Defense",
     price: 12.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
   },
   {
-    name: "St. Topman Warcury [Warrior God of Justice]",
+    name: "St. Topman Warcury",
+    aka: "Warrior God of Justice",
     price: 13.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
   },
   {
-    name: "St. Marcus Mars [Warrior God of Environment]",
+    name: "St. Marcus Mars",
+    aka: "Warrior God of Environment",
     price: 13.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
   },
   {
-    name: "St. Ethanbaron V. Nusjuro [Warrior God of Finance]",
+    name: "St. Ethanbaron V. Nusjuro",
+    aka: "Warrior God of Finance",
     price: 13.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
   },
   {
-    name: "St. Shepherd Ju Peter [Warrior God of Agriculture]",
+    name: "St. Shepherd Ju Peter",
+    aka: "Warrior God of Agriculture",
     price: 12.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
   },
   {
-    name: "Shanks [Red Hair]",
+    name: "Shanks",
+    aka: "Red Hair",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
   },
   {
     name: "Dracule Mihawk [Hawkeye]",
+    aka: "Hawkeye",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
   },
   {
-    name: "Marshall D. Teach [Blackbeard]",
+    name: "Marshall D. Teach",
+    aka: "Blackbeard",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
   },
   {
-    name: "Sabo [Flame Emperor]",
+    name: "Sabo",
+    aka: "Flame Emperor",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
   },
@@ -88,12 +102,14 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
   },
   {
-    name: "Koby [Hero of Marine]",
+    name: "Koby",
+    aka: "Hero of Navy",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
   },
   {
-    name: "Monkey D. Dragon [Revolutionary Dragon]",
+    name: "Monkey D. Dragon",
+    aka: "Revolutionary Dragon",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
   },
@@ -2397,12 +2413,14 @@ export const units = [
     img: "https://cdn.dribbble.com/userupload/9958288/file/original-21646ed1d12d6330af29b7620dc7e76b.jpg?format=webp&resize=400x300&vertical=center",
   },
   {
-    name: "Noel Noa /Six Slots [The Ghost]*",
+    name: "Noel Noa*",
+    aka: "The Ghost/Six Slots",
     price: 13.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
   },
   {
-    name: "Yoma Hashimoto /Hermes*",
+    name: "Yoma Hashimoto*",
+    aka: "Hermes",
     price: 10.19, // fixed price
     img: "https://static.jojowiki.com/images/3/34/latest/20201217170557/YomaAv.jpg",
   },
@@ -2417,62 +2435,74 @@ export const units = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1p4UIaEZt_lsW2KqVOlJ_BE8DsRMFX0W9Sg&s",
   },
   {
-    name: "Lidros Razor /[Shoei Baro] [The Athlete]*",
+    name: "Lidros Razor /[Shoei Baro]*",
+    aka: "The Athlete",
     price: 12.15, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f0/Shoei_Baro.png/",
   },
   {
-    name: "Abigail Rolar /[Mikasa Ackermann] [Death Doll]*",
+    name: "Abigail Rolar /[Mikasa Ackermann]*",
+    aka: "The Doll",
     price: 12.99, // fixed price
     img: "https://upload-os-bbs.hoyolab.com/upload/2024/09/16/172989151/c5c31120d3de572208b8ec5b3aa2c675_5315656865450292593.png",
   },
   {
-    name: "Princia Funnybunny [Violet Witch] SEVEN*",
+    name: "Princia Funnybunny /SEVEN*",
+    aka: "Violet Witch",
     price: 12.58, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/f/f8/Princia_square.png/",
   },
   {
-    name: "Jester Garandros [Blue Door] SEVEN*",
+    name: "Jester Garandros /SEVEN*",
+    aka: "The Blue Door",
     price: 12.43, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/1/18/Jester_square.png/",
   },
   {
     name: "Michael Kaiser /[Kurosaki Inchigo /Arthur Pendragon]*",
+    aka: "The Knight/Dimension Blade",
     price: 13.11, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/5/5c/Kaiser_Blue_Lock.jpg/",
   },
   {
-    name: "Vivian Lunastar [Dark Mage] /[Kaiser's Helper]*",
+    name: "Vivian Lunastar*",
+    aka: "Dark Mage of Kaiser",
     price: 10.05, // fixed price
     img: "https://static.wikia.nocookie.net/nanatsu-no-taizai/images/4/42/Vivian_appearing_in_Boar_Hat.png/",
   },
   {
-    name: "Atsuhiro Sako [The Magician] (compress)*",
+    name: "Atsuhiro Sako*",
+    aka: "The Magician/Mr. Compress",
     price: 11.09, // fixed price
     img: "https://static.wikia.nocookie.net/bokunoheroacademia/images/9/95/Mr_Compress_Anime_Portrait.png/",
   },
   {
-    name: "Shuichi Iguchi [Spinner]/ [Fighting Gecko]*",
+    name: "Shuichi Iguchi*",
+    aka: "Spinner/Fighting Gecko",
     price: 10.75, // fixed price
     img: "https://static.wikia.nocookie.net/bokunoheroacademia/images/9/95/Spinner_Anime_Portrait.png/",
   },
   {
-    name: "Misha Kaiser (Cat with 9 lifes /Black Hanekawa)*",
+    name: "Misha Kaiser*",
+    aka: "Cat of Fortune/Black Hanekawa",
     price: 6.2, // fixed price
     img: "https://static.wikia.nocookie.net/villains/images/1/1f/Black_Hanekawa.png/",
   },
   {
-    name: "Kibutsuji Muzan [Father]*",
+    name: "Kibutsuji Muzan*",
+    aka: "Father",
     price: 12.55, // fixed price
     img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/91/Muzan_Anime_Profile.png/",
   },
   {
-    name: "Irene Belserion [Scarlet Empress]*",
+    name: "Irene Belserion*",
+    aka: "Scarlet Empress",
     price: 12.5, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/e/ef/Irene_image.png/",
   },
   {
-    name: "Dante Zogratis /[Mahito /Black Sperm] [Santa Claus]*",
+    name: "Dante Zogratis /[Mahito /Black Sperm]*",
+    aka: "Santa Claus",
     price: 14.5,
     img: "https://static.wikia.nocookie.net/blackclover/images/6/6c/Dante_square.png/",
   },
@@ -2482,12 +2512,14 @@ export const units = [
     img: "https://static.wikia.nocookie.net/blackclover/images/a/ae/Nathan_square.png/",
   },
   {
-    name: "Augustus Kira Clover XIII (The Emperor /Barrierman)*",
+    name: "Augustus Kira Clover XIII (/Barrierman)*",
+    aka: "Emperor of Clover",
     price: 9.01, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/3/3f/Augustus_square.png/",
   },
   {
-    name: "Damnatio Kira (Emperor's Champion /Barrierman)*",
+    name: "Damnatio Kira (/Barrierman)*",
+    aka: "Shield of Clover",
     price: 12.12, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/b/bb/Damnatio_square.png/",
   },
@@ -2559,17 +2591,20 @@ export const units = [
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/76/JogoP.png/",
   },
   {
-    name: "Kagura Mikazuchi [Light Princess] (Yellow) SEVEN*",
+    name: "Kagura Mikazuchi (Yellow) SEVEN*",
+    aka: "Light Princess",
     price: 11.6, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/7/7d/Kagura%27s_profile_image.png/",
   },
   {
-    name: "Taissa Farmiga* /Faris [The Nun] (Indigo) SEVEN*",
+    name: "Taissa Farmiga* /Faris (Indigo) SEVEN*",
+    aka: "The Nun",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/8/8e/Faris_%28Earth_Land%29_Profile_Pic.jpg/",
   },
   {
-    name: "Ignia [Red Dragon] SEVEN*",
+    name: "Ignia /SEVEN*",
+    aka: "Red Dragon",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/b/b2/Ignia_human.png/",
   },
@@ -2584,7 +2619,8 @@ export const units = [
     img: "https://cdn.shopify.com/s/files/1/0785/4004/6646/files/fa9918db3acac38b8c751e3851a7cb9a_480x480.jpg?v=1727098560",
   },
   {
-    name: "Konan [Angle of Rain]*",
+    name: "Konan*",
+    aka: "Angle of Rain",
     price: 14.1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpez8GTF3oReDV9jdYAPT4u2RWcQE1Q-hawA&s",
   },
@@ -2596,7 +2632,8 @@ export const units = [
 
   // Kdp. gang (Slave Trader) ---> abduction arc
   {
-    name: "Sae Itoshi [Lightning Thief] /Kdp. gang*",
+    name: "Sae Itoshi /Kdp. gang*",
+    aka: "Lightning Thief",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f3/Sae_Itoshi.png/",
   },
@@ -2671,7 +2708,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fairytail/images/4/4a/Bacchus_Mugshot.png/",
   },
   {
-    name: "Brandish μ [(bait) /Kdp. gang]*",
+    name: "Brandish μ /Kdp. gang*",
+    aka: "Star of Alvarez",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/1/13/Brandish_Anime.png/",
   },
@@ -2713,7 +2751,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fairytail/images/9/9c/Lucy_X792_image.png/",
   },
   {
-    name: "Roy Mustang [Flame Alchemist] [Police Force]*",
+    name: "Roy Mustang /[Police Force]*",
+    aka: "Flame Alchemist",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fma/images/b/bb/Avatar_roy.png/",
   },
@@ -2723,7 +2762,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fma/images/4/49/Avatar_riza.png/",
   },
   {
-    name: "Mirio Togata [Lemillion] [Police Force]*",
+    name: "Mirio Togata /[Police Force]*",
+    aka: "Lemillion",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/bokunoheroacademia/images/6/67/Mirio_Togata_Anime_Portrait.png/",
   },
@@ -2952,6 +2992,7 @@ export const units = [
   // Demons
   {
     name: "Kokushibo /Michikatsu Tsugikuni (moon)*",
+    aka: "Demon Samurai",
     price: 1,
     img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/a/a1/Kokushibo_Anime_Profile.png/",
   },
@@ -3088,7 +3129,8 @@ export const units = [
 
   // Phantom Troupe
   {
-    name: "Chrollo Lucilfer [0] [Skill Hunter]*",
+    name: "Chrollo Lucilfer [0]*",
+    aka: "Skill Hunter",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/8/80/Chrollo_Lucilfer_YC_Portrait.png/",
   },
@@ -3150,7 +3192,8 @@ export const units = [
 
   // Kakin Royal Family
   {
-    name: "Nasubi Hui Guo Rou [King of Kakin]*",
+    name: "Nasubi Hui Guo Rou*",
+    aka: "King of Kakin",
     price: 5.0, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/a/a2/Nasubi_Hui_Guo_Rou_SC_Portrait.png/",
   },
@@ -3279,11 +3322,13 @@ export const units = [
   },
   {
     name: "Hiromi Higuruma*",
+    aka: "The Lawyer",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/9/9d/HiromiHigurumaP.png/",
   },
   {
-    name: "Suguru Geto /Kenjaku [Demon Priest]*",
+    name: "Suguru Geto /Kenjaku*",
+    aka: "Burning Demon Priest",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4f/KenjakuP.png/",
   },
@@ -3357,17 +3402,20 @@ export const units = [
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/2/2c/Gon_Freecss_GI_Portrait.png/",
   },
   {
-    name: "Hisoka Morow [Battle Clown]*",
+    name: "Hisoka Morow*",
+    aka: "Battle Clown",
     price: 12.22, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/4/4e/Hisoka_Morow_HCE_Portrait.png/",
   },
   {
-    name: "Deadpool [Merc with a Mouth]*",
+    name: "Deadpool*",
+    aka: "Merc with a Mouth",
     price: 9.5, // fixed price
     img: "https://wallpapers.com/images/hd/deadpool-cartoon-1242-x-1211-wallpaper-jey5l4zjyazhj078.jpg",
   },
   {
-    name: "Wolverine [Weapon X]*",
+    name: "Wolverine*",
+    aka: "Weapon X",
     price: 9.5, // fixed price
     img: "https://e1.pxfuel.com/desktop-wallpaper/682/501/desktop-wallpaper-wolverine-cartoon-wolverine-thumbnail.jpg",
   },
@@ -3466,7 +3514,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/sakamoto-days/images/3/33/Osaragi_Portrait.png/",
   },
   {
-    name: "Yoichi Nagumo [Smiling Assassin]*",
+    name: "Yoichi Nagumo*",
+    aka: "Smiling Assassin",
     price: 1,
     img: "https://static.wikia.nocookie.net/sakamoto-days/images/f/f5/Yoichi_Nagumo_Portrait.png/",
   },
@@ -3481,7 +3530,8 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Takamura [Phantom of the JAA]*",
+    name: "Takamura*",
+    aka: "Phantom of JAA",
     price: 1,
     img: "https://static.wikia.nocookie.net/sakamoto-days/images/3/39/Takamura_Portrait.png/",
   },
@@ -3608,7 +3658,8 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Granny Miya [God Hands]*",
+    name: "Granny Miya*",
+    aka: "God Hands",
     price: 1,
     img: comingSoon,
   },
