@@ -79,7 +79,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
   },
   {
-    name: "Dracule Mihawk [Hawkeye]",
+    name: "Dracule Mihawk",
     aka: "Hawkeye",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",

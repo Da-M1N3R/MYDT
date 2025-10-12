@@ -239,7 +239,7 @@
           card.innerHTML = `
             <img src="${u.img}" alt="${u.name}">
             <div class="name">${u.name}</div>
-            <div class="aka">~${u.aka}~</div>
+            <div class="aka">${u.aka || ""}</div>
             <div class="price">$${Number(u.price).toFixed(2)}</div>
             <button class="${owned ? "owned" : ""}" ${
             owned || !canBuy ? "disabled" : ""
