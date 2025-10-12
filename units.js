@@ -97,7 +97,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
   },
   {
-    name: "Kuzan /Aokiji",
+    name: "Kuzan",
+    aka: "Aokiji",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
   },
@@ -114,7 +115,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
   },
   {
-    name: "Sakazuki /Akainu",
+    name: "Sakazuki",
+    aka: "Akainu",
     price: 14.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
   },
@@ -243,16 +245,19 @@ export const units = [
   // straw hats
   {
     name: "Nami",
+    aka: "Cat Burglar",
     price: 7.82, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
   },
   {
     name: "Usopp",
+    aka: "God Usopp",
     price: 7.55, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Usopp_Portrait.png/",
   },
   {
     name: "Vinsmoke Sanji",
+    aka: "Black Leg",
     price: 10.9, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0c/Sanji_Portrait.png/",
   },
@@ -268,7 +273,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Nico_Robin_Post_Timeskip_Portrait.png/",
   },
   {
-    name: "Franky /Cutty Flam",
+    name: "Franky",
+    aka: "Iron Man",
     price: 9.11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a8/Franky_Portrait.png/",
   },
@@ -288,6 +294,7 @@ export const units = [
   // BB
   {
     name: "Jesus Burgess",
+    aka: "The Bagman/Champion",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4b/Jesus_Burgess_Portrait.png/",
   },
@@ -299,11 +306,13 @@ export const units = [
   },
   {
     name: "Van Augur",
+    aka: "The Supersonic",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/07/Van_Augur_Portrait.png/",
   },
   {
     name: "Avalo Pizarro",
+    aka: "The Corrupt King",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3c/Avalo_Pizarro_Portrait.png/",
   },
@@ -315,22 +324,25 @@ export const units = [
   },
   {
     name: "Catarina Devon",
+    aka: "Crescent Moon Hunter",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a0/Catarina_Devon_Portrait.png/",
   },
   {
     name: "Sanjuan Wolf",
-    aka: "The Battleship",
+    aka: "Colossal Battleship",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sanjuan_Wolf_Portrait.png/",
   },
   {
     name: "Vasco Shot",
+    aka: "Heavy Drinker",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f6/Vasco_Shot_Portrait.png/",
   },
   {
     name: "Doc Q",
+    aka: "Death God",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/82/Doc_Q_Portrait.png/",
   },
@@ -509,12 +521,14 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/7/73/Ganzui_Portrait.png/",
   },
   {
-    name: "Capt. John",
+    name: "John",
+    aka: "Capt. John",
     price: 8.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/bf/John_Portrait.png/",
   },
   {
-    name: "Gloriosa [Elder Nyon]",
+    name: "Gloriosa",
+    aka: "Elder Nyon",
     price: 7.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e8/Gloriosa_Young_Portrait.png/",
   },
@@ -841,17 +855,20 @@ export const units = [
   // Marines
   // Admirals
   {
-    name: "Kizaru /Borsalino",
+    name: "Borsalino",
+    aka: "Kizaru",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Borsalino_Portrait.png/",
   },
   {
-    name: "Fujitora /Issho",
+    name: "Issho",
+    aka: "Fujitora",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Issho_Portrait.png/",
   },
   {
-    name: "Ryokugyu /Aramaki",
+    name: "Aramaki",
+    aka: "Ryokugyu",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a2/Aramaki_Portrait.png/",
   },
@@ -922,7 +939,8 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Smoker [White Hunter]",
+    name: "Smoker",
+    aka: "White Hunter",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/70/Smoker_Portrait.png/",
   },
@@ -932,12 +950,14 @@ export const units = [
     img: comingSoon,
   },
   {
-    name: "Momousagi /Gion",
+    name: "Gion",
+    aka: "Momousagi",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0d/Gion_Portrait.png/",
   },
   {
-    name: "Chaton /Tokikake",
+    name: "Tokikake",
+    aka: "Chaton",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/10/Tokikake_Portrait.png/",
   },
@@ -1010,7 +1030,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Sengoku_Portrait.png/",
   },
   {
-    name: "Kurouma /Tensei",
+    name: "Tensei",
+    aka: "Kurouma",
     price: 5.69,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0e/Tensei_Portrait.png/",
   },
