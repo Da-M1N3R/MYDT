@@ -4,152 +4,159 @@ const comingSoon =
 export const units = [
   {
     name: "Imu",
-    aka: "",
-    price: 14,
+    aka: "Supreme Ruler of the World Government",
+    price: 13, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
   },
   {
-    name: "Rocks D. Xebec (Davy D. Xebec)",
-    price: 13.4, // fixed price
+    name: "Rocks D. Xebec",
+    aka: "<strong>secret name:</strong> Davy D. Xebec",
+    price: 12.9, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
   },
   {
     name: "Gol D. Roger",
-    aka: "Pirate King",
-    price: 13.2, // fixed price
+    aka: "<strong>~Pirate King~</strong>",
+    price: 12.9, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
   },
   {
     name: "Monkey D. Garp",
-    aka: "The Fist",
-    price: 13.21, // fixed price
+    aka: "<strong>~The Fist~</strong>",
+    price: 11.0, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
   },
   {
     name: "St. Figarland Garling",
     aka: "Warrior God of Science & Defense",
-    price: 11.99, // fixed price
+    price: 12.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
   },
   {
     name: "Monkey D. Luffy",
-    aka: "Strawhat",
-    price: 12.85, // fixed price
+    aka: "<strong>~Straw Hat~</strong></br>Emperor of the Seas",
+    price: 10.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
   },
   {
     name: "Roronoa Zoro",
-    aka: "Pirate Hunter",
-    price: 12.55, // fixed price
+    aka: "<strong>~Pirate Hunter~</strong>",
+    price: 8.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
   },
   {
     name: "St. Jaygarcia Saturn",
     aka: "Warrior God of Science & Defense",
-    price: 12.3,
+    price: 12.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
   },
   {
     name: "St. Topman Warcury",
     aka: "Warrior God of Justice",
-    price: 13.2,
+    price: 12.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
   },
   {
     name: "St. Marcus Mars",
     aka: "Warrior God of Environment",
-    price: 13.2,
+    price: 12.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
   },
   {
     name: "St. Ethanbaron V. Nusjuro",
     aka: "Warrior God of Finance",
-    price: 13.4,
+    price: 12.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
   },
   {
     name: "St. Shepherd Ju Peter",
     aka: "Warrior God of Agriculture",
-    price: 12.9,
+    price: 12.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
   },
   {
     name: "Shanks",
-    aka: "Red Hair",
-    price: 14.3,
+    aka: "<strong>~Red Hair~</strong></br>Emperor of the Seas",
+    price: 12.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
   },
   {
     name: "Dracule Mihawk",
-    aka: "Hawkeye",
-    price: 14.3,
+    aka: "<strong>~Hawk Eyes~</strong></br>Strongest Swordsman in the World",
+    price: 11.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
   },
   {
-    name: "Marshall D. Teach",
-    aka: "Blackbeard",
-    price: 14.3,
-    img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
+    name: "Monkey D. Dragon",
+    aka: "<strong>~Revolutionary Dragon~</strong></br> Supreme Commander of the Revolutionary Army",
+    price: 10.2, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
   },
   {
     name: "Sabo",
-    aka: "Flame Emperor",
-    price: 14.3,
+    aka: "<strong>~Flame Emperor~</strong></br>Chief of Staff of the Revolutionary Army",
+    price: 9.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
   },
   {
+    name: "Marshall D. Teach",
+    aka: "<strong>~Blackbeard~</strong></br>Emperor of the Seas",
+    price: 11.9, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
+  },
+  {
     name: "Kuzan",
-    aka: "Aokiji",
-    price: 14.3,
+    aka: "<strong>~Aokiji~</strong></br>Titanic Captain</br>Captain of the Tenth Ship",
+    price: 11.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
   },
   {
     name: "Koby",
-    aka: "Hero of Navy",
-    price: 14.3,
+    aka: "<strong>~The Hero~</strong></br>SWORD",
+    price: 5.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
   },
   {
-    name: "Monkey D. Dragon",
-    aka: "Revolutionary Dragon",
-    price: 14.3,
-    img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
-  },
-  {
     name: "Sakazuki",
-    aka: "Akainu",
-    price: 14.3,
+    aka: "<strong>~Akainu~</strong></br>Fleet Admiral",
+    price: 11.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
   },
 
   // Revolutionary
   {
     name: "Emporio Ivankov (G)",
+    aka: "Okama King<br/> G Army Commander of the Revolutionary Army",
     price: 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fc/Emporio_Ivankov_Portrait.png/",
   },
   {
-    name: "Karasu (North)",
+    name: "Karasu",
+    aka: "North Army Commander of the Revolutionary Army",
     price: 1,
     img: comingSoon,
   },
   {
-    name: "Belo Betty (East)",
+    name: "Belo Betty",
+    aka: "East Army Commander of the Revolutionary Army",
     price: 1,
     img: comingSoon,
   },
   {
-    name: "Morley (West)",
+    name: "Morley",
+    aka: "Morley of Fur<br/> West Army Commander of the Revolutionary Army",
     price: 1,
     img: comingSoon,
   },
   {
-    name: "Lindbergh (south)",
+    name: "Lindbergh",
+    aka: "South Army Commander of the Revolutionary Army",
     price: 1,
     img: comingSoon,
   },
   {
-    name: "Ginny (east)",
+    name: "Ginny",
+    aka: "East Army Captain of the Revolutionary Army",
     price: 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/93/Ginny_Portrait.png/",
   },
@@ -352,13 +359,13 @@ export const units = [
   {
     name: "Silvers Rayleigh",
     aka: "Dark King",
-    price: 13.5,
+    price: 11.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Silvers_Rayleigh_Pirate_Portrait.png/",
   },
   {
     name: "Scopper Gaban",
     aka: "Mountain Eater",
-    price: 13.0,
+    price: 10.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/28/Scopper_Gaban_Pirate_Portrait.png/",
   },
   {
