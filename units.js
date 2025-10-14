@@ -39,6 +39,7 @@ export const units = [
   },
   {
     name: "Roronoa Zoro",
+    aka: "Pirate Hunter",
     price: 12.55, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
   },
@@ -2482,6 +2483,12 @@ export const units = [
     price: 8.22, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/35/Bartolomeo_Portrait.png/",
   },
+  {
+    name: "Enel",
+    aka: "God Enel",
+    price: 11.05, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1c/Enel_Portrait.png/",
+  },
   // Fanfics & from other animes/mangas
   {
     name: "***FANFIC***",
@@ -2490,7 +2497,7 @@ export const units = [
   },
   {
     name: "Noel Noa*",
-    aka: "The Ghost/Deadman/Six Slots",
+    aka: "Kingmaker/Ghost/Deadman/Six Slots",
     price: 13.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
   },
@@ -2595,7 +2602,7 @@ export const units = [
   },
   {
     name: "Damnatio Kira (/Barrierman)*",
-    aka: "Shield of Clover",
+    aka: "Shield of Kira",
     price: 12.12, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/b/bb/Damnatio_square.png/",
   },
@@ -2640,7 +2647,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/c/ca/Boki_CA_Portrait.png/",
   },
   {
-    name: "Bug God [/GI* (KILL Sqd.)M]",
+    name: "[Bug God] [/GI* (KILL Sqd.)M]",
     aka: "The Immortal Roach",
     price: 11.84, // fixed price
     img: "https://static.wikia.nocookie.net/onepunchman/images/a/ac/Bug_God_Icon.png/",
