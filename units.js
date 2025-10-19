@@ -1,6 +1,14 @@
 const comingSoon =
   "https://img.freepik.com/free-vector/coming-soon-background-with-focus-light-effect-design_1017-27277.jpg?semt=ais_hybrid&w=740&q=80";
 
+const avgPeople = 2.5;
+const avgKing = 4.3;
+const avgPirate = 6;
+const avgMarine = 8.3; // Vice-Admiral
+const avgGK = 9.3;
+const avgAdmiral = 10.7;
+const avgEmperor = 11.4;
+
 export const units = [
   {
     name: "Imu",
@@ -11,13 +19,13 @@ export const units = [
   {
     name: "Rocks D. Xebec",
     aka: "<strong>secret name:</strong> Davy D. Xebec",
-    price: 12.9, // fixed price
+    price: 12.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
   },
   {
     name: "Gol D. Roger",
     aka: "<strong>~Pirate King~</strong>",
-    price: 12.9, // fixed price
+    price: 12.0, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
   },
   {
@@ -29,67 +37,67 @@ export const units = [
   {
     name: "St. Figarland Garling",
     aka: "Warrior God of Science & Defense",
-    price: 12.6, // fixed price
+    price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
   },
   {
     name: "Monkey D. Luffy",
     aka: "<strong>~Straw Hat~</strong></br>Emperor of the Seas",
-    price: 10.8, // fixed price
+    price: 11.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
   },
   {
     name: "Roronoa Zoro",
     aka: "<strong>~Pirate Hunter~</strong>",
-    price: 8.5, // fixed price
+    price: 10.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
   },
   {
     name: "St. Jaygarcia Saturn",
     aka: "Warrior God of Science & Defense",
-    price: 12.7, // fixed price
+    price: 8.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
   },
   {
     name: "St. Topman Warcury",
     aka: "Warrior God of Justice",
-    price: 12.7, // fixed price
+    price: 8.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
   },
   {
     name: "St. Marcus Mars",
     aka: "Warrior God of Environment",
-    price: 12.7, // fixed price
+    price: 8.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
   },
   {
     name: "St. Ethanbaron V. Nusjuro",
     aka: "Warrior God of Finance",
-    price: 12.7, // fixed price
+    price: 9.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
   },
   {
     name: "St. Shepherd Ju Peter",
     aka: "Warrior God of Agriculture",
-    price: 12.8, // fixed price
+    price: 8.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
   },
   {
     name: "Shanks",
     aka: "<strong>~Red Hair~</strong></br>Emperor of the Seas",
-    price: 12.2, // fixed price
+    price: 11.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
   },
   {
     name: "Dracule Mihawk",
     aka: "<strong>~Hawk Eyes~</strong></br>Strongest Swordsman in the World",
-    price: 11.2, // fixed price
+    price: 11.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
   },
   {
     name: "Monkey D. Dragon",
     aka: "<strong>~Revolutionary Dragon~</strong></br> Supreme Commander of the Revolutionary Army",
-    price: 10.2, // fixed price
+    price: 11.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
   },
   {
@@ -101,108 +109,108 @@ export const units = [
   {
     name: "Marshall D. Teach",
     aka: "<strong>~Blackbeard~</strong></br>Emperor of the Seas",
-    price: 11.9, // fixed price
+    price: 11.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
   },
   {
     name: "Kuzan",
     aka: "<strong>~Aokiji~</strong></br>Titanic Captain</br>Captain of the Tenth Ship",
-    price: 11.5, // fixed price
+    price: 10.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
   },
   {
     name: "Koby",
     aka: "<strong>~The Hero~</strong></br>SWORD",
-    price: 5.7, // fixed price
+    price: 8.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
   },
   {
     name: "Sakazuki",
     aka: "<strong>~Akainu~</strong></br>Fleet Admiral",
-    price: 11.8, // fixed price
+    price: 10.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
   },
 
   // Revolutionary
   {
-    name: "Emporio Ivankov (G)",
+    name: "Emporio Ivankov",
     aka: "Okama King<br/> G Army Commander of the Revolutionary Army",
-    price: 1,
+    price: 8.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fc/Emporio_Ivankov_Portrait.png/",
   },
   {
     name: "Karasu",
     aka: "North Army Commander of the Revolutionary Army",
-    price: 1,
+    price: 8.3,
     img: comingSoon,
   },
   {
     name: "Belo Betty",
     aka: "East Army Commander of the Revolutionary Army",
-    price: 1,
+    price: 8,
     img: comingSoon,
   },
   {
     name: "Morley",
     aka: "Morley of Fur<br/> West Army Commander of the Revolutionary Army",
-    price: 1,
+    price: 7.8,
     img: comingSoon,
   },
   {
     name: "Lindbergh",
     aka: "South Army Commander of the Revolutionary Army",
-    price: 1,
+    price: 7.5,
     img: comingSoon,
   },
   {
     name: "Ginny",
     aka: "East Army Captain of the Revolutionary Army",
-    price: 1,
+    price: 7.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/93/Ginny_Portrait.png/",
   },
   {
     name: "Inazuma (G)",
-    price: 1,
+    price: 7.3,
     img: comingSoon,
   },
   {
     name: "Jiron (north)",
-    price: 1,
+    price: 6.8,
     img: comingSoon,
   },
   {
     name: "Ahiru (east)",
-    price: 1,
+    price: 6.5,
     img: comingSoon,
   },
   {
     name: "Ushiano (west)",
-    price: 1,
+    price: 6.2,
     img: comingSoon,
   },
   {
     name: "Gambo (south)",
-    price: 1,
+    price: 6,
     img: comingSoon,
   },
   {
     name: "Koala",
-    price: 1,
+    price: 7.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/1a/Koala_Portrait.png/",
   },
   {
     name: "Hack",
-    price: 1,
+    price: 7.3,
     img: comingSoon,
   },
   {
     name: "Terry Gilteo",
-    price: 1,
+    price: 6.8,
     img: comingSoon,
   },
   {
     name: "Bunny Joe",
-    price: 1,
+    price: 6.4,
     img: comingSoon,
   },
 
@@ -210,43 +218,43 @@ export const units = [
   {
     name: "Stussy",
     aka: "Queen of Pleasure District",
-    price: 14.3,
+    price: 8.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/30/Stussy_Portrait.png/",
   },
   {
     name: "Drug Peclo",
     aka: "The Undertaker",
-    price: 14.3,
+    price: 7.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Drug_Peclo_Portrait.png/",
   },
   {
     name: "Morgans",
     aka: "Big News",
-    price: 14.3,
+    price: 8.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Morgans_Portrait.png/",
   },
   {
     name: "Giberson",
     aka: "The Concealer",
-    price: 14.3,
+    price: 7,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/92/Giberson_Portrait.png/",
   },
   {
     name: "Umit",
     aka: "Deep-Sea Currents",
-    price: 14.3,
+    price: 7.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Umit_Portrait.png/",
   },
   {
     name: "Lu Feld",
     aka: "God of Fortune",
-    price: 14.3,
+    price: 6.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a7/Lu_Feld_Portrait.png/",
   },
   {
     name: "Mother Carmel",
     aka: "Mountain Witch",
-    price: 14.3,
+    price: 5.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Carmel_Portrait.png/",
   },
 
@@ -254,48 +262,48 @@ export const units = [
   {
     name: "Nami",
     aka: "Cat Burglar",
-    price: 7.82, // fixed price
+    price: 6.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
   },
   {
     name: "Usopp",
     aka: "God Usopp",
-    price: 7.55, // fixed price
+    price: 7.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Usopp_Portrait.png/",
   },
   {
     name: "Vinsmoke Sanji",
     aka: "Black Leg",
-    price: 10.9, // fixed price
+    price: 9.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0c/Sanji_Portrait.png/",
   },
   {
     name: "Tony Tony Chopper",
-    price: 7.61, // fixed price
+    price: 7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/84/Tony_Tony_Chopper_Portrait.png/",
   },
   {
     name: "Nico Robin",
     aka: "Demon Child",
-    price: 8.43, // fixed price
+    price: 8.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Nico_Robin_Post_Timeskip_Portrait.png/",
   },
   {
     name: "Franky",
     aka: "Iron Man",
-    price: 9.11, // fixed price
+    price: 7.9, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a8/Franky_Portrait.png/",
   },
   {
     name: "Brook",
     aka: "Soul King",
-    price: 8.36, // fixed price
+    price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/37/Brook_Portrait.png/",
   },
   {
     name: "Jinbe",
     aka: "Knight of the Sea",
-    price: 10.91, // fixed price
+    price: 9, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f7/Jinbe_Portrait.png/",
   },
 
@@ -303,55 +311,55 @@ export const units = [
   {
     name: "Jesus Burgess",
     aka: "The Bagman/Champion",
-    price: 5.69,
+    price: 8.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4b/Jesus_Burgess_Portrait.png/",
   },
   {
     name: "Shiryu",
     aka: "The Rain",
-    price: 5.69,
+    price: 9.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/8b/Shiryu_Portrait.png/",
   },
   {
     name: "Van Augur",
     aka: "The Supersonic",
-    price: 5.69,
+    price: 8.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/07/Van_Augur_Portrait.png/",
   },
   {
     name: "Avalo Pizarro",
     aka: "The Corrupt King",
-    price: 5.69,
+    price: 8.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3c/Avalo_Pizarro_Portrait.png/",
   },
   {
     name: "Laffitte",
     aka: "Demon Sheriff",
-    price: 5.69,
+    price: 7.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/44/Laffitte_Portrait.png/",
   },
   {
     name: "Catarina Devon",
     aka: "Crescent Moon Hunter",
-    price: 5.69,
+    price: 8.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a0/Catarina_Devon_Portrait.png/",
   },
   {
     name: "Sanjuan Wolf",
     aka: "Colossal Battleship",
-    price: 5.69,
+    price: 7.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sanjuan_Wolf_Portrait.png/",
   },
   {
     name: "Vasco Shot",
     aka: "Heavy Drinker",
-    price: 5.69,
+    price: 7.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f6/Vasco_Shot_Portrait.png/",
   },
   {
     name: "Doc Q",
     aka: "Death God",
-    price: 5.69,
+    price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/82/Doc_Q_Portrait.png/",
   },
 
@@ -359,118 +367,118 @@ export const units = [
   {
     name: "Silvers Rayleigh",
     aka: "Dark King",
-    price: 11.7,
+    price: 11.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Silvers_Rayleigh_Pirate_Portrait.png/",
   },
   {
     name: "Scopper Gaban",
     aka: "Mountain Eater",
-    price: 10.5,
+    price: 10.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/28/Scopper_Gaban_Pirate_Portrait.png/",
   },
   {
     name: "Crocus",
-    price: 13.0,
+    price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d4/Crocus_Pirate_Portrait.png/",
   },
   {
     name: "Moon Isaac Jr.",
-    price: 13.0,
+    price: 7,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0e/Moon_Isaac_Jr._Portrait.png/",
   },
   {
     name: "Donquino",
-    price: 13.0,
+    price: 7.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/ec/Donquino_Portrait.png/",
   },
   {
     name: "Millet Pine",
-    price: 13.0,
+    price: 7.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/eb/Millet_Pine_Portrait.png/",
   },
   {
     name: "Rowing",
-    price: 13.0,
+    price: 7.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Rowing_Portrait.png/",
   },
   {
     name: "Erio",
-    price: 13.0,
+    price: 6.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f9/Erio_Portrait.png/",
   },
   {
     name: "Spencer",
-    price: 13.0,
+    price: 6.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/bd/Spencer_Portrait.png/",
   },
   {
     name: "Petermoo",
-    price: 13.0,
+    price: 7.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c4/Petermoo_Portrait.png/",
   },
   {
     name: "Jacksonbanner",
-    price: 13.0,
+    price: 6.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/80/Jacksonbanner_Portrait.png/",
   },
   {
     name: "Blumarine",
-    price: 13.0,
+    price: 7.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/24/Blumarine_Portrait.png/",
   },
   {
     name: "MAX Marx",
-    price: 13.0,
+    price: 7.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/51/MAX_Marx_Portrait.png/",
   },
   {
     name: "Seagull Guns Nozdon",
-    price: 13.0,
+    price: 7.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c8/Seagull_Guns_Nozdon_Portrait.png/",
   },
   {
     name: "Sunbell",
-    price: 13.0,
+    price: 7,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e7/Sunbell_Portrait.png/",
   },
   {
     name: "Taro",
-    price: 13.0,
+    price: 6.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b4/Taro_Portrait.png/",
   },
   {
     name: "Doringo",
-    price: 13.0,
+    price: 6.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e4/Doringo_Portrait.png/",
   },
   {
     name: "Ganryu",
-    price: 13.0,
+    price: 6.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Ganryu_%28Roger_Pirates%29_Portrait.png/",
   },
   {
     name: "CB Gallant",
-    price: 13.0,
+    price: 6.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c2/CB_Gallant_Portrait.png/",
   },
   {
     name: "Mr. Momora",
-    price: 13.0,
+    price: 6.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2a/Mr._Momora_Portrait.png/",
   },
   {
     name: "Yui",
-    price: 13.0,
+    price: 6.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2d/Yui_Portrait.png/",
   },
   {
     name: "Mugren",
-    price: 13.0,
+    price: 6.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/cd/Mugren_Portrait.png/",
   },
   {
     name: "Bankuro",
-    price: 13.0,
+    price: 6.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b5/Bankuro_Portrait.png/",
   },
 
@@ -478,66 +486,66 @@ export const units = [
   {
     name: "Edward Newgate",
     aka: "Whitebeard",
-    price: 14,
+    price: 11.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Edward_Newgate_Young_Portrait.png/",
   },
   {
     name: "Shiki",
     aka: "Golden Lion",
-    price: 11.3,
+    price: 10.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Shiki_Portrait.png/",
   },
   {
     name: "Kaido",
-    price: 13.8,
+    price: 11.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
   },
   {
     name: "Charlotte Linlin",
     aka: "Big Mom",
-    price: 13.7,
+    price: 11.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/52/Charlotte_Linlin_Young_Portrait.png/",
   },
   {
     name: "Streusen",
-    price: 7.2,
+    price: 8,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Streusen_Young_Portrait.png/",
   },
   {
     name: "Buckingham Stussy",
-    price: 6.4,
+    price: 8.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Buckingham_Stussy_Young_Portrait.png/",
   },
   {
     name: "Don Marlon",
-    price: 8.1,
+    price: 7.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/16/Marlon_Portrait.png/",
   },
   {
     name: "Barbel",
-    price: 8.3,
+    price: 7.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Barbel_Portrait.png/",
   },
   {
     name: "Ochoku /Wang Zhi",
-    price: 7.5,
+    price: 8.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Ochoku_Portrait.png/",
   },
   {
     name: "Ganzui",
-    price: 8.1,
+    price: 7.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/73/Ganzui_Portrait.png/",
   },
   {
     name: "John",
     aka: "Capt. John",
-    price: 8.5,
+    price: 8.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/bf/John_Portrait.png/",
   },
   {
     name: "Gloriosa",
     aka: "Elder Nyon",
-    price: 7.8,
+    price: 8.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e8/Gloriosa_Young_Portrait.png/",
   },
   {
@@ -550,27 +558,27 @@ export const units = [
   // World Government Officials
   {
     name: "St. Figarland Shamrock",
-    price: 13,
+    price: 9.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/76/Figarland_Shamrock_Portrait.png/",
   },
   {
     name: "St. Manmayer Gunko",
-    price: 12.5,
+    price: 9.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5b/Manmayer_Gunko_Portrait.png/",
   },
   {
     name: "St. Shepherd Sommers",
-    price: 13,
+    price: 9.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2c/Shepherd_Sommers_Portrait.png/",
   },
   {
     name: "St. Limosiv Killingham",
-    price: 12.5,
+    price: 9,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3b/Rimoshifu_Killingham_Portrait.png/",
   },
   {
     name: "St. Satchels Maffey",
-    price: 10.1,
+    price: 9.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Satchels_Maffey_Portrait.png/",
   },
 
@@ -578,212 +586,212 @@ export const units = [
   {
     name: "Ham Burger",
     aka: "King of Ballywood",
-    price: 1,
+    price: avgKing,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/47/Ham_Burger_Portrait.png/",
   },
   {
     name: "Nefertari Cobra",
     aka: "King of Arabasta",
-    price: 1,
+    price: avgKing + 0.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f2/Nefertari_Cobra_Portrait.png/",
   },
   {
     name: "Nefertari Vivi",
-    price: 1,
+    price: avgKing,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/39/Nefertari_Vivi_Portrait.png/",
   },
   {
     name: "Neptune",
-    price: 1,
+    price: avgKing + 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/bc/Neptune_Portrait.png/",
   },
   {
     name: "Otohime",
-    price: 1,
+    price: avgKing - 0.3,
     img: comingSoon,
   },
   {
     name: "Fukaboshi",
-    price: 5.69,
+    price: avgKing + 0.9,
     img: comingSoon,
   },
   {
     name: "Ryuboshi",
-    price: 5.69,
+    price: avgKing + 0.9,
     img: comingSoon,
   },
   {
     name: "Manboshi",
-    price: 5.69,
+    price: avgKing + 0.9,
     img: comingSoon,
   },
   {
     name: "Shirahoshi",
-    price: 5.69,
+    price: avgKing + 0.5,
     img: comingSoon,
   },
   {
     name: "Riku Doldo III",
     aka: "King of Dressrosa",
-    price: 5.69,
+    price: avgKing + 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d0/Riku_Doldo_III_Portrait.png/",
   },
   {
     name: "Rebecca",
-    price: 5.69,
+    price: avgKing + 0.8,
     img: comingSoon,
   },
   {
     name: "Mansherry",
-    price: 5.69,
+    price: avgKing + 0.5,
     img: comingSoon,
   },
   {
     name: "Dalton",
     aka: "King of Sakura Kingdom",
-    price: 5.69,
+    price: avgKing + 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/ad/Dalton_Portrait.png/",
   },
   {
     name: "Wapol",
     aka: "King of Drum Kingdom",
-    price: 5.69,
+    price: avgKing + 0.9,
     img: comingSoon,
   },
   {
     name: "Harald",
     aka: "King of Elbaph",
-    price: 13.5,
+    price: 9.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/42/Harald_Levely_Portrait.png/",
   },
   {
     name: "Loki",
-    price: 5.69,
+    price: 9.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b7/Loki_Portrait.png/",
   },
   {
     name: "Estrid",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Sterry",
-    price: 5.69,
+    price: avgKing - 1,
     img: comingSoon,
   },
   {
     name: "Elizabello II",
-    price: 5.69,
+    price: 7,
     img: comingSoon,
   },
   {
     name: "Tea IV",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Ban Dedessinée",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Ramen",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Beer VI",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Mororon",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Tacos",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Lemoncheese",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Jeep",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Seki",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Potaufeu",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Samosa",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Moqueca",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Nashi",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Cezar",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Chap",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Iwatobi",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Mari",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Sauce",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Neggy",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Couran",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Furrari",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   {
     name: "Stroganoff",
-    price: 5.69,
+    price: avgKing,
     img: comingSoon,
   },
   // other kingdom reps.
@@ -791,72 +799,72 @@ export const units = [
   // Cipher Pol
   {
     name: "Joseph",
-    price: 5.69,
+    price: 8.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6f/Joseph_Portrait.png/",
   },
   {
     name: "Gismonda",
-    price: 5.69,
+    price: 8.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2d/Gismonda_Portrait.png/",
   },
   {
     name: "Maha",
-    price: 5.69,
+    price: 8.5,
     img: comingSoon,
   },
   {
     name: "Guernika",
-    price: 5.69,
+    price: 8.4,
     img: comingSoon,
   },
   {
     name: "Rob Lucci",
-    price: 5.69,
+    price: 9.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f2/Rob_Lucci_Portrait.png/",
   },
   {
     name: "Kaku",
-    price: 5.69,
+    price: 8.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/56/Kaku_Portrait.png/",
   },
   {
     name: "Spandam",
-    price: 5.69,
+    price: 5.2,
     img: comingSoon,
   },
   {
     name: "Blueno",
-    price: 5.69,
+    price: 7.8,
     img: comingSoon,
   },
   {
     name: "Kalifa",
-    price: 5.69,
+    price: 7.5,
     img: comingSoon,
   },
   {
     name: "Jabra",
-    price: 5.69,
+    price: 8,
     img: comingSoon,
   },
   {
     name: "Kumadori",
-    price: 5.69,
+    price: 7.6,
     img: comingSoon,
   },
   {
     name: "Fukurou",
-    price: 5.69,
+    price: 7.4,
     img: comingSoon,
   },
   {
     name: "Alpha /CP8",
-    price: 5.69,
+    price: 7,
     img: comingSoon,
   },
   {
     name: "Nero /CP9",
-    price: 5.69,
+    price: 6.8,
     img: comingSoon,
   },
 
@@ -865,244 +873,244 @@ export const units = [
   {
     name: "Borsalino",
     aka: "Kizaru",
-    price: 5.69,
+    price: 10.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Borsalino_Portrait.png/",
   },
   {
     name: "Issho",
     aka: "Fujitora",
-    price: 5.69,
+    price: 10.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Issho_Portrait.png/",
   },
   {
     name: "Aramaki",
     aka: "Ryokugyu",
-    price: 5.69,
+    price: 10.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a2/Aramaki_Portrait.png/",
   },
   // Vice-Admirals
   {
     name: "Tsuru",
-    price: 5.69,
+    price: 9.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/52/Tsuru_Portrait.png/",
   },
   {
     name: "John Giant",
-    price: 5.69,
+    price: avgMarine + 0.3,
     img: comingSoon,
   },
   {
     name: "Stainless",
-    price: 5.69,
+    price: avgMarine - 0.3,
     img: comingSoon,
   },
   {
     name: "Comil",
-    price: 5.69,
+    price: avgMarine - 0.5,
     img: comingSoon,
   },
   {
     name: "Momonga",
-    price: 5.69,
+    price: avgMarine + 0.4,
     img: comingSoon,
   },
   {
     name: "Onigumo",
-    price: 5.69,
+    price: avgMarine + 0.1,
     img: comingSoon,
   },
   {
     name: "Doberman",
-    price: 5.69,
+    price: avgMarine + 0.1,
     img: comingSoon,
   },
   {
     name: "Strawberry",
-    price: 5.69,
+    price: avgMarine + 0.1,
     img: comingSoon,
   },
   {
     name: "Yamakaji",
-    price: 5.69,
+    price: avgMarine,
     img: comingSoon,
   },
   {
     name: "Lacroix",
-    price: 5.69,
+    price: avgMarine + 0.3,
     img: comingSoon,
   },
   {
     name: "Lonz",
-    price: 5.69,
+    price: avgMarine + 0.3,
     img: comingSoon,
   },
   {
     name: "Dalmatian",
-    price: 5.69,
+    price: avgMarine + 0.1,
     img: comingSoon,
   },
   {
     name: "Bastille",
-    price: 5.69,
+    price: avgMarine + 0.1,
     img: comingSoon,
   },
   {
     name: "Smoker",
     aka: "White Hunter",
-    price: 5.69,
+    price: avgMarine + 0.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/70/Smoker_Portrait.png/",
   },
   {
     name: "Maynard",
-    price: 5.69,
+    price: avgMarine - 0.3,
     img: comingSoon,
   },
   {
     name: "Gion",
     aka: "Momousagi",
-    price: 5.69,
+    price: avgMarine + 0.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0d/Gion_Portrait.png/",
   },
   {
     name: "Tokikake",
     aka: "Chaton",
-    price: 5.69,
+    price: avgMarine + 0.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/10/Tokikake_Portrait.png/",
   },
   {
     name: "Doll",
-    price: 5.69,
+    price: avgMarine + 0.4,
     img: comingSoon,
   },
   {
     name: "Hound",
-    price: 5.69,
+    price: avgMarine + 0.3,
     img: comingSoon,
   },
   {
     name: "Guillotine",
-    price: 5.69,
+    price: avgMarine + 0.3,
     img: comingSoon,
   },
   {
     name: "Red King",
-    price: 5.69,
+    price: avgMarine + 0.1,
     img: comingSoon,
   },
   {
     name: "Tosa",
-    price: 5.69,
+    price: avgMarine + 0.2,
     img: comingSoon,
   },
   {
     name: "Pomsky",
-    price: 5.69,
+    price: avgMarine + 0.3,
     img: comingSoon,
   },
   {
     name: "Bluegrass",
-    price: 5.69,
+    price: avgMarine + 0.4,
     img: comingSoon,
   },
   {
     name: "Urban",
-    price: 5.69,
+    price: avgMarine + 0.1,
     img: comingSoon,
   },
   {
     name: "T Bone",
-    price: 5.69,
+    price: avgMarine,
     img: comingSoon,
   },
   {
     name: "Hina",
     aka: "Black Cage",
-    price: 5.69,
+    price: avgMarine + 0.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f9/Hina_Portrait.png/",
   },
   {
     name: "Tashigi",
-    price: 5.69,
+    price: avgMarine,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/dd/Tashigi_Portrait.png/",
   },
   {
     name: "Donquixote Rosinante",
-    price: 5.69,
+    price: avgMarine,
     img: comingSoon,
   },
   // other high ranks
   {
     name: "Sengoku",
     aka: "The Buddha",
-    price: 5.69,
+    price: 11.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Sengoku_Portrait.png/",
   },
   {
     name: "Tensei",
     aka: "Kurouma",
-    price: 5.69,
+    price: avgMarine + 0.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0e/Tensei_Portrait.png/",
   },
   {
     name: "Bogard",
-    price: 5.69,
+    price: avgMarine,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a4/Bogard_Portrait.png/",
   },
   {
     name: "Kong",
-    price: 5.69,
+    price: 11.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c9/Kong_Marine_Portrait.png/",
   },
   {
     name: "Jaguar D. Saul",
-    price: 5.69,
+    price: avgMarine + 0.4,
     img: comingSoon,
   },
   {
     name: "Zephyr",
-    price: 5.69,
+    price: 9.6,
     img: comingSoon,
   },
   {
     name: "Ain",
-    price: 5.69,
+    price: avgMarine + 0.4,
     img: comingSoon,
   },
   {
     name: "Binz",
-    price: 5.69,
+    price: avgMarine + 0.3,
     img: comingSoon,
   },
   {
     name: "Komei",
-    price: 5.69,
+    price: avgMarine + 0.2,
     img: comingSoon,
   },
   {
     name: "All-Hunt Grount",
-    price: 5.69,
+    price: avgMarine,
     img: comingSoon,
   },
   {
     name: "Shimoi Zappa",
-    price: 5.69,
+    price: avgMarine,
     img: comingSoon,
   },
   {
     name: "Ant De Bonham",
-    price: 5.69,
+    price: avgMarine,
     img: comingSoon,
   },
   {
     name: "Warden Isaac*",
-    price: 5.69,
+    price: avgMarine,
     img: comingSoon,
   },
 
   // SWORD
   {
     name: "Prince Grus",
-    price: 9.25, // fixed price
+    price: avgMarine + 0.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/05/Prince_Grus_Portrait.png/",
   },
   {
@@ -1180,26 +1188,26 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/a/aa/S-Shark_Portrait.png/",
   },
   {
-    name: "S-Flamingo?",
+    name: "S-Flamingo",
     price: 11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0a/Seraphim_Unit_5_Portrait.png/",
   },
   {
-    name: "S-Gecko?",
+    name: "S-Gecko",
     price: 11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Seraphim_Unit_6_Portrait.png/",
   },
   {
-    name: "S-Croc?",
+    name: "S-Croc",
     price: 11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/06/Seraphim_Unit_7_Portrait.png/",
   },
   {
     name: "Sentomaru",
-    price: 10.3, // fixed price
+    price: 8.9, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/82/Sentomaru_Portrait.png/",
   },
-
+  // stop here now
   // Impel Down
   {
     name: "Hannyabal",
@@ -3436,11 +3444,13 @@ export const units = [
   },
   {
     name: "Satoru Gojo*",
+    aka: "Six Eyes",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/53/GojoP.png/",
   },
   {
     name: "Noritoshi Kamo /Choso*",
+    aka: "The Kamo Blood Manipulator",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6c/ChosoP.png/",
   },
@@ -3462,7 +3472,7 @@ export const units = [
   },
   {
     name: "Suguru Geto /Kenjaku*",
-    aka: "Burning Demon Priest",
+    aka: "The Priest/The Fire Priest",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4f/KenjakuP.png/",
   },
