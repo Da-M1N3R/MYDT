@@ -2630,7 +2630,8 @@ export const units = [
     img: "https://htdraw.com/wp-content/uploads/2020/03/How-to-draw-Hendrickson-from-The-Seven-Deadly-Sins.jpg",
   },
   {
-    name: "Mirajane Strauss [Caterpillar /GI* (ZERO Sqd.)F]",
+    name: "Mirajane Strauss [ /GI* (ZERO Sqd.)F]",
+    aka: "The Caterpillar",
     price: 10.51, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/d/d1/Mirajane_proposal.png/",
   },
@@ -2647,17 +2648,20 @@ export const units = [
     img: "https://tiermaker.com/images/template_images/2022/837161/bleach-reiatsu-list--837161/bleachpoww-base-2png.png",
   },
   {
-    name: "Nobutsuna Shigyō [Stickbug /GI* (2 Squad)M]",
+    name: "Nobutsuna Shigyō [ /GI* (2 Squad)M]",
+    aka: "The Stickbug",
     price: 14.1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyaAH37XwQUpwy6LQjn3antgEfkfDFrLMdQ&s",
   },
   {
-    name: "Yunju [Centepede /GI* (2 Squad)M]",
+    name: "Yunju [ /GI* (2 Squad)M]",
+    aka: "The Centepede",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/f/fb/Yunju_CA_Portrait.png/",
   },
   {
-    name: "Boki [Fruitfly /GI* (2 Squad)M]",
+    name: "Boki [ /GI* (2 Squad)M]",
+    aka: "The Fly",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/c/ca/Boki_CA_Portrait.png/",
   },
@@ -2681,16 +2685,19 @@ export const units = [
   },
   {
     name: "Fuhrer Ugly [Trap-Jaw Ant /GI* (4 Squad)M]",
+    aka: "The Trap",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/onepunchman/images/1/13/Fuhrer_Ugly_Icon.png/",
   },
   {
-    name: "Do-S [Black Widow /GI* (3 Squad)F]",
+    name: "Do-S [ /GI* (3 Squad)F]",
+    aka: "Black Widow Spider",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/onepunchman/images/4/4d/Do-S_Icon.jpg/",
   },
   {
     name: "Jogo [Wasp /GI* (3 Squad)F]",
+    aka: "The Wasp",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/76/JogoP.png/",
   },
@@ -2730,6 +2737,7 @@ export const units = [
   },
   {
     name: "Watchdog Man /Boros [Demon Fox] (Battle Planet)*",
+    aka: "The Sky Fox",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/onepunchman/images/4/46/WDM_Icon.png/",
   },
@@ -3439,6 +3447,7 @@ export const units = [
   },
   {
     name: "Maki Zenin /Toji Fushiguro*",
+    aka: "The Last Zenin",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/da/MakiP_%28Current%29.png//",
   },
@@ -3821,5 +3830,17 @@ export const units = [
     aka: "God Hands",
     price: 1,
     img: comingSoon,
+  },
+  {
+    name: "Illyana Rasputin",
+    aka: "Magik",
+    price: 10.2,
+    img: "https://media.themoviedb.org/t/p/w235_and_h235_face/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
+  },
+  {
+    name: "Peter Rasputin",
+    aka: "Colossus",
+    price: 10,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQembVeIGcRsKAgPWl0pkAlVkXNA5ECf8sqEA&s",
   },
 ];
