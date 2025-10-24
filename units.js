@@ -15,6 +15,7 @@ export const units = [
     aka: "Supreme Ruler of the World Government",
     price: 13, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
+    description: "",
   },
   {
     name: "Rocks D. Xebec",
@@ -212,50 +213,6 @@ export const units = [
     name: "Bunny Joe",
     price: 6.4,
     img: comingSoon,
-  },
-
-  // Underworld Emperors
-  {
-    name: "Stussy",
-    aka: "Queen of Pleasure District",
-    price: 8.9,
-    img: "https://static.wikia.nocookie.net/onepiece/images/3/30/Stussy_Portrait.png/",
-  },
-  {
-    name: "Drug Peclo",
-    aka: "The Undertaker",
-    price: 7.8,
-    img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Drug_Peclo_Portrait.png/",
-  },
-  {
-    name: "Morgans",
-    aka: "Big News",
-    price: 8.7,
-    img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Morgans_Portrait.png/",
-  },
-  {
-    name: "Giberson",
-    aka: "The Concealer",
-    price: 7,
-    img: "https://static.wikia.nocookie.net/onepiece/images/9/92/Giberson_Portrait.png/",
-  },
-  {
-    name: "Umit",
-    aka: "Deep-Sea Currents",
-    price: 7.4,
-    img: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Umit_Portrait.png/",
-  },
-  {
-    name: "Lu Feld",
-    aka: "God of Fortune",
-    price: 6.8,
-    img: "https://static.wikia.nocookie.net/onepiece/images/a/a7/Lu_Feld_Portrait.png/",
-  },
-  {
-    name: "Mother Carmel",
-    aka: "Mountain Witch",
-    price: 5.9,
-    img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Carmel_Portrait.png/",
   },
 
   // straw hats
@@ -810,12 +767,12 @@ export const units = [
   {
     name: "Maha",
     price: 8.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d7/Maha_Portrait.png/",
   },
   {
     name: "Guernika",
     price: 8.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/51/Guernika_Portrait.png/",
   },
   {
     name: "Rob Lucci",
@@ -835,17 +792,17 @@ export const units = [
   {
     name: "Blueno",
     price: 7.8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/ac/Blueno_Portrait.png/",
   },
   {
     name: "Kalifa",
     price: 7.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/eb/Kalifa_CP0_Portrait.png/",
   },
   {
     name: "Jabra",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c9/Jabra_Portrait.png/",
   },
   {
     name: "Kumadori",
@@ -897,12 +854,12 @@ export const units = [
   {
     name: "John Giant",
     price: avgMarine + 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1e/John_Giant_Portrait.png/",
   },
   {
     name: "Stainless",
     price: avgMarine - 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/61/Stainless_Portrait.png/",
   },
   {
     name: "Comil",
@@ -912,27 +869,27 @@ export const units = [
   {
     name: "Momonga",
     price: avgMarine + 0.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1c/Momonga_Portrait.png/",
   },
   {
     name: "Onigumo",
     price: avgMarine + 0.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/17/Onigumo_Portrait.png/",
   },
   {
     name: "Doberman",
     price: avgMarine + 0.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4e/Doberman_Portrait.png/",
   },
   {
     name: "Strawberry",
     price: avgMarine + 0.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Strawberry_Portrait.png/",
   },
   {
     name: "Yamakaji",
     price: avgMarine,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Yamakaji_Portrait.png/",
   },
   {
     name: "Lacroix",
@@ -980,42 +937,42 @@ export const units = [
   {
     name: "Doll",
     price: avgMarine + 0.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3a/Doll_Portrait.png/",
   },
   {
     name: "Hound",
     price: avgMarine + 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/37/Hound_Portrait.png/",
   },
   {
     name: "Guillotine",
     price: avgMarine + 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/66/Guillotine_Portrait.png/",
   },
   {
     name: "Red King",
     price: avgMarine + 0.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fd/Red_King_Portrait.png/",
   },
   {
     name: "Tosa",
     price: avgMarine + 0.2,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c7/Tosa_Portrait.png/",
   },
   {
     name: "Pomsky",
     price: avgMarine + 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/79/Pomsky_Portrait.png/",
   },
   {
     name: "Bluegrass",
     price: avgMarine + 0.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/de/Bluegrass_Portrait.png/",
   },
   {
     name: "Urban",
     price: avgMarine + 0.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6a/Urban_Portrait.png/",
   },
   {
     name: "T Bone",
@@ -1024,7 +981,7 @@ export const units = [
   },
   {
     name: "Hina",
-    aka: "Black Cage",
+    aka: '"Black Cage" Hina',
     price: avgMarine + 0.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f9/Hina_Portrait.png/",
   },
@@ -1068,18 +1025,19 @@ export const units = [
   },
   {
     name: "Zephyr",
+    aka: '"Black Arm" Zephyr /Z',
     price: 9.6,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Z_Portrait.png/",
   },
   {
     name: "Ain",
     price: avgMarine + 0.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Ain_Portrait.png/",
   },
   {
     name: "Binz",
     price: avgMarine + 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Binz_Portrait.png/",
   },
   {
     name: "Komei",
@@ -2275,6 +2233,61 @@ export const units = [
     img: comingSoon,
   },
 
+  // Mink Tribe
+  {
+    name: "Carrot",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Carrot_Portrait.png/",
+  },
+  // Inuarashi Musketeer Squad (under Dog)
+  {
+    name: "Shishilian",
+    aka: "'Full Power' Shishilian",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/ba/Shishilian_Portrait.png/",
+  },
+  {
+    name: "Concelot",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Concelot_Portrait.png/",
+  },
+  {
+    name: "Giovanni",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/34/Giovanni_Portrait.png/",
+  },
+  {
+    name: "Wanda",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/17/Wanda_Portrait.png/",
+  },
+  // Guardians (under Neko)
+  {
+    name: "Pedro",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6d/Pedro_Portrait.png/",
+  },
+  {
+    name: "Roddy",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Blackback",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Keith",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Milky",
+    price: 1,
+    img: comingSoon,
+  },
+
   // Kuja Pirates
   {
     name: "Boa Hancock",
@@ -2431,7 +2444,56 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/b/ba/Perona_Portrait.png/",
   },
 
+  // Underworld Emperors
+  {
+    name: "Stussy",
+    aka: "Queen of Pleasure District",
+    price: 8.9,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/30/Stussy_Portrait.png/",
+  },
+  {
+    name: "Drug Peclo",
+    aka: "The Undertaker",
+    price: 7.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Drug_Peclo_Portrait.png/",
+  },
+  {
+    name: "Morgans",
+    aka: "Big News",
+    price: 8.7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Morgans_Portrait.png/",
+  },
+  {
+    name: "Giberson",
+    aka: "The Concealer",
+    price: 7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/92/Giberson_Portrait.png/",
+  },
+  {
+    name: "Umit",
+    aka: "Deep-Sea Currents",
+    price: 7.4,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Umit_Portrait.png/",
+  },
+  {
+    name: "Lu Feld",
+    aka: "God of Fortune",
+    price: 6.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a7/Lu_Feld_Portrait.png/",
+  },
+  {
+    name: "Mother Carmel",
+    aka: "Mountain Witch",
+    price: 5.9,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Carmel_Portrait.png/",
+  },
+
   // Others
+  {
+    name: "Arlong",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/02/Arlong_Portrait.png/",
+  },
   {
     name: "Caesar Clown",
     price: 10.1,
@@ -2511,7 +2573,7 @@ export const units = [
     img: "https://cdn.dribbble.com/userupload/9958288/file/original-21646ed1d12d6330af29b7620dc7e76b.jpg?format=webp&resize=400x300&vertical=center",
   },
   {
-    name: "Noel Noa*",
+    name: "Apollo /Noel Noa*",
     aka: "Kingmaker/Ghost/Deadman/Six Slots",
     price: 13.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
@@ -2603,6 +2665,11 @@ export const units = [
     aka: "Santa Claus",
     price: 14.5,
     img: "https://static.wikia.nocookie.net/blackclover/images/6/6c/Dante_square.png/",
+  },
+  {
+    name: "<---Black Sperm*",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/3/38/Black_Sperm_Icon.png/",
   },
   {
     name: "Nathan Agrippa [The Mime]*",
@@ -3525,6 +3592,28 @@ export const units = [
     img: "https://static.wikia.nocookie.net/ghwtde/images/7/79/LucyKushinada.webp/",
   },
 
+  // Gachiakuta
+  {
+    name: "Tamsy Caines",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/gachiakuta/images/1/1b/TamzyP.png/",
+  },
+  {
+    name: "Zodyl Typhon",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/gachiakuta/images/2/27/Zodel_Icon.png/",
+  },
+  {
+    name: "Jabber Wonger",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/gachiakuta/images/c/c8/JabberP.png/",
+  },
+  {
+    name: "Too Lily",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/gachiakuta/images/0/0c/TooLilyP.png/",
+  },
+
   // Others
   {
     name: "Ging Freecss*",
@@ -3562,6 +3651,52 @@ export const units = [
     price: 12.22, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/4/4e/Hisoka_Morow_HCE_Portrait.png/",
   },
+  {
+    name: "Marshall Gorilla",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/8/88/Marshall_Gorilla_Icon.jpg/",
+  },
+  {
+    name: "† Vampire",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/d/d4/Pureblood_Icon.png/",
+  },
+  {
+    name: "Tatsumaki",
+    aka: "Tornado of Terror",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/b/b6/Tats_Icon.png/",
+  },
+  {
+    name: "Fubuki",
+    aka: "Blizzard of Hell",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/b/bd/Fubuki_Icon.png/",
+  },
+
+  {
+    name: "Skullion Raider",
+    aka: "The Corpse Dragon",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/fairytail/images/3/34/Skullion_Raider_Profile.png/",
+  },
+  {
+    name: "Kiria",
+    aka: "The Blade Dragon",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/fairytail/images/3/3c/Kiria_Profile.png/",
+  },
+  {
+    name: "Kiria",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Kiria",
+    price: 1,
+    img: comingSoon,
+  },
+
   {
     name: "Deadpool*",
     aka: "Merc with a Mouth",
@@ -3807,7 +3942,7 @@ export const units = [
     name: "Shiina Saionji*",
     aka: "The Saionji Twins",
     price: 1,
-    img: comingSoon,
+    img: "https://s3.amazonaws.com/comicgeeks/characters/avatars/113333.jpg?t=1759133683",
   },
   {
     name: "??? Saionji*",
