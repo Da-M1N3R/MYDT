@@ -2769,10 +2769,10 @@ export const units = [
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/76/JogoP.png/",
   },
   {
-    name: "Kagura Mikazuchi (Yellow) SEVEN*",
+    name: "Ren Yamashiro (Yellow) SEVEN*",
     aka: "Light Princess",
     price: 11.6, // fixed price
-    img: "https://static.wikia.nocookie.net/fairytail/images/7/7d/Kagura%27s_profile_image.png/",
+    img: "https://static.wikia.nocookie.net/mato-seihei-no-slave/images/e/ed/Ren_Mug.png/",
   },
   {
     name: "Taissa Farmiga* /Faris (Indigo) SEVEN*",
