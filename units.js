@@ -11,50 +11,52 @@ const avgEmperor = 11.4;
 
 export const units = [
   {
-    name: "Imu",
+    name: "St. Nerona Imu",
     aka: "",
     price: 13, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
-    desc: "Supreme Ruler of the World Government. <br>THE WORLD.",
+    desc: "<strong>Supreme Ruler of the World Government. <br>THE WORLD.",
   },
   {
     name: "Rocks D. Xebec",
-    aka: "<strong>secret name:</strong> Davy D. Xebec",
     price: 12.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
-    desc: "<strong>secret name:</strong> Davy D. Xebec",
+    desc: "<strong>secret name:</strong> Davy D. Xebec</strong><br><strong>-Rocks Pirates [Captain]</strong><br><br>",
   },
   {
     name: "Gol D. Roger",
-    aka: "<strong>~Pirate King~</strong>",
+    aka: "Pirate King",
     price: 12.0, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
+    desc: "<strong>Roger Pirates: [Captain]</strong><br><br><strong>-Weapon:</strong> <br>1) Ace<br><br><strong>-Moves:</strong> <br>1) Divine Departure /Kamusari",
   },
   {
     name: "Monkey D. Garp",
-    aka: "<strong>~The Fist~</strong>",
+    aka: "The Fist",
     price: 11.0, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Rejected Admiral Position multiple times<br><br>",
   },
   {
     name: "St. Figarland Garling",
     aka: "",
     price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
-    desc: "Warrior God of Science & Defense",
+    desc: "<strong>-Elder [Warrior God of Science & Defense]<br>-Supreme Commander of the God Knights<br></strong>",
   },
   {
     name: "Monkey D. Luffy",
-    aka: "<strong>~Straw Hat~</strong></br>Emperor of the Seas",
+    aka: "Straw Hat",
     price: 11.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
+    desc: "Emperor of the Seas",
   },
   {
     name: "Roronoa Zoro",
-    aka: "<strong>~Pirate Hunter~</strong>",
+    aka: "Pirate Hunter",
     price: 10.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
-    desc: "<strong>A) Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br>",
+    desc: "<strong>-Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br>",
   },
   {
     name: "St. Jaygarcia Saturn",
@@ -89,94 +91,104 @@ export const units = [
   },
   {
     name: "Shanks",
-    aka: "<strong>~Red Hair~</strong></br>Emperor of the Seas",
+    aka: "Red Hair",
     price: 11.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
+    desc: "<strong>Emperor of the Seas</strong><br><strong>Bounty: </strong>$ 4,048,900,000<br></br><strong>Weapon: </strong>Gryphon",
   },
   {
     name: "Dracule Mihawk",
-    aka: "<strong>~Hawk Eyes~</strong></br>Strongest Swordsman in the World",
+    aka: "Hawk Eyes",
     price: 11.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
+    desc: "<strong>Warlord - Strongest Swordsman in the World<br>Bounty: </strong>$ 3,590,000,000<br></br><strong>Weapon: </strong>Yoru",
   },
   {
     name: "Monkey D. Dragon",
-    aka: "<strong>~Revolutionary Dragon~</strong></br> Supreme Commander of the Revolutionary Army",
+    aka: "Revolutionary Dragon",
     price: 11.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
+    desc: "Supreme Commander of the Revolutionary Army",
   },
   {
     name: "Sabo",
-    aka: "<strong>~Flame Emperor~</strong></br>Chief of Staff of the Revolutionary Army",
+    aka: "Flame Emperor",
     price: 9.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
+    desc: "Chief of Staff of the Revolutionary Army",
   },
   {
     name: "Marshall D. Teach",
-    aka: "<strong>~Blackbeard~</strong></br>Emperor of the Seas",
+    aka: "Blackbeard",
     price: 11.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
+    desc: "Emperor of the Seas",
   },
   {
     name: "Kuzan",
-    aka: "<strong>~Aokiji~</strong></br>Titanic Captain</br>Captain of the Tenth Ship",
+    aka: "Aokiji",
     price: 10.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
+    desc: "<strong>Blackbeard Pirates: <br>Captain of the Tenth Ship</strong><br><br><strong>Ability: Chilly-Chilly Fruit user</strong><br><br><strong>Moves: </strong><br>1) Ice Block: Pheasant Peck<br>2) Ice Saber<br>3) Ice Age<br><strong>fav.:</strong> Ice Glove",
   },
   {
     name: "Koby",
-    aka: "<strong>~The Hero~</strong></br>SWORD",
+    aka: "The Hero",
     price: 8.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
+    desc: "<strong>SWORD</strong>",
   },
   {
     name: "Sakazuki",
-    aka: "<strong>~Akainu~</strong></br>Fleet Admiral",
+    aka: "Akainu",
     price: 10.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
+    desc: "<strong>Fleet Admiral</strong>",
   },
 
   // Revolutionary
   {
     name: "Emporio Ivankov",
-    aka: "Okama King<br/> G Army Commander of the Revolutionary Army",
+    aka: "Okama King",
     price: 8.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fc/Emporio_Ivankov_Portrait.png/",
+    desc: "<strong>Commander of the Revolutionary Army - G Army</strong>",
   },
   {
     name: "Karasu",
-    aka: "North Army Commander of the Revolutionary Army",
+    desc: "<strong>Commander of the Revolutionary Army - North Army</strong>",
     price: 8.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Karasu_Portrait.png/",
   },
   {
     name: "Belo Betty",
-    aka: "East Army Commander of the Revolutionary Army",
+    desc: "<strong>Commander of the Revolutionary Army - East Army</strong>",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/98/Belo_Betty_Portrait.png/",
   },
   {
     name: "Morley",
-    aka: "Morley of Fur<br/> West Army Commander of the Revolutionary Army",
+    desc: "<strong>Commander of the Revolutionary Army - West Army</strong>",
     price: 7.8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f1/Morley_Portrait.png/",
   },
   {
     name: "Lindbergh",
-    aka: "South Army Commander of the Revolutionary Army",
+    desc: "<strong>Commander of the Revolutionary Army - South Army</strong>",
     price: 7.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d9/Lindbergh_Portrait.png/",
   },
   {
     name: "Ginny",
-    aka: "East Army Captain of the Revolutionary Army",
+    desc: "<strong>Commander of the Revolutionary Army - East Army</strong>",
     price: 7.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/93/Ginny_Portrait.png/",
   },
   {
-    name: "Inazuma (G)",
+    name: "Inazuma",
     price: 7.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d3/Inazuma_Portrait.png/",
+    desc: "<strong>Deputy Commander of the Revolutionary Army - G Army</strong>",
   },
   {
     name: "Jiron (north)",
@@ -458,8 +470,10 @@ export const units = [
   },
   {
     name: "Kaido",
+    aka: "The Beast",
     price: 11.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
+    desc: "<strong>Beast Pirates: [Captain]<br><br><strong>-Ability: <br>Fish-Fish Fruit, Model: Azure Dragon</strong><br><br><strong>-Weapon: </strong><br>1) Hassaikai<br><br><strong>-Moves: </strong><br>1) Conqueror of Three World: Ragnarok <br>2) Destroyer of Death: Thunder Bagua <br>3) Kundali Dragon Swarm <br><br><strong>Shuron Hakke (Sake Dragon Eight Trigrams): <br></strong>---Cyclic Thunder Drunk---Depressed Drunk---Crying Drunk---Angry Drunk---Spoiled Drunk---Thieving Drunk---Slaughtering Drunk---",
   },
   {
     name: "Charlotte Linlin",
@@ -874,26 +888,31 @@ export const units = [
     name: "Momonga",
     price: avgMarine + 0.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/1c/Momonga_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Enies Lobby Buster Call<br><br>",
   },
   {
     name: "Onigumo",
     price: avgMarine + 0.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/17/Onigumo_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Enies Lobby Buster Call<br><br>",
   },
   {
     name: "Doberman",
     price: avgMarine + 0.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4e/Doberman_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br>- Enies Lobby Buster Call<br>",
   },
   {
     name: "Strawberry",
     price: avgMarine + 0.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Strawberry_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Enies Lobby Buster Call<br><br>",
   },
   {
     name: "Yamakaji",
     price: avgMarine,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Yamakaji_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Enies Lobby Buster Call<br><br>",
   },
   {
     name: "Lacroix",
@@ -931,52 +950,62 @@ export const units = [
     aka: "Momousagi",
     price: avgMarine + 0.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0d/Gion_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Candidate for Admiral Position<br><br>",
   },
   {
     name: "Tokikake",
     aka: "Chaton",
     price: avgMarine + 0.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/10/Tokikake_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Candidate for Admiral Position<br><br>",
   },
   {
     name: "Doll",
     price: avgMarine + 0.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3a/Doll_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "Hound",
     price: avgMarine + 0.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/37/Hound_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "Guillotine",
     price: avgMarine + 0.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/66/Guillotine_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "Red King",
     price: avgMarine + 0.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fd/Red_King_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "Tosa",
     price: avgMarine + 0.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c7/Tosa_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "Pomsky",
     price: avgMarine + 0.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/79/Pomsky_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "Bluegrass",
     price: avgMarine + 0.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/de/Bluegrass_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "Urban",
     price: avgMarine + 0.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6a/Urban_Portrait.png/",
+    desc: "<strong>Vice Admiral<br>- Egghead Buster Call<br><br>",
   },
   {
     name: "T Bone",
@@ -1366,26 +1395,33 @@ export const units = [
     name: "Page One",
     price: 9.87, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/9f/Page_One_Portrait.png/",
+    desc: "<strong>-Beast Pirates: <br>Flying Six</strong><br><br><strong>-Ability: <br>Dragon-Dragon Fruit, Model: Spinosaurus</strong>",
   },
   {
     name: "Ulti",
     price: 10.55, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/cb/Ulti_Portrait.png/",
+    desc: "<strong>-Beast Pirates: <br>Flying Six</strong><br><br><strong>-Ability: <br>Dragon-Dragon Fruit, Model: Pachycephalosaurus</strong>",
   },
   {
     name: "Who's-Who",
+    aka: "Who of the Droplets",
     price: 10.45, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7c/Who%27s-Who_Portrait.png/",
+    desc: "<strong>-Beast Pirates: <br>Flying Six</strong><br><br><strong>-Ability: <br>Cat-Cat Fruit, Model: Saber-Toothed Tiger</strong><br><br><strong>-Weapon: </strong><br>1) dagger (with long katana sheath)",
   },
   {
     name: "Black Maria",
     price: 9.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Black_Maria_Portrait.png/",
+    desc: "<strong>-Beast Pirates: <br>Flying Six</strong><br><br><strong>-Ability: <br>Spider-Spider Fruit, Model: Rosamygale grauvogeli</strong><br><br><strong>-Weapon: </strong><br>1) brass knuckle<br>2) Wanyudo <br><br><strong>-Moves: </strong><br>1) Oiran Knuckle",
   },
   {
     name: "Sasaki",
+    aka: "'Overflowing' Sasaki",
     price: 9.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Sasaki_Portrait.png/",
+    desc: "<strong>-Beast Pirates: <br>1) Flying Six <br>2) Leader of the Armored Division <br>3) fishman - bluespine unicornfish</strong><br><br><strong>-Ability: <br>Dragon-Dragon Fruit, Model: Triceratops</strong><br><br><strong>-Weapon: </strong><br>1) Karakuri Rasento",
   },
   {
     name: "X Drake",
@@ -2074,9 +2110,11 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jozu_Portrait.png/",
   },
   {
-    name: "Kouzuki Oden (2nd Division)",
+    name: "Kouzuki Oden",
+    aka: "Idiot Lord",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/18/Kouzuki_Oden_Pirate_Portrait.png/",
+    desc: "<strong>-Roger Pirates<br>-Whitebeard Pirates - 2nd Division Commander</strong><br><br><strong>-Weapon:</strong> <br>1) Enma<br>2) Ame no Habakiri<br><br><strong>-Moves:</strong> <br>1) Tougen Totsuka<br>2) Gun Modoki<br>3) Tougen Shirataki",
   },
   {
     name: "Portgas D. Ace (2nd Division)",
