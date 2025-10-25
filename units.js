@@ -3255,21 +3255,18 @@ export const units = [
 
   //Demon Family ---
   {
-    name: "Itachi Uchiha (Hellfire & String)*",
-    aka: "The Fenrir/Hell Knot",
+    name: "Kamran Ghasempour",
+    aka: "The Fenrir",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/",
+    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) String-String Fruit<br>2) Flame-Flame Fruit<br><br><strong>-Weapon: </strong><br><br><strong>-Moves: </strong><br>1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
   },
   {
-    name: "<---Rui (string) ---LEFT*",
-    price: 1,
-    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/5/55/Rui_Anime_Profile.png/",
-  },
-  {
-    name: "Alphonse Elric (2-in-1 Brother /Nail Rain)*",
-    aka: "The Half Man",
+    name: "Kazan Ghasempour",
+    aka: "The Grim Reaper",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/fma/images/f/f1/AvatarAlphonse.png/",
+    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) <br><br><strong>-Weapon: </strong>Grim Reaper's scythe<br><br><strong>-Moves: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Nail Rain<br><br><em>Inspired by: Alphonse Elric (FMA)</em>",
   },
   {
     name: "Envy (from FMA)*",
