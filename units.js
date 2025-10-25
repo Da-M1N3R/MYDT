@@ -42,66 +42,66 @@ export const units = [
     aka: "",
     price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
-    desc: "<strong>-Elder [Warrior God of Science & Defense]<br>-Supreme Commander of the God Knights<br></strong>",
+    desc: "<strong>World Noble: Elder [Warrior God of Science & Defense]<br>-Figarland Family<br>-Supreme Commander of the God Knights<br></strong>",
   },
   {
     name: "Monkey D. Luffy",
     aka: "Straw Hat",
     price: 11.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
-    desc: "Emperor of the Seas",
+    desc: "<strong>Emperor of the Seas<br>Straw Hat Pirates: [Captain]</strong><br><br><strong>-Ability: Hito-Hito no Mi, Model: Nika</strong><br>-Gear 2, -Gear 3, <br>-Gear 4: Bounceman, Tankman, Snakeman,<br>-Gear 5<br><br><strong>-Moves: </strong><br>1) Bajrang Gun<br>2) Gomu Gomu no: El Thor<br>3) Gomu Gomu no: Jet Pistol<br><strong>fav.:</strong> Gomu Gomu no: Star Gun",
   },
   {
     name: "Roronoa Zoro",
     aka: "Pirate Hunter",
     price: 10.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
-    desc: "<strong>-Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br>",
+    desc: "<strong>Straw Hat Pirates: [Swordsman]</strong><br><br><strong>-Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br><br><strong>-Moves: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Bird Dance",
   },
   {
     name: "St. Jaygarcia Saturn",
     aka: "",
     price: 8.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
-    desc: "<strong>Warrior God of Science & Defense</strong><br><strong>Devil Transformation:</strong> Gyuki",
+    desc: "<strong>World Noble: Elder [Warrior God of Science & Defense]</strong><br><strong>Devil Transformation:</strong> Gyuki",
   },
   {
     name: "St. Topman Warcury",
     price: 8.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
-    desc: "<strong>Warrior God of Justice</strong><br><strong>Devil Transformation:</strong> FengXi /Hoki",
+    desc: "<strong>World Noble: Elder [Warrior God of Justice]</strong><br><strong>Devil Transformation:</strong> FengXi /Hoki",
   },
   {
     name: "St. Marcus Mars",
     price: 8.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
-    desc: "<strong>Warrior God of Environment</strong><br><strong>Devil Transformation:</strong> Itsumade",
+    desc: "<strong>World Noble: Elder [Warrior God of Environment]</strong><br><strong>Devil Transformation:</strong> Itsumade",
   },
   {
     name: "St. Ethanbaron V. Nusjuro",
     price: 9.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
-    desc: "<strong>Warrior God of Finance</strong><br><strong>Devil Transformation:</strong> Bakkotsu",
+    desc: "<strong>World Noble: Elder [Warrior God of Finance]</strong><br><strong>Devil Transformation:</strong> Bakkotsu",
   },
   {
     name: "St. Shepherd Ju Peter",
     price: 8.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
-    desc: "<strong>Warrior God of Agriculture</strong><br><strong>Devil Transformation:</strong> Sandworm",
+    desc: "<strong>World Noble: Elder [Warrior God of Agriculture]<br>-Shepherd Family<br><br>Devil Transformation:</strong> Sandworm",
   },
   {
     name: "Shanks",
     aka: "Red Hair",
     price: 11.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
-    desc: "<strong>Emperor of the Seas</strong><br><strong>Bounty: </strong>$ 4,048,900,000<br></br><strong>Weapon: </strong>Gryphon",
+    desc: "<strong>Emperor of the Seas</strong><br><strong>-Bounty: </strong>$ 4,048,900,000<br></br><strong>-Weapon: </strong>Gryphon",
   },
   {
     name: "Dracule Mihawk",
     aka: "Hawk Eyes",
     price: 11.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
-    desc: "<strong>Warlord - Strongest Swordsman in the World<br>Bounty: </strong>$ 3,590,000,000<br></br><strong>Weapon: </strong>Yoru",
+    desc: "<strong>Warlord - Strongest Swordsman in the World<br>-Bounty: </strong>$ 3,590,000,000<br></br><strong>-Weapon: </strong>Yoru",
   },
   {
     name: "Monkey D. Dragon",
@@ -473,13 +473,14 @@ export const units = [
     aka: "The Beast",
     price: 11.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
-    desc: "<strong>Beast Pirates: [Captain]<br><br><strong>-Ability: <br>Fish-Fish Fruit, Model: Azure Dragon</strong><br><br><strong>-Weapon: </strong><br>1) Hassaikai<br><br><strong>-Moves: </strong><br>1) Conqueror of Three World: Ragnarok <br>2) Destroyer of Death: Thunder Bagua <br>3) Kundali Dragon Swarm <br><br><strong>Shuron Hakke (Sake Dragon Eight Trigrams): <br></strong>---Cyclic Thunder Drunk---Depressed Drunk---Crying Drunk---Angry Drunk---Spoiled Drunk---Thieving Drunk---Slaughtering Drunk---",
+    desc: "<strong>Beast Pirates: [Captain]<br><br>-Ability: <br>Fish-Fish Fruit, Model: Azure Dragon</strong><br><br><strong>-Weapon: </strong><br>1) Hassaikai<br><br><strong>-Moves: </strong><br>1) Conqueror of Three World: Ragnarok <br>2) Destroyer of Death: Thunder Bagua <br>3) Kundali Dragon Swarm <br><br><strong>-Shuron Hakke (Sake Dragon Eight Trigrams): <br></strong>---Cyclic Thunder Drunk---Depressed Drunk---Crying Drunk---Angry Drunk---Spoiled Drunk---Thieving Drunk---Slaughtering Drunk---",
   },
   {
     name: "Charlotte Linlin",
     aka: "Big Mom",
     price: 11.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/52/Charlotte_Linlin_Young_Portrait.png/",
+    desc: "<strong>Big Mom Pirates: [Captain]<br><br>-Ability: <br>Soul-Soul Fruit</strong><br><br><strong>-Homies: </strong><br>1) Zeus<br>2) Prometheus<br>3) Napoleon <br>4) Hera<br><br><strong>-Moves: </strong><br>1) Raitei <br>2) Heavenly Feuer <br>3) Ikoku Sovereignty <br><strong>fav.:</strong> Maser Cannon<br>",
   },
   {
     name: "Streusen",
@@ -535,16 +536,19 @@ export const units = [
     name: "St. Figarland Shamrock",
     price: 9.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/76/Figarland_Shamrock_Portrait.png/",
+    desc: "<strong>World Noble: [God's Knight]<br>-Figarland Family<br><br>-Ability: <br></strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Moves: </strong><br>1)  <br>2) <br>3)  <br>",
   },
   {
     name: "St. Manmayer Gunko",
     price: 9.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5b/Manmayer_Gunko_Portrait.png/",
+    desc: "<strong>World Noble: [God's Knight]<br>-Manmayer Family<br><br>-Ability: <br>Arrow-Arrow Fruit</strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Moves: </strong><br>1)  <br>2) <br>3)  <br>",
   },
   {
     name: "St. Shepherd Sommers",
     price: 9.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2c/Shepherd_Sommers_Portrait.png/",
+    desc: "<strong>World Noble: [God's Knight]<br>-Shepherd Family<br><br>-Ability: <br>Thorn-Thorn Fruit</strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Moves: </strong><br>1)  <br>2) <br>3)  <br>",
   },
   {
     name: "St. Limosiv Killingham",
@@ -2528,6 +2532,7 @@ export const units = [
     aka: "Mountain Witch",
     price: 5.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Carmel_Portrait.png/",
+    desc: "<strong>-Ability: <br>Soul-Soul Fruit</strong><br><br><strong>-Homies: </strong><br>1) Pandora",
   },
 
   // Others
