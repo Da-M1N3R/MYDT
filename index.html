@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <title>Make Your Dream Team (MYDT)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="x-icon" href="opdt.ico" />
     <style>
       :root {
         --gold: #ffb703;
@@ -85,6 +86,7 @@
         padding: 0.5rem;
         height: 320px;
         justify-content: space-between;
+        z-index: 1;
       }
       .card img {
         width: 100%;
@@ -121,6 +123,7 @@
         font-weight: 700;
         cursor: pointer;
         transition: background 0.2s, color 0.2s;
+        z-index: 2;
       }
       .card button.owned {
         background: #2ecc40 !important;
@@ -136,6 +139,109 @@
         justify-content: space-between;
         padding: 0.3rem 0;
         font-size: 0.9rem;
+      }
+
+      #card-popup {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 1rem;
+        border: 1px solid black;
+        display: none;
+      }
+
+      #overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.75);
+        backdrop-filter: blur(4px);
+        display: none;
+        z-index: 50;
+      }
+      .modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 500px;
+        height: 500px;
+        background: var(--card);
+        border-radius: 12px;
+        padding: 1.4rem;
+        text-align: left;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+        display: none;
+        z-index: 100;
+      }
+      .modal #modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+      }
+      .modal #model-middle {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 1rem;
+      }
+      .modal #modal-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #modal-price {
+        /* margin: 0.6rem 0; */
+        font-size: 0.95rem;
+        color: var(--gold);
+        float: left;
+        margin: 10px;
+        /* margin-left: 0.5rem; */
+      }
+      .modal #modal-footer button {
+        margin-right: 0.5rem;
+      }
+      .modal img {
+        width: 140px;
+        /* height: 200px; */
+        object-fit: cover;
+        border-radius: 8px;
+        float: left;
+        margin-right: 1rem;
+      }
+      #close {
+        position: absolute;
+        top: 8px;
+        right: 12px;
+        font-size: 1.6rem;
+        cursor: pointer;
+        color: #fff;
+      }
+      #modal-name {
+        font-size: 30px;
+      }
+      #modal-desc {
+        display: inline;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 15px;
+      }
+
+      #modal-buy {
+        width: 30%;
+        border: none;
+        padding: 0.2rem;
+        border-radius: 4px;
+        background: var(--gold);
+        color: #000;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s, color 0.2s;
+        float: right;
+        margin: 10px;
       }
     </style>
   </head>
@@ -203,6 +309,24 @@
           >
         </div>
       </aside>
+
+      <!-- pop-up markup -->
+      <div id="overlay"></div>
+      <div id="modal" class="modal">
+        <div id="modal-header">
+          <span id="close">&times;</span>
+          <img id="modal-img" src="" alt="" />
+          <h3 id="modal-name"></h3>
+          <p id="modal-aka"></p>
+        </div>
+        <div id="modal-middle">
+          <p id="modal-desc"></p>
+        </div>
+        <div id="modal-footer">
+          <p id="modal-price"></p>
+          <button id="modal-buy">Buy</button>
+        </div>
+      </div>
     </main>
 
     <script type="module">
@@ -211,7 +335,9 @@
       const ROSTER_KEY = "opdt_roster";
       const CASH_KEY = "opdt_cash";
 
+      // ----- IMPORTS -----
       import { units } from "./units.js";
+      // import { units } from "./temp_units.js";
 
       // ----- STATE -----
       let cash = +(localStorage.getItem(CASH_KEY) ?? START_CASH);
@@ -221,6 +347,9 @@
       const shopEl = document.getElementById("shop");
       const rosterEl = document.getElementById("roster");
       const bankEl = document.querySelector("#bank span");
+      const overlay = document.getElementById("overlay");
+      const modal = document.getElementById("modal");
+      const closeBtn = document.getElementById("close");
 
       function save() {
         localStorage.setItem(CASH_KEY, cash);
@@ -245,7 +374,20 @@
             owned || !canBuy ? "disabled" : ""
           }>${owned ? "Owned" : "Buy"}</button>
           `;
-          card.querySelector("button").onclick = () => buy(u);
+
+          let cardClicked = false;
+
+          card.onclick = () => {
+            if (!cardClicked && !event.target.matches("button")) {
+              showCard(u);
+              cardClicked = false;
+            }
+          };
+
+          card.querySelector("button").onclick = () => {
+            buy(u);
+          };
+
           shopEl.appendChild(card);
         });
       }
@@ -287,6 +429,29 @@
         save();
         updateUI();
       }
+
+      function showCard(u) {
+        document.getElementById("modal-img").src = u.img;
+        document.getElementById("modal-name").innerHTML =
+          "<u>" + u.name + "</u>";
+        // document.getElementById("modal-aka").textContent = u.aka;
+        if (u.desc) {
+          document.getElementById("modal-desc").innerHTML = u.desc;
+        } else {
+          document.getElementById("modal-desc").innerHTML = "";
+        }
+        document.getElementById("modal-price").innerHTML =
+          "$" + u.price.toFixed(2);
+        overlay.style.display = "block";
+        modal.style.display = "block";
+      }
+
+      function hideCard() {
+        overlay.style.display = "none";
+        modal.style.display = "none";
+      }
+      closeBtn.onclick = hideCard;
+      overlay.onclick = hideCard;
 
       function updateUI() {
         bankEl.textContent = Number(cash).toFixed(2);

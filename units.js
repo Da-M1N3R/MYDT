@@ -12,16 +12,17 @@ const avgEmperor = 11.4;
 export const units = [
   {
     name: "Imu",
-    aka: "Supreme Ruler of the World Government",
+    aka: "",
     price: 13, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
-    description: "",
+    desc: "Supreme Ruler of the World Government. <br>THE WORLD.",
   },
   {
     name: "Rocks D. Xebec",
     aka: "<strong>secret name:</strong> Davy D. Xebec",
     price: 12.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
+    desc: "<strong>secret name:</strong> Davy D. Xebec",
   },
   {
     name: "Gol D. Roger",
@@ -37,9 +38,10 @@ export const units = [
   },
   {
     name: "St. Figarland Garling",
-    aka: "Warrior God of Science & Defense",
+    aka: "",
     price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
+    desc: "Warrior God of Science & Defense",
   },
   {
     name: "Monkey D. Luffy",
@@ -52,36 +54,38 @@ export const units = [
     aka: "<strong>~Pirate Hunter~</strong>",
     price: 10.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
+    desc: "<strong>A) Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br>",
   },
   {
     name: "St. Jaygarcia Saturn",
-    aka: "Warrior God of Science & Defense",
+    aka: "",
     price: 8.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
+    desc: "<strong>Warrior God of Science & Defense</strong><br><strong>Devil Transformation:</strong> Gyuki",
   },
   {
     name: "St. Topman Warcury",
-    aka: "Warrior God of Justice",
     price: 8.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
+    desc: "<strong>Warrior God of Justice</strong><br><strong>Devil Transformation:</strong> FengXi /Hoki",
   },
   {
     name: "St. Marcus Mars",
-    aka: "Warrior God of Environment",
     price: 8.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
+    desc: "<strong>Warrior God of Environment</strong><br><strong>Devil Transformation:</strong> Itsumade",
   },
   {
     name: "St. Ethanbaron V. Nusjuro",
-    aka: "Warrior God of Finance",
     price: 9.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
+    desc: "<strong>Warrior God of Finance</strong><br><strong>Devil Transformation:</strong> Bakkotsu",
   },
   {
     name: "St. Shepherd Ju Peter",
-    aka: "Warrior God of Agriculture",
     price: 8.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
+    desc: "<strong>Warrior God of Agriculture</strong><br><strong>Devil Transformation:</strong> Sandworm",
   },
   {
     name: "Shanks",
@@ -2571,12 +2575,15 @@ export const units = [
     name: "***FANFIC***",
     price: 999,
     img: "https://cdn.dribbble.com/userupload/9958288/file/original-21646ed1d12d6330af29b7620dc7e76b.jpg?format=webp&resize=400x300&vertical=center",
+    desc: "<strong>BJJ---D6 System---WALKED---<br><em>---1---W---Wrist lock (highlight reel/special/rare submissions)*<br>---2---A---Armbar (arm extensions)<br>---3---L---Leglock (everything legs)<br>---4---K---Kimura (arm rotation)<br>---5---E---Ezekiel (gi/air chokes)*<br>---6---D---D'arce (blood chokes)*</em></strong>",
   },
   {
-    name: "Apollo /Noel Noa*",
-    aka: "Kingmaker/Ghost/Deadman/Six Slots",
+    // done
+    name: "Apollo da Lagat",
+    aka: "The Kingmaker",
     price: 13.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
+    desc: "<strong>Nickname: </strong>The Kingmaker (The Ghost of the Underworld /'Deadman' Lagat)<br><br><strong>Abilities: Six Slots</strong><br>1) <strong>W</strong>arpath(three-section staff) 2) <strong>A</strong>ella(fairy buddy) 3) <strong>L</strong>1MBO(sniper) 4) <strong>K</strong>urogaki no Hime(katana) 5) <strong>e</strong>mpty cup(flex slot) 6) <strong>D</strong>racarys(Undying Fire) <br><br><strong>Weapon: </strong>Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
     name: "Yoma Hashimoto*",
@@ -2595,98 +2602,122 @@ export const units = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1p4UIaEZt_lsW2KqVOlJ_BE8DsRMFX0W9Sg&s",
   },
   {
-    name: "Lidros Razor /[Shoei Baro]*",
+    // done
+    name: "Lidros Razor",
     aka: "The Athlete",
     price: 12.15, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f0/Shoei_Baro.png/",
+    desc: "<strong>Abilities: Fourteen Devils</strong> (post-mortem nen)<br><br><em>Inspired by: Razor (Hunter X Hunter) & Shoei Baro (Blue Lock)</em>",
   },
   {
-    name: "Abigail Rolar /[Mikasa Ackermann]*",
+    // done
+    name: "Abigail Rolar",
     aka: "The Doll",
     price: 12.99, // fixed price
     img: "https://upload-os-bbs.hoyolab.com/upload/2024/09/16/172989151/c5c31120d3de572208b8ec5b3aa2c675_5315656865450292593.png",
+    desc: "<strong>Backstory: </strong><br>Comes from a very powerful race of puzzel humans. With indestructible skin, ability to shapeshift and family of power houses. Losses the love of her life, Razor. Then, develops the most intense Haki known to man & becomes an Emperor.<br><br><strong>Abilities: none</strong><br><br><em>Inspired by: Mikasa Ackermann (Attack on Titan)</em>",
   },
   {
-    name: "Princia Funnybunny /SEVEN*",
-    aka: "Violet Empress",
+    // done
+    name: "Miranda Kerr",
+    aka: "The Violet Empress",
     price: 12.58, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/f/f8/Princia_square.png/",
+    desc: "<strong>VIOLET - (SEVEN)</strong><br><br><strong>Backstory: </strong><br>Member of the SEVEN. Daughter to The Father and Irene. Goes on a journey to kill her parents. Then fights in Super 8, Then teams up with Doorman and fights Santa Claus.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Princia Funnybunny (Black Clover)</em>",
   },
   {
-    name: "Jester Garandros /SEVEN*",
-    aka: "The Blue Door",
+    // done
+    name: "Evan Spiegel",
+    aka: "The Doorman",
     price: 12.43, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/1/18/Jester_square.png/",
+    desc: "<strong>BLUE - (SEVEN)</strong><br><br><strong>Backstory: </strong><br>Member of the SEVEN. Commander of the Blue Nation. Teams up with Miranda. <br><br><strong>Abilities: Door-Door Fruit user</strong><br><br><strong>Weapon: none</strong><br><br><em>Inspired by: Jester Garandros (Black Clover)</em>",
   },
   {
-    name: "Michael Kaiser /[Kurosaki Inchigo /Arthur Pendragon]*",
-    aka: "The Knight/Dimension Blade",
-    price: 13.11, // fixed price
+    // done
+    name: "Arthur Kaiser",
+    aka: "The Dagger",
+    price: 12.6, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/5/5c/Kaiser_Blue_Lock.jpg/",
+    desc: "<strong>Backstory: </strong><br>Goes on his own journey, recruits his own people. Becomes an Emperor. The pioneer to the birth of 'The Dagger phenomenon'. Teams up to fight the sky fox.<br><br><strong>Abilities: Dimension Blade</strong><br><br><strong>Weapon: none</strong><br><br><em>Inspired by: Michael Kaiser (Blue Lock), Arthur Pendragon (Seven Deadly Sins) & Kurosaki Inchigo (Bleach)</em>",
   },
   {
-    name: "Vivian Lunastar*",
+    // done
+    name: "Vivian Lunastar",
     aka: "Mage of Kaiser",
     price: 10.05, // fixed price
     img: "https://static.wikia.nocookie.net/nanatsu-no-taizai/images/4/42/Vivian_appearing_in_Boar_Hat.png/",
+    desc: "<strong>Backstory: </strong><br>Teams up with Kaiser. Secretly loves Kaiser.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong>-magical staff with a beast paw on the end.<br><br><em>Inspired by: Vivian (Seven Deadly Sins)</em>",
   },
   {
-    name: "Atsuhiro Sako*",
-    aka: "The Magician/Mr. Compress",
+    // done
+    name: "Mr. Magician",
+    aka: "The Magician",
     price: 11.09, // fixed price
     img: "https://static.wikia.nocookie.net/bokunoheroacademia/images/9/95/Mr_Compress_Anime_Portrait.png/",
+    desc: "<strong>Backstory: </strong><br>Teams up with Kaiser. <br><br><strong>Abilities: </strong>Compress & Expand (like More-More Fruit)<br><br><strong>Weapon: </strong><br><br><em>Inspired by: Mr. Compress (My Hero Academia)</em>",
   },
   {
-    name: "Shuichi Iguchi*",
-    aka: "Spinner/Fighting Gecko",
+    // done
+    name: "Spinner",
+    aka: "The Lizard",
     price: 10.75, // fixed price
     img: "https://static.wikia.nocookie.net/bokunoheroacademia/images/9/95/Spinner_Anime_Portrait.png/",
+    desc: "<strong>Backstory: </strong><br>Teams up with Kaiser. <br><br><strong>Abilities: </strong>Sticky<br><br><strong>Weapon: </strong>-scrap weapons (random blades stick together)<br><br><em>Inspired by: Spinner (My Hero Academia)</em>",
   },
   {
-    name: "Misha Kaiser*",
-    aka: "Cat of Fortune/Black Hanekawa",
+    // done
+    name: "Misha Kaiser",
+    aka: "The Cat",
     price: 6.2, // fixed price
     img: "https://static.wikia.nocookie.net/villains/images/1/1f/Black_Hanekawa.png/",
+    desc: "<strong>Backstory: </strong><br>Sister to Arthur Kaiser. Saves Lagat from death. Gets assassinated by gods & triggers the War with the Gods in Lagat vs the World (like Wukong Black Myth). As Lagat goes to save her remains with the lifes she granted him.<br><br><strong>Abilities: Cat with Nine Lifes</strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Black Hanekawa</em>",
   },
   {
-    name: "Kibutsuji Muzan*",
-    aka: "Father",
+    // done
+    name: "John Kerr",
     price: 12.55, // fixed price
     img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/91/Muzan_Anime_Profile.png/",
+    desc: "<strong>Backstory: </strong><br>(Father)Vampire Demon and The Witch gave birth to Miranda Kerr. Trains Daughter to hunter them down. Lives and secretly oversees her journey.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Kibutsuji Muzan (Demon Slayer)</em>",
   },
   {
-    name: "Irene Belserion*",
-    aka: "Scarlet Empress",
+    // done
+    name: "Theresa Kerr",
+    aka: "The Scarlet Empress",
     price: 12.5, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/e/ef/Irene_image.png/",
+    desc: "<strong>Backstory: </strong><br>Vampire Demon and The Witch gave birth to Miranda Kerr. Trains Daughter to hunter them down. Lives and secretly oversees her journey.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Irene Belserion (Fairy Tail)</em>",
   },
   {
-    name: "Dante Zogratis /[Mahito /Black Sperm]*",
+    // done
+    name: "St. Nicholas Kris Kringle",
     aka: "Santa Claus",
-    price: 14.5,
+    price: 13,
     img: "https://static.wikia.nocookie.net/blackclover/images/6/6c/Dante_square.png/",
+    desc: "<strong>Backstory: </strong><br>Made contracts with some devils and lives as an entity for a long long time.<br><br><strong>Devil Contracts: </strong><br>1) Doll Devil (it is the Doll Devil)<br>2) Hell Devil (ability to summon 100% of Hell Devil)<br>3) Darkness Devil (ability to summon 100% of Darkness Devil)<br><br><strong>Ability: </strong><br>Hell Devil - Fire Cannon*<br>Darkness Devil - The Void Vanishing Blade*<br><br><em>Inspired by: (ability)Mahito (JJK), (ability)Black Sperm (One Punch Man), (looks)Dante Zogratis (Black Clover)</em>",
   },
   {
-    name: "<---Black Sperm*",
-    price: 1,
-    img: "https://static.wikia.nocookie.net/onepunchman/images/3/38/Black_Sperm_Icon.png/",
-  },
-  {
-    name: "Nathan Agrippa [The Mime]*",
+    name: "Nathan Agrippa",
+    aka: "The Mime",
     price: 14.5,
     img: "https://static.wikia.nocookie.net/blackclover/images/a/ae/Nathan_square.png/",
+    desc: "<em>Inspired by: (looks)Nathan Agrippa (Black Clover)</em>",
   },
   {
-    name: "Augustus Kira Clover XIII (/Barrierman)*",
-    aka: "Emperor of Clover",
+    // done
+    name: "Augustus Kira",
+    aka: "The Emperor",
     price: 9.01, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/3/3f/Augustus_square.png/",
+    desc: "<strong>Backstory: </strong><br>Emperor of Clover. Sinister emperor. Kaiser meets him.<br><br><strong>Abilities: Barrierman</strong> (his barriers are blue color)<br><br><strong>Weapon: </strong><br><br><em>Inspired by: (ability)Bartholomeo (One Piece) &(looks)Augustus Kira Clover XIII (Black Clover)</em>",
   },
   {
-    name: "Damnatio Kira (/Barrierman)*",
-    aka: "Shield of Kira",
+    // done
+    name: "Damnatio Kira",
+    aka: "The Shield",
     price: 12.12, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/b/bb/Damnatio_square.png/",
+    desc: "<strong>Backstory: </strong><br>Emperor of Clover's son. Shield of Kira<br><br><strong>Abilities: Barrierman</strong> (his barriers are red color)<br><br><strong>Weapon: </strong><br><br><em>Inspired by: (ability)Bartholomeo (One Piece), Tron ARES & (looks)Damnatio Kira (Black Clover)</em>",
   },
 
   // GI* (Great Insect) Squad --- fanfic
@@ -2733,22 +2764,28 @@ export const units = [
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/c/ca/Boki_CA_Portrait.png/",
   },
   {
-    name: "[Bug God] [/GI* (KILL Sqd.)M]",
+    // done
+    name: "Roach",
     aka: "The Immortal Roach",
     price: 11.84, // fixed price
     img: "https://static.wikia.nocookie.net/onepunchman/images/a/ac/Bug_God_Icon.png/",
+    desc: "<strong>CODENAME: ROACH</strong><br><br><strong>Backstory: </strong><br>Part of GI Ants. Same team with Scorpion & Grasshopper. They have a twisted relationship of 1man 2wife.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: (looks)Bug God (One Punch Man)</em>",
   },
   {
-    name: "Neferpitou /GI* (KILL Sqd.)F]",
-    aka: "The Emerald Spring/Grasshopper",
+    // done
+    name: "Barbara Sprouse",
+    aka: "The Emerald Spring",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/1/1f/Neferpitou_CA_Portrait.png/",
+    desc: "<strong>CODENAME: GRASSHOPPER</strong><br><br><strong>Backstory: </strong><br>Part of GI Ants. Same team with Scorpion & Grasshopper. GI* (KILL Sqd.)Female They have a twisted relationship of 1man 2wife.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: (ability)Neferpitou (HXH)</em>",
   },
   {
-    name: "Zazan /GI* (KILL Sqd.)F]",
-    aka: "The Amethyst Bullet/Scorpion",
+    // done
+    name: "Yovanna Ventura",
+    aka: "The Amethyst Bullet",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/0/0d/Zazan_CA_Portrait.png/",
+    desc: "<strong>CODENAME: SCORPION</strong><br><br><strong>Backstory: </strong><br>Part of GI Ants. Same team with Scorpion & Grasshopper. GI* (KILL Sqd.)Female They have a twisted relationship of 1man 2wife.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: (looks)Zazan (HXH)</em>",
   },
   {
     name: "Fuhrer Ugly [Trap-Jaw Ant /GI* (4 Squad)M]",
@@ -2769,10 +2806,12 @@ export const units = [
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/76/JogoP.png/",
   },
   {
-    name: "Ren Yamashiro (Yellow) SEVEN*",
-    aka: "Light Princess",
+    // done
+    name: "Ursula von der Leyen",
+    aka: "The Flash Empress",
     price: 11.6, // fixed price
     img: "https://static.wikia.nocookie.net/mato-seihei-no-slave/images/e/ed/Ren_Mug.png/",
+    desc: "<strong>YELLOW - (SEVEN)</strong><br><br><strong>Backstory/Design: </strong><br>Member of the SEVEN. Empress of Yellow Kingdom. Star shaped bra. Like a warrior princess.<br><br><strong>Abilities: Light-Light Fruit user</strong><br><br><strong>Weapon: </strong>light saber<br><br><em>Inspired by: Ren Yamashiro (Mato Seihei no Slave)</em>",
   },
   {
     name: "Taissa Farmiga* /Faris (Indigo) SEVEN*",
@@ -2803,10 +2842,11 @@ export const units = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpez8GTF3oReDV9jdYAPT4u2RWcQE1Q-hawA&s",
   },
   {
-    name: "Watchdog Man /Boros [Demon Fox] (Battle Planet)*",
+    name: "Asterion",
     aka: "The Sky Fox",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/onepunchman/images/4/46/WDM_Icon.png/",
+    desc: "<strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
   },
 
   // Kdp. gang (Slave Trader) ---> abduction arc
