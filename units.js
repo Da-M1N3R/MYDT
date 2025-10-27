@@ -3189,6 +3189,18 @@ export const units = [
     desc: ability + "1) Flame fruit (blue fire)",
   },
   {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/98/d1/8a/98d18a90d367424d45863f9d57d93a13.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",
+  },
+  {
     name: "Mirajane Strauss [ /GI* (ZERO Sqd.)F]",
     aka: "The Caterpillar",
     price: 10.51, // fixed price
@@ -3528,6 +3540,18 @@ export const units = [
     price: 1,
     img: "https://i.pinimg.com/1200x/3a/95/bf/3a95bf09c3c5b698e5ad9533477c4b8d.jpg",
     desc: lgen + inspire + "Capt. America(looks) (Marvel/DC)",
+  },
+  {
+    name: "Hawks",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/e2/32/49/e23249f77fc68e8bb001a06bcc1a3752.jpg",
+    desc: lgen + inspire + "Hawks(ability) (MHA)",
+  },
+  {
+    name: "Cementoss",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/58/79/7d/58797dbaf07e43b486429c331a396e5c.jpg",
+    desc: lgen + inspire + "??? (MHA)",
   },
   {
     name: "Riza Hawkeye [Police Force]*",
@@ -4569,5 +4593,17 @@ export const units = [
     aka: "",
     price: 1,
     img: "https://i.pinimg.com/1200x/5c/e3/03/5ce3038a8b5c6590746fff5f54ffaeeb.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/44/8d/14/448d14e32633d0e721d974271b3910ec.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
   },
 ];
