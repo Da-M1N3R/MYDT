@@ -9,26 +9,45 @@ const avgGK = 9.3;
 const avgAdmiral = 10.7;
 const avgEmperor = 11.4;
 
+// pop-up description topic
+const ability = "<br><br><strong>-Ability: <br>";
+const weapon = "<br><br><strong>-Weapon: <br>";
+const moves = "<br><br><strong>-Move: </strong><br>";
+
+// Big Mom Pirates
+const bmp = "<strong>Big Mom Pirates: <br></strong>";
+
+// Symbionese Liberation Army (SLA)
+const sla = "<strong>Symbionese Liberation Army (SLA): <br>";
+const slaBackground = "<strong>Background: </strong><br>";
+
 export const units = [
   {
-    name: "St. Nerona Imu",
-    aka: "",
+    name: "Imu",
+    aka: "The Great One",
     price: 13, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
-    desc: "<strong>Supreme Ruler of the World Government. <br>THE WORLD.",
+    desc:
+      "<strong>Supreme Ruler of the World Government. </strong><br>" +
+      ability +
+      moves +
+      "1) Domi Reversi",
   },
   {
     name: "Rocks D. Xebec",
     price: 12.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
-    desc: "<strong>secret name:</strong> Davy D. Xebec</strong><br><strong>-Rocks Pirates [Captain]</strong><br><br>",
+    desc:
+      "<strong>*secret name:</strong> Davy D. Xebec</strong><br><strong>Rocks Pirates [Captain]</strong><br>" +
+      moves +
+      "1) Pandemonium of the Abyss",
   },
   {
     name: "Gol D. Roger",
     aka: "Pirate King",
     price: 12.0, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
-    desc: "<strong>Roger Pirates: [Captain]</strong><br><br><strong>-Weapon:</strong> <br>1) Ace<br><br><strong>-Moves:</strong> <br>1) Divine Departure /Kamusari",
+    desc: "<strong>Roger Pirates: [Captain]</strong><br><br><strong>-Weapon:</strong> <br>1) Ace<br><br><strong>-Moves:</strong> <br>1) Kamusari /Divine Departure",
   },
   {
     name: "Monkey D. Garp",
@@ -1818,9 +1837,16 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Charlotte_Compote_Portrait.png/",
   },
   {
-    name: "Charlotte Katakuri /Minister of Flour (2nd M)",
+    name: "Charlotte Katakuri",
     price: 11.23, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/1/19/Charlotte_Katakuri_Portrait.png/",
+    desc:
+      bmp +
+      "<strong>-Sweet General<br>-Minister of Flour (2nd son, 3rd child)</strong><br>" +
+      ability +
+      "Mochi-Mochi Fruit" +
+      moves +
+      "1) dance mochi",
   },
   {
     name: "Charlotte Daifuku /Minister of Beans (3rd M)",
@@ -2626,7 +2652,7 @@ export const units = [
     aka: "The Kingmaker",
     price: 13.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
-    desc: "<strong>Nickname: </strong>The Kingmaker (The Ghost of the Underworld /'Deadman' Lagat)<br><br><strong>Abilities: Six Slots</strong><br>1) <strong>W</strong>arpath(three-section staff) 2) <strong>A</strong>ella(fairy buddy) 3) <strong>L</strong>1MBO(sniper) 4) <strong>K</strong>urogaki no Hime(katana) 5) <strong>e</strong>mpty cup(flex slot) 6) <strong>D</strong>racarys(Undying Fire) <br><br><strong>Weapon: </strong>Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
+    desc: "<strong>Nickname: </strong>The Kingmaker (The Ghost of the Underworld /'Deadman' Lagat)<br><br><strong>Abilities: Six Slots</strong><br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) <br>6) <strong>D</strong>racarys (Undying Fire) <br><br><strong>Weapon: </strong>Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
     name: "Yoma Hashimoto*",
@@ -2894,22 +2920,31 @@ export const units = [
 
   // Kdp. gang (Slave Trader) ---> abduction arc
   {
-    name: "Sae Itoshi /Kdp. gang*",
-    aka: "Lightning Thief",
+    name: "Sae Itoshi",
+    aka: "The Lightning Thief",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f3/Sae_Itoshi.png/",
+    desc:
+      sla +
+      "- The Thief</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
   },
   {
-    name: "Jackal [(scout) /Kdp. gang]*",
+    name: "Jackal",
     aka: "The Jackal",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/e/ee/Image_of_Jackal.png/",
+    desc:
+      sla +
+      "- The Bomber</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
   },
   {
     name: "Bambietta Basterbine [Kdp. gang]*",
     aka: "The Tactician",
     price: 14.1,
     img: "https://shapes.inc/api/public/avatar/bambiettabasterbine-7l5g",
+    desc:
+      sla +
+      "- The Seducer</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
   },
   {
     name: "Sawyer [(driver) /Kdp. gang]*",
