@@ -24,8 +24,8 @@ const inspire = "<br><br><small><em>♫ Inspired by: ";
 
 // teams
 const wn = "<strong>World Nobles: </strong>"; // World Nobles
-const elr = "<strong>Elder</strong>"; // Elder
-const gk = "<strong>God's Knights</strong>"; // God's Knights
+const elr = wn + "<strong>Elder</strong>"; // Elder
+const gk = wn + "<strong>God's Knights</strong>"; // God's Knights
 
 const mrn = "<strong>Marine: </strong>"; // Marine
 const ad = mrn + " Admiral"; // Admiral
@@ -38,6 +38,7 @@ const eou = "<strong>Emperor of the Underworld</strong><br>"; // Emperor of the 
 const revs = "<strong>Revolutionary Army: </strong>"; // Revolutionary Army
 const rocks = "<strong>Rocks Pirates: </strong>"; // Rocks Pirates
 const roger = "<strong>Roger Pirates: </strong>"; // Roger Pirates
+const gwp = "<strong>Giant Warrior Pirates: </strong>"; // Giant Warrior Pirates
 const wbp = "<strong>Whitebeard Pirates: </strong>"; // Whitebeard Pirates
 const bmp = "<strong>Big Mom Pirates: </strong>"; // Big Mom Pirates
 const beast = "<strong>Beast Pirates: </strong>"; // Beast Pirates
@@ -67,7 +68,7 @@ export const units = [
     price: 13, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
     desc:
-      "<strong>Supreme Ruler of the World Government. </strong><br>" +
+      "<strong>Supreme Ruler of the World Government </strong><br>" +
       ability +
       move +
       "1) Dark-Inversion Domain: Domi Reversi",
@@ -105,9 +106,8 @@ export const units = [
     price: 12.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
     desc:
-      mrn +
       vad +
-      " (Rejected Admiral Position multiple times)" +
+      " (rejected Admiral position)" +
       move +
       "1) Galaxy Impact <br>2) Blue Hole <br>3) Galaxy Divide",
   },
@@ -117,13 +117,14 @@ export const units = [
     price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
     desc:
-      wn +
       elr +
       brk +
-      gk +
+      "<strong>- God's Knights</strong>" +
       ": [Supreme Commander]" +
       brk +
-      "- Figarland Family",
+      "- Figarland Family" +
+      weapon +
+      "1) saber",
   },
   {
     name: "Monkey D. Luffy",
@@ -135,7 +136,7 @@ export const units = [
       shp +
       "[Captain]" +
       ability +
-      " Hito-Hito no Mi, Model: Nika</strong><br>-Gear 2, <br>-Gear 3, <br>-Gear 4: Bounceman, Tankman, Snakeman,<br>-Gear 5" +
+      " Human fruit, Model: Nika</strong><br>• Gear 2 <br>• Gear 3 <br>• Gear 4: Bounceman, Tankman, Snakeman,<br>• Gear 5" +
       move +
       "1) Bajrang Gun<br>2) Gomu Gomu no: El Thor<br>3) Gomu Gomu no: Jet Pistol<br><strong>fav.:</strong> Gomu Gomu no: Star Gun",
   },
@@ -150,14 +151,14 @@ export const units = [
       weapon +
       "1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma" +
       move +
-      "1) <br>2) <br>3) <br><strong>fav.:</strong> Bird Dance",
+      "1) Ashura<br>2) 1080 Pound Phoenix<br>3) Hahava Hunt<br><strong>fav.:</strong> Bird Dance",
   },
   {
     name: "St. Jaygarcia Saturn",
     aka: "Warrior God of Science & Defense",
     price: 8.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
-    desc: wn + elr + brk + "<strong>Devil Transformation:</strong> Gyuki",
+    desc: elr + brk + "<strong>Devil Transformation:</strong> Gyuki",
   },
   {
     name: "St. Topman Warcury",
@@ -464,12 +465,19 @@ export const units = [
     aka: "Dark King",
     price: 11.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Silvers_Rayleigh_Pirate_Portrait.png/",
+    desc: roger + weapon + "1) saber" + move + "1) Transcendent Higan Crescent",
   },
   {
     name: "Scopper Gaban",
-    aka: "Mountain Eater",
+    aka: "Mountain-Eater",
     price: 10.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/28/Scopper_Gaban_Pirate_Portrait.png/",
+    desc:
+      roger +
+      weapon +
+      "1) pair of single-edged axes" +
+      move +
+      "1) Futenraku (Axe Heaven Music) <br>2) Yasotakeru (Eighty Tribal Leaders)",
   },
   {
     name: "Crocus",
@@ -714,7 +722,10 @@ export const units = [
     name: "St. Shepherd Sommers",
     price: 9.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2c/Shepherd_Sommers_Portrait.png/",
-    desc: "<strong>World Noble: [God's Knight]<br>-Shepherd Family<br><br>-Ability: <br>Thorn-Thorn Fruit</strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Move: </strong><br>1)  <br>2) <br>3)  <br>",
+    desc:
+      "<strong>World Noble: [God's Knight]<br>-Shepherd Family<br><br>-Ability: <br>Thorn-Thorn Fruit</strong><br><br><strong>-Weapon: </strong><br>1) " +
+      move +
+      "1) Thorn Rush: Hell of the Crimson Lotus <br>2) Briar Barrier <br>3)  <br>",
   },
   {
     name: "St. Limosiv Killingham",
@@ -1460,12 +1471,14 @@ export const units = [
     aka: "Blue Ogre",
     price: 11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/39/Dorry_Portrait.png/",
+    desc: gwp,
   },
   {
     name: "Brogy",
     aka: "Red Ogre",
     price: 11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Brogy_Portrait.png/",
+    desc: gwp,
   },
   {
     name: "Oimo",
@@ -2062,9 +2075,9 @@ export const units = [
       bmp +
       "<br>- Minister of Candy (1st son, 1st child)" +
       ability +
-      "Candy-Candy Fruit" +
+      "1) Lick fruit" +
       move +
-      "1) ",
+      "1) Candy Maiden <br>2) Candy Slug <br>3) Candy Wave",
   },
   {
     name: "Charlotte Compote",
@@ -2078,26 +2091,52 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/1/19/Charlotte_Katakuri_Portrait.png/",
     desc:
       bmp +
-      "Sweet General<br>- Minister of Flour (2nd son, 3rd child)" +
+      "Sweet Commander<br>- Minister of Flour (2nd son, 3rd child)" +
       ability +
-      "Mochi-Mochi Fruit" +
+      "Mochi fruit" +
+      weapon +
+      "1) Mogura (trident)" +
       move +
       "1) ",
   },
   {
-    name: "Charlotte Daifuku /Minister of Beans (3rd M)",
+    name: "Charlotte Daifuku",
     price: 9.56, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d7/Charlotte_Daifuku_Portrait.png/",
+    desc:
+      bmp +
+      "<br>- Minister of Beans (3nd son, 4rd child)" +
+      ability +
+      "1) Puff fruit (lamp /halberd-wielding genie)" +
+      move +
+      "1) ",
   },
   {
-    name: "Charlotte Oven /Minister of Browned Food (4th M)",
+    name: "Charlotte Oven",
     price: 9.74, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e1/Charlotte_Oven_Portrait.png/",
+    desc:
+      bmp +
+      "<br>- Minister of Browned Food (4nd son, 5rd child)" +
+      ability +
+      "1) Heat fruit" +
+      weapon +
+      "1) naginata" +
+      move +
+      "1) ",
   },
   {
-    name: "Charlotte Amande /Minister of Nuts (3th F)",
+    name: "Charlotte Amande",
+    aka: "Demon Lady",
     price: 9.43, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e7/Charlotte_Amande_Portrait.png/",
+    desc:
+      bmp +
+      "<br>- Minister of Nuts (3rd daughter, 7th child)" +
+      weapon +
+      "1) Shirauo (nodachi)" +
+      move +
+      "1) ",
   },
   {
     name: "Charlotte Effilée /(5th F)",
@@ -2642,11 +2681,14 @@ export const units = [
     name: "Tritoma",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/10/Tritoma_Portrait.png/",
+    desc: kuja,
   },
   {
     name: "Shakuyaku",
+    aka: "Treasure of Hachinosu",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/23/Shakuyaku_Pirate_Portrait.png/",
+    desc: kuja,
   },
 
   // Kid Pirates
