@@ -10,17 +10,56 @@ const avgAdmiral = 10.7;
 const avgEmperor = 11.4;
 
 // pop-up description topic
-const ability = "<br><br><strong>-Ability: </strong><br>";
-const weapon = "<br><br><strong>-Weapon: </strong><br>";
-const move = "<br><br><strong>-Move: </strong><br>";
+const ability = "<br><br><strong>► Ability: </strong><br>";
+const weapon = "<br><br><strong>► Weapon: </strong><br>";
+const move = "<br><br><strong>► Move: </strong><br>";
 
-// Big Mom Pirates
-const bmp = "<strong>Big Mom Pirates: <br></strong>";
+// helper variables
+const brk = "<br>";
+const king = "King of ";
+const queen = "Queen of ";
+const companion = brk + "Companion: ";
+const backstory = "<br><br><strong>► Backstory/Design: </strong><br>";
+const inspire = "<br><br><small><em>♫ Inspired by: ";
 
+// teams
+const wn = "<strong>World Nobles: </strong>"; // World Nobles
+const elr = "<strong>Elder</strong>"; // Elder
+const gk = "<strong>God's Knights</strong>"; // God's Knights
+
+const mrn = "<strong>Marine: </strong>"; // Marine
+const ad = mrn + " Admiral"; // Admiral
+const vad = mrn + " Vice-Admiral"; // Vice-Admiral
+const swd = "<strong>SWORD</strong>"; // SWORD
+
+const eos = "<strong>Emperor of the Seas</strong><br>"; // Emperor of the Seas
+const eou = "<strong>Emperor of the Underworld</strong><br>"; // Emperor of the Underworld
+
+const revs = "<strong>Revolutionary Army: </strong>"; // Revolutionary Army
+const rocks = "<strong>Rocks Pirates: </strong>"; // Rocks Pirates
+const roger = "<strong>Roger Pirates: </strong>"; // Roger Pirates
+const wbp = "<strong>Whitebeard Pirates: </strong>"; // Whitebeard Pirates
+const bmp = "<strong>Big Mom Pirates: </strong>"; // Big Mom Pirates
+const beast = "<strong>Beast Pirates: </strong>"; // Beast Pirates
+const headliner = "Headliner";
+const gifter = "Gifter";
+const ssad = brk + "- Sasaki's Armored Division";
+const bmb = brk + "- Black Maria's brothel";
+const shbk = "<strong>Shichibukai /Warlord: </strong>"; // Shichibukai
+const shp = "<strong>Straw Hat Pirates: </strong>"; // Straw Hat Pirates
+const bbp = "<strong>Blackbeard Pirates: </strong>"; // Blackbeard Pirates
+const kuja = "<strong>Kuja Pirates: </strong>"; // Kuja Pirates
+
+// fanfic teams
 // Symbionese Liberation Army (SLA)
-const sla = "<strong>Symbionese Liberation Army (SLA): <br>";
+const sla = "<strong>Symbionese Liberation Army (SLA): </strong>";
 const slaBackground = "<strong>Background: </strong><br>";
+const adf = "<strong>Army Defense Force: </strong>";
+const gen = adf + " General";
+const lgen = adf + " Lieutenant General";
+const pht = "<strong>Phantom Troupe: </strong>";
 
+// all units
 export const units = [
   {
     name: "Imu",
@@ -31,82 +70,122 @@ export const units = [
       "<strong>Supreme Ruler of the World Government. </strong><br>" +
       ability +
       move +
-      "1) Domi Reversi",
+      "1) Dark-Inversion Domain: Domi Reversi",
+    done: true,
   },
   {
     name: "Rocks D. Xebec",
     price: 12.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
     desc:
-      "<strong>*secret name:</strong> Davy D. Xebec</strong><br><strong>Rocks Pirates [Captain]</strong><br>" +
+      "<strong>*secret name:</strong> Davy D. Xebec</strong><br>" +
+      rocks +
+      " [Captain]" +
+      weapon +
+      "1) saber" +
       move +
       "1) Pandemonium of the Abyss",
   },
   {
     name: "Gol D. Roger",
     aka: "Pirate King",
-    price: 12.0, // fixed price
+    price: 12.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
-    desc: "<strong>Roger Pirates: [Captain]</strong><br><br><strong>-Weapon:</strong> <br>1) Ace<br><br><strong>-Move:</strong> <br>1) Kamusari /Divine Departure",
+    desc:
+      roger +
+      "[Captain]" +
+      weapon +
+      "1) Ace (12 Supreme Grade Blades)" +
+      move +
+      "1) Kamusari /Divine Departure",
   },
   {
     name: "Monkey D. Garp",
     aka: "The Fist",
-    price: 11.0, // fixed price
+    price: 12.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
-    desc: "<strong>Vice Admiral<br>- Rejected Admiral Position multiple times<br><br>",
+    desc:
+      mrn +
+      vad +
+      " (Rejected Admiral Position multiple times)" +
+      move +
+      "1) Galaxy Impact <br>2) Blue Hole <br>3) Galaxy Divide",
   },
   {
     name: "St. Figarland Garling",
-    aka: "",
+    aka: "Warrior God of Science & Defense",
     price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
-    desc: "<strong>World Noble: Elder [Warrior God of Science & Defense]<br>-Figarland Family<br>-Supreme Commander of the God Knights<br></strong>",
+    desc:
+      wn +
+      elr +
+      brk +
+      gk +
+      ": [Supreme Commander]" +
+      brk +
+      "- Figarland Family",
   },
   {
     name: "Monkey D. Luffy",
     aka: "Straw Hat",
     price: 11.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
-    desc: "<strong>Emperor of the Seas<br>Straw Hat Pirates: [Captain]</strong><br><br><strong>-Ability: Hito-Hito no Mi, Model: Nika</strong><br>-Gear 2, -Gear 3, <br>-Gear 4: Bounceman, Tankman, Snakeman,<br>-Gear 5<br><br><strong>-Move: </strong><br>1) Bajrang Gun<br>2) Gomu Gomu no: El Thor<br>3) Gomu Gomu no: Jet Pistol<br><strong>fav.:</strong> Gomu Gomu no: Star Gun",
+    desc:
+      eos +
+      shp +
+      "[Captain]" +
+      ability +
+      " Hito-Hito no Mi, Model: Nika</strong><br>-Gear 2, <br>-Gear 3, <br>-Gear 4: Bounceman, Tankman, Snakeman,<br>-Gear 5" +
+      move +
+      "1) Bajrang Gun<br>2) Gomu Gomu no: El Thor<br>3) Gomu Gomu no: Jet Pistol<br><strong>fav.:</strong> Gomu Gomu no: Star Gun",
   },
   {
     name: "Roronoa Zoro",
     aka: "Pirate Hunter",
     price: 10.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
-    desc: "<strong>Straw Hat Pirates: [Swordsman]</strong><br><br><strong>-Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br><br><strong>-Move: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Bird Dance",
+    desc:
+      shp +
+      "[Swordsman]" +
+      weapon +
+      "1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma" +
+      move +
+      "1) <br>2) <br>3) <br><strong>fav.:</strong> Bird Dance",
   },
   {
     name: "St. Jaygarcia Saturn",
-    aka: "",
+    aka: "Warrior God of Science & Defense",
     price: 8.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
-    desc: "<strong>World Noble: Elder [Warrior God of Science & Defense]</strong><br><strong>Devil Transformation:</strong> Gyuki",
+    desc: wn + elr + brk + "<strong>Devil Transformation:</strong> Gyuki",
   },
   {
     name: "St. Topman Warcury",
+    aka: "Warrior God of Justice",
     price: 8.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
-    desc: "<strong>World Noble: Elder [Warrior God of Justice]</strong><br><strong>Devil Transformation:</strong> FengXi /Hoki",
+    desc: "<strong>World Noble: Elder []</strong><br><strong>Devil Transformation:</strong> FengXi /Hoki",
   },
   {
     name: "St. Marcus Mars",
+    aka: "Warrior God of Environment",
     price: 8.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
-    desc: "<strong>World Noble: Elder [Warrior God of Environment]</strong><br><strong>Devil Transformation:</strong> Itsumade",
+    desc: "<strong>World Noble: Elder []</strong><br><strong>Devil Transformation:</strong> Itsumade",
   },
   {
     name: "St. Ethanbaron V. Nusjuro",
+    aka: "Warrior God of Finance",
     price: 9.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
-    desc: "<strong>World Noble: Elder [Warrior God of Finance]</strong><br><strong>Devil Transformation:</strong> Bakkotsu",
+    desc: "<strong>World Noble: Elder []</strong><br><strong>Devil Transformation:</strong> Bakkotsu",
   },
   {
     name: "St. Shepherd Ju Peter",
+    aka: "Warrior God of Agriculture",
     price: 8.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
-    desc: "<strong>World Noble: Elder [Warrior God of Agriculture]<br>-Shepherd Family<br><br>Devil Transformation:</strong> Sandworm",
+    desc: "<strong>World Noble: Elder []<br>-Shepherd Family<br><br>Devil Transformation:</strong> Sandworm",
   },
   {
     name: "Shanks",
@@ -120,7 +199,10 @@ export const units = [
     aka: "Hawk Eyes",
     price: 11.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
-    desc: "<strong>Warlord - Strongest Swordsman in the World<br>-Bounty: </strong>$ 3,590,000,000<br></br><strong>-Weapon: </strong>Yoru",
+    desc:
+      "<strong>Warlord - Strongest Swordsman in the World<br>-Bounty: </strong>$ 3,590,000,000" +
+      weapon +
+      "1) Yoru (12 Supreme Grade Blades) <br>2) baby knife",
   },
   {
     name: "Monkey D. Dragon",
@@ -134,33 +216,27 @@ export const units = [
     aka: "Flame Emperor",
     price: 9.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
-    desc: "Chief of Staff of the Revolutionary Army",
+    desc:
+      revs +
+      "Chief of Staff" +
+      ability +
+      "Flame-Flame Fruit" +
+      weapon +
+      "1) pipe" +
+      move +
+      "1) Rook Check <br>2) ",
   },
   {
     name: "Marshall D. Teach",
     aka: "Blackbeard",
     price: 11.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
-    desc: "Emperor of the Seas",
-  },
-  {
-    name: "Kuzan",
-    aka: "Aokiji",
-    price: 10.3, // fixed price
-    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
     desc:
-      "<strong>Blackbeard Pirates: <br>Captain of the Tenth Ship</strong>" +
+      eos +
       ability +
-      "Chilly-Chilly Fruit" +
+      "1) Darkness Fruit <br>2) Tremor Fruit" +
       move +
-      "1) Ice Block: Pheasant Peck<br>2) Ice Saber<br>3) Ice Age<br><strong>fav.:</strong> Ice Glove",
-  },
-  {
-    name: "Koby",
-    aka: "The Hero",
-    price: 8.1, // fixed price
-    img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
-    desc: "<strong>SWORD</strong>",
+      "1) Liberation <br>2) Tremor Crash",
   },
   {
     name: "Sakazuki",
@@ -307,7 +383,7 @@ export const units = [
   // BB
   {
     name: "Jesus Burgess",
-    aka: "The Bagman/Champion",
+    aka: "The Bagman /Champion",
     price: 8.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4b/Jesus_Burgess_Portrait.png/",
   },
@@ -343,7 +419,7 @@ export const units = [
   },
   {
     name: "Sanjuan Wolf",
-    aka: "Colossal Battleship",
+    aka: "The Colossal Battleship",
     price: 7.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sanjuan_Wolf_Portrait.png/",
   },
@@ -352,12 +428,34 @@ export const units = [
     aka: "Heavy Drinker",
     price: 7.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f6/Vasco_Shot_Portrait.png/",
+    desc:
+      bbp +
+      brk +
+      "- Captain of the Eighth Ship" +
+      ability +
+      "Glug-Glug Fruit" +
+      move +
+      "1) Heavy Drinker Hearth-Fire: Pirate Jack-O-Lantern",
   },
   {
     name: "Doc Q",
     aka: "Death God",
     price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/82/Doc_Q_Portrait.png/",
+  },
+  {
+    name: "Kuzan",
+    aka: "Aokiji",
+    price: 10.3, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
+    desc:
+      bbp +
+      brk +
+      "- Captain of the Tenth Ship" +
+      ability +
+      "Chilly-Chilly Fruit" +
+      move +
+      "1) Ice Block: Pheasant Peck<br>2) Ice Saber<br>3) Ice Age<br><strong>fav.:</strong> Ice Glove",
   },
 
   // Roger Pirates
@@ -485,6 +583,14 @@ export const units = [
     aka: "Whitebeard",
     price: 11.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Edward_Newgate_Young_Portrait.png/",
+    desc:
+      wbp +
+      ability +
+      "1) Tremor Fruit" +
+      weapon +
+      "1) Murakumogiri  (12 Supreme Grade Blades)" +
+      move +
+      "1) Shattering Void",
   },
   {
     name: "Shiki",
@@ -495,64 +601,96 @@ export const units = [
   {
     name: "Kaido",
     aka: "The Beast",
-    price: 11.2,
+    price: 11.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
-    desc: "<strong>Beast Pirates: [Captain]<br><br>-Ability: <br>Fish-Fish Fruit, Model: Azure Dragon</strong><br><br><strong>-Weapon: </strong><br>1) Hassaikai<br><br><strong>-Move: </strong><br>1) Conqueror of Three World: Ragnarok <br>2) Destroyer of Death: Thunder Bagua <br>3) Kundali Dragon Swarm <br><br><strong>-Shuron Hakke (Sake Dragon Eight Trigrams): <br></strong>---Cyclic Thunder Drunk---Depressed Drunk---Crying Drunk---Angry Drunk---Spoiled Drunk---Thieving Drunk---Slaughtering Drunk---",
+    desc:
+      bmp +
+      "[Captain]" +
+      brk +
+      rocks +
+      ability +
+      "Fish-Fish Fruit, Model: Azure Dragon</strong>" +
+      weapon +
+      "1) Hassaikai" +
+      move +
+      "1) Conqueror of Three World: Ragnarok <br>2) Destroyer of Death: Thunder Bagua <br>3) Kundali Dragon Swarm <br><br><strong>" +
+      "-Shuron Hakke (Sake Dragon Eight Trigrams): <br></strong>---Cyclic Thunder Drunk---Depressed Drunk---Crying Drunk---Angry Drunk---Spoiled Drunk---Thieving Drunk---Slaughtering Drunk---",
   },
   {
     name: "Charlotte Linlin",
     aka: "Big Mom",
     price: 11.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/52/Charlotte_Linlin_Young_Portrait.png/",
-    desc: "<strong>Big Mom Pirates: [Captain]<br><br>-Ability: <br>Soul-Soul Fruit</strong><br><br><strong>-Homies: </strong><br>1) Zeus<br>2) Prometheus<br>3) Napoleon <br>4) Hera<br><br><strong>-Move: </strong><br>1) Raitei <br>2) Heavenly Feuer <br>3) Ikoku Sovereignty <br><strong>fav.:</strong> Maser Cannon<br>",
+    desc:
+      bmp +
+      "[Captain]" +
+      brk +
+      rocks +
+      ability +
+      "Soul-Soul Fruit<br><br><strong>" +
+      "-Homies: </strong><br>1) Zeus<br>2) Prometheus<br>3) Napoleon <br>4) Hera" +
+      move +
+      "1) Raitei <br>2) Heavenly Feuer <br>3) Ikoku Sovereignty <br><strong>fav.:</strong> Maser Cannon<br>",
   },
   {
     name: "Streusen",
     price: 8,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Streusen_Young_Portrait.png/",
+    desc: bmp + brk + rocks,
   },
   {
     name: "Buckingham Stussy",
+    aka: "The Tech Bandit",
     price: 8.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Buckingham_Stussy_Young_Portrait.png/",
+    desc: rocks,
   },
   {
     name: "Don Marlon",
     price: 7.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/16/Marlon_Portrait.png/",
+    desc: rocks,
   },
   {
     name: "Barbel",
     price: 7.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Barbel_Portrait.png/",
+    desc: rocks + brk + "- catfish (fishman)",
   },
   {
     name: "Ochoku /Wang Zhi",
     price: 8.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Ochoku_Portrait.png/",
+    desc: rocks,
   },
   {
     name: "Ganzui",
+    aka: "The Smuggler",
     price: 7.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/73/Ganzui_Portrait.png/",
+    desc:
+      rocks + ability + "Bomb-Bomb Fruit" + move + "1) Sky Snake Red Cannon",
   },
   {
     name: "John",
     aka: "Capt. John",
     price: 8.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/bf/John_Portrait.png/",
+    desc: rocks + ability + "Magnet-Magnet Fruit" + move + "1) Big Eater",
   },
   {
     name: "Gloriosa",
     aka: "Elder Nyon",
     price: 8.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e8/Gloriosa_Young_Portrait.png/",
+    desc: rocks + brk + kuja + " [Captain]" + ability + "" + move + "1) ",
   },
   {
     name: "Kyo",
     aka: "Silver Axe",
     price: 8.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5c/Kyo_Portrait.png/",
+    desc: rocks,
   },
 
   // World Government Officials
@@ -560,7 +698,11 @@ export const units = [
     name: "St. Figarland Shamrock",
     price: 9.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/76/Figarland_Shamrock_Portrait.png/",
-    desc: "<strong>World Noble: [God's Knight]<br>-Figarland Family<br><br>-Ability: <br></strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Move: </strong><br>1)  <br>2) <br>3)  <br>",
+    desc:
+      wn +
+      gk +
+      brk +
+      "-Figarland Family<br><br>-Ability: <br></strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Move: </strong><br>1)  <br>2) <br>3)  <br>",
   },
   {
     name: "St. Manmayer Gunko",
@@ -588,13 +730,13 @@ export const units = [
   // Kingdom Representatives ---> Kings
   {
     name: "Ham Burger",
-    aka: "King of Ballywood",
+    aka: king + "Ballywood",
     price: avgKing,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/47/Ham_Burger_Portrait.png/",
   },
   {
     name: "Nefertari Cobra",
-    aka: "King of Arabasta",
+    aka: king + "Arabasta",
     price: avgKing + 0.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f2/Nefertari_Cobra_Portrait.png/",
   },
@@ -602,9 +744,11 @@ export const units = [
     name: "Nefertari Vivi",
     price: avgKing,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/39/Nefertari_Vivi_Portrait.png/",
+    desc: companion + "1) Karoo",
   },
   {
     name: "Neptune",
+    aka: king + "Ryugu Kingdom",
     price: avgKing + 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/bc/Neptune_Portrait.png/",
   },
@@ -635,7 +779,7 @@ export const units = [
   },
   {
     name: "Riku Doldo III",
-    aka: "King of Dressrosa",
+    aka: king + "Dressrosa",
     price: avgKing + 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d0/Riku_Doldo_III_Portrait.png/",
   },
@@ -651,19 +795,19 @@ export const units = [
   },
   {
     name: "Dalton",
-    aka: "King of Sakura Kingdom",
+    aka: king + "Sakura Kingdom",
     price: avgKing + 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/ad/Dalton_Portrait.png/",
   },
   {
     name: "Wapol",
-    aka: "King of Drum Kingdom",
+    aka: king + "Drum Kingdom",
     price: avgKing + 0.9,
     img: comingSoon,
   },
   {
     name: "Harald",
-    aka: "King of Elbaph",
+    aka: king + "Elbaph",
     price: 9.8,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/42/Harald_Levely_Portrait.png/",
   },
@@ -675,60 +819,71 @@ export const units = [
   {
     name: "Estrid",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Estrid_Portrait.png/",
   },
   {
     name: "Sterry",
+    aka: king + "Goa Kingdom",
     price: avgKing - 1,
     img: comingSoon,
   },
   {
     name: "Elizabello II",
+    aka: king + "Prodence Kingdom /The Fighting King",
     price: 7,
     img: comingSoon,
   },
   {
     name: "Tea IV",
+    aka: king + "Eigis Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Ban Dedessinée",
+    aka: queen + "Frauce Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Ramen",
+    aka: king + "Kano Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Beer VI",
+    aka: king + "Roshwan Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Mororon",
+    aka: queen + "Tajine Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Tacos",
+    aka: king + "Shishano Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Lemoncheese",
+    aka: queen + "Bestland Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Jeep",
+    aka: king + "South Fire Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Seki",
+    aka: king + "Lulusia Kingdom",
     price: avgKing,
     img: comingSoon,
   },
@@ -744,56 +899,67 @@ export const units = [
   },
   {
     name: "Moqueca",
+    aka: king + "Samba Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Nashi",
+    aka: king + "Ringo Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Cezar",
+    aka: king + "Ilisia Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Chap",
+    aka: king + "Deul Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Iwatobi",
+    aka: king + "Whiteland Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Mari",
+    aka: king + "Czacho Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Sauce",
+    aka: king + "Jambalaya Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Neggy",
+    aka: queen + "Gingaball Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Couran",
+    aka: king + "Cameron Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Furrari",
+    aka: king + "Nagagutsu Kingdom",
     price: avgKing,
     img: comingSoon,
   },
   {
     name: "Stroganoff",
+    aka: king + "Beef Kingdom",
     price: avgKing,
     img: comingSoon,
   },
@@ -878,12 +1044,26 @@ export const units = [
     aka: "Kizaru",
     price: 10.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Borsalino_Portrait.png/",
+    desc:
+      ad +
+      ability +
+      "1) Glint fruit (light)" +
+      move +
+      "1) Yasakani no Magatama (Yasakani Sacred Jewel) <br>2) Ama no Murakumo (Sword of the Gathering Clouds of Heaven)<br>3) Yata no Kagami (Sacred Yata Mirror)",
   },
   {
     name: "Issho",
     aka: "Fujitora",
     price: 10.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Issho_Portrait.png/",
+    desc:
+      ad +
+      ability +
+      "1) Press fruit (gravity)" +
+      weapon +
+      "1) Yakuza Kasen (12 Supreme Grade Blades)" +
+      move +
+      "1) Gravity Blade",
   },
   {
     name: "Aramaki",
@@ -1128,19 +1308,36 @@ export const units = [
 
   // SWORD
   {
+    name: "Koby",
+    aka: "The Hero",
+    price: 8.1, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/95/Koby_Portrait.png/",
+    desc: swd,
+  },
+  {
     name: "Prince Grus",
     price: avgMarine + 0.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/05/Prince_Grus_Portrait.png/",
+    desc: swd + ability + "Squelch-Squelch Fruit (Clayman)" + move + "1) Golem",
   },
   {
     name: "Kujaku",
     price: 6.95, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d8/Kujaku_Portrait.png/",
+    desc:
+      swd +
+      ability +
+      "Whip-Whip Fruit (Tamerwoman)" +
+      weapon +
+      "1) whip" +
+      move +
+      "1) ",
   },
   {
     name: "Hibari",
     price: 5.45, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/88/Hibari_Portrait.png/",
+    desc: swd + weapon + "1) sniper",
   },
   {
     name: "Helmeppo",
@@ -1150,12 +1347,14 @@ export const units = [
 
   // Vegapunks
   {
-    name: "Dr. Vegapunk /Stella",
+    name: "Dr. Vegapunk",
+    aka: "Stella",
     price: 7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4d/Vegapunk_Portrait.png/",
   },
   {
-    name: "Shaka /Punk-01 (The Good)",
+    name: "Shaka",
+    aka: "Punk-01 /The Good",
     price: 7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c1/Shaka_Portrait.png/",
   },
@@ -1402,13 +1601,13 @@ export const units = [
   // All Stars
   {
     name: "Arber",
-    aka: "King/The Wildfire",
+    aka: "King /The Wildfire",
     price: 11.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/70/King_Portrait.png/",
   },
   {
     name: "Scien",
-    aka: "Queen/The Plague",
+    aka: "Queen /The Plague",
     price: 11.09, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/aa/Queen_Portrait.png/",
   },
@@ -1417,13 +1616,18 @@ export const units = [
     aka: "The Drought",
     price: 10.95, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3e/Jack_Portrait.png/",
+    desc: beast + " All Star" + brk + "- giant grouper (fishman)",
   },
   // Flying Six
   {
     name: "Page One",
     price: 9.87, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/9f/Page_One_Portrait.png/",
-    desc: "<strong>-Beast Pirates: <br>Flying Six</strong><br><br><strong>-Ability: <br>Dragon-Dragon Fruit, Model: Spinosaurus</strong>",
+    desc:
+      beast +
+      "Flying Six" +
+      ability +
+      "Dragon-Dragon Fruit, Model: Spinosaurus</strong>",
   },
   {
     name: "Ulti",
@@ -1449,7 +1653,13 @@ export const units = [
     aka: "'Overflowing' Sasaki",
     price: 9.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Sasaki_Portrait.png/",
-    desc: "<strong>-Beast Pirates: <br>1) Flying Six <br>2) Leader of the Armored Division <br>3) fishman - bluespine unicornfish</strong><br><br><strong>-Ability: <br>Dragon-Dragon Fruit, Model: Triceratops</strong><br><br><strong>-Weapon: </strong><br>1) Karakuri Rasento",
+    desc:
+      beast +
+      "Flying Six <br>- Leader of the Armored Division <br>- bluespine unicornfish (fishman)" +
+      ability +
+      "Dragon-Dragon Fruit, Model: Triceratops" +
+      weapon +
+      "1) Karakuri Rasento",
   },
   {
     name: "X Drake",
@@ -1509,65 +1719,77 @@ export const units = [
   },
   // Sasaki's Armored Division
   {
-    name: "Usunoro /[tortoise]",
+    name: "Usunoro",
     price: 2.23, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f0/Usunoro_Portrait.png/",
+    desc: beast + headliner + ssad + ability + "SMILE [Giant Tortoise]",
   },
   {
-    name: "Saitank /[rhino]",
+    name: "Saitank",
     price: 3.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/25/Saitank_Portrait.png/",
+    desc: beast + gifter + ssad + ability + "SMILE [Rhino]",
   },
   {
-    name: "[Scorpionlady] /[scorpion]",
+    name: "Scorpionlady",
     price: 1.45, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Scorpionlady_Portrait.png/",
+    desc: beast + gifter + ssad + ability + "SMILE [Scorpion]",
   },
   {
-    name: "[Nokokuwa Police] /[stag beetle]",
+    name: "Nokokuwa Police",
     price: 2.32, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c8/Nokokuwa_Police_Portrait.png/",
+    desc: beast + headliner + ssad + ability + "SMILE [Japanese Stag Beetle]",
   },
   {
-    name: "Bisley /[hedgehog]",
+    name: "Bisley",
     price: 1.56, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/ad/Bisley_Portrait.png/",
+    desc: beast + headliner + ssad + ability + "SMILE [Hedgehog]",
   },
   {
-    name: "[Caucasusman] /[caucasus beetle]",
+    name: "Caucasusman",
     price: 1.32, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Caucasusman_Portrait.png/",
+    desc: beast + gifter + ssad + ability + "SMILE [Caucasus Beetle]",
   },
   // Black Maria's Gifters
   {
-    name: "Sarahebi /[viper]",
+    name: "Sarahebi",
     price: 1.35, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Sarahebi_Portrait.png/",
+    desc: beast + gifter + bmb + ability + "SMILE [Viper]",
   },
   {
-    name: "Tenjo-Sagari /[white snake]",
+    name: "Tenjo-Sagari",
     price: 1.25, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c6/Tenjo-Sagari_Portrait.png/",
+    desc: beast + gifter + bmb + ability + "SMILE [White Snake]",
   },
   {
-    name: "Nure-Onna /[hognose snake]",
+    name: "Nure-Onna",
     price: 1.25, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c5/Nure-Onna_Portrait.png/",
+    desc: beast + gifter + bmb + ability + "SMILE [Hognose Snake]",
   },
   {
-    name: "Yamanba /[rat snake]",
+    name: "Yamanba",
     price: 1.25, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/20/Yamanba_Portrait.png/",
+    desc: beast + gifter + bmb + ability + "SMILE [Rat Snake]",
   },
   {
-    name: "Bishonure-Onna /[python]",
+    name: "Bishonure-Onna",
     price: 1.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/55/Bishonure-Onna_Portrait.png/",
+    desc: beast + gifter + bmb + ability + "SMILE [Python]",
   },
   {
-    name: "Wanyudo /[pug]",
+    name: "Wanyudo",
     price: 0.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/69/Wanyudo_Portrait.png/",
+    desc: beast + gifter + bmb + ability + "SMILE [Pug]",
   },
   // Who's-Who's CAT'S
   {
@@ -1600,11 +1822,6 @@ export const units = [
     name: "Kurozumi Orochi",
     price: 0.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/de/Kurozumi_Orochi_Portrait.png/",
-  },
-  {
-    name: "Kurozumi Kanjuro",
-    price: 0.5,
-    img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Kurozumi_Kanjuro_Portrait.png/",
   },
   {
     name: "Kurozumi Tama",
@@ -1705,7 +1922,8 @@ export const units = [
   },
   // Yakuza Boss
   {
-    name: "Hyougoro [The Flower]",
+    name: "Hyougoro",
+    aka: "The Flower",
     price: 0.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/91/Hyougoro_Portrait.png/",
   },
@@ -1736,39 +1954,46 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3d/Kin%27emon_Portrait.png/",
   },
   {
-    name: "Denjiro (Kyoshiro) [Robin Hood]*",
+    name: "Denjiro",
+    aka: "Kyoshiro",
     price: 0.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a4/Denjiro_Portrait.png/",
   },
   {
     name: "Kikunojo",
     price: 0.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4f/Kikunojo_Portrait.png/",
   },
   {
     name: "Raizo",
     price: 0.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1e/Raizo_Portrait.png/",
   },
   {
     name: "Inuarashi",
     price: 0.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/15/Inuarashi_Portrait.png/",
   },
   {
     name: "Nekomamushi",
     price: 0.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f3/Nekomamushi_Portrait.png/",
   },
   {
     name: "Kawamatsu",
     price: 0.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c1/Kawamatsu_Portrait.png/",
   },
   {
-    name: "Ashura Doji /Shutenmaru",
+    name: "Ashura Doji",
+    aka: "Shutenmaru",
     price: 0.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/82/Ashura_Doji_Portrait.png/",
+  },
+  {
+    name: "Kurozumi Kanjuro",
+    price: 0.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Kurozumi_Kanjuro_Portrait.png/",
   },
   {
     name: "Shinobu",
@@ -1831,9 +2056,15 @@ export const units = [
   // Big Mom Pirates
   {
     name: "Charlotte Perospero",
-    aka: "Minister of Candy - 1st M",
     price: 10, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/ec/Charlotte_Perospero_Portrait.png/",
+    desc:
+      bmp +
+      "<br>- Minister of Candy (1st son, 1st child)" +
+      ability +
+      "Candy-Candy Fruit" +
+      move +
+      "1) ",
   },
   {
     name: "Charlotte Compote",
@@ -1847,11 +2078,11 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/1/19/Charlotte_Katakuri_Portrait.png/",
     desc:
       bmp +
-      "<strong>-Sweet General<br>-Minister of Flour (2nd son, 3rd child)</strong><br>" +
+      "Sweet General<br>- Minister of Flour (2nd son, 3rd child)" +
       ability +
       "Mochi-Mochi Fruit" +
       move +
-      "1) dance mochi",
+      "1) ",
   },
   {
     name: "Charlotte Daifuku /Minister of Beans (3rd M)",
@@ -2088,55 +2319,71 @@ export const units = [
     name: "Hody Jones",
     price: 7.12, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Hody_Jones_Pirate_Portrait.png/",
+    desc: "- great white shark (fishman)",
   },
   {
     name: "Dosun",
     price: 9.7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d6/Dosun_Pirate_Portrait.png/",
+    desc: "- hammerhead shark (fishman)",
   },
   {
     name: "Zeo",
     price: 9.7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/8a/Zeo_Pirate_Portrait.png/",
+    desc: "- japanese wobbegong (fishman)",
   },
   {
     name: "Daruma",
     price: 9.7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e5/Daruma_Pirate_Portrait.png/",
+    desc: "- cookie-cutter shark (fishman)",
   },
   {
     name: "Ikaros Much",
     price: 9.7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Ikaros_Much_Pirate_Portrait.png/",
+    desc: "- giant squid (fishman)",
   },
   {
     name: "Hyouzou",
     price: 9.7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/9f/Hyouzou_Pirate_Portrait.png/",
+    desc: "- blue-ringed octopus (merman)",
   },
   {
     name: "Hammond",
     price: 9.7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/de/Hammond_Portrait.png/",
+    desc: "- daggertooth pike conger (fishman)",
   },
   // Flying Pirates
   {
     name: "Vander Decken IX",
     price: 6.86, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/c/c8/Vander_Decken_IX_Portrait.png/",
+    desc: "- japanese bullhead shark (fishman)",
   },
   {
     name: "Wadatsumi",
     price: 9.7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/06/Wadatsumi_Portrait.png/",
+    desc: "- tiger blowfish (fishman)",
   },
 
   // Whitebeard Pirates
   {
-    name: "Marco (1st Division)",
+    name: "Marco",
     aka: "The Phoenix",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Marco_Pre_Timeskip_Portrait.png/",
+    desc:
+      wbp +
+      " 1st Division Commander" +
+      ability +
+      "Bird-Bird Fruit, Model: Phoenix" +
+      move +
+      "1) Phoenix Brand",
   },
   {
     name: "Jozu (3rd Division)",
@@ -2149,7 +2396,15 @@ export const units = [
     aka: "Idiot Lord",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/18/Kouzuki_Oden_Pirate_Portrait.png/",
-    desc: "<strong>-Roger Pirates<br>-Whitebeard Pirates - 2nd Division Commander</strong><br><br><strong>-Weapon:</strong> <br>1) Enma<br>2) Ame no Habakiri<br><br><strong>-Move:</strong> <br>1) Tougen Totsuka<br>2) Gun Modoki<br>3) Tougen Shirataki",
+    desc:
+      roger +
+      brk +
+      wbp +
+      " 2nd Division Commander" +
+      weapon +
+      "1) Enma<br>2) Ame no Habakiri" +
+      move +
+      "1) Tougen Totsuka<br>2) Gun Modoki<br>3) Tougen Shirataki",
   },
   {
     name: "Portgas D. Ace (2nd Division)",
@@ -2219,9 +2474,10 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7d/Fossa_Portrait.png/",
   },
   {
-    name: "Izou (16th Division)",
+    name: "Izou",
     price: 10.1,
-    img: "https://static.wikia.nocookie.net/onepiece/images/9/9c/Izou_Pre_Timeskip_Portrait.png/",
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Izou_Portrait.png/",
+    desc: wbp + "- 16th Division",
   },
   // allied pirates
   {
@@ -2368,6 +2624,7 @@ export const units = [
   // Kuja Pirates
   {
     name: "Boa Hancock",
+    aka: "Pirate Empress /Snake Princess",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/22/Boa_Hancock_Portrait.png/",
   },
@@ -2568,9 +2825,57 @@ export const units = [
 
   // Others
   {
+    name: "Mr. 5",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Gem_Portrait.png/",
+  },
+  {
+    name: "Miss Valentine",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b0/Mikita_Portrait.png/",
+  },
+  {
+    name: "Bon Kurei",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Miss Goldenweek",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Mr. 4",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Miss Merry Christmas",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Miss Doublefinger",
+    price: 1,
+    img: comingSoon,
+  },
+  {
+    name: "Fisher Tiger",
+    aka: "The Adventurer",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4c/Fisher_Tiger_Portrait.png/",
+    desc: "- sea bream (fishman)",
+  },
+  {
+    name: "Ripley",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/af/Ripley_Portrait.png/",
+  },
+  {
     name: "Arlong",
     price: 1,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/02/Arlong_Portrait.png/",
+    desc: "- sawshark (fishman)",
   },
   {
     name: "Caesar Clown",
@@ -2648,16 +2953,22 @@ export const units = [
   {
     name: "***FANFIC***",
     price: 999,
-    img: "https://cdn.dribbble.com/userupload/9958288/file/original-21646ed1d12d6330af29b7620dc7e76b.jpg?format=webp&resize=400x300&vertical=center",
+    img: "https://c8.alamy.com/comp/2S01PG7/bjj-letter-logo-design-for-technology-company-bjj-logo-design-black-and-white-color-combination-bjj-logo-bjj-vector-bjj-design-bjj-icon-bjj-alph-2S01PG7.jpg",
     desc: "<strong>BJJ---D6 System---WALKED---<br><em>---1---W---Wrist lock (highlight reel/special/rare submissions)*<br>---2---A---Armbar (arm extensions)<br>---3---L---Leglock (everything legs)<br>---4---K---Kimura (arm rotation)<br>---5---E---Ezekiel (gi/air chokes)*<br>---6---D---D'arce (blood chokes)*</em></strong>",
   },
   {
     // done
-    name: "Apollo da Lagat",
+    name: "Apollo Creed",
     aka: "The Kingmaker",
     price: 13.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
-    desc: "<strong>Nickname: </strong>The Kingmaker (The Ghost of the Underworld /'Deadman' Lagat)<br><br><strong>Abilities: Six Slots</strong><br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) <br>6) <strong>D</strong>racarys (Undying Fire) <br><br><strong>Weapon: </strong>Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
+    desc:
+      "<strong>Shadow Emperor</strong><br>" +
+      "<strong>-The Ghost of the Underworld</strong>" +
+      ability +
+      "Six Slots <br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) <br>6) <strong>D</strong>racarys (Undying Fire) " +
+      weapon +
+      "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
     name: "Yoma Hashimoto*",
@@ -2713,7 +3024,15 @@ export const units = [
     aka: "The Dagger",
     price: 12.6, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/5/5c/Kaiser_Blue_Lock.jpg/",
-    desc: "<strong>Backstory: </strong><br>Goes on his own journey, recruits his own people. Becomes an Emperor. The pioneer to the birth of 'The Dagger phenomenon'. Teams up to fight the sky fox.<br><br><strong>Abilities: Dimension Blade</strong><br><br><strong>Weapon: none</strong><br><br><em>Inspired by: Michael Kaiser (Blue Lock), Arthur Pendragon (Seven Deadly Sins) & Kurosaki Inchigo (Bleach)</em>",
+    desc:
+      adf +
+      backstory +
+      "Goes on his own journey, recruits his own people. Becomes an Emperor. The pioneer to the birth of 'The Dagger phenomenon'. Teams up to fight the sky fox." +
+      ability +
+      "1) Dimension Blade" +
+      weapon +
+      inspire +
+      " Michael Kaiser(looks, name) (Blue Lock), Arthur Pendragon(looks) (Seven Deadly Sins) & Kurosaki Inchigo(weapon) (Bleach)</em>",
   },
   {
     // done
@@ -2768,7 +3087,32 @@ export const units = [
     aka: "Santa Claus",
     price: 13,
     img: "https://static.wikia.nocookie.net/blackclover/images/6/6c/Dante_square.png/",
-    desc: "<strong>Backstory: </strong><br>Made contracts with some devils and lives as an entity for a long long time.<br><br><strong>Devil Contracts: </strong><br>1) Doll Devil (it is the Doll Devil)<br>2) Hell Devil (ability to summon 100% of Hell Devil)<br>3) Darkness Devil (ability to summon 100% of Darkness Devil)<br><br><strong>Ability: </strong><br>Hell Devil - Fire Cannon*<br>Darkness Devil - The Void Vanishing Blade*<br><br><em>Inspired by: (ability)Mahito (JJK), (ability)Black Sperm (One Punch Man), (looks)Dante Zogratis (Black Clover)</em>",
+    desc:
+      "<strong>Backstory: </strong><br>Made contracts with some devils and lives as an entity for a long long time.<br><br><strong>Devil Contracts: </strong><br>1) Doll Devil - 'I AM DOLL DEVIL'<br>2) Hell Devil (ability to summon 100% of Hell Devil)<br>3) Darkness Devil (ability to summon 100% of Darkness Devil)" +
+      ability +
+      "1) Hell Devil - Fire Cannon*<br>2) Darkness Devil - The Void Vanishing Blade*<br>3) Doll Devil<br><br><em>Inspired by: (ability)Mahito (JJK), (ability)Black Sperm (One Punch Man), (looks)Dante Zogratis (Black Clover)</em>",
+  },
+  {
+    name: "St. Rudolph Kringle",
+    aka: "The Fenrir",
+    price: 3.01,
+    img: "https://i.pinimg.com/736x/b8/52/ea/b852ea4ae987206c7978bae91e347bf9.jpg",
+    desc:
+      "<strong>Santa's Elf" +
+      ability +
+      "1) String Fruit<br>2) Flame Fruit<br><br><strong>-Weapon: </strong><br><br><strong>-Move: </strong><br>1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
+  },
+  {
+    name: "St. Alphonse Kringle",
+    aka: "The Grim Reaper",
+    price: 3.01,
+    img: "https://static.wikia.nocookie.net/fma/images/f/f1/AvatarAlphonse.png/",
+    desc:
+      "<strong>Santa's Elf" +
+      ability +
+      "1) [1%] Chop fruit (Seperation) - [Lucas (top-half) & Rodrick (bottom-half)] <br>2) Magnet fruit" +
+      weapon +
+      "1) Grim Reaper's scythe<br><br><strong>-Move: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Nail Rain<br><br><em>Inspired by: Alphonse Elric (FMA)</em>",
   },
   {
     name: "Nathan Agrippa",
@@ -2800,6 +3144,7 @@ export const units = [
     aka: "Black Ant",
     price: 12.2, // fixed price
     img: "https://htdraw.com/wp-content/uploads/2020/03/How-to-draw-Hendrickson-from-The-Seven-Deadly-Sins.jpg",
+    desc: ability + "1) Flame fruit (blue fire)",
   },
   {
     name: "Mirajane Strauss [ /GI* (ZERO Sqd.)F]",
@@ -2923,7 +3268,27 @@ export const units = [
     desc: "<strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
   },
 
-  // Kdp. gang (Slave Trader) ---> abduction arc
+  // sLA (Slave Trader) ---> abduction arc
+  {
+    name: "Erza Knightwalker",
+    aka: "Fairy Hunter",
+    price: 12.6,
+    img: "https://i.pinimg.com/1200x/c2/2c/5b/c22c5bc73356570993dd2059dd50caa9.jpg",
+    desc:
+      gen +
+      brk +
+      sla +
+      " President" +
+      inspire +
+      "1) Erza Knightwalker(all) (Fairy Tail)",
+  },
+  {
+    name: "Horacio Basterbine",
+    aka: "The Librarian",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/4/45/Hoteye_prof.jpg/",
+    desc: sla + inspire + "1) Hoteye(all) (Fairy Tail)",
+  },
   {
     name: "Sae Itoshi",
     aka: "The Lightning Thief",
@@ -2931,7 +3296,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f3/Sae_Itoshi.png/",
     desc:
       sla +
-      "- The Thief</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
+      " The Thief</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
   },
   {
     name: "Jackal",
@@ -2943,136 +3308,157 @@ export const units = [
       "- The Bomber</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
   },
   {
-    name: "Bambietta Basterbine [Kdp. gang]*",
+    name: "Bambietta Basterbine",
     aka: "The Tactician",
     price: 14.1,
     img: "https://shapes.inc/api/public/avatar/bambiettabasterbine-7l5g",
-    desc:
-      sla +
-      "- The Seducer</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
+    desc: sla + "- The Seducer</strong>",
   },
   {
-    name: "Sawyer [(driver) /Kdp. gang]*",
+    name: "Sawyer",
     aka: "The Racer",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/c/c4/Racer_Proposal.png/",
+    desc: sla + "- The Racer</strong>",
   },
   {
-    name: "Keyes [(rope) /Kdp. gang]*",
-    aka: "The Black Archbishop",
-    price: 12.6,
-    img: "https://static.wikia.nocookie.net/fairytail/images/e/e4/Keyes%27_profile_image.png/",
-  },
-  {
-    name: "Pernida Parnkgjas [(hand) /Kdp. gang]*",
+    name: "Pernida Parnkgjas",
     aka: "The Walking Hand",
     price: 12.6,
     img: "https://i.redd.it/now-that-hes-in-the-anime-here-is-my-art-of-pernida-v0-qfucbsoiz43e1.jpg?width=3000&format=pjpg&auto=webp&s=d86c1387188ca5ef751545d50bc69ec1ab6ce561",
+    desc: sla + inspire + "1) Pernida Parnkgjas(looks) (Bleach)",
   },
   {
-    name: "Draculos Hyberion [(fighter-S) /Kdp. gang]*",
+    name: "Keyes",
+    aka: "The Black Archbishop",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/e/e4/Keyes%27_profile_image.png/",
+    desc: sla + "Great Mage of SLA" + inspire + "1) Keyes(looks) (Fairy Tail)",
+  },
+  {
+    name: "Draculos Hyberion",
     aka: "Wizard Saint of Ishgar",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/9/9b/Hyberion_image.png/",
+    desc:
+      sla +
+      "Great Mage of SLA" +
+      inspire +
+      "1) Draculos Hyberion(looks) (Fairy Tail)",
   },
   {
-    name: "August [(fighter-S) /Kdp. gang]*",
+    name: "August",
     aka: "General of the Spriggan 12",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/3/34/August%27s_profile_image.png/",
+    desc: sla + "Great Mage of SLA" + inspire + "1) August(looks) (Fairy Tail)",
   },
   {
-    name: "Bluenote Stinger [(fighter-S) /Kdp. gang]*",
+    name: "Bluenote Stinger",
     aka: "Deputy Commander of Grimoire Heart",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/8/85/Bluenote_anime.png/",
+    desc:
+      sla +
+      "Great Mage of SLA" +
+      inspire +
+      "1) Bluenote Stinger(looks) (Fairy Tail)",
   },
   {
-    name: "Seilah [(fighter-S) /Kdp. gang]*",
+    name: "Seilah",
     aka: "Goddess of the Chill Moon",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/2/26/Seilah%27s_profile_image.png/",
+    desc: sla + "Great Mage of SLA" + inspire + "1) Seilah(looks) (Fairy Tail)",
   },
   {
     name: "Plutogrim [(car) /Kdp. gang]*",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/0/00/Plutogrim_Squared.png/",
+    desc: sla,
   },
   {
-    name: "Horacio Basterbine /Hoteye [/Kdp. gang]*",
-    aka: "The Librarian",
-    price: 12.6,
-    img: "https://static.wikia.nocookie.net/fairytail/images/4/45/Hoteye_prof.jpg/",
-  },
-  {
-    name: "Emma Joyous Basterbine [girl(bait) /Kdp. gang]*",
+    name: "Emma Joyous Basterbine",
     aka: "The Tactician",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/f/fa/Hana_Adachi.PNG/",
+    desc: sla,
   },
   {
-    name: "Abel [bro(bait) /Kdp. gang]*",
+    name: "Abel",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/e/eb/Abel_profile_image.png/",
+    desc: sla,
   },
   {
-    name: "Bacchus Groh [bro(fighter-A) /Kdp. gang]*",
+    name: "Bacchus Groh",
     aka: "The Drunk Falcon",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/4/4a/Bacchus_Mugshot.png/",
+    desc: sla + inspire + "1) Bacchus Groh(looks) (Fairy Tail)",
   },
   {
-    name: "Brandish μ /Kdp. gang*",
+    name: "Brandish μ",
     aka: "Star of Alvarez",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/1/13/Brandish_Anime.png/",
+    desc: sla + inspire + "1) Brandish μ(all) (Fairy Tail)",
   },
   {
-    name: "Dimaria Yesta [(fighter-B) /Kdp. gang]*",
+    name: "Dimaria Yesta",
     aka: "Warrior Queen of Alvarez",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/0/07/Dimaria%27s_image.png/",
+    desc: lgen + brk + sla + inspire + "1) Dimaria Yesta(looks) (Fairy Tail)",
   },
   {
     name: "Guttman Kubrick [(hacker) /Kdp. gang]*",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/c/cd/Gatman_Kubrick.png/",
+    desc: sla,
   },
   {
     name: "Juvia Lockser [(bait) /Kdp. gang]*",
     aka: "Rain Woman",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/0/03/Juvia_prof.jpg/",
-  },
-  {
-    name: "Erza Knightwalker [Police Spy /Kdp. gang]*",
-    aka: "Fairy Hunter",
-    price: 12.6,
-    img: "https://static.wikia.nocookie.net/fairytail/images/5/5d/Erza_Knightwalker_with_short_hair_%28Close_up%29.JPG/",
+    desc: sla,
   },
 
   // Police Force
   {
-    name: "Matts Lupin [Police Force]*",
+    name: "Matts Lupin",
+    aka: "The War Ender",
     price: 12.6,
     img: "https://i.pinimg.com/736x/9e/e4/3a/9ee43a4a3450fb908bfeda0f1af8879c.jpg",
+    desc:
+      gen +
+      ability +
+      "Nuclear fruit" +
+      move +
+      "1) Skydiving Cannon Ball" +
+      inspire +
+      "Franky(looks) (One Piece)",
   },
   {
-    name: "Erza Scarlet [Police Force]*",
+    name: "Erza Scarlet",
     aka: "Titania",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/c/c3/Erza%27s_picture.png/",
+    desc: gen + inspire + "1) Erza Scarlet(all) (Fairy Tail)",
   },
   {
-    name: "Lucy Heartfilia [Police Force]*",
+    name: "Lucy Heartfilia",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/9/9c/Lucy_X792_image.png/",
+    desc: gen + inspire + "1) Lucy Heartfilia(ability) (Fairy Tail)",
   },
   {
-    name: "Roy Mustang /[Police Force]*",
+    name: "Roy Mustang",
     aka: "Flame Alchemist",
-    price: 12.6,
+    price: 10.4,
     img: "https://static.wikia.nocookie.net/fma/images/b/bb/Avatar_roy.png/",
+    desc: gen + inspire + "1) Roy Mustang(ability) (FMAB)",
   },
   {
     name: "Riza Hawkeye [Police Force]*",
@@ -3180,7 +3566,8 @@ export const units = [
 
   // Hunter Association (Zodiac)
   {
-    name: "Kurapika Kurta /Mouse*",
+    name: "Kurapika Kurta",
+    aka: "The Mouse",
     price: 11.65, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/d/d9/Kurapika_HCE_Portrait.png/",
   },
@@ -3294,20 +3681,6 @@ export const units = [
   },
 
   //Demon Family ---
-  {
-    name: "Kamran Ghasempour",
-    aka: "The Fenrir",
-    price: 3.01,
-    img: "https://static.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/",
-    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) String-String Fruit<br>2) Flame-Flame Fruit<br><br><strong>-Weapon: </strong><br><br><strong>-Move: </strong><br>1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
-  },
-  {
-    name: "Kazan Ghasempour",
-    aka: "The Grim Reaper",
-    price: 3.01,
-    img: "https://static.wikia.nocookie.net/fma/images/f/f1/AvatarAlphonse.png/",
-    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) <br><br><strong>-Weapon: </strong>Grim Reaper's scythe<br><br><strong>-Move: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Nail Rain<br><br><em>Inspired by: Alphonse Elric (FMA)</em>",
-  },
   {
     name: "Envy (from FMA)*",
     price: 3.01,
@@ -3465,72 +3838,84 @@ export const units = [
 
   // Phantom Troupe
   {
-    name: "Chrollo Lucilfer [0]*",
+    name: "Chrollo Lucilfer",
     aka: "Skill Hunter",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/8/80/Chrollo_Lucilfer_YC_Portrait.png/",
+    desc: pht + "0",
   },
   {
-    name: "Nobunaga Hazama [1]*",
+    name: "Nobunaga Hazama",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/a/a8/Nobunaga_Hazama_YC_Portrait.png/",
+    desc: pht + "1",
   },
   {
-    name: "Feitan Portor [2]*",
+    name: "Feitan Portor",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/f/f1/Feitan_Portor_CA_Portrait.png/",
+    desc: pht + "2",
   },
   {
-    name: "Machi Komacine [3]*",
+    name: "Machi Komacine",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/8/85/Machi_Komacine_YC_Portrait.png/",
+    desc: pht + "3",
   },
   {
-    name: "Phinks Magcub [5]*",
+    name: "Phinks Magcub",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/7/78/Phinks_Magcub_CA_Portrait.png/",
+    desc: pht + "5",
   },
   {
-    name: "Shalnark [6]*",
+    name: "Shalnark",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/d/dc/Shalnark_GI_Portrait.png/",
+    desc: pht + "6",
   },
   {
-    name: "Franklin Bordeau [7]*",
+    name: "Franklin Bordeau",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/b/bc/Franklin_Bordeau_YC_Portrait.png/",
+    desc: pht + "7",
   },
   {
-    name: "Shizuku Murasaki [8]*",
+    name: "Shizuku Murasaki",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/a/a2/Shizuku_Murasaki_GI_Portrait.png/",
+    desc: pht + "8",
   },
   {
-    name: "Pakunoda [9]*",
+    name: "Pakunoda",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/d/da/Pakunoda_YC_Portrait.png/",
+    desc: pht + "9",
   },
   {
-    name: "Bonolenov Ndongo [10]*",
+    name: "Bonolenov Ndongo",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/b/b7/Bonolenov_Ndongo_CA_Portrait.png/",
+    desc: pht + "10",
   },
   {
-    name: "Uvogin [11]*",
+    name: "Uvogin",
     aka: "Fist of Destruction",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/6/6a/Uvogin_YC_Portrait.png/",
+    desc: pht + "11",
   },
   {
-    name: "Kortopi [12]*",
+    name: "Kortopi",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/b/b2/Kortopi_YC_Portrait.png/",
+    desc: pht + "12",
   },
 
   // Kakin Royal Family
   {
-    name: "Nasubi Hui Guo Rou*",
-    aka: "King of Kakin",
+    name: "Nasubi Hui Guo Rou",
+    aka: king + "Kakin",
     price: 5.0, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/a/a2/Nasubi_Hui_Guo_Rou_SC_Portrait.png/",
   },
@@ -3633,10 +4018,12 @@ export const units = [
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/65/YutaOkkotsuP_%28Second-Year%29.png/",
   },
   {
-    name: "Maki Zenin /Toji Fushiguro*",
+    name: "Maki Zenin",
     aka: "The Last Zenin",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/da/MakiP_%28Current%29.png//",
+    desc:
+      ability + "1) " + inspire + "1) Toji Fushiguro(ability) (Jujutsu Kaisen)",
   },
   {
     name: "Satoru Gojo*",
@@ -3645,10 +4032,15 @@ export const units = [
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/53/GojoP.png/",
   },
   {
-    name: "Noritoshi Kamo /Choso*",
-    aka: "The Kamo Blood Manipulator",
+    name: "Noritoshi Kamo",
+    aka: "Kamo Blood Manipulator",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6c/ChosoP.png/",
+    desc:
+      ability +
+      "1) Blood Manipulation" +
+      inspire +
+      "1) Choso(ability, looks) (Jujutsu Kaisen)",
   },
   {
     name: "Aoi Todo*",
@@ -3667,10 +4059,15 @@ export const units = [
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/9/9d/HiromiHigurumaP.png/",
   },
   {
-    name: "Suguru Geto /Kenjaku*",
-    aka: "The Priest/The Fire Priest",
+    name: "Suguru Geto",
+    aka: "The Priest",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/4/4f/KenjakuP.png/",
+    desc:
+      ability +
+      "1) Flame fruit <br>2) Spirit Manipulation" +
+      inspire +
+      "1) Suguru Geto /Kenjaku(ability, looks) (Jujutsu Kaisen)",
   },
   {
     name: "Yuki Tsukumo*",
