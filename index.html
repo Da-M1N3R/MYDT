@@ -176,21 +176,39 @@
         z-index: 100;
       }
       .modal #modal-header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 1rem;
+        margin-bottom: 1rem;
+      }
+      #modal-img {
+        /* width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px; */
+        align-items: left;
+      }
+      #modal-nameCol {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         margin-bottom: 1rem;
+        flex-direction: column;
       }
       #modal-name {
         font-size: 30px;
+        margin-bottom: 0;
+      }
+      .modal #modal-aka {
+        font-size: small;
+        white-space: pre-line;
+        margin-top: 0;
       }
       #modal-desc {
         display: inline;
         flex-direction: column;
         justify-content: space-between;
         font-size: 15px;
-      }
-      .modal #modal-aka {
       }
       .modal #model-middle {
         flex-grow: 1;
@@ -378,8 +396,10 @@
         <div id="modal-header">
           <span id="close">&times;</span>
           <img id="modal-img" src="" alt="" />
-          <h3 id="modal-name"></h3>
-          <p id="modal-aka"></p>
+          <div id="modal-nameCol">
+            <h3 id="modal-name"></h3>
+            <p id="modal-aka"></p>
+          </div>
         </div>
         <div id="modal-middle">
           <p id="modal-desc"></p>
@@ -496,7 +516,7 @@
         document.getElementById("modal-img").src = u.img;
         document.getElementById("modal-name").innerHTML =
           "<u>" + u.name + "</u>";
-        // document.getElementById("modal-aka").textContent = u.aka;
+        document.getElementById("modal-aka").textContent = u.aka;
         if (u.desc) {
           document.getElementById("modal-desc").innerHTML = u.desc;
         } else {

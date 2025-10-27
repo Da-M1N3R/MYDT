@@ -10,9 +10,9 @@ const avgAdmiral = 10.7;
 const avgEmperor = 11.4;
 
 // pop-up description topic
-const ability = "<br><br><strong>-Ability: <br>";
-const weapon = "<br><br><strong>-Weapon: <br>";
-const moves = "<br><br><strong>-Move: </strong><br>";
+const ability = "<br><br><strong>-Ability: </strong><br>";
+const weapon = "<br><br><strong>-Weapon: </strong><br>";
+const move = "<br><br><strong>-Move: </strong><br>";
 
 // Big Mom Pirates
 const bmp = "<strong>Big Mom Pirates: <br></strong>";
@@ -30,7 +30,7 @@ export const units = [
     desc:
       "<strong>Supreme Ruler of the World Government. </strong><br>" +
       ability +
-      moves +
+      move +
       "1) Domi Reversi",
   },
   {
@@ -39,7 +39,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
     desc:
       "<strong>*secret name:</strong> Davy D. Xebec</strong><br><strong>Rocks Pirates [Captain]</strong><br>" +
-      moves +
+      move +
       "1) Pandemonium of the Abyss",
   },
   {
@@ -47,7 +47,7 @@ export const units = [
     aka: "Pirate King",
     price: 12.0, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
-    desc: "<strong>Roger Pirates: [Captain]</strong><br><br><strong>-Weapon:</strong> <br>1) Ace<br><br><strong>-Moves:</strong> <br>1) Kamusari /Divine Departure",
+    desc: "<strong>Roger Pirates: [Captain]</strong><br><br><strong>-Weapon:</strong> <br>1) Ace<br><br><strong>-Move:</strong> <br>1) Kamusari /Divine Departure",
   },
   {
     name: "Monkey D. Garp",
@@ -68,14 +68,14 @@ export const units = [
     aka: "Straw Hat",
     price: 11.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
-    desc: "<strong>Emperor of the Seas<br>Straw Hat Pirates: [Captain]</strong><br><br><strong>-Ability: Hito-Hito no Mi, Model: Nika</strong><br>-Gear 2, -Gear 3, <br>-Gear 4: Bounceman, Tankman, Snakeman,<br>-Gear 5<br><br><strong>-Moves: </strong><br>1) Bajrang Gun<br>2) Gomu Gomu no: El Thor<br>3) Gomu Gomu no: Jet Pistol<br><strong>fav.:</strong> Gomu Gomu no: Star Gun",
+    desc: "<strong>Emperor of the Seas<br>Straw Hat Pirates: [Captain]</strong><br><br><strong>-Ability: Hito-Hito no Mi, Model: Nika</strong><br>-Gear 2, -Gear 3, <br>-Gear 4: Bounceman, Tankman, Snakeman,<br>-Gear 5<br><br><strong>-Move: </strong><br>1) Bajrang Gun<br>2) Gomu Gomu no: El Thor<br>3) Gomu Gomu no: Jet Pistol<br><strong>fav.:</strong> Gomu Gomu no: Star Gun",
   },
   {
     name: "Roronoa Zoro",
     aka: "Pirate Hunter",
     price: 10.1, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
-    desc: "<strong>Straw Hat Pirates: [Swordsman]</strong><br><br><strong>-Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br><br><strong>-Moves: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Bird Dance",
+    desc: "<strong>Straw Hat Pirates: [Swordsman]</strong><br><br><strong>-Weapon: </strong><br>1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma<br><br><strong>-Move: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Bird Dance",
   },
   {
     name: "St. Jaygarcia Saturn",
@@ -148,7 +148,12 @@ export const units = [
     aka: "Aokiji",
     price: 10.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Kuzan_Portrait.png/",
-    desc: "<strong>Blackbeard Pirates: <br>Captain of the Tenth Ship</strong><br><br><strong>Ability: Chilly-Chilly Fruit user</strong><br><br><strong>Moves: </strong><br>1) Ice Block: Pheasant Peck<br>2) Ice Saber<br>3) Ice Age<br><strong>fav.:</strong> Ice Glove",
+    desc:
+      "<strong>Blackbeard Pirates: <br>Captain of the Tenth Ship</strong>" +
+      ability +
+      "Chilly-Chilly Fruit" +
+      move +
+      "1) Ice Block: Pheasant Peck<br>2) Ice Saber<br>3) Ice Age<br><strong>fav.:</strong> Ice Glove",
   },
   {
     name: "Koby",
@@ -492,14 +497,14 @@ export const units = [
     aka: "The Beast",
     price: 11.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6b/Kaidou_Portrait.png/",
-    desc: "<strong>Beast Pirates: [Captain]<br><br>-Ability: <br>Fish-Fish Fruit, Model: Azure Dragon</strong><br><br><strong>-Weapon: </strong><br>1) Hassaikai<br><br><strong>-Moves: </strong><br>1) Conqueror of Three World: Ragnarok <br>2) Destroyer of Death: Thunder Bagua <br>3) Kundali Dragon Swarm <br><br><strong>-Shuron Hakke (Sake Dragon Eight Trigrams): <br></strong>---Cyclic Thunder Drunk---Depressed Drunk---Crying Drunk---Angry Drunk---Spoiled Drunk---Thieving Drunk---Slaughtering Drunk---",
+    desc: "<strong>Beast Pirates: [Captain]<br><br>-Ability: <br>Fish-Fish Fruit, Model: Azure Dragon</strong><br><br><strong>-Weapon: </strong><br>1) Hassaikai<br><br><strong>-Move: </strong><br>1) Conqueror of Three World: Ragnarok <br>2) Destroyer of Death: Thunder Bagua <br>3) Kundali Dragon Swarm <br><br><strong>-Shuron Hakke (Sake Dragon Eight Trigrams): <br></strong>---Cyclic Thunder Drunk---Depressed Drunk---Crying Drunk---Angry Drunk---Spoiled Drunk---Thieving Drunk---Slaughtering Drunk---",
   },
   {
     name: "Charlotte Linlin",
     aka: "Big Mom",
     price: 11.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/52/Charlotte_Linlin_Young_Portrait.png/",
-    desc: "<strong>Big Mom Pirates: [Captain]<br><br>-Ability: <br>Soul-Soul Fruit</strong><br><br><strong>-Homies: </strong><br>1) Zeus<br>2) Prometheus<br>3) Napoleon <br>4) Hera<br><br><strong>-Moves: </strong><br>1) Raitei <br>2) Heavenly Feuer <br>3) Ikoku Sovereignty <br><strong>fav.:</strong> Maser Cannon<br>",
+    desc: "<strong>Big Mom Pirates: [Captain]<br><br>-Ability: <br>Soul-Soul Fruit</strong><br><br><strong>-Homies: </strong><br>1) Zeus<br>2) Prometheus<br>3) Napoleon <br>4) Hera<br><br><strong>-Move: </strong><br>1) Raitei <br>2) Heavenly Feuer <br>3) Ikoku Sovereignty <br><strong>fav.:</strong> Maser Cannon<br>",
   },
   {
     name: "Streusen",
@@ -555,19 +560,19 @@ export const units = [
     name: "St. Figarland Shamrock",
     price: 9.6,
     img: "https://static.wikia.nocookie.net/onepiece/images/7/76/Figarland_Shamrock_Portrait.png/",
-    desc: "<strong>World Noble: [God's Knight]<br>-Figarland Family<br><br>-Ability: <br></strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Moves: </strong><br>1)  <br>2) <br>3)  <br>",
+    desc: "<strong>World Noble: [God's Knight]<br>-Figarland Family<br><br>-Ability: <br></strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Move: </strong><br>1)  <br>2) <br>3)  <br>",
   },
   {
     name: "St. Manmayer Gunko",
     price: 9.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5b/Manmayer_Gunko_Portrait.png/",
-    desc: "<strong>World Noble: [God's Knight]<br>-Manmayer Family<br><br>-Ability: <br>Arrow-Arrow Fruit</strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Moves: </strong><br>1)  <br>2) <br>3)  <br>",
+    desc: "<strong>World Noble: [God's Knight]<br>-Manmayer Family<br><br>-Ability: <br>Arrow-Arrow Fruit</strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Move: </strong><br>1)  <br>2) <br>3)  <br>",
   },
   {
     name: "St. Shepherd Sommers",
     price: 9.2,
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2c/Shepherd_Sommers_Portrait.png/",
-    desc: "<strong>World Noble: [God's Knight]<br>-Shepherd Family<br><br>-Ability: <br>Thorn-Thorn Fruit</strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Moves: </strong><br>1)  <br>2) <br>3)  <br>",
+    desc: "<strong>World Noble: [God's Knight]<br>-Shepherd Family<br><br>-Ability: <br>Thorn-Thorn Fruit</strong><br><br><strong>-Weapon: </strong><br>1) <br><br><strong>-Move: </strong><br>1)  <br>2) <br>3)  <br>",
   },
   {
     name: "St. Limosiv Killingham",
@@ -1437,7 +1442,7 @@ export const units = [
     name: "Black Maria",
     price: 9.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Black_Maria_Portrait.png/",
-    desc: "<strong>-Beast Pirates: <br>Flying Six</strong><br><br><strong>-Ability: <br>Spider-Spider Fruit, Model: Rosamygale grauvogeli</strong><br><br><strong>-Weapon: </strong><br>1) brass knuckle<br>2) Wanyudo <br><br><strong>-Moves: </strong><br>1) Oiran Knuckle",
+    desc: "<strong>-Beast Pirates: <br>Flying Six</strong><br><br><strong>-Ability: <br>Spider-Spider Fruit, Model: Rosamygale grauvogeli</strong><br><br><strong>-Weapon: </strong><br>1) brass knuckle<br>2) Wanyudo <br><br><strong>-Move: </strong><br>1) Oiran Knuckle",
   },
   {
     name: "Sasaki",
@@ -1845,7 +1850,7 @@ export const units = [
       "<strong>-Sweet General<br>-Minister of Flour (2nd son, 3rd child)</strong><br>" +
       ability +
       "Mochi-Mochi Fruit" +
-      moves +
+      move +
       "1) dance mochi",
   },
   {
@@ -2144,7 +2149,7 @@ export const units = [
     aka: "Idiot Lord",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/18/Kouzuki_Oden_Pirate_Portrait.png/",
-    desc: "<strong>-Roger Pirates<br>-Whitebeard Pirates - 2nd Division Commander</strong><br><br><strong>-Weapon:</strong> <br>1) Enma<br>2) Ame no Habakiri<br><br><strong>-Moves:</strong> <br>1) Tougen Totsuka<br>2) Gun Modoki<br>3) Tougen Shirataki",
+    desc: "<strong>-Roger Pirates<br>-Whitebeard Pirates - 2nd Division Commander</strong><br><br><strong>-Weapon:</strong> <br>1) Enma<br>2) Ame no Habakiri<br><br><strong>-Move:</strong> <br>1) Tougen Totsuka<br>2) Gun Modoki<br>3) Tougen Shirataki",
   },
   {
     name: "Portgas D. Ace (2nd Division)",
@@ -3294,14 +3299,14 @@ export const units = [
     aka: "The Fenrir",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/",
-    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) String-String Fruit<br>2) Flame-Flame Fruit<br><br><strong>-Weapon: </strong><br><br><strong>-Moves: </strong><br>1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
+    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) String-String Fruit<br>2) Flame-Flame Fruit<br><br><strong>-Weapon: </strong><br><br><strong>-Move: </strong><br>1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
   },
   {
     name: "Kazan Ghasempour",
     aka: "The Grim Reaper",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/fma/images/f/f1/AvatarAlphonse.png/",
-    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) <br><br><strong>-Weapon: </strong>Grim Reaper's scythe<br><br><strong>-Moves: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Nail Rain<br><br><em>Inspired by: Alphonse Elric (FMA)</em>",
+    desc: "<strong>Hell Knights<br><br>-Ability: </strong><br>1) <br><br><strong>-Weapon: </strong>Grim Reaper's scythe<br><br><strong>-Move: </strong><br>1) <br>2) <br>3) <br><strong>fav.:</strong> Nail Rain<br><br><em>Inspired by: Alphonse Elric (FMA)</em>",
   },
   {
     name: "Envy (from FMA)*",
