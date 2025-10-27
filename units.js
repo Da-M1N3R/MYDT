@@ -3230,7 +3230,14 @@ export const units = [
     aka: "The Immortal Roach",
     price: 11.84, // fixed price
     img: "https://static.wikia.nocookie.net/onepunchman/images/a/ac/Bug_God_Icon.png/",
-    desc: "<strong>CODENAME: ROACH</strong><br><br><strong>Backstory: </strong><br>Part of GI Ants. Same team with Scorpion & Grasshopper. They have a twisted relationship of 1man 2wife.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: (looks)Bug God (One Punch Man)</em>",
+    desc:
+      "<strong>GI-ANT, CODENAME: ROACH</strong>" +
+      backstory +
+      "Part of GI Ants. Same team with Scorpion & Grasshopper." +
+      ability +
+      weapon +
+      inspire +
+      "Bug God(looks) (One Punch Man)</em>",
   },
   {
     // done
@@ -3238,7 +3245,14 @@ export const units = [
     aka: "The Emerald Spring",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/1/1f/Neferpitou_CA_Portrait.png/",
-    desc: "<strong>CODENAME: GRASSHOPPER</strong><br><br><strong>Backstory: </strong><br>Part of GI Ants. Same team with Scorpion & Grasshopper. GI* (KILL Sqd.)Female They have a twisted relationship of 1man 2wife.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: (ability)Neferpitou (HXH)</em>",
+    desc:
+      "<strong>GI-ANT, CODENAME: GRASSHOPPER</strong>" +
+      backstory +
+      "Part of GI Ants. Same team with Scorpion & Grasshopper." +
+      ability +
+      weapon +
+      inspire +
+      "Neferpitou(thighs) (HXH)</em>",
   },
   {
     // done
@@ -3246,7 +3260,14 @@ export const units = [
     aka: "The Amethyst Bullet",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/0/0d/Zazan_CA_Portrait.png/",
-    desc: "<strong>CODENAME: SCORPION</strong><br><br><strong>Backstory: </strong><br>Part of GI Ants. Same team with Scorpion & Grasshopper. GI* (KILL Sqd.)Female They have a twisted relationship of 1man 2wife.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: (looks)Zazan (HXH)</em>",
+    desc:
+      "<strong>GI-ANT, CODENAME: SCORPION</strong>" +
+      backstory +
+      "Part of GI Ants. Same team with Scorpion & Grasshopper." +
+      ability +
+      weapon +
+      inspire +
+      "Zazan(looks) (HXH)</em>",
   },
   {
     name: "Fuhrer Ugly [Trap-Jaw Ant /GI* (4 Squad)M]",
@@ -3501,6 +3522,12 @@ export const units = [
     price: 10.4,
     img: "https://static.wikia.nocookie.net/fma/images/b/bb/Avatar_roy.png/",
     desc: gen + inspire + "1) Roy Mustang(ability) (FMAB)",
+  },
+  {
+    name: "Capt. America",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/3a/95/bf/3a95bf09c3c5b698e5ad9533477c4b8d.jpg",
+    desc: lgen + inspire + "Capt. America(looks) (Marvel/DC)",
   },
   {
     name: "Riza Hawkeye [Police Force]*",
@@ -4536,5 +4563,11 @@ export const units = [
     aka: "Colossus",
     price: 10,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQembVeIGcRsKAgPWl0pkAlVkXNA5ECf8sqEA&s",
+  },
+  {
+    name: "Zetman",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/5c/e3/03/5ce3038a8b5c6590746fff5f54ffaeeb.jpg",
   },
 ];
