@@ -3576,7 +3576,7 @@ export const units = [
     aka: "Titania",
     price: 12.6,
     img: "https://i.pinimg.com/1200x/1c/50/b2/1c50b2ba78981a17046335660fdb850a.jpg",
-    desc: gen + inspire + "1) Erza Scarlet(all) (Fairy Tail)",
+    desc: gen + inspire + "Erza Scarlet(all) (Fairy Tail)",
   },
   {
     name: "Lucy Heartfilia",
@@ -3613,6 +3613,30 @@ export const units = [
     name: "Riza Hawkeye [Police Force]*",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fma/images/4/49/Avatar_riza.png/",
+  },
+  {
+    name: "Illyana Rasputin",
+    aka: "Magik",
+    price: 10.2,
+    img: "https://media.themoviedb.org/t/p/w235_and_h235_face/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
+  },
+  {
+    name: "Peter Rasputin",
+    aka: "Colossus",
+    price: 10,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQembVeIGcRsKAgPWl0pkAlVkXNA5ECf8sqEA&s",
+  },
+  {
+    name: "Tatsumaki",
+    aka: "Tornado of Terror",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/b/b6/Tats_Icon.png/",
+  },
+  {
+    name: "Fubuki",
+    aka: "Blizzard of Hell",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/b/bd/Fubuki_Icon.png/",
   },
   {
     name: "Mirio Togata /[Police Force]*",
@@ -4322,18 +4346,6 @@ export const units = [
     price: 1,
     img: "https://static.wikia.nocookie.net/onepunchman/images/d/d4/Pureblood_Icon.png/",
   },
-  {
-    name: "Tatsumaki",
-    aka: "Tornado of Terror",
-    price: 1,
-    img: "https://static.wikia.nocookie.net/onepunchman/images/b/b6/Tats_Icon.png/",
-  },
-  {
-    name: "Fubuki",
-    aka: "Blizzard of Hell",
-    price: 1,
-    img: "https://static.wikia.nocookie.net/onepunchman/images/b/bd/Fubuki_Icon.png/",
-  },
 
   {
     name: "Skullion Raider",
@@ -4626,18 +4638,6 @@ export const units = [
     aka: "God Hands",
     price: 1,
     img: comingSoon,
-  },
-  {
-    name: "Illyana Rasputin",
-    aka: "Magik",
-    price: 10.2,
-    img: "https://media.themoviedb.org/t/p/w235_and_h235_face/qYNofOjlRke2MlJVihmJmEdQI4v.jpg",
-  },
-  {
-    name: "Peter Rasputin",
-    aka: "Colossus",
-    price: 10,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQembVeIGcRsKAgPWl0pkAlVkXNA5ECf8sqEA&s",
   },
   {
     name: "Zetman",
