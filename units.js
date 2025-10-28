@@ -3210,7 +3210,7 @@ export const units = [
   {
     name: "Ball",
     aka: "Black Ant",
-    price: 12.2, // fixed price
+    price: 11.5, // fixed price
     img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",
     desc:
       "<strong>GI-ANT, CODENAME: BLACK</strong>" +
@@ -3263,10 +3263,18 @@ export const units = [
       " Carnage Kabuto(looks) (One Punch Man)",
   },
   {
-    name: "Nobutsuna Shigyō [ /GI* (2 Squad)M]",
+    name: "Masahiro Miyazaki",
     aka: "The Stickbug",
-    price: 14.1,
+    price: 10.45,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyaAH37XwQUpwy6LQjn3antgEfkfDFrLMdQ&s",
+    desc:
+      "<strong>GI-ANT, CODENAME: STICKBUG</strong>" +
+      backstory +
+      "Beta Squad." +
+      ability +
+      "1) " +
+      inspire +
+      " Nobutsuna Shigyō(looks) (Bleach)",
   },
   {
     name: "Yunju [ /GI* (2 Squad)M]",
