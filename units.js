@@ -21,6 +21,7 @@ const queen = "Queen of ";
 const companion = brk + "Companion: ";
 const backstory = "<br><br><strong>► Backstory/Design: </strong><br>";
 const inspire = "<br><br><small><em>♫ Inspired by: ";
+const bounty = "<br><strong>► Bounty: </strong>";
 
 // teams
 const wn = "<strong>World Nobles: </strong>"; // World Nobles
@@ -41,6 +42,7 @@ const roger = "<strong>Roger Pirates: </strong>"; // Roger Pirates
 const gwp = "<strong>Giant Warrior Pirates: </strong>"; // Giant Warrior Pirates
 const wbp = "<strong>Whitebeard Pirates: </strong>"; // Whitebeard Pirates
 const bmp = "<strong>Big Mom Pirates: </strong>"; // Big Mom Pirates
+const redh = "<strong>Red Hair Pirates: </strong>"; // Red Hair Pirates
 const beast = "<strong>Beast Pirates: </strong>"; // Beast Pirates
 const headliner = "Headliner";
 const gifter = "Gifter";
@@ -68,7 +70,7 @@ export const units = [
     price: 13, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/29/Imu_Portrait.png/",
     desc:
-      "<strong>Supreme Ruler of the World Government </strong><br>" +
+      "<strong>Supreme Ruler of the World Government </strong>" +
       ability +
       move +
       "1) Dark-Inversion Domain: Domi Reversi",
@@ -98,7 +100,7 @@ export const units = [
       weapon +
       "1) Ace (12 Supreme Grade Blades)" +
       move +
-      "1) Kamusari /Divine Departure",
+      "1) Kamusari (Divine Departure)",
   },
   {
     name: "Monkey D. Garp",
@@ -136,7 +138,7 @@ export const units = [
       shp +
       "[Captain]" +
       ability +
-      " Human fruit, Model: Nika</strong><br>• Gear 2 <br>• Gear 3 <br>• Gear 4: Bounceman, Tankman, Snakeman,<br>• Gear 5" +
+      "1) Human fruit, Model: Nika</strong><br>• Gear 2 <br>• Gear 3 <br>• Gear 4: Bounceman, Tankman, Snakeman,<br>• Gear 5" +
       move +
       "1) Bajrang Gun<br>2) Gomu Gomu no: El Thor<br>3) Gomu Gomu no: Jet Pistol<br><strong>fav.:</strong> Gomu Gomu no: Star Gun",
   },
@@ -158,50 +160,68 @@ export const units = [
     aka: "Warrior God of Science & Defense",
     price: 8.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
-    desc: elr + brk + "<strong>Devil Transformation:</strong> Gyuki",
+    desc: elr + ability + "1) Devil Transformation: Gyuki",
   },
   {
     name: "St. Topman Warcury",
     aka: "Warrior God of Justice",
     price: 8.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
-    desc: "<strong>World Noble: Elder []</strong><br><strong>Devil Transformation:</strong> FengXi /Hoki",
+    desc: elr + ability + "1) Devil Transformation: FengXi /Hoki",
   },
   {
     name: "St. Marcus Mars",
     aka: "Warrior God of Environment",
     price: 8.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
-    desc: "<strong>World Noble: Elder []</strong><br><strong>Devil Transformation:</strong> Itsumade",
+    desc: elr + ability + "1) Devil Transformation: Itsumade",
   },
   {
     name: "St. Ethanbaron V. Nusjuro",
     aka: "Warrior God of Finance",
     price: 9.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
-    desc: "<strong>World Noble: Elder []</strong><br><strong>Devil Transformation:</strong> Bakkotsu",
+    desc: elr + ability + "1) Devil Transformation: Bakkotsu",
   },
   {
     name: "St. Shepherd Ju Peter",
     aka: "Warrior God of Agriculture",
     price: 8.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
-    desc: "<strong>World Noble: Elder []<br>-Shepherd Family<br><br>Devil Transformation:</strong> Sandworm",
+    desc:
+      elr +
+      "<br>-Shepherd Family" +
+      ability +
+      "1) Devil Transformation: Sandworm",
   },
   {
     name: "Shanks",
     aka: "Red Hair",
     price: 11.7, // fixed price
-    img: "https://static.wikia.nocookie.net/onepiece/images/d/db/Shanks_Portrait.png/",
-    desc: "<strong>Emperor of the Seas</strong><br><strong>-Bounty: </strong>$ 4,048,900,000<br></br><strong>-Weapon: </strong>Gryphon",
+    img: "https://i.pinimg.com/1200x/1a/a5/52/1aa55206bc7f98e65f842c7f473d6546.jpg",
+    desc:
+      eos +
+      redh +
+      " [Captain]" +
+      brk +
+      roger +
+      bounty +
+      "$ 4,048,900,000" +
+      weapon +
+      "1) Gryphon" +
+      move +
+      "1) Kamusari (Divine Departure)",
   },
   {
     name: "Dracule Mihawk",
     aka: "Hawk Eyes",
-    price: 11.6, // fixed price
-    img: "https://static.wikia.nocookie.net/onepiece/images/8/85/Dracule_Mihawk_Portrait.png/",
+    price: 11.7, // fixed price
+    img: "https://i.pinimg.com/1200x/d7/af/9a/d7af9adcc72758fd66e1039ba2744872.jpg",
     desc:
-      "<strong>Warlord - Strongest Swordsman in the World<br>-Bounty: </strong>$ 3,590,000,000" +
+      shbk +
+      "<strong>- Strongest Swordsman in the World</strong>" +
+      bounty +
+      "$ 3,590,000,000" +
       weapon +
       "1) Yoru (12 Supreme Grade Blades) <br>2) baby knife",
   },
@@ -3182,29 +3202,31 @@ export const units = [
 
   // GI* (Great Insect) Squad --- fanfic
   {
-    name: "Hendrickson /GI* (ZERO Sqd.)M*",
+    name: "Balaram",
     aka: "Black Ant",
     price: 12.2, // fixed price
-    img: "https://htdraw.com/wp-content/uploads/2020/03/How-to-draw-Hendrickson-from-The-Seven-Deadly-Sins.jpg",
-    desc: ability + "1) Flame fruit (blue fire)",
-  },
-  {
-    name: "???",
-    aka: "",
-    price: 1,
-    img: "https://i.pinimg.com/1200x/98/d1/8a/98d18a90d367424d45863f9d57d93a13.jpg",
-  },
-  {
-    name: "???",
-    aka: "",
-    price: 1,
     img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",
+    desc:
+      "<strong>GI-ANT, CODENAME: BLACK</strong>" +
+      backstory +
+      "Leader of GI ant. Squad ZERO." +
+      ability +
+      "1) blue fire <br>2) Devil Transformation: Baphomet" +
+      inspire +
+      " devil-Hendrickson(transformation) (Seven Deadly Sins), Dabi(looks, power) (MHA)",
   },
   {
-    name: "Mirajane Strauss [ /GI* (ZERO Sqd.)F]",
-    aka: "The Caterpillar",
+    name: "Mira",
     price: 10.51, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/d/d1/Mirajane_proposal.png/",
+    desc:
+      "<strong>GI-ANT, CODENAME: BUTTERFLY</strong>" +
+      backstory +
+      "Queen of GI ant. Squad ZERO." +
+      ability +
+      "1) Fully Armored Caterpillar<br>2) Transformation: Full Offense Butterfly" +
+      inspire +
+      " Mirajane Strauss(transformation) (Fairy Tail)",
   },
   {
     name: "Gin Ichimaru [/GI* (Alpha Sqd.)M]",
@@ -3245,7 +3267,7 @@ export const units = [
     desc:
       "<strong>GI-ANT, CODENAME: ROACH</strong>" +
       backstory +
-      "Part of GI Ants. Same team with Scorpion & Grasshopper." +
+      "Squad X." +
       ability +
       weapon +
       inspire +
@@ -3260,8 +3282,9 @@ export const units = [
     desc:
       "<strong>GI-ANT, CODENAME: GRASSHOPPER</strong>" +
       backstory +
-      "Part of GI Ants. Same team with Scorpion & Grasshopper." +
+      "Squad X." +
       ability +
+      "1) Transformation: Locust" +
       weapon +
       inspire +
       "Neferpitou(thighs) (HXH)</em>",
@@ -3275,7 +3298,7 @@ export const units = [
     desc:
       "<strong>GI-ANT, CODENAME: SCORPION</strong>" +
       backstory +
-      "Part of GI Ants. Same team with Scorpion & Grasshopper." +
+      "Squad X." +
       ability +
       weapon +
       inspire +
