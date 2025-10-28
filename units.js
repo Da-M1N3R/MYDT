@@ -62,6 +62,9 @@ const gen = adf + " General";
 const lgen = adf + " Lieutenant General";
 const pht = "<strong>Phantom Troupe: </strong>";
 
+const seven = "<strong>SEVEN: </strong>";
+const rgbk = "<strong>RGB Kingdom: </strong>";
+
 // all units
 export const units = [
   {
@@ -3076,7 +3079,11 @@ export const units = [
     aka: "The Violet Empress",
     price: 12.58, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/f/f8/Princia_square.png/",
-    desc: "<strong>VIOLET - (SEVEN)</strong><br><br><strong>Backstory: </strong><br>Member of the SEVEN. Daughter to The Father and Irene. Goes on a journey to kill her parents. Then fights in Super 8, Then teams up with Doorman and fights Santa Claus.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Princia Funnybunny (Black Clover)</em>",
+    desc:
+      eou +
+      seven +
+      "Violet" +
+      "<br><br><strong>Backstory: </strong><br>Member of the SEVEN. Daughter to The Father and Irene. Goes on a journey to kill her parents. Then fights in Super 8, Then teams up with Doorman and fights Santa Claus.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Princia Funnybunny (Black Clover)</em>",
   },
   {
     // done
@@ -3084,7 +3091,11 @@ export const units = [
     aka: "The Doorman",
     price: 12.43, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/1/18/Jester_square.png/",
-    desc: "<strong>BLUE - (SEVEN)</strong><br><br><strong>Backstory: </strong><br>Member of the SEVEN. Commander of the Blue Nation. Teams up with Miranda. <br><br><strong>Abilities: Door-Door Fruit user</strong><br><br><strong>Weapon: none</strong><br><br><em>Inspired by: Jester Garandros (Black Clover)</em>",
+    desc:
+      eou +
+      seven +
+      "Blue" +
+      "<br><br><strong>Backstory: </strong><br>Member of the SEVEN. Commander of the Blue Nation. Teams up with Miranda. <br><br><strong>Abilities: Door fruit</strong><br><br><strong>Weapon: none</strong><br><br><em>Inspired by: Jester Garandros (Black Clover)</em>",
   },
   {
     // done
@@ -3095,7 +3106,7 @@ export const units = [
     desc:
       adf +
       backstory +
-      "Goes on his own journey, recruits his own people. Becomes an Emperor. The pioneer to the birth of 'The Dagger phenomenon'. Teams up to fight the sky fox." +
+      "Twins with Misha Kaiser. Goes on his own journey, recruits his own people. Becomes an Emperor. The pioneer to the birth of 'The Dagger phenomenon'. Teams up to fight the sky fox." +
       ability +
       "1) Dimension Blade" +
       weapon +
@@ -3129,10 +3140,19 @@ export const units = [
   {
     // done
     name: "Misha Kaiser",
-    aka: "The Cat",
+    aka: "The Dead Cat",
     price: 6.2, // fixed price
     img: "https://static.wikia.nocookie.net/villains/images/1/1f/Black_Hanekawa.png/",
-    desc: "<strong>Backstory: </strong><br>Sister to Arthur Kaiser. Saves Lagat from death. Gets assassinated by gods & triggers the War with the Gods in Lagat vs the World (like Wukong Black Myth). As Lagat goes to save her remains with the lifes she granted him.<br><br><strong>Abilities: Cat with Nine Lifes</strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Black Hanekawa</em>",
+    desc:
+      backstory +
+      "Twins with Arthur Kaiser. Cursed to have weak body. Saves Lagat from death. Gets assassinated by gods & triggers the War with the Gods in Lagat vs the World (like Wukong Black Myth). As Lagat goes to save her remains with the lifes she granted him." +
+      ability +
+      "1) Cat with Nine-Lifes" +
+      weapon +
+      move +
+      "1) Wake Up Now (instant revive)<br>2) Divine Cat's Protection: Plus One (extra life cat life)<br>3) Take Back (take back a cat life)" +
+      inspire +
+      "Black Hanekawa (Anime ~ K)",
   },
   {
     // done
@@ -3356,9 +3376,36 @@ export const units = [
     // done
     name: "Ursula von der Leyen",
     aka: "The Flash Empress",
-    price: 11.6, // fixed price
+    price: 11.1, // fixed price
     img: "https://static.wikia.nocookie.net/mato-seihei-no-slave/images/e/ed/Ren_Mug.png/",
-    desc: "<strong>YELLOW - (SEVEN)</strong><br><br><strong>Backstory/Design: </strong><br>Member of the SEVEN. Empress of Yellow Kingdom. Star shaped bra. Like a warrior princess.<br><br><strong>Abilities: Light-Light Fruit user</strong><br><br><strong>Weapon: </strong>light saber<br><br><em>Inspired by: Ren Yamashiro (Mato Seihei no Slave)</em>",
+    desc:
+      seven +
+      "Yellow" +
+      brk +
+      rgbk +
+      brk +
+      "- von der Leyen Family" +
+      backstory +
+      "Empress of RGB Kingdom. Star shaped bra. Like a warrior princess.<br><br><strong>Abilities: Light-Light Fruit user</strong><br><br><strong>Weapon: </strong>light saber<br><br><em>Inspired by: Ren Yamashiro (Mato Seihei no Slave)</em>",
+  },
+  {
+    name: "Barraka von der Leyen",
+    aka: "The Yellow Flash",
+    price: 11.5, // fixed price
+    img: "https://i.pinimg.com/1200x/b8/ad/68/b8ad685ec04c47acc095f78d1f3d6279.jpg",
+    desc:
+      rgbk +
+      brk +
+      "- von der Leyen Family" +
+      backstory +
+      "Hero of RGB Kingdom. Brother to Ursula, she calls him, 'brother Barrak'." +
+      ability +
+      "1) Flash Step<br>2) wind ability" +
+      weapon +
+      move +
+      "1) Rasengan" +
+      inspire +
+      "Minato Namikaze (Naruto)",
   },
   {
     name: "Taissa Farmiga* /Faris (Indigo) SEVEN*",
@@ -3371,11 +3418,13 @@ export const units = [
     aka: "Red Dragon",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/b/b2/Ignia_human.png/",
+    desc: rgbk,
   },
   {
     name: "Aldoron [(Green) SEVEN]*",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/2/22/God_Seed_Aldoron_Profile.png/",
+    desc: rgbk,
   },
   {
     name: "Tendo Pain [(Orange) SEVEN]*",
@@ -3387,6 +3436,21 @@ export const units = [
     aka: "Angle of Rain",
     price: 14.1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpez8GTF3oReDV9jdYAPT4u2RWcQE1Q-hawA&s",
+    desc: seven + "Blue" + brk + rgbk,
+  },
+  {
+    name: "Mereoleona Vermillion",
+    aka: "Crimson Lioness",
+    price: 14.1,
+    img: "https://static.wikia.nocookie.net/blackclover/images/d/df/Mereoleona_square.png/",
+    desc: rgbk,
+  },
+  {
+    name: "Fuegoleon Vermillion",
+    aka: "Crimson Lion",
+    price: 14.1,
+    img: "https://static.wikia.nocookie.net/blackclover/images/a/ac/Fuegoleon_square.png/",
+    desc: seven + "Orange" + brk + rgbk,
   },
   {
     name: "Asterion",
@@ -3398,6 +3462,24 @@ export const units = [
       "Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. It is a <strong>Silver White Nine-Tailed Fox</strong>. Biggest clash is vs Santa Claus." +
       inspire +
       "Watchdog(moves), Boros(moves) (One Punch Man)",
+  },
+  {
+    name: "Nacht Faust*",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/blackclover/images/3/3e/Nacht_square.png/",
+    desc: brk,
+  },
+  {
+    name: "Hit*",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/bc/8f/6e/bc8f6e7b6dbd09c9035a806e811d4a40.jpg",
+    desc: seven + "Purple",
+  },
+  {
+    name: "Gueldre Poizot*",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/blackclover/images/5/5d/Gueldre_square.png/",
+    desc: "Purple",
   },
 
   // sLA (Slave Trader) ---> abduction arc
