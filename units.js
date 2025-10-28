@@ -3297,8 +3297,8 @@ export const units = [
   },
   {
     // done
-    name: "Barbara Sprouse",
-    aka: "The Emerald Spring",
+    name: "Iolanda Balaș",
+    aka: "The Jumper",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/1/1f/Neferpitou_CA_Portrait.png/",
     desc:
@@ -3313,8 +3313,8 @@ export const units = [
   },
   {
     // done
-    name: "Yovanna Ventura",
-    aka: "The Amethyst Bullet",
+    name: "Valentina Vezzali",
+    aka: "The Fencer",
     price: 11.12, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/0/0d/Zazan_CA_Portrait.png/",
     desc:
