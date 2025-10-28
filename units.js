@@ -3235,12 +3235,12 @@ export const units = [
       " Mirajane Strauss(transformation) (Fairy Tail)",
   },
   {
-    name: "Snow Moth???",
+    name: "Kobe Bryant",
     aka: "The Moth",
     price: 10.9, // fixed price
     img: "https://media.tenor.com/b7cc9RJn2TQAAAAe/jixiah.png",
     desc:
-      "<strong>GI-ANT, CODENAME: MOTH</strong>" +
+      "<strong>GI-ANT, CODENAME: SNOW MOTH</strong>" +
       backstory +
       "Alpha Squad." +
       ability +
@@ -3249,12 +3249,12 @@ export const units = [
       " Gin Ichimaru(color) (Bleach)",
   },
   {
-    name: "Staghorn Beetle???",
+    name: "Shaquille O'Neal",
     aka: "The Beetle",
     price: 10.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepunchman/images/5/59/Carnage_kabuto_asura_rhino_profile.png/",
     desc:
-      "<strong>GI-ANT, CODENAME: BEETLE</strong>" +
+      "<strong>GI-ANT, CODENAME: STAGHORN BEETLE</strong>" +
       backstory +
       "Alpha Squad." +
       ability +
