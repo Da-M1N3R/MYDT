@@ -3384,8 +3384,12 @@ export const units = [
     name: "Asterion",
     aka: "The Sky Fox",
     price: 14.1,
-    img: "https://static.wikia.nocookie.net/onepunchman/images/4/46/WDM_Icon.png/",
-    desc: "<strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
+    img: "https://static.wikia.nocookie.net/onepunchman/images/2/22/Boros_Icon.jpg/",
+    desc:
+      backstory +
+      "Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. It is a <strong>Silver White Nine-Tailed Fox</strong>. Biggest clash is vs Santa Claus." +
+      inspire +
+      "Watchdog(moves), Boros(moves) (One Punch Man)",
   },
 
   // sLA (Slave Trader) ---> abduction arc
@@ -3398,16 +3402,24 @@ export const units = [
       gen +
       brk +
       sla +
-      " President" +
+      " Shadow President" +
       inspire +
-      "1) Erza Knightwalker(all) (Fairy Tail)",
+      "Erza Knightwalker(all) (Fairy Tail)",
   },
   {
     name: "Horacio Basterbine",
     aka: "The Librarian",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/4/45/Hoteye_prof.jpg/",
-    desc: sla + inspire + "1) Hoteye(all) (Fairy Tail)",
+    desc:
+      sla + " President" + brk + lgen + inspire + "Hoteye(all) (Fairy Tail)",
+  },
+  {
+    name: "Dimaria Yesta",
+    aka: "Warrior Queen of Alvarez",
+    price: 12.6,
+    img: "https://static.wikia.nocookie.net/fairytail/images/0/07/Dimaria%27s_image.png/",
+    desc: lgen + brk + sla + inspire + "Dimaria Yesta(looks) (Fairy Tail)",
   },
   {
     name: "Sae Itoshi",
@@ -3415,8 +3427,16 @@ export const units = [
     price: 12.6,
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f3/Sae_Itoshi.png/",
     desc:
+      adf +
+      brk +
       sla +
-      " The Thief</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
+      " Thief</strong><br><br> <strong>Backstory/Design: </strong><br>Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. Biggest clash is vs Santa Claus.<br><br><strong>Devil Transformation: Kyubi </strong><br><br><strong>Weapon: </strong><br><br><em>Inspired by: Watchdog (One Punch Man)</em>",
+  },
+  {
+    name: "Marshall Gorilla",
+    price: 1,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/8/88/Marshall_Gorilla_Icon.jpg/",
+    desc: sla + brk + adf + inspire + "Marshall Gorilla(looks) (OPM)",
   },
   {
     name: "Jackal",
@@ -3429,31 +3449,36 @@ export const units = [
   },
   {
     name: "Bambietta Basterbine",
-    aka: "The Tactician",
     price: 14.1,
     img: "https://shapes.inc/api/public/avatar/bambiettabasterbine-7l5g",
-    desc: sla + "- The Seducer</strong>",
+    desc: sla + "Seducer</strong>",
   },
   {
     name: "Sawyer",
     aka: "The Racer",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/fairytail/images/c/c4/Racer_Proposal.png/",
-    desc: sla + "- The Racer</strong>",
+    desc: sla + "Racer</strong>",
   },
   {
     name: "Pernida Parnkgjas",
     aka: "The Walking Hand",
     price: 12.6,
     img: "https://i.redd.it/now-that-hes-in-the-anime-here-is-my-art-of-pernida-v0-qfucbsoiz43e1.jpg?width=3000&format=pjpg&auto=webp&s=d86c1387188ca5ef751545d50bc69ec1ab6ce561",
-    desc: sla + inspire + "1) Pernida Parnkgjas(looks) (Bleach)",
+    desc: sla + inspire + "Pernida Parnkgjas(looks) (Bleach)",
   },
   {
-    name: "Keyes",
-    aka: "The Black Archbishop",
+    name: "Russell Crowe",
+    aka: "The Archbishop",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/e/e4/Keyes%27_profile_image.png/",
-    desc: sla + "Great Mage of SLA" + inspire + "1) Keyes(looks) (Fairy Tail)",
+    desc:
+      sla +
+      "Great Mage" +
+      backstory +
+      "Part of Clover Kingdom." +
+      inspire +
+      "Keyes(looks) (Fairy Tail)",
   },
   {
     name: "Draculos Hyberion",
@@ -3461,35 +3486,28 @@ export const units = [
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/9/9b/Hyberion_image.png/",
     desc:
-      sla +
-      "Great Mage of SLA" +
-      inspire +
-      "1) Draculos Hyberion(looks) (Fairy Tail)",
+      sla + "Great Mage" + inspire + "Draculos Hyberion(looks) (Fairy Tail)",
   },
   {
     name: "August",
     aka: "General of the Spriggan 12",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/3/34/August%27s_profile_image.png/",
-    desc: sla + "Great Mage of SLA" + inspire + "1) August(looks) (Fairy Tail)",
+    desc: sla + "Great Mage" + inspire + "August(looks) (Fairy Tail)",
   },
   {
     name: "Bluenote Stinger",
     aka: "Deputy Commander of Grimoire Heart",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/8/85/Bluenote_anime.png/",
-    desc:
-      sla +
-      "Great Mage of SLA" +
-      inspire +
-      "1) Bluenote Stinger(looks) (Fairy Tail)",
+    desc: sla + "Great Mage" + inspire + "Bluenote Stinger(looks) (Fairy Tail)",
   },
   {
     name: "Seilah",
     aka: "Goddess of the Chill Moon",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/2/26/Seilah%27s_profile_image.png/",
-    desc: sla + "Great Mage of SLA" + inspire + "1) Seilah(looks) (Fairy Tail)",
+    desc: sla + "Great Mage" + inspire + "Seilah(looks) (Fairy Tail)",
   },
   {
     name: "Plutogrim [(car) /Kdp. gang]*",
@@ -3525,20 +3543,13 @@ export const units = [
     desc: sla + inspire + "1) Brandish μ(all) (Fairy Tail)",
   },
   {
-    name: "Dimaria Yesta",
-    aka: "Warrior Queen of Alvarez",
-    price: 12.6,
-    img: "https://static.wikia.nocookie.net/fairytail/images/0/07/Dimaria%27s_image.png/",
-    desc: lgen + brk + sla + inspire + "1) Dimaria Yesta(looks) (Fairy Tail)",
-  },
-  {
-    name: "Guttman Kubrick [(hacker) /Kdp. gang]*",
+    name: "Guttman Kubrick",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/c/cd/Gatman_Kubrick.png/",
     desc: sla,
   },
   {
-    name: "Juvia Lockser [(bait) /Kdp. gang]*",
+    name: "Juvia Lockser",
     aka: "Rain Woman",
     price: 12.6,
     img: "https://static.wikia.nocookie.net/fairytail/images/0/03/Juvia_prof.jpg/",
@@ -3564,7 +3575,7 @@ export const units = [
     name: "Erza Scarlet",
     aka: "Titania",
     price: 12.6,
-    img: "https://static.wikia.nocookie.net/fairytail/images/c/c3/Erza%27s_picture.png/",
+    img: "https://i.pinimg.com/1200x/1c/50/b2/1c50b2ba78981a17046335660fdb850a.jpg",
     desc: gen + inspire + "1) Erza Scarlet(all) (Fairy Tail)",
   },
   {
@@ -4305,11 +4316,6 @@ export const units = [
     aka: "Battle Clown",
     price: 12.22, // fixed price
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/4/4e/Hisoka_Morow_HCE_Portrait.png/",
-  },
-  {
-    name: "Marshall Gorilla",
-    price: 1,
-    img: "https://static.wikia.nocookie.net/onepunchman/images/8/88/Marshall_Gorilla_Icon.jpg/",
   },
   {
     name: "† Vampire",
