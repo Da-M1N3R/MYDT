@@ -97,6 +97,8 @@ export const units = [
     desc:
       roger +
       "[Captain]" +
+      bounty +
+      "฿ 5,564,800,000" +
       weapon +
       "1) Ace (12 Supreme Grade Blades)" +
       move +
@@ -116,7 +118,7 @@ export const units = [
   {
     name: "St. Figarland Garling",
     aka: "Warrior God of Science & Defense",
-    price: 7.6, // fixed price
+    price: 10.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Figarland_Garling_Portrait.png/",
     desc:
       elr +
@@ -131,12 +133,14 @@ export const units = [
   {
     name: "Monkey D. Luffy",
     aka: "Straw Hat",
-    price: 11.3, // fixed price
+    price: 11.7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a9/Monkey_D._Luffy_Portrait.png/",
     desc:
       eos +
       shp +
       "[Captain]" +
+      bounty +
+      "฿ 3,000,000,000" +
       ability +
       "1) Human fruit, Model: Nika</strong><br>• Gear 2 <br>• Gear 3 <br>• Gear 4: Bounceman, Tankman, Snakeman,<br>• Gear 5" +
       move +
@@ -145,11 +149,13 @@ export const units = [
   {
     name: "Roronoa Zoro",
     aka: "Pirate Hunter",
-    price: 10.1, // fixed price
+    price: 11.2, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
     desc:
       shp +
       "[Swordsman]" +
+      bounty +
+      "฿ 1,111,000,000" +
       weapon +
       "1) Wado Ichimonji<br>2) Sandai Kitetsu<br>3) Enma" +
       move +
@@ -158,35 +164,35 @@ export const units = [
   {
     name: "St. Jaygarcia Saturn",
     aka: "Warrior God of Science & Defense",
-    price: 8.4, // fixed price
+    price: 10.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/49/Jaygarcia_Saturn_Portrait.png/",
     desc: elr + ability + "1) Devil Transformation: Gyuki",
   },
   {
     name: "St. Topman Warcury",
     aka: "Warrior God of Justice",
-    price: 8.6, // fixed price
+    price: 10.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/54/Topman_Warcury_Portrait.png/",
     desc: elr + ability + "1) Devil Transformation: FengXi /Hoki",
   },
   {
     name: "St. Marcus Mars",
     aka: "Warrior God of Environment",
-    price: 8.8, // fixed price
+    price: 10.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Marcus_Mars_Portrait.png/",
     desc: elr + ability + "1) Devil Transformation: Itsumade",
   },
   {
     name: "St. Ethanbaron V. Nusjuro",
     aka: "Warrior God of Finance",
-    price: 9.2, // fixed price
+    price: 10.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Ethanbaron_V._Nusjuro_Portrait.png/",
     desc: elr + ability + "1) Devil Transformation: Bakkotsu",
   },
   {
     name: "St. Shepherd Ju Peter",
     aka: "Warrior God of Agriculture",
-    price: 8.5, // fixed price
+    price: 10.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Shepherd_Ju_Peter_Portrait.png/",
     desc:
       elr +
@@ -197,7 +203,7 @@ export const units = [
   {
     name: "Shanks",
     aka: "Red Hair",
-    price: 11.7, // fixed price
+    price: 11.8, // fixed price
     img: "https://i.pinimg.com/1200x/1a/a5/52/1aa55206bc7f98e65f842c7f473d6546.jpg",
     desc:
       eos +
@@ -206,7 +212,7 @@ export const units = [
       brk +
       roger +
       bounty +
-      "$ 4,048,900,000" +
+      "฿ 4,048,900,000" +
       weapon +
       "1) Gryphon" +
       move +
@@ -215,13 +221,13 @@ export const units = [
   {
     name: "Dracule Mihawk",
     aka: "Hawk Eyes",
-    price: 11.7, // fixed price
+    price: 11.8, // fixed price
     img: "https://i.pinimg.com/1200x/d7/af/9a/d7af9adcc72758fd66e1039ba2744872.jpg",
     desc:
       shbk +
       "<strong>- Strongest Swordsman in the World</strong>" +
       bounty +
-      "$ 3,590,000,000" +
+      "฿ 3,590,000,000" +
       weapon +
       "1) Yoru (12 Supreme Grade Blades) <br>2) baby knife",
   },
@@ -3211,13 +3217,13 @@ export const units = [
       backstory +
       "Leader of GI ant. Squad ZERO." +
       ability +
-      "1) blue fire <br>2) Devil Transformation: Baphomet" +
+      "1) Devil Transformation: Baphomet <br>• Blue Flame" +
       inspire +
       " devil-Hendrickson(transformation) (Seven Deadly Sins), Dabi(looks, power) (MHA)",
   },
   {
     name: "Mira",
-    price: 10.51, // fixed price
+    price: 10.75, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/d/d1/Mirajane_proposal.png/",
     desc:
       "<strong>GI-ANT, CODENAME: BUTTERFLY</strong>" +
@@ -3229,16 +3235,32 @@ export const units = [
       " Mirajane Strauss(transformation) (Fairy Tail)",
   },
   {
-    name: "Gin Ichimaru [/GI* (Alpha Sqd.)M]",
-    aka: "The Snow Moth",
-    price: 11.69, // fixed price
+    name: "Snow Moth???",
+    aka: "The Moth",
+    price: 10.9, // fixed price
     img: "https://media.tenor.com/b7cc9RJn2TQAAAAe/jixiah.png",
+    desc:
+      "<strong>GI-ANT, CODENAME: MOTH</strong>" +
+      backstory +
+      "Alpha Squad." +
+      ability +
+      "1) Wing Blades (flaky wings /invisible)" +
+      inspire +
+      " Gin Ichimaru(color) (Bleach)",
   },
   {
-    name: "Choe Neng Poww [Staghorn Beetle /GI* (Alpha Sqd.)M]",
-    aka: "The Horned Beetle",
-    price: 11.5, // fixed price
-    img: "https://tiermaker.com/images/template_images/2022/837161/bleach-reiatsu-list--837161/bleachpoww-base-2png.png",
+    name: "Staghorn Beetle???",
+    aka: "The Beetle",
+    price: 10.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepunchman/images/5/59/Carnage_kabuto_asura_rhino_profile.png/",
+    desc:
+      "<strong>GI-ANT, CODENAME: BEETLE</strong>" +
+      backstory +
+      "Alpha Squad." +
+      ability +
+      "1) " +
+      inspire +
+      " Carnage Kabuto(looks) (One Punch Man)",
   },
   {
     name: "Nobutsuna Shigyō [ /GI* (2 Squad)M]",
