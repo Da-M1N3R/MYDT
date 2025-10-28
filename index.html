@@ -483,7 +483,7 @@
                 (r, i) =>
                   `<div class="item"><span>${i + 1}. ${
                     r.name
-                  }</span><span>$${Number(r.price).toFixed(
+                  }</span><span>฿ ${Number(r.price).toFixed(
                     2
                   )}</span> <button style="margin-left:8px;padding:2px 8px;font-size:0.8rem;background:#e53935;color:#fff;border:none;border-radius:4px;cursor:pointer;" onclick="sell('${
                     r.name
@@ -525,7 +525,7 @@
           document.getElementById("modal-desc").innerHTML = "";
         }
         document.getElementById("modal-price").innerHTML =
-          "$" + u.price.toFixed(2);
+          "฿ " + u.price.toFixed(2);
         overlay.style.display = "block";
         modal.style.display = "block";
       }
