@@ -3208,7 +3208,7 @@ export const units = [
 
   // GI* (Great Insect) Squad --- fanfic
   {
-    name: "Balaram",
+    name: "Ball",
     aka: "Black Ant",
     price: 12.2, // fixed price
     img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",
@@ -3222,7 +3222,7 @@ export const units = [
       " devil-Hendrickson(transformation) (Seven Deadly Sins), Dabi(looks, power) (MHA)",
   },
   {
-    name: "Mira",
+    name: "Queen Mira",
     price: 10.75, // fixed price
     img: "https://static.wikia.nocookie.net/fairytail/images/d/d1/Mirajane_proposal.png/",
     desc:
