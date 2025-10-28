@@ -277,14 +277,15 @@
             title="Read Latest Manga"
             style="
               font-size: 1.3rem;
-              background: var(--gold);
-              color: #000;
+              background: #000;
+              color: var(--gold);
               border: 2px solid var(--gold);
               cursor: pointer;
               padding: 0 8px;
               border-radius: 4px;
               height: 2.2em;
               min-width: 2.7em;
+              margin-left: 4px;
               transition: background 0.2s, color 0.2s, border 0.2s;
             "
           >
@@ -296,14 +297,15 @@
           title="Fan-Arts"
           style="
             font-size: 1.3rem;
-            background: var(--gold);
-            color: #000;
+            background: #000;
+            color: var(--gold);
             border: 2px solid var(--gold);
             cursor: pointer;
             padding: 0 8px;
             border-radius: 4px;
             height: 2.2em;
             min-width: 2.7em;
+            margin-left: 4px;
             transition: background 0.2s, color 0.2s, border 0.2s;
           "
         >
@@ -315,21 +317,22 @@
             title="Play Reversi"
             style="
               font-size: 1.3rem;
-              background: var(--gold);
-              color: #000;
+              background: #000;
+              color: var(--gold);
               border: 2px solid var(--gold);
               cursor: pointer;
               padding: 0 8px;
               border-radius: 4px;
               height: 2.2em;
               min-width: 2.7em;
+              margin-left: 4px;
               transition: background 0.2s, color 0.2s, border 0.2s;
             "
           >
             Game
           </button></a
         >
-        <div id="bank">💰 $<span>100</span></div>
+        <div id="bank">💰 ฿ <span>100</span></div>
         <button
           id="infinity-btn"
           title="Enable unlimited cash"
@@ -382,9 +385,8 @@
           <div
             style="border-top: 2px solid var(--gold); margin: 8px 0 4px 0"
           ></div>
-          Team Value: $<span
-            id="team-value"
-            style="color: var(--gold); font-weight: bold"
+          Team Value: ฿
+          <span id="team-value" style="color: var(--gold); font-weight: bold"
             >0.00</span
           >
         </div>
@@ -451,7 +453,7 @@
             <img src="${u.img}" alt="${u.name}">
             <div class="name">${u.name}</div>
             <div class="aka">${u.aka || ""}</div>
-            <div class="price">$${Number(u.price).toFixed(2)}</div>
+            <div class="price">฿ ${Number(u.price).toFixed(2)}</div>
             <button class="${owned ? "owned" : ""}" ${
             owned || !canBuy ? "disabled" : ""
           }>${owned ? "Owned" : "Buy"}</button>
