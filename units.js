@@ -51,6 +51,7 @@ const bmb = brk + "- Black Maria's brothel";
 const shbk = "<strong>Shichibukai /Warlord: </strong>"; // Shichibukai
 const shp = "<strong>Straw Hat Pirates: </strong>"; // Straw Hat Pirates
 const bbp = "<strong>Blackbeard Pirates: </strong>"; // Blackbeard Pirates
+const cg = "<strong>Cross Guild: </strong>"; // Cross Guild
 const kuja = "<strong>Kuja Pirates: </strong>"; // Kuja Pirates
 
 // fanfic teams
@@ -126,8 +127,8 @@ export const units = [
     desc:
       elr +
       brk +
-      "<strong>- God's Knights</strong>" +
-      ": [Supreme Commander]" +
+      "<del><strong>- God's Knights</strong>" +
+      ": [Supreme Commander]</del>" +
       brk +
       "- Figarland Family" +
       weapon +
@@ -213,7 +214,9 @@ export const units = [
       redh +
       " [Captain]" +
       brk +
+      "<del>" +
       roger +
+      "</del>" +
       bounty +
       "฿ 4,048,900,000" +
       weapon +
@@ -227,7 +230,12 @@ export const units = [
     price: 11.8, // fixed price
     img: "https://i.pinimg.com/1200x/d7/af/9a/d7af9adcc72758fd66e1039ba2744872.jpg",
     desc:
+      cg +
+      brk +
+      "<del>" +
       shbk +
+      "</del>" +
+      brk +
       "<strong>- Strongest Swordsman in the World</strong>" +
       bounty +
       "฿ 3,590,000,000" +
@@ -239,7 +247,7 @@ export const units = [
     aka: "Revolutionary Dragon",
     price: 11.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
-    desc: revs + "Supreme Commander",
+    desc: revs + "Supreme Commander<del>" + brk + mrn + "</del>",
   },
   {
     name: "Sabo",
@@ -264,11 +272,20 @@ export const units = [
     desc:
       eos +
       bbp +
-      " [Captain]" +
+      " [Admiral]<del>" +
+      brk +
+      shbk +
+      brk +
+      wbp +
+      "2nd Division Commander</del>" +
+      bounty +
+      "฿ 3,996,000,000" +
       ability +
       "1) Darkness Fruit <br>2) Tremor Fruit" +
+      weapon +
+      "1) tekkō-kagi" +
       move +
-      "1) Liberation <br>2) Tremor Crash",
+      "1) Black Hole <br>2) Tremor Crash <br>3) Black Vortex",
   },
   {
     name: "Sakazuki",
@@ -288,9 +305,9 @@ export const units = [
       revs +
       "Commander of G Army" +
       ability +
-      "1) Hormone fruit" +
+      "1) Horm fruit (Hormone)" +
       move +
-      "1) Death Wink<br>2)",
+      "1) Death Wink <br>2) Hell Wink <br>3) Galaxy Wink",
   },
   {
     name: "Karasu",
@@ -298,11 +315,11 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Karasu_Portrait.png/",
     desc:
       revs +
-      "Commander of North Army" +
+      "Commander of Northern Army" +
       ability +
-      "1) Sut fruit" +
+      "1) Soot fruit" +
       move +
-      "1) <br>2)",
+      "1) Crowing Soot <br>2) Obeli Soot <br>3) Crow Renkon",
   },
   {
     name: "Belo Betty",
@@ -310,9 +327,11 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/9/98/Belo_Betty_Portrait.png/",
     desc:
       revs +
-      "Commander of East Army" +
+      "Commander of Eastern Army" +
       ability +
-      "1)  fruit" +
+      "1) Pump fruit (Encouragement)" +
+      weapon +
+      "1) Revolutionary Flag" +
       move +
       "1) <br>2)",
   },
@@ -3113,8 +3132,9 @@ export const units = [
     img: "https://static.wikia.nocookie.net/blackclover/images/1/18/Jester_square.png/",
     desc:
       eou +
+      "<del>" +
       seven +
-      "Blue" +
+      "Blue</del>" +
       "<br><br><strong>Backstory: </strong><br>Member of the SEVEN. Commander of the Blue Nation. Teams up with Miranda. <br><br><strong>Abilities: Door fruit</strong><br><br><strong>Weapon: none</strong><br><br><em>Inspired by: Jester Garandros (Black Clover)</em>",
   },
   {
@@ -3509,7 +3529,9 @@ export const units = [
     price: 12.6,
     img: "https://i.pinimg.com/1200x/c2/2c/5b/c22c5bc73356570993dd2059dd50caa9.jpg",
     desc:
+      "<del>" +
       gen +
+      "</del>" +
       brk +
       sla +
       " Shadow President" +
@@ -3546,7 +3568,16 @@ export const units = [
     name: "Marshall Gorilla",
     price: 1,
     img: "https://static.wikia.nocookie.net/onepunchman/images/8/88/Marshall_Gorilla_Icon.jpg/",
-    desc: sla + brk + adf + inspire + "Marshall Gorilla(looks) (OPM)",
+    desc:
+      "<del>" +
+      sla +
+      brk +
+      adf +
+      brk +
+      mrn +
+      "</del>" +
+      inspire +
+      "Marshall Gorilla(looks) (OPM)",
   },
   {
     name: "Jackal",
