@@ -239,7 +239,7 @@ export const units = [
     aka: "Revolutionary Dragon",
     price: 11.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Monkey_D._Dragon_Portrait.png/",
-    desc: "Supreme Commander of the Revolutionary Army",
+    desc: revs + "Supreme Commander",
   },
   {
     name: "Sabo",
@@ -250,7 +250,7 @@ export const units = [
       revs +
       "Chief of Staff" +
       ability +
-      "Flame-Flame Fruit" +
+      "Flame fruit" +
       weapon +
       "1) pipe" +
       move +
@@ -263,6 +263,8 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e2/Marshall_D._Teach_Portrait.png/",
     desc:
       eos +
+      bbp +
+      " [Captain]" +
       ability +
       "1) Darkness Fruit <br>2) Tremor Fruit" +
       move +
@@ -273,7 +275,7 @@ export const units = [
     aka: "Akainu",
     price: 10.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
-    desc: "<strong>Fleet Admiral</strong>",
+    desc: ad + ability + "1) Magma fruit" + move + "1) Hell Hound<br>2)",
   },
 
   // Revolutionary
@@ -282,19 +284,37 @@ export const units = [
     aka: "Okama King",
     price: 8.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fc/Emporio_Ivankov_Portrait.png/",
-    desc: "<strong>Commander of the Revolutionary Army - G Army</strong>",
+    desc:
+      revs +
+      "Commander of G Army" +
+      ability +
+      "1) Hormone fruit" +
+      move +
+      "1) Death Wink<br>2)",
   },
   {
     name: "Karasu",
-    desc: "<strong>Commander of the Revolutionary Army - North Army</strong>",
     price: 8.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Karasu_Portrait.png/",
+    desc:
+      revs +
+      "Commander of North Army" +
+      ability +
+      "1) Sut fruit" +
+      move +
+      "1) <br>2)",
   },
   {
     name: "Belo Betty",
-    desc: "<strong>Commander of the Revolutionary Army - East Army</strong>",
     price: 8,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/98/Belo_Betty_Portrait.png/",
+    desc:
+      revs +
+      "Commander of East Army" +
+      ability +
+      "1)  fruit" +
+      move +
+      "1) <br>2)",
   },
   {
     name: "Morley",
