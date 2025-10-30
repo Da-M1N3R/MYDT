@@ -82,7 +82,7 @@ export const units = [
   },
   {
     name: "Rocks D. Xebec",
-    price: 12.4, // fixed price
+    price: 12.5, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Rocks_D._Xebec_Portrait.png/",
     desc:
       "<strong>*secret name:</strong> Davy D. Xebec</strong><br>" +
@@ -96,7 +96,7 @@ export const units = [
   {
     name: "Gol D. Roger",
     aka: "Pirate King",
-    price: 12.2, // fixed price
+    price: 12.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
     desc:
       roger +
@@ -111,7 +111,7 @@ export const units = [
   {
     name: "Monkey D. Garp",
     aka: "The Fist",
-    price: 12.2, // fixed price
+    price: 12.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
     desc:
       vad +
@@ -252,7 +252,7 @@ export const units = [
   {
     name: "Sabo",
     aka: "Flame Emperor",
-    price: 9.8, // fixed price
+    price: 11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2e/Sabo_Portrait.png/",
     desc:
       revs +
@@ -290,7 +290,7 @@ export const units = [
   {
     name: "Sakazuki",
     aka: "Akainu",
-    price: 10.6, // fixed price
+    price: 11.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
     desc: ad + ability + "1) Magma fruit" + move + "1) Hell Hound<br>2)",
   },
@@ -299,7 +299,7 @@ export const units = [
   {
     name: "Emporio Ivankov",
     aka: "Okama King",
-    price: 8.7,
+    price: 9.99,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/fc/Emporio_Ivankov_Portrait.png/",
     desc:
       revs +
@@ -311,7 +311,7 @@ export const units = [
   },
   {
     name: "Karasu",
-    price: 8.3,
+    price: 9.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Karasu_Portrait.png/",
     desc:
       revs +
@@ -323,7 +323,7 @@ export const units = [
   },
   {
     name: "Belo Betty",
-    price: 8,
+    price: 7.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/98/Belo_Betty_Portrait.png/",
     desc:
       revs +
@@ -337,68 +337,99 @@ export const units = [
   },
   {
     name: "Morley",
-    desc: "<strong>Commander of the Revolutionary Army - West Army</strong>",
-    price: 7.8,
+    price: 8.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f1/Morley_Portrait.png/",
+    desc:
+      revs +
+      "Commander of Western Army" +
+      ability +
+      "1) Push fruit (Encouragement)" +
+      weapon +
+      "1) harpoon-trident hybrid" +
+      move +
+      "1) <br>2)",
   },
   {
     name: "Lindbergh",
-    desc: "<strong>Commander of the Revolutionary Army - South Army</strong>",
     price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d9/Lindbergh_Portrait.png/",
+    desc:
+      revs +
+      "Commander of Southern Army - Inventor" +
+      weapon +
+      "1) Cool Shooter<br>2) Laser Shooter" +
+      move +
+      "1) <br>2)",
   },
   {
     name: "Ginny",
-    desc: "<strong>Commander of the Revolutionary Army - East Army</strong>",
-    price: 7.9,
+    price: 7.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/93/Ginny_Portrait.png/",
+    desc:
+      revs +
+      "Commander of Eastern Army - Marksman" +
+      weapon +
+      "1) " +
+      move +
+      "1) <br>2)",
   },
   {
     name: "Inazuma",
     price: 7.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d3/Inazuma_Portrait.png/",
-    desc: "<strong>Deputy Commander of the Revolutionary Army - G Army</strong>",
+    desc:
+      revs +
+      "Deputy Commander of G Army" +
+      ability +
+      "1) Snip fruit (scissors)" +
+      move +
+      "1)  <br>2)  <br>3) ",
   },
   {
-    name: "Jiron (north)",
+    name: "Jiron",
     price: 6.8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/82/Jiron_Portrait.png/",
+    desc: revs + "Deputy Commander of Northern Army",
   },
   {
-    name: "Ahiru (east)",
-    price: 6.5,
-    img: comingSoon,
+    name: "Ahiru",
+    price: 6.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4c/Ahiru_Portrait.png/",
+    desc: revs + "Deputy Commander of Eastern Army",
   },
   {
-    name: "Ushiano (west)",
-    price: 6.2,
-    img: comingSoon,
+    name: "Ushiano",
+    price: 6.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4c/Ushiano_Portrait.png/",
+    desc: revs + "Deputy Commander of Western Army",
   },
   {
-    name: "Gambo (south)",
-    price: 6,
-    img: comingSoon,
+    name: "Gambo",
+    price: 6.8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c8/Gambo_Portrait.png/",
+    desc: revs + "Deputy Commander of Southern Army",
   },
   {
     name: "Koala",
-    price: 7.4,
+    price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/1a/Koala_Portrait.png/",
   },
   {
     name: "Hack",
     price: 7.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d3/Hack_Portrait.png/",
   },
   {
     name: "Terry Gilteo",
-    price: 6.8,
-    img: comingSoon,
+    price: 6.4,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b1/Terry_Gilteo_Portrait.png/",
   },
   {
     name: "Bunny Joe",
     price: 6.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Bunny_Joe_Portrait.png/",
   },
+  // prices fixed above
 
   // straw hats
   {
@@ -3411,6 +3442,42 @@ export const units = [
     aka: "The Wasp",
     price: 14.1,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/76/JogoP.png/",
+  },
+  {
+    name: "Agusta von der Leyen",
+    price: 11.5,
+    img: "https://i.pinimg.com/1200x/8e/ff/48/8eff48d90b6d4d0e16af63b1be5be1bb.jpg",
+    desc:
+      rgbk +
+      brk +
+      "- von der Leyen Family" +
+      backstory +
+      "Queen of RGB Kingdom. Mother to Ursula." +
+      ability +
+      "1) " +
+      weapon +
+      move +
+      "1) " +
+      inspire +
+      "Augusta (WUWA-game)",
+  },
+  {
+    name: "Iuno von der Leyen",
+    price: 11.5,
+    img: "https://i.pinimg.com/1200x/0b/09/f5/0b09f51db6749fa1d2350c2e4724a844.jpg",
+    desc:
+      rgbk +
+      brk +
+      "- von der Leyen Family" +
+      backstory +
+      "Sister of Queen of RGB Kingdom." +
+      ability +
+      "1) " +
+      weapon +
+      move +
+      "1) " +
+      inspire +
+      "Iuno (WUWA-game)",
   },
   {
     // done
