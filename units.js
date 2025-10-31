@@ -413,21 +413,25 @@ export const units = [
     name: "Koala",
     price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/1a/Koala_Portrait.png/",
+    desc: revs + "Instructor",
   },
   {
     name: "Hack",
     price: 7.3,
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d3/Hack_Portrait.png/",
+    desc: revs,
   },
   {
     name: "Terry Gilteo",
     price: 6.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b1/Terry_Gilteo_Portrait.png/",
+    desc: revs,
   },
   {
     name: "Bunny Joe",
     price: 6.4,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Bunny_Joe_Portrait.png/",
+    desc: revs,
   },
   // prices fixed above
 
@@ -435,14 +439,28 @@ export const units = [
   {
     name: "Nami",
     aka: "Cat Burglar",
-    price: 6.8, // fixed price
+    price: 9.11, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Nami_Portrait.png/",
+    desc:
+      shp +
+      "[Navigator]" +
+      weapon +
+      "1) Climate Tact" +
+      move +
+      "1) Thunder Shark",
   },
   {
     name: "Usopp",
     aka: "God Usopp",
-    price: 7.3, // fixed price
+    price: 8.75, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/97/Usopp_Portrait.png/",
+    desc:
+      shp +
+      "[Marksman/Inventor]" +
+      weapon +
+      "1) Kuro Kabuto (slingshot) " +
+      move +
+      "1) <br>2) <br>3) ",
   },
   {
     name: "Vinsmoke Sanji",
@@ -4199,6 +4217,13 @@ export const units = [
 
   // Goddess Clan --- Four Archangels
   {
+    name: "Zeus",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
+    desc: "new Rumble fruit user, now not devil fruit, its god fruit. some kind of cloud that assist him.",
+  },
+  {
     name: "Ludociel*",
     aka: "The Flash",
     price: 3.01,
@@ -4568,12 +4593,12 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fairytail/images/3/3c/Kiria_Profile.png/",
   },
   {
-    name: "Kiria",
+    name: "idk",
     price: 1,
     img: comingSoon,
   },
   {
-    name: "Kiria",
+    name: "idk",
     price: 1,
     img: comingSoon,
   },
@@ -4864,5 +4889,12 @@ export const units = [
     aka: "",
     price: 1,
     img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
+  },
+  {
+    name: "Hanuman",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
+    desc: "some monkey fruit guy",
   },
 ];
