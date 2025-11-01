@@ -96,7 +96,7 @@ export const units = [
   {
     name: "Gol D. Roger",
     aka: "Pirate King",
-    price: 12.3, // fixed price
+    price: 12.45, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/6/6c/Gol_D._Roger_Portrait.png/",
     desc:
       roger +
@@ -111,7 +111,7 @@ export const units = [
   {
     name: "Monkey D. Garp",
     aka: "The Fist",
-    price: 12.3, // fixed price
+    price: 12.45, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/e/e6/Monkey_D._Garp_Portrait.png/",
     desc:
       vad +
@@ -153,7 +153,7 @@ export const units = [
   {
     name: "Roronoa Zoro",
     aka: "Pirate Hunter",
-    price: 11.2, // fixed price
+    price: 11.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/5/5d/Roronoa_Zoro_Portrait.png/",
     desc:
       shp +
@@ -207,7 +207,7 @@ export const units = [
   {
     name: "Shanks",
     aka: "Red Hair",
-    price: 11.8, // fixed price
+    price: 12.01, // fixed price
     img: "https://i.pinimg.com/1200x/1a/a5/52/1aa55206bc7f98e65f842c7f473d6546.jpg",
     desc:
       eos +
@@ -227,7 +227,7 @@ export const units = [
   {
     name: "Dracule Mihawk",
     aka: "Hawk Eyes",
-    price: 11.8, // fixed price
+    price: 12.01, // fixed price
     img: "https://i.pinimg.com/1200x/d7/af/9a/d7af9adcc72758fd66e1039ba2744872.jpg",
     desc:
       cg +
@@ -290,7 +290,7 @@ export const units = [
   {
     name: "Sakazuki",
     aka: "Akainu",
-    price: 11.3, // fixed price
+    price: 11.8, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4a/Sakazuki_Portrait.png/",
     desc: ad + ability + "1) Magma fruit" + move + "1) Hell Hound<br>2)",
   },
@@ -433,7 +433,6 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/4/41/Bunny_Joe_Portrait.png/",
     desc: revs,
   },
-  // prices fixed above
 
   // straw hats
   {
@@ -465,52 +464,111 @@ export const units = [
   {
     name: "Vinsmoke Sanji",
     aka: "Black Leg",
-    price: 9.4, // fixed price
+    price: 10.4, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0c/Sanji_Portrait.png/",
+    desc: shp + "[Chef]" + bounty + "฿ 1,032,000,000" + move + "1) Ifrit Jambe",
   },
   {
     name: "Tony Tony Chopper",
     price: 7, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/8/84/Tony_Tony_Chopper_Portrait.png/",
+    desc:
+      shp +
+      "[Doctor]" +
+      ability +
+      "1) Human fruit, Model: Human<br>Rumble Ball <br>• Walk Point (reindeer form) <br>• Brain Point (default) <br>• Jumping Point <br>• Guard Point <br>• Arm Point <br>• Horn Point <br>• Heavy Point <br>• Kung Fu Point <br>• Monster Point",
   },
   {
     name: "Nico Robin",
-    aka: "Demon Child",
-    price: 8.2, // fixed price
+    aka: "Demon Child /Light of the Revolution",
+    price: 9.69, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Nico_Robin_Post_Timeskip_Portrait.png/",
+    desc:
+      shp +
+      "[Archaeologist]" +
+      bounty +
+      "฿ 930,000,000" +
+      ability +
+      "Flower fruit" +
+      move +
+      "1) Seis Fleur: Clutch",
   },
   {
     name: "Franky",
     aka: "Iron Man",
-    price: 7.9, // fixed price
+    price: 8.65, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/a/a8/Franky_Portrait.png/",
+    desc:
+      shp +
+      "[Shipwright]" +
+      weapon +
+      "BF-38/General Franky" +
+      move +
+      "1) Coup de Vent<br>2) Franky Nipple Lights",
   },
   {
     name: "Brook",
-    aka: "Soul King",
+    aka: "Soul King /Humming Swordsmen",
     price: 7.6, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/37/Brook_Portrait.png/",
+    desc:
+      shp +
+      "[Musician]" +
+      ability +
+      "Revive fruit" +
+      weapon +
+      "1) Soul Solid (shikomizue)" +
+      move +
+      "1) Humming Three Blocks: Arrow Notch Cut <br>2) Swallow Banderole",
   },
   {
     name: "Jinbe",
     aka: "Knight of the Sea",
-    price: 9, // fixed price
+    price: 11.3, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f7/Jinbe_Portrait.png/",
+    desc:
+      shp +
+      "[Helmsman]" +
+      brk +
+      "<del>" +
+      shbk +
+      "</del>" +
+      bounty +
+      "฿ 1,100,000,000" +
+      ability +
+      "1) Fishman Karate" +
+      move +
+      "1) Vagabond Drill <br>2) Demon Brick Fist",
   },
 
   // BB
   {
     name: "Jesus Burgess",
     aka: "The Bagman /Champion",
-    price: 8.9,
+    price: 9,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/4b/Jesus_Burgess_Portrait.png/",
+    desc:
+      bbp +
+      "Captain of the First Ship" +
+      ability +
+      "1) Strong fruit" +
+      move +
+      "1) Hado Elbow",
   },
   {
     name: "Shiryu",
     aka: "The Rain",
-    price: 9.8,
+    price: 10.7,
     img: "https://static.wikia.nocookie.net/onepiece/images/8/8b/Shiryu_Portrait.png/",
+    desc:
+      bbp +
+      "Captain of the Second Ship" +
+      ability +
+      "1) Clear fruit (invisible)" +
+      weapon +
+      "1) Raiu",
   },
+  // prices fixed above
   {
     name: "Van Augur",
     aka: "The Supersonic",
@@ -3119,7 +3177,7 @@ export const units = [
     // done
     name: "Apollo Creed",
     aka: "The Kingmaker",
-    price: 13.01, // fixed price
+    price: 12.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
     desc:
       "<strong>Shadow Emperor</strong><br>" +
@@ -3128,6 +3186,19 @@ export const units = [
       "Six Slots <br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) <br>6) <strong>D</strong>racarys (Undying Fire) " +
       weapon +
       "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
+  },
+  {
+    name: "Hanuman",
+    aka: "",
+    price: 12.11, // fixed price
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFUbto-jTR6ASsBga5pvycG2j6-WNKGBW5Q&s",
+    desc:
+      backstory +
+      "A demi-god monkey mink. Body like Kuma. Good friend of Apollo. Comes to help him at the war with celestia." +
+      ability +
+      "1) Diamond fruit<br>2) Monkey God's Tail (endless tail)" +
+      inspire +
+      "Hanuman, Super Saiyan 4 (DBZ), Kuroki Gensai (Kengan Ashura), Kuma, Jozu(OP)",
   },
   {
     name: "Yoma Hashimoto*",
@@ -3142,14 +3213,14 @@ export const units = [
   },
   {
     name: "Shunsui Kyōraku*",
-    price: 10.76, // fixed price
+    price: 11.76, // fixed price
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1p4UIaEZt_lsW2KqVOlJ_BE8DsRMFX0W9Sg&s",
   },
   {
     // done
     name: "Lidros Razor",
     aka: "The Athlete",
-    price: 12.15, // fixed price
+    price: 12.0, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/f/f0/Shoei_Baro.png/",
     desc: "<strong>Abilities: Fourteen Devils</strong> (post-mortem nen)<br><br><em>Inspired by: Razor (Hunter X Hunter) & Shoei Baro (Blue Lock)</em>",
   },
@@ -3157,7 +3228,7 @@ export const units = [
     // done
     name: "Abigail Rolar",
     aka: "The Doll",
-    price: 12.99, // fixed price
+    price: 12.8, // fixed price
     img: "https://upload-os-bbs.hoyolab.com/upload/2024/09/16/172989151/c5c31120d3de572208b8ec5b3aa2c675_5315656865450292593.png",
     desc: "<strong>Backstory: </strong><br>Comes from a very powerful race of puzzel humans. With indestructible skin, ability to shapeshift and family of power houses. Losses the love of her life, Razor. Then, develops the most intense Haki known to man & becomes an Emperor.<br><br><strong>Abilities: none</strong><br><br><em>Inspired by: Mikasa Ackermann (Attack on Titan)</em>",
   },
@@ -3165,7 +3236,7 @@ export const units = [
     // done
     name: "Miranda Kerr",
     aka: "The Violet Empress",
-    price: 12.58, // fixed price
+    price: 12.48, // fixed price
     img: "https://static.wikia.nocookie.net/blackclover/images/f/f8/Princia_square.png/",
     desc:
       eou +
@@ -3195,7 +3266,7 @@ export const units = [
     desc:
       adf +
       backstory +
-      "Twins with Misha Kaiser. Goes on his own journey, recruits his own people. Becomes an Emperor. The pioneer to the birth of 'The Dagger phenomenon'. Teams up to fight the sky fox." +
+      "demi-god Twins with Misha Kaiser. Goes on his own journey, recruits his own people. Becomes an Emperor. The pioneer to the birth of 'The Dagger phenomenon'. Teams up to fight the sky fox." +
       ability +
       "1) Dimension Blade" +
       weapon +
@@ -3214,7 +3285,7 @@ export const units = [
     // done
     name: "Mr. Magician",
     aka: "The Magician",
-    price: 11.09, // fixed price
+    price: 9.7, // fixed price
     img: "https://static.wikia.nocookie.net/bokunoheroacademia/images/9/95/Mr_Compress_Anime_Portrait.png/",
     desc: "<strong>Backstory: </strong><br>Teams up with Kaiser. <br><br><strong>Abilities: </strong>Compress & Expand (like More-More Fruit)<br><br><strong>Weapon: </strong><br><br><em>Inspired by: Mr. Compress (My Hero Academia)</em>",
   },
@@ -3222,7 +3293,7 @@ export const units = [
     // done
     name: "Spinner",
     aka: "The Lizard",
-    price: 10.75, // fixed price
+    price: 8.75, // fixed price
     img: "https://static.wikia.nocookie.net/bokunoheroacademia/images/9/95/Spinner_Anime_Portrait.png/",
     desc: "<strong>Backstory: </strong><br>Teams up with Kaiser. <br><br><strong>Abilities: </strong>Sticky<br><br><strong>Weapon: </strong>-scrap weapons (random blades stick together)<br><br><em>Inspired by: Spinner (My Hero Academia)</em>",
   },
@@ -3234,7 +3305,7 @@ export const units = [
     img: "https://static.wikia.nocookie.net/villains/images/1/1f/Black_Hanekawa.png/",
     desc:
       backstory +
-      "Twins with Arthur Kaiser. Cursed to have weak body. Saves Lagat from death. Gets assassinated by gods & triggers the War with the Gods in Lagat vs the World (like Wukong Black Myth). As Lagat goes to save her remains with the lifes she granted him." +
+      "demi-god Twins with Arthur Kaiser. Cursed to have weak body. Saves Lagat from death. Gets assassinated by gods & triggers the War with the Gods in Lagat vs the World (like Wukong Black Myth). As Lagat goes to save her remains with the lifes she granted him." +
       ability +
       "1) Cat with Nine-Lifes" +
       weapon +
@@ -4141,25 +4212,25 @@ export const units = [
   {
     name: "Zeldris (Piety)*",
     aka: "Prince of Darkness",
-    price: 3.01,
+    price: 12.0,
     img: "https://i.pinimg.com/736x/99/07/e6/9907e669b1aacc8ad22a6cfb80b99320.jpg",
   },
   {
     name: "Estarossa (Love) /Mael*",
     aka: "The Half-Blood Prince",
-    price: 3.01,
+    price: 12.0,
     img: "https://wallpapers.com/images/hd/seven-deadly-sins-estarossa-1080-x-1080-wallpaper-cauaw09flh5za7f7.jpg",
   },
   {
     name: "Derieri (Purity)*",
     aka: "Combo Star",
-    price: 3.01,
+    price: 12.0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeuaECHUsnjWSSnDvqhkqkcG7xyAtMWtyGUA&s",
   },
   {
     name: "Monspeet (Reticence)*",
     aka: "The Hellfire",
-    price: 3.01,
+    price: 12.0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25f35f8lswLzTdLh7AkAMbsmdBlhenLlaVw&s",
   },
   {
@@ -4217,29 +4288,30 @@ export const units = [
 
   // Goddess Clan --- Four Archangels
   {
-    name: "Zeus",
-    aka: "",
-    price: 1,
-    img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
-    desc: "new Rumble fruit user, now not devil fruit, its god fruit. some kind of cloud that assist him.",
-  },
-  {
     name: "Ludociel*",
-    aka: "The Flash",
-    price: 3.01,
+    aka: "Zeus /The Flash",
+    price: 12.41,
     img: "https://static.wikia.nocookie.net/nanatsu-no-taizai/images/e/ec/Ludociel.png/",
+    desc: "new Rumble fruit user, now not devil fruit, its god fruit. some kind of cloud assistant that assists him.",
   },
   {
     name: "Tarmiel*",
-    aka: "The Ocean",
-    price: 3.01,
+    aka: "Poseidon /The Ocean",
+    price: 12.0,
     img: "https://nekorandom.com/wp-content/uploads/2022/03/photostudio_1646503502388.jpg?w=300",
   },
   {
     name: "Sariel*",
     aka: "The Tornado",
-    price: 3.01,
+    price: 12.0,
     img: "https://pm1.aminoapps.com/8307/7b06e1a2811918310b899872b3b513029d5f87ecr1-472-322v2_hq.jpg",
+  },
+  {
+    name: "Hades*",
+    aka: "God of Hell",
+    price: 12,
+    img: "https://wallpaper.forfun.com/fetch/54/54d1baad7622c2709cb2a595469b4a3c.jpeg",
+    desc: "king of the underworld, unites the God clan and demon clan. User of the dark fruit.",
   },
 
   // Phantom Troupe
@@ -4889,18 +4961,5 @@ export const units = [
     aka: "",
     price: 1,
     img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
-  },
-  {
-    name: "Hanuman",
-    aka: "",
-    price: 1,
-    img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
-    desc:
-      backstory +
-      "A demi-god monkey mink. Body like Kuma. Good friend of Apollo. Comes to help him at the war with celestia." +
-      ability +
-      "1) Diamond fruit<br>2) Monkey God's Tail (endless tail)" +
-      inspire +
-      "Hanuman, Super Saiyan 4 (DBZ), Kuroki Gensai (Kengan Ashura), Kuma, Jozu(OP)",
   },
 ];
