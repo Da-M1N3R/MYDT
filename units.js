@@ -4895,6 +4895,12 @@ export const units = [
     aka: "",
     price: 1,
     img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
-    desc: "some monkey fruit guy",
+    desc:
+      backstory +
+      "A demi-god monkey mink. Body like Kuma. Good friend of Apollo. Comes to help him at the war with celestia." +
+      ability +
+      "1) Diamond fruit<br>2) Monkey God's Tail (endless tail)" +
+      inspire +
+      "Hanuman, Super Saiyan 4 (DBZ), Kuroki Gensai (Kengan Ashura), Kuma, Jozu(OP)",
   },
 ];
