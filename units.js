@@ -3966,17 +3966,17 @@ export const units = [
   {
     name: "Mitsuri Kanroji (Love)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/f/f8/Mitsuri_Anime_Profile.png/",
   },
   {
     name: "Obanai Iguro (Serpent)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/b/b7/Obanai_Anime_Profile.png/",
   },
   {
     name: "Sanemi Shinazugawa (Wind)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/3/36/Sanemi_Anime_Profile.png/",
   },
   {
     name: "Gyomei Himejima (stone)*",
@@ -3986,22 +3986,22 @@ export const units = [
   {
     name: "Muichiro Tokito (mist)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/9/9e/Muichiro_Anime_Profile.png/",
   },
   {
     name: "Shinobu Kocho (insect)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/b/b2/Shinobu_Anime_Profile.png/",
   },
   {
     name: "Kyojuro Rengoku (flame)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/e/e7/Kyojuro_Anime_Profile.png/",
   },
   {
     name: "Kanae Kocho (flower)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/3/31/Kanae_Anime_Profile.png/",
   },
   {
     name: "Tengen Uzui (sound)*",
@@ -4016,17 +4016,17 @@ export const units = [
   {
     name: "Zenitsu Agatsuma (thunder)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/4/46/Zenitsu_Anime_Profile.png/",
   },
   {
     name: "Inosuke Hashibira (beast)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/c/c2/Inosuke_Anime_Profile.png/",
   },
   {
     name: "Kanao Tsuyuri (flower)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/c/c0/Kanao_Anime_Profile.png/",
   },
   {
     name: "Yoriichi Tsugikuni (sun)*",
@@ -4181,32 +4181,32 @@ export const units = [
   {
     name: "Nakime (infinity castle)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/3/37/Nakime_Anime_Profile.png/",
   },
   {
     name: "Hantengu*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/c/c2/Hantengu_Anime_Profile.png/",
   },
   {
     name: "Gyokko*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/7/7d/Gyokko_Anime_Profile.png/",
   },
   {
     name: "Kaigaku (thunder)*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/e/e6/Kaigaku_Anime_Profile.png/",
   },
   {
     name: "Gyutaro*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/1/12/Gyutaro_Anime_Profile.png/",
   },
   {
     name: "Daki*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/kimetsu-no-yaiba/images/7/73/Daki_Anime_Profile.png/",
   },
   // Demon Clan --- Ten Commandments
   {
@@ -4290,7 +4290,7 @@ export const units = [
   {
     name: "Ludociel*",
     aka: "Zeus /The Flash",
-    price: 12.41,
+    price: 12.21,
     img: "https://static.wikia.nocookie.net/nanatsu-no-taizai/images/e/ec/Ludociel.png/",
     desc: "new Rumble fruit user, now not devil fruit, its god fruit. some kind of cloud assistant that assists him.",
   },
@@ -4311,7 +4311,10 @@ export const units = [
     aka: "God of Hell",
     price: 12,
     img: "https://wallpaper.forfun.com/fetch/54/54d1baad7622c2709cb2a595469b4a3c.jpeg",
-    desc: "king of the underworld, unites the God clan and demon clan. User of the dark fruit.",
+    desc:
+      "king of the underworld, unites the God clan and demon clan. User of the dark fruit." +
+      inspire +
+      "Hades (Saint Seiya)",
   },
 
   // Phantom Troupe
