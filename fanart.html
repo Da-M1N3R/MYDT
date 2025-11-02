@@ -46,21 +46,21 @@
         align-items: center;
         flex: 1;
         padding: 20px;
-        max-width: 1400px;
+        max-width: 1800px; /* increased to fit bigger cards */
         width: 100%;
       }
 
       .gallery {
         display: flex;
-        gap: 30px;
+        gap: 40px; /* slightly larger gap */
         flex-wrap: wrap;
         justify-content: center;
       }
 
       .artwork {
         position: relative;
-        width: 250px;
-        height: 350px;
+        width: 375px; /* 250px * 1.5 */
+        height: 525px; /* 350px * 1.5 */
         background: rgba(255, 255, 255, 0.05);
         border-radius: 15px;
         overflow: hidden;
@@ -69,6 +69,16 @@
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      /* landscape cards – keep height, grow width */
+      .artwork.landscape {
+        width: 560px; /* 375 × 1.5  (same 50 % bump you already use) */
+        height: 350px; /* shorter than portrait cards */
+      }
+      /* 100 % bigger (2×) landscape card */
+      .artwork.landscape.xl {
+        width: 1064px; /* 560 × 2  (was 560 after your 50 % bump) */
+        height: 665px; /* 350 × 2 */
       }
 
       .artwork:hover {
@@ -137,8 +147,8 @@
         }
 
         .artwork {
-          width: 200px;
-          height: 280px;
+          width: 300px; /* 200px * 1.5 */
+          height: 420px; /* 280px * 1.5 */
         }
       }
     </style>
