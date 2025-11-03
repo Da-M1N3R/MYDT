@@ -4920,15 +4920,15 @@ export const units = [
     img: "https://static.wikia.nocookie.net/sakamoto-days/images/6/6b/Nao_Toramaru_Portrait.png/",
   },
   {
-    name: "Shiina Saionji*",
+    name: "Shiina Saionji",
     aka: "The Saionji Twins",
-    price: 1,
+    price: 8.5,
     img: "https://s3.amazonaws.com/comicgeeks/characters/avatars/113333.jpg?t=1759133683",
   },
   {
-    name: "??? Saionji*",
+    name: "Kippei Saionji",
     aka: "The Saionji Twins",
-    price: 1,
+    price: 9.1,
     img: comingSoon,
   },
   {
