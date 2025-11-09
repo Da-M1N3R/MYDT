@@ -3408,7 +3408,7 @@ export const units = [
   // GI* (Great Insect) Squad --- fanfic
   {
     name: "LaMelo Ball",
-    aka: "Black Ant",
+    aka: "The Black Warrior",
     price: 12.5, // fixed price
     img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",
     desc:
@@ -3416,7 +3416,7 @@ export const units = [
       backstory +
       "Leader of GI ant. Squad ZERO." +
       ability +
-      "1) Devil Transformation: Baphomet <br>• Blue Flame" +
+      "1) Devil Transformation: Baphomet <br>• Blue Flame <br>2) Turtle fruit, model: Black Tortoise" +
       inspire +
       " devil-Hendrickson(transformation) (Seven Deadly Sins), Dabi(looks, power) (MHA)",
   },
