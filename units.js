@@ -3213,7 +3213,7 @@ export const units = [
     aka: "",
     price: 7.15, // fixed price
     img: "https://c4.wallpaperflare.com/wallpaper/330/403/629/doupocangqiong-medusa-queen-hd-wallpaper-preview.jpg",
-    desc: backstory,
+    desc: inspire + "Queen Medusa",
   },
   {
     name: "Yoma Hashimoto*",
