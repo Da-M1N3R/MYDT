@@ -3350,12 +3350,22 @@ export const units = [
       "1) Hell Devil - Fire Cannon*<br>2) Darkness Devil - The Void Vanishing Blade*<br>3) Doll Devil<br><br><em>Inspired by: (ability)Mahito (JJK), (ability)Black Sperm (One Punch Man), (looks)Dante Zogratis (Black Clover)</em>",
   },
   {
+    name: "St. Krampus Kringle",
+    aka: "Santa Claus",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
+    desc:
+      "<strong>Backstory: </strong><br> The Naughty version of Santa. He goes around the world. Doing naughty things." +
+      ability +
+      "1) Teleport Devil <br>2) <br><br><em>Inspired by: Obito (naruto)</em>",
+  },
+  {
     name: "St. Rudolph Kringle",
     aka: "The Fenrir",
     price: 3.01,
     img: "https://i.pinimg.com/736x/b8/52/ea/b852ea4ae987206c7978bae91e347bf9.jpg",
     desc:
-      "<strong>Santa's Elf" +
+      "<strong>First Son of Santa" +
       ability +
       "1) String Fruit<br>2) Flame Fruit<br><br><strong>-Weapon: </strong><br><br><strong>-Move: </strong><br>1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
   },
@@ -3365,7 +3375,7 @@ export const units = [
     price: 3.01,
     img: "https://static.wikia.nocookie.net/fma/images/f/f1/AvatarAlphonse.png/",
     desc:
-      "<strong>Santa's Elf" +
+      "<strong>Second Son of Santa" +
       ability +
       "1) [1%] Chop fruit (Seperation) - [Lucas (top-half) & Rodrick (bottom-half)] <br>2) Magnet fruit" +
       weapon +
@@ -3399,7 +3409,7 @@ export const units = [
   {
     name: "LaMelo Ball",
     aka: "Black Ant",
-    price: 11.5, // fixed price
+    price: 12.5, // fixed price
     img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",
     desc:
       "<strong>GI-ANT, CODENAME: BLACK</strong>" +
@@ -4967,11 +4977,5 @@ export const units = [
     aka: "",
     price: 1,
     img: "https://i.pinimg.com/1200x/44/8d/14/448d14e32633d0e721d974271b3910ec.jpg",
-  },
-  {
-    name: "???",
-    aka: "",
-    price: 1,
-    img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
   },
 ];
