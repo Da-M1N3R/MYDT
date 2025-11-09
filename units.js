@@ -904,7 +904,7 @@ export const units = [
   },
   {
     name: "St. Limosiv Killingham",
-    price: 9,
+    price: 10,
     img: "https://static.wikia.nocookie.net/onepiece/images/3/3b/Rimoshifu_Killingham_Portrait.png/",
   },
   {
