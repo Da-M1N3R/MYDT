@@ -3194,7 +3194,7 @@ export const units = [
       "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
-    name: "Halfdan Lan Lu Bu",
+    name: "Starscourge Radahn",
     aka: "The Fang of Dark",
     price: 12.11, // fixed price
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFUbto-jTR6ASsBga5pvycG2j6-WNKGBW5Q&s",
