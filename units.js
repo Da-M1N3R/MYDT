@@ -568,7 +568,6 @@ export const units = [
       weapon +
       "1) Raiu",
   },
-  // prices fixed above
   {
     name: "Van Augur",
     aka: "The Supersonic",
@@ -994,7 +993,7 @@ export const units = [
   {
     name: "Harald",
     aka: king + "Elbaph",
-    price: 9.8,
+    price: 11,
     img: "https://static.wikia.nocookie.net/onepiece/images/4/42/Harald_Levely_Portrait.png/",
   },
   {
@@ -3277,7 +3276,7 @@ export const units = [
     // done
     name: "Arthur Kaiser",
     aka: "The Dagger",
-    price: 12.6, // fixed price
+    price: 12.5, // fixed price
     img: "https://static.wikia.nocookie.net/bluelock/images/5/5c/Kaiser_Blue_Lock.jpg/",
     desc:
       adf +
@@ -3293,7 +3292,7 @@ export const units = [
     // done
     name: "Vivian Lunastar",
     aka: "Mage of Kaiser",
-    price: 10.05, // fixed price
+    price: 9, // fixed price
     img: "https://static.wikia.nocookie.net/nanatsu-no-taizai/images/4/42/Vivian_appearing_in_Boar_Hat.png/",
     desc: "<strong>Backstory: </strong><br>Teams up with Kaiser. Secretly loves Kaiser.<br><br><strong>Abilities: </strong><br><br><strong>Weapon: </strong>-magical staff with a beast paw on the end.<br><br><em>Inspired by: Vivian (Seven Deadly Sins)</em>",
   },
@@ -3359,7 +3358,7 @@ export const units = [
   {
     name: "St. Krampus Kringle",
     aka: "Santa Claus",
-    price: 1,
+    price: 8,
     img: "https://i.pinimg.com/1200x/da/4b/55/da4b556bab086c87e70a16c98ce9395c.jpg",
     desc:
       "<strong>Backstory: </strong><br> The Naughty version of Santa. He goes around the world. Doing naughty things." +
@@ -3369,7 +3368,7 @@ export const units = [
   {
     name: "St. Rudolph Kringle",
     aka: "The Fenrir",
-    price: 3.01,
+    price: 11.5,
     img: "https://i.pinimg.com/736x/b8/52/ea/b852ea4ae987206c7978bae91e347bf9.jpg",
     desc:
       "<strong>First Son of Santa" +
@@ -3379,7 +3378,7 @@ export const units = [
   {
     name: "St. Alphonse Kringle",
     aka: "The Grim Reaper",
-    price: 3.01,
+    price: 11.5,
     img: "https://static.wikia.nocookie.net/fma/images/f/f1/AvatarAlphonse.png/",
     desc:
       "<strong>Second Son of Santa" +
@@ -3391,7 +3390,7 @@ export const units = [
   {
     name: "Nathan Agrippa",
     aka: "The Mime",
-    price: 14.5,
+    price: 8,
     img: "https://static.wikia.nocookie.net/blackclover/images/a/ae/Nathan_square.png/",
     desc: "<em>Inspired by: (looks)Nathan Agrippa (Black Clover)</em>",
   },
@@ -3485,13 +3484,13 @@ export const units = [
   {
     name: "Yunju [ /GI* (2 Squad)M]",
     aka: "The Centepede",
-    price: 14.1,
+    price: 8,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/f/fb/Yunju_CA_Portrait.png/",
   },
   {
     name: "Boki [ /GI* (2 Squad)M]",
     aka: "The Fly",
-    price: 14.1,
+    price: 8,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/c/ca/Boki_CA_Portrait.png/",
   },
   {
@@ -3543,19 +3542,19 @@ export const units = [
   {
     name: "Fuhrer Ugly [Trap-Jaw Ant /GI* (4 Squad)M]",
     aka: "The Trap",
-    price: 14.1,
+    price: 8,
     img: "https://static.wikia.nocookie.net/onepunchman/images/1/13/Fuhrer_Ugly_Icon.png/",
   },
   {
     name: "Do-S [ /GI* (3 Squad)F]",
     aka: "Black Widow Spider",
-    price: 14.1,
+    price: 8,
     img: "https://static.wikia.nocookie.net/onepunchman/images/4/4d/Do-S_Icon.jpg/",
   },
   {
     name: "Jogo [Wasp /GI* (3 Squad)F]",
     aka: "The Wasp",
-    price: 14.1,
+    price: 8,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/76/JogoP.png/",
   },
   {
@@ -3598,7 +3597,7 @@ export const units = [
     // done
     name: "Ursula von der Leyen",
     aka: "The Flash Empress",
-    price: 11.1, // fixed price
+    price: 11.8, // fixed price
     img: "https://static.wikia.nocookie.net/mato-seihei-no-slave/images/e/ed/Ren_Mug.png/",
     desc:
       seven +
@@ -3613,7 +3612,7 @@ export const units = [
   {
     name: "Barraka von der Leyen",
     aka: "The Yellow Flash",
-    price: 11.5, // fixed price
+    price: 11.9, // fixed price
     img: "https://i.pinimg.com/1200x/b8/ad/68/b8ad685ec04c47acc095f78d1f3d6279.jpg",
     desc:
       rgbk +
@@ -3632,59 +3631,59 @@ export const units = [
   {
     name: "Taissa Farmiga* /Faris (Indigo) SEVEN*",
     aka: "The Nun",
-    price: 14.1,
+    price: 11,
     img: "https://static.wikia.nocookie.net/fairytail/images/8/8e/Faris_%28Earth_Land%29_Profile_Pic.jpg/",
   },
   {
     name: "Ignia /SEVEN*",
     aka: "Red Dragon",
-    price: 14.1,
+    price: 11,
     img: "https://static.wikia.nocookie.net/fairytail/images/b/b2/Ignia_human.png/",
     desc: rgbk,
   },
   {
     name: "Aldoron [(Green) SEVEN]*",
-    price: 14.1,
+    price: 11,
     img: "https://static.wikia.nocookie.net/fairytail/images/2/22/God_Seed_Aldoron_Profile.png/",
     desc: rgbk,
   },
   {
     name: "Tendo Pain [(Orange) SEVEN]*",
-    price: 14.1,
+    price: 11,
     img: "https://cdn.shopify.com/s/files/1/0785/4004/6646/files/fa9918db3acac38b8c751e3851a7cb9a_480x480.jpg?v=1727098560",
   },
   {
     name: "Konan*",
     aka: "Angle of Rain",
-    price: 14.1,
+    price: 10.5,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpez8GTF3oReDV9jdYAPT4u2RWcQE1Q-hawA&s",
     desc: seven + "Blue" + brk + rgbk,
   },
   {
     name: "Mereoleona Vermillion",
     aka: "Crimson Lioness",
-    price: 14.1,
+    price: 11.9,
     img: "https://static.wikia.nocookie.net/blackclover/images/d/df/Mereoleona_square.png/",
     desc: rgbk,
   },
   {
     name: "Fuegoleon Vermillion",
     aka: "Crimson Lion",
-    price: 14.1,
+    price: 8,
     img: "https://static.wikia.nocookie.net/blackclover/images/a/ac/Fuegoleon_square.png/",
     desc: seven + "Orange" + brk + rgbk,
   },
   {
     name: "Asterion",
     aka: "The Sky Fox",
-    price: 14.1,
+    price: 13,
     img: "https://static.wikia.nocookie.net/onepunchman/images/2/22/Boros_Icon.jpg/",
     desc:
       backstory +
       "Sky Fox from Battle Planet. Sits in the sky like a final boss waiting for challengers. It is a <strong>Silver White Nine-Tailed Fox</strong>. Biggest clash is vs Santa Claus." +
       inspire +
       "Watchdog(moves), Boros(moves) (One Punch Man)",
-  },
+  }, // price update until here
   {
     name: "Nacht Faust*",
     price: 1,
