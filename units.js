@@ -3176,7 +3176,7 @@ export const units = [
   {
     // done
     name: "Apollo Creed",
-    aka: "The Kingmaker",
+    aka: "The Ghost",
     price: 12.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
     desc:
@@ -3188,7 +3188,7 @@ export const units = [
       "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
-    name: "Hanuman",
+    name: "Halfdan Lan Lu Bu",
     aka: "",
     price: 12.11, // fixed price
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFUbto-jTR6ASsBga5pvycG2j6-WNKGBW5Q&s",
@@ -3196,9 +3196,18 @@ export const units = [
       backstory +
       "A demi-god monkey mink. Body like Kuma. Good friend of Apollo. Comes to help him at the war with celestia." +
       ability +
-      "1) Diamond fruit<br>2) Monkey God's Tail (endless tail)" +
+      "1) Cat fruit, model: White Tiger<br>2) Monkey God's Tail (endless tail)" +
+      weapon +
+      "1) Kimura Sambo (katana)" +
       inspire +
-      "Hanuman, Super Saiyan 4 (DBZ), Kuroki Gensai (Kengan Ashura), Kuma, Jozu(OP)",
+      "Hanuman, Super Saiyan 4 (DBZ), Kuroki Gensai (Kengan Ashura), Kuma, Jozu(OP), Tiger Vanguard (black myth wukong)",
+  },
+  {
+    name: "Sheila Kaiser",
+    aka: "",
+    price: 7.15, // fixed price
+    img: "https://c4.wallpaperflare.com/wallpaper/330/403/629/doupocangqiong-medusa-queen-hd-wallpaper-preview.jpg",
+    desc: backstory,
   },
   {
     name: "Yoma Hashimoto*",
@@ -3388,7 +3397,7 @@ export const units = [
 
   // GI* (Great Insect) Squad --- fanfic
   {
-    name: "Ball",
+    name: "LaMelo Ball",
     aka: "Black Ant",
     price: 11.5, // fixed price
     img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",

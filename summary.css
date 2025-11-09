@@ -48,6 +48,10 @@ details {
   border-radius: 8px;
   padding: 1rem;
 }
+/* underline every <strong> inside dropdown story text */
+details strong {
+  text-decoration: underline;
+}
 summary {
   cursor: pointer;
   font-size: 1.3rem;
