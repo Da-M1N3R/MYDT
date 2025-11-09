@@ -3189,20 +3189,21 @@ export const units = [
       "<strong>Shadow Emperor</strong><br>" +
       "<strong>-The Ghost of the Underworld</strong>" +
       ability +
-      "Six Slots <br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) <br>6) <strong>D</strong>racarys (Undying Fire) " +
+      "Six Slots (Conjurer)<br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) <br>6) <strong>D</strong>racarys (Undying Fire) " +
       weapon +
       "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
     name: "Halfdan Lan Lu Bu",
-    aka: "",
+    aka: "The Fang of Dark",
     price: 12.11, // fixed price
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFUbto-jTR6ASsBga5pvycG2j6-WNKGBW5Q&s",
     desc:
+      "<strong>Dark Army Commander: 5th Division</strong>" +
       backstory +
-      "A demi-god monkey mink. Body like Kuma. Good friend of Apollo. Comes to help him at the war with celestia." +
+      "A monkey mink. Body like Kuma. Good friend of Apollo. Comes to help him at the war with celestia." +
       ability +
-      "1) Cat fruit, model: White Tiger<br>2) Monkey God's Tail (endless tail)" +
+      "1) Cat fruit, model: White Tiger<br>2) Monkey God's Tail (endless tail)<br>3) Diamond Skin (Enchanter)" +
       weapon +
       "1) Kimura Sambo (katana)" +
       inspire +
@@ -3363,7 +3364,7 @@ export const units = [
     desc:
       "<strong>Backstory: </strong><br> The Naughty version of Santa. He goes around the world. Doing naughty things." +
       ability +
-      "1) Teleport Devil <br>2) <br><br><em>Inspired by: Obito (naruto)</em>",
+      "1) Teleport Devil <br>2) Future Devil <br><br><em>Inspired by: Obito (naruto)</em>",
   },
   {
     name: "St. Rudolph Kringle",
