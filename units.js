@@ -912,6 +912,28 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/7/7e/Satchels_Maffey_Portrait.png/",
   },
 
+  // other world nobles
+  {
+    name: "St. Rosward Rosward",
+    price: avgKing,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4d/Rosward_Rosward_Portrait.png/",
+  },
+  {
+    name: "St. Rosward Charlos",
+    price: avgKing,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a3/Rosward_Charlos_Portrait.png/",
+  },
+  {
+    name: "St. Rosward Shalria",
+    price: avgKing,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1b/Rosward_Shalria_Portrait.png/",
+  },
+  {
+    name: "St. Donquixote Mjosgard",
+    price: avgKing,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2a/Donquixote_Mjosgard_Portrait.png/",
+  },
+
   // Kingdom Representatives ---> Kings
   {
     name: "Ham Burger",
@@ -3048,22 +3070,31 @@ export const units = [
 
   // Others
   {
-    name: "Mr. 5",
+    name: "Polo Graham",
+    price: 8,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/20/Polo_Gram_Portrait.png/",
+  },
+  {
+    name: "Gem",
+    aka: "Mr. 5",
     price: 8,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Gem_Portrait.png/",
   },
   {
-    name: "Miss Valentine",
+    name: "Mikita",
+    aka: "Miss Valentine",
     price: 8,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b0/Mikita_Portrait.png/",
   },
   {
     name: "Bon Kurei",
+    aka: "Mr. 2",
     price: 8,
     img: comingSoon,
   },
   {
-    name: "Miss Goldenweek",
+    name: "Marianne",
+    aka: "Miss Goldenweek",
     price: 7,
     img: comingSoon,
   },
