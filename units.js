@@ -3212,9 +3212,10 @@ export const units = [
   },
   {
     name: "Saitama",
-    aka: "The Ghost",
+    aka: "One Punch Man",
     price: 100,
     img: "https://static.wikia.nocookie.net/onepunchman/images/2/25/Saitama_Icon.png/",
+    desc: "<strong>Hero for Fun.</strong><br>",
   },
   {
     // done
