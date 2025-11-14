@@ -3211,6 +3211,12 @@ export const units = [
     desc: "<strong>BJJ---D6 System---WALKED---<br><em>---1---W---Wrist lock (highlight reel/special/rare submissions)*<br>---2---A---Armbar (arm extensions)<br>---3---L---Leglock (everything legs)<br>---4---K---Kimura (arm rotation)<br>---5---E---Ezekiel (gi/air chokes)*<br>---6---D---D'arce (blood chokes)*</em></strong>",
   },
   {
+    name: "Saitama",
+    aka: "The Ghost",
+    price: 100,
+    img: "https://static.wikia.nocookie.net/onepunchman/images/2/25/Saitama_Icon.png/",
+  },
+  {
     // done
     name: "Apollo Creed",
     aka: "The Ghost",
