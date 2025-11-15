@@ -1884,47 +1884,47 @@ export const units = [
   {
     name: "Fuga",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1b/Fuga_Portrait.png/",
   },
   {
     name: "Zanki",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0f/Zanki_Portrait.png/",
   },
   {
     name: "Jaki",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1b/Jaki_Portrait.png/",
   },
   {
     name: "Goki",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/14/Goki_Portrait.png/",
   },
   {
     name: "Rokki",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/39/Rokki_Portrait.png/",
   },
   {
     name: "Nangi",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e4/Nangi_Portrait.png/",
   },
   {
     name: "Hatcha",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/07/Hatcha_Portrait.png/",
   },
   {
     name: "Kunyun",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3b/Kunyun_Portrait.png/",
   },
   {
     name: "Juki",
     price: 8.35, // fixed price
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/44/Juki_Portrait.png/",
   },
   // Sasaki's Armored Division
   {
@@ -2050,84 +2050,84 @@ export const units = [
   // Oniwaban ---> Orochi's Ninja Squad
   {
     name: "Fukurokuju",
-    price: 6.5,
+    price: 7,
     img: "https://static.wikia.nocookie.net/onepiece/images/1/19/Fukurokuju_Portrait.png/",
   },
   {
     name: "Daikoku",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/77/Daikoku_Portrait.png/",
   },
   {
     name: "Fujin",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/9d/Fujin_Portrait.png/",
   },
   {
     name: "Raijin",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1b/Raijin_Portrait.png/",
   },
   {
     name: "Hanzo",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/ee/Hanzo_Portrait.png/",
   },
   {
     name: "Chome",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/8e/Chome_Portrait.png/",
   },
   {
     name: "Jigoku Benten",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e0/Jigoku_Benten_Portrait.png/",
   },
   {
     name: "Bishamon",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/ae/Bishamon_Portrait.png/",
   },
   {
     name: "Yazaemon",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3b/Yazaemon_Portrait.png/",
   },
   {
     name: "Kazekage",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Kazekage_Portrait.png/",
   },
   {
     name: "Sarutobi",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fb/Sarutobi_Portrait.png/",
   },
   // Mimawarigumi ---> Orochi's Samurai Squad
   {
     name: "Hotei",
-    price: 6.5,
+    price: 7,
     img: "https://static.wikia.nocookie.net/onepiece/images/5/58/Hotei_Portrait.png/",
   },
   {
     name: "Himuro",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c8/Himuro_Portrait.png/",
   },
   {
     name: "Garudan",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a5/Garudan_Portrait.png/",
   },
   {
     name: "Gangaru",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/57/Gangaru_Portrait.png/",
   },
   {
     name: "Hatsume",
     price: 5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4b/Hatsume_Portrait.png/",
   },
   // Yakuza Boss
   {
@@ -2140,25 +2140,25 @@ export const units = [
     name: "Tsunagoro",
     aka: "Broken Hat",
     price: 6.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e7/Tsunagoro_Portrait.png/",
   },
   {
     name: "O-Cho",
     aka: "Moonflower",
     price: 6.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b2/Cho_Portrait.png/",
   },
   {
     name: "Omasa",
     aka: "Blood-Writing",
     price: 6.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/ba/Omasa_Portrait.png/",
   },
   {
     name: "Yatappe",
     aka: "Snake-Eyes",
     price: 6.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/8/8b/Yatappe_Portrait.png/",
   },
   // Nine Red Scabbards
   {
@@ -2231,12 +2231,12 @@ export const units = [
   {
     name: "Fugetsu Omusubi",
     price: 7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a4/Fugetsu_Omusubi_Portrait.png/",
   },
   {
     name: "Uzuki Tempura",
     price: 7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/af/Uzuki_Tempura_Portrait.png/",
   },
 
   // Germa 66
@@ -2727,13 +2727,13 @@ export const units = [
   },
   {
     name: "Masked Deuce",
-    price: 1,
+    price: 5,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/03/Masked_Deuce_Portrait.png/",
   },
   {
     name: "Epoida",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/32/Epoida_Portrait.png/",
   },
   {
     name: "Whitey Bay",
@@ -2744,33 +2744,35 @@ export const units = [
   {
     name: "Andre",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d8/Andre_Portrait.png/",
   },
   {
     name: "Islewan",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/96/Islewan_Portrait.png/",
   },
   {
-    name: "Doma [Bohemian Knight]",
+    name: "Doma",
+    aka: "Bohemian Knight",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1a/Doma_Portrait.png/",
   },
   {
-    name: "McGuy [Thunder Lord]",
+    name: "McGuy",
+    aka: "Thunder Lord",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/62/McGuy_Portrait.png/",
   },
   {
-    name: "*brother 1",
+    name: "Decalvan-1",
     aka: "Decalvan Brothers",
-    price: 8,
+    price: 6.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/06/Decalvan_Brothers_Portrait.png/",
   },
   {
-    name: "*brother 2",
+    name: "Decalvan-2",
     aka: "Decalvan Brothers",
-    price: 8,
+    price: 6.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/06/Decalvan_Brothers_Portrait.png/",
   },
   {
@@ -2781,31 +2783,41 @@ export const units = [
   },
   {
     name: "Elmy",
-    price: 8,
-    img: comingSoon,
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/71/Elmy_Portrait.png/",
   },
   {
     name: "Ramba",
-    price: 8,
-    img: comingSoon,
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/05/Ramba_Portrait.png/",
   },
   {
     name: "Karma",
     aka: "Squid Head",
-    price: 8,
-    img: comingSoon,
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/0c/Karma_Portrait.png/",
   },
   {
     name: "Bizarre",
     aka: "Trap-Jaw",
-    price: 1,
-    img: comingSoon,
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f0/Bizarre_Portrait.png/",
   },
   {
     name: "Palms",
     aka: "Pandaman",
-    price: 1,
-    img: comingSoon,
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/16/Palms_Portrait.png/",
+  },
+  {
+    name: "Delacuaji",
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b9/Delacuaji_Portrait.png/",
+  },
+  {
+    name: "Blondie",
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/bb/Blondie_Portrait.png/",
   },
 
   // Mink Tribe
@@ -2845,22 +2857,27 @@ export const units = [
   {
     name: "Roddy",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/3/3c/Roddy_Portrait.png/",
   },
   {
     name: "Blackback",
     price: 8,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/4f/Blackback_Portrait.png/",
   },
   {
     name: "Keith",
     price: 6,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/dc/Keith_Portrait.png/",
   },
   {
     name: "Milky",
     price: 6,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/9b/Milky_Portrait.png/",
+  },
+  {
+    name: "Hitsugisukan",
+    price: 6,
+    img: "https://static.wikia.nocookie.net/onepiece/images/7/79/Hitsugisukan_Portrait.png/",
   },
 
   // Kuja Pirates
@@ -2868,7 +2885,7 @@ export const units = [
     name: "Boa Hancock",
     aka: "Pirate Empress /Snake Princess",
     price: 10.4,
-    img: "https://static.wikia.nocookie.net/onepiece/images/2/22/Boa_Hancock_Portrait.png/",
+    img: "https://i.pinimg.com/1200x/97/c6/75/97c67582c1134bc25a6d879308752e19.jpg",
   },
   {
     name: "Boa Sandersonia",
@@ -2949,6 +2966,7 @@ export const units = [
   // Firetank Pirates
   {
     name: "Capone Bege",
+    aka: "Gang Bege",
     price: 9.0, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/2a/Capone_Bege_Portrait.png/",
   },
@@ -3232,6 +3250,12 @@ export const units = [
       "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
+    name: "Aella Creed",
+    price: 7,
+    img: "https://i.pinimg.com/736x/3f/14/65/3f1465e4a19b120336fb82a568874938.jpg",
+    desc: "<strong>Lagat's companion. The Fairy</strong><br>",
+  },
+  {
     name: "Starscourge Radahn",
     aka: "The Fang of Dark",
     price: 12.11, // fixed price
@@ -3283,7 +3307,7 @@ export const units = [
     name: "Abigail Rolar",
     aka: "The Doll",
     price: 12.8, // fixed price
-    img: "https://upload-os-bbs.hoyolab.com/upload/2024/09/16/172989151/c5c31120d3de572208b8ec5b3aa2c675_5315656865450292593.png",
+    img: "https://i.pinimg.com/736x/eb/a8/2a/eba82a646ea7e9a9d453753760583294.jpg",
     desc: "<strong>Backstory: </strong><br>Comes from a very powerful race of puzzel humans. With indestructible skin, ability to shapeshift and family of power houses. Losses the love of her life, Razor. Then, develops the most intense Haki known to man & becomes an Emperor.<br><br><strong>Abilities: none</strong><br><br><em>Inspired by: Mikasa Ackermann (Attack on Titan)</em>",
   },
   {
@@ -3463,7 +3487,7 @@ export const units = [
       ability +
       "1) Devil Transformation: Baphomet <br>• Blue Flame <br>2) Turtle fruit, model: Black Tortoise" +
       inspire +
-      " devil-Hendrickson(transformation) (Seven Deadly Sins), Dabi(looks, power) (MHA)",
+      " Achilles (Troy), devil-Hendrickson(transformation) (Seven Deadly Sins), Dabi(looks, power) (MHA)",
   },
   {
     name: "Queen Mira",
@@ -4732,9 +4756,9 @@ export const units = [
     img: "https://static.wikia.nocookie.net/fairytail/images/3/3c/Kiria_Profile.png/",
   },
   {
-    name: "idk",
-    price: 1,
-    img: comingSoon,
+    name: "Gwen Stacy",
+    price: 7,
+    img: "https://i.pinimg.com/736x/5d/68/4c/5d684c77c687c29fd3c7843a99c989b4.jpg",
   },
   {
     name: "idk",
