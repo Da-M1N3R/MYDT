@@ -268,16 +268,54 @@
         float: right;
         margin: 10px;
       }
+
+      /* dropdown */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: black;
+        /* background: var(--gold); */
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        top: 100%;
+        right: 0;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background: var(--gold);
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover #dropdown-btn {
+        background-color: var(--gold);
+        color: #000;
+      }
     </style>
   </head>
   <body>
     <header>
       <h1>Make Your Dream Team</h1>
       <div style="display: flex; align-items: center; gap: 8px">
-        <a href="summary.html" target="_blank"
-          ><button
-            id="manga-btn"
-            title="Story Summary"
+        <div class="dropdown">
+          <button
+            id="dropdown-btn"
+            title="Menu"
             style="
               font-size: 1.3rem;
               background: #000;
@@ -292,112 +330,178 @@
               transition: background 0.2s, color 0.2s, border 0.2s;
             "
           >
-            Summary
-          </button></a
-        >
-        <a
-          href="https://tcbonepiecechapters.com/mangas/5/one-piece"
-          target="_blank"
-          ><button
-            id="manga-btn"
-            title="Read Latest Manga"
-            style="
-              font-size: 1.3rem;
-              background: #000;
-              color: var(--gold);
-              border: 2px solid var(--gold);
-              cursor: pointer;
-              padding: 0 8px;
-              border-radius: 4px;
-              height: 2.2em;
-              min-width: 2.7em;
-              margin-left: 4px;
-              transition: background 0.2s, color 0.2s, border 0.2s;
-            "
-          >
-            Manga
-          </button></a
-        >
-        <a href="fanart.html" target="_blank"
-          ><button
-            id="fanart-btn"
-            title="Fan-Arts"
-            style="
-              font-size: 1.3rem;
-              background: #000;
-              color: var(--gold);
-              border: 2px solid var(--gold);
-              cursor: pointer;
-              padding: 0 8px;
-              border-radius: 4px;
-              height: 2.2em;
-              min-width: 2.7em;
-              margin-left: 4px;
-              transition: background 0.2s, color 0.2s, border 0.2s;
-            "
-          >
-            Art
-          </button></a
-        >
-        <a href="https://cardgames.io/reversi/" target="_blank"
-          ><button
-            id="game-btn"
-            title="Play Reversi"
-            style="
-              font-size: 1.3rem;
-              background: #000;
-              color: var(--gold);
-              border: 2px solid var(--gold);
-              cursor: pointer;
-              padding: 0 8px;
-              border-radius: 4px;
-              height: 2.2em;
-              min-width: 2.7em;
-              margin-left: 4px;
-              transition: background 0.2s, color 0.2s, border 0.2s;
-            "
-          >
-            Game
-          </button></a
-        >
+            Menu
+          </button>
+          <div class="dropdown-content">
+            <a href="summary.html" target="_blank"
+              ><button
+                id="manga-btn"
+                title="Story Summary"
+                style="
+                  font-size: 1.3rem;
+                  background: #000;
+                  color: var(--gold);
+                  border: 2px solid var(--gold);
+                  cursor: pointer;
+                  padding: 0 8px;
+                  border-radius: 4px;
+                  height: 2.2em;
+                  min-width: 2.7em;
+                  margin-left: 4px;
+                  transition: background 0.2s, color 0.2s, border 0.2s;
+                "
+              >
+                Summary
+              </button></a
+            >
+            <a
+              href="https://tcbonepiecechapters.com/mangas/5/one-piece"
+              target="_blank"
+              ><button
+                id="manga-btn"
+                title="Read Latest Manga"
+                style="
+                  font-size: 1.3rem;
+                  background: #000;
+                  color: var(--gold);
+                  border: 2px solid var(--gold);
+                  cursor: pointer;
+                  padding: 0 8px;
+                  border-radius: 4px;
+                  height: 2.2em;
+                  min-width: 2.7em;
+                  margin-left: 4px;
+                  transition: background 0.2s, color 0.2s, border 0.2s;
+                "
+              >
+                Manga
+              </button></a
+            >
+            <a href="fanart.html" target="_blank"
+              ><button
+                id="fanart-btn"
+                title="Fan-Arts"
+                style="
+                  font-size: 1.3rem;
+                  background: #000;
+                  color: var(--gold);
+                  border: 2px solid var(--gold);
+                  cursor: pointer;
+                  padding: 0 8px;
+                  border-radius: 4px;
+                  height: 2.2em;
+                  min-width: 2.7em;
+                  margin-left: 4px;
+                  transition: background 0.2s, color 0.2s, border 0.2s;
+                "
+              >
+                Art
+              </button></a
+            >
+            <a href="https://cardgames.io/reversi/" target="_blank"
+              ><button
+                id="game-btn"
+                title="Play Reversi"
+                style="
+                  font-size: 1.3rem;
+                  background: #000;
+                  color: var(--gold);
+                  border: 2px solid var(--gold);
+                  cursor: pointer;
+                  padding: 0 8px;
+                  border-radius: 4px;
+                  height: 2.2em;
+                  min-width: 2.7em;
+                  margin-left: 4px;
+                  transition: background 0.2s, color 0.2s, border 0.2s;
+                "
+              >
+                Game
+              </button></a
+            >
+          </div>
+        </div>
+
         <div id="bank">💰 ฿ <span>100</span></div>
-        <button
-          id="infinity-btn"
-          title="Enable unlimited cash"
-          style="
-            font-size: 1.3rem;
-            background: var(--gold);
-            color: #000;
-            border: 2px solid var(--gold);
-            cursor: pointer;
-            padding: 0 8px;
-            border-radius: 4px;
-            height: 2.2em;
-            min-width: 2.7em;
-            transition: background 0.2s, color 0.2s, border 0.2s;
-          "
-        >
-          &#8734;
-        </button>
-        <button
-          id="reset-btn"
-          title="Reset team and cash"
-          style="
-            font-size: 1.3rem;
-            background: #000;
-            color: var(--gold);
-            border: 2px solid var(--gold);
-            cursor: pointer;
-            padding: 0 8px;
-            border-radius: 4px;
-            height: 2.2em;
-            min-width: 2.7em;
-            margin-left: 4px;
-            transition: background 0.2s, color 0.2s, border 0.2s;
-          "
-        >
-          &#10227;
-        </button>
+        <div class="dropdown">
+          <button
+            id="dropdown-btn"
+            title="More Function"
+            style="
+              font-size: 1.3rem;
+              background: #000;
+              color: var(--gold);
+              border: 2px solid var(--gold);
+              cursor: pointer;
+              padding: 0 8px;
+              border-radius: 4px;
+              height: 2.2em;
+              min-width: 2.7em;
+              margin-left: 4px;
+              transition: background 0.2s, color 0.2s, border 0.2s;
+            "
+          >
+            #
+          </button>
+          <div class="dropdown-content">
+            <button
+              id="infinity-btn"
+              title="Enable unlimited cash"
+              style="
+                font-size: 1.3rem;
+                background: var(--gold);
+                color: #000;
+                border: 2px solid var(--gold);
+                cursor: pointer;
+                padding: 0 8px;
+                border-radius: 4px;
+                height: 2.2em;
+                min-width: 2.7em;
+                transition: background 0.2s, color 0.2s, border 0.2s;
+              "
+            >
+              &#8734;
+            </button>
+            <button
+              id="reset-btn"
+              title="Reset team and cash"
+              style="
+                font-size: 1.3rem;
+                background: #000;
+                color: var(--gold);
+                border: 2px solid var(--gold);
+                cursor: pointer;
+                padding: 0 8px;
+                border-radius: 4px;
+                height: 2.2em;
+                min-width: 2.7em;
+                margin-left: 4px;
+                transition: background 0.2s, color 0.2s, border 0.2s;
+              "
+            >
+              &#10227;
+            </button>
+            <button
+              id="random-btn"
+              title="Randomize"
+              style="
+                font-size: 1.3rem;
+                background: #000;
+                color: var(--gold);
+                border: 2px solid var(--gold);
+                cursor: pointer;
+                padding: 0 8px;
+                border-radius: 4px;
+                height: 2.2em;
+                min-width: 2.7em;
+                margin-left: 4px;
+                transition: background 0.2s, color 0.2s, border 0.2s;
+              "
+            >
+              🎲
+            </button>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -630,6 +734,23 @@
           this.style.color = "var(--gold)";
           this.style.borderColor = "var(--gold)";
         }, 100);
+      };
+
+      // ----- RANDOM BUTTON LOGIC -----
+      const randomBtn = document.getElementById("random-btn");
+      randomBtn.onclick = function () {
+        unlimitedCash = true;
+        infinityBtn.style.background = "var(--gold)";
+        infinityBtn.style.color = "#000";
+        infinityBtn.style.borderColor = "var(--gold)";
+
+        const randomUnit = units[Math.floor(Math.random() * units.length)];
+        buy(randomUnit);
+
+        unlimitedCash = false;
+        infinityBtn.style.background = "#000";
+        infinityBtn.style.color = "var(--gold)";
+        infinityBtn.style.borderColor = "var(--gold)";
       };
     </script>
   </body>
