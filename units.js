@@ -3436,7 +3436,11 @@ export const units = [
     desc:
       "<strong>First Son of Santa" +
       ability +
-      "1) String Fruit<br>2) Flame Fruit<br><br><strong>-Weapon: </strong><br><br><strong>-Move: </strong><br>1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
+      "1) String Fruit<br>2) Flame Fruit<br>3) Angry Bird Arsenal<br><strong>" +
+      weapon +
+      "1) sling shot" +
+      move +
+      "1) Hell Knot<br>2) <br>3) <br><strong>fav.:</strong> Amaterasu<br><br><em>Inspired by: (power)Itachi Uchiha (Naruto) & (power)Rui (Demon Slayer)</em>",
   },
   {
     name: "St. Alphonse Kringle",
@@ -5046,5 +5050,89 @@ export const units = [
     aka: "",
     price: 1,
     img: "https://i.pinimg.com/1200x/44/8d/14/448d14e32633d0e721d974271b3910ec.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/00/fc/e6/00fce6e19b014feb06d5a73050d5ce2e.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/9c/b4/6c/9cb46c64fdba2e36e7340b2b6c1d292d.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/1c/8a/a7/1c8aa7f5e524f9516f6650bf6a8d1655.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/98/72/10/987210f3e7b5c68c7228ff25f3b1df0b.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/1200x/e7/9b/07/e79b071a732cbcecf4e31de2a4eb9179.jpg",
+  },
+  {
+    name: "Lobo",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/78/d1/86/78d1865466f8f9fca8caa694e01dd0f2.jpg",
+  },
+  {
+    name: "Darth Vader",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/52/ab/e7/52abe7c0b873ac89e5244d3011c66bce.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/02/8e/d4/028ed4ca43dfd47cc145fe75300e84f0.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/21/bf/f5/21bff583121ea69f138165519db0b84d.jpg",
+  },
+  {
+    name: "???x",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/43/dd/0e/43dd0e9342e22f5cad279eec58ded87d.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/5f/93/3f/5f933f85873e1e9ce0866fe9804eec3b.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/f9/0a/85/f90a850b32f51a696501682296e30f57.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/4d/3b/34/4d3b34ed6e9709a481a1d2913cde955d.jpg",
+  },
+  {
+    name: "???",
+    aka: "",
+    price: 1,
+    img: "https://i.pinimg.com/736x/3b/30/6c/3b306cb98ec25a0a9759d12b76e3c011.jpg",
   },
 ];
