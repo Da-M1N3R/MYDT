@@ -3245,7 +3245,7 @@ export const units = [
       "<strong>Shadow Emperor</strong><br>" +
       "<strong>-The Ghost of the Underworld</strong>" +
       ability +
-      "Six Slots (Conjurer)<br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) <br>6) <strong>D</strong>racarys (Undying Fire) " +
+      "Six Slots (Conjurer)<br>1) <strong>W</strong>arpath (three-section staff) <br>2) <strong>A</strong>ella (fairy buddy) <br>3) <strong>L</strong>1MBO (sniper) <br>4) <strong>K</strong>urogaki no Hime (katana) <br>5) <strong>e</strong>mpty cup (flex slot) - Infinity Castle Box <br>6) <strong>D</strong>racarys (Undying Fire) " +
       weapon +
       "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
