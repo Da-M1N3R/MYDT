@@ -3238,7 +3238,7 @@ export const units = [
   {
     // done
     name: "Apollo Creed",
-    aka: "The Ghost",
+    aka: "The Ghost /Deadman /Gun-Shot",
     price: 12.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
     desc:
