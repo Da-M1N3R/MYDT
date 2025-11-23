@@ -962,27 +962,28 @@ export const units = [
   {
     name: "Otohime",
     price: avgKing - 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d4/Otohime_Portrait.png/",
   },
   {
     name: "Fukaboshi",
     price: avgKing + 0.9,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e7/Fukaboshi_Portrait.png/",
   },
   {
     name: "Ryuboshi",
     price: avgKing + 0.9,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6f/Ryuboshi_Portrait.png/",
   },
   {
     name: "Manboshi",
     price: avgKing + 0.9,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d3/Manboshi_Portrait.png/",
   },
   {
     name: "Shirahoshi",
+    aka: "Mermaid Princess",
     price: avgKing + 0.5,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5f/Shirahoshi_Portrait.png/",
   },
   {
     name: "Riku Doldo III",
@@ -1038,43 +1039,68 @@ export const units = [
     name: "Elizabello II",
     aka: king + "Prodence Kingdom /The Fighting King",
     price: 7,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/cd/Elizabello_II_Portrait.png/",
   },
   {
     name: "Tea IV",
     aka: king + "Eigis Kingdom",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/4/44/Tea_IV_Portrait.png/",
   },
   {
     name: "Ban Dedessinée",
     aka: queen + "Frauce Kingdom",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/da/Ban_Dedessin%C3%A9e_Portrait.png/",
   },
   {
     name: "Ramen",
     aka: king + "Kano Kingdom",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/5b/Ramen_Portrait.png/",
   },
   {
     name: "Beer VI",
-    aka: king + "Roshwan Kingdom",
+    aka: king + "Roshwan",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/56/Beer_VI_Portrait.png/",
+    desc: "Roshwan Kingdom",
+  },
+  {
+    name: "Matryosaka",
+    price: 0.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Matryo_Princesses_Portrait.png/",
+    desc: "Roshwan Kingdom, Matryo Princesses - largest",
+  },
+  {
+    name: "Matryosuka",
+    price: 0.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Matryo_Princesses_Portrait.png/",
+    desc: "Roshwan Kingdom, Matryo Princesses - no. 2 largest",
+  },
+  {
+    name: "Matryoseka",
+    price: 0.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Matryo_Princesses_Portrait.png/",
+    desc: "Roshwan Kingdom, Matryo Princesses - no. 3 largest",
+  },
+  {
+    name: "Matryosoka",
+    price: 0.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Matryo_Princesses_Portrait.png/",
+    desc: "Roshwan Kingdom, Matryo Princesses - no. 4 largest",
   },
   {
     name: "Mororon",
     aka: queen + "Tajine Kingdom",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/5/56/Mororon_Portrait.png/",
   },
   {
     name: "Tacos",
     aka: king + "Shishano Kingdom",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/fa/Tacos_Portrait.png/",
   },
   {
     name: "Lemoncheese",
@@ -1092,7 +1118,14 @@ export const units = [
     name: "Seki",
     aka: king + "Lulusia Kingdom",
     price: avgKing,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f7/Seki_Portrait.png/",
+    desc: "Lulusia Kingdom",
+  },
+  {
+    name: "Komane",
+    price: 0.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b0/Komane_Portrait.png/",
+    desc: "Lulusia Kingdom - Princess",
   },
   {
     name: "Potaufeu",
@@ -1171,6 +1204,18 @@ export const units = [
     img: comingSoon,
   },
   // other kingdom reps.
+  {
+    name: "Kouzuki Momonosuke",
+    aka: "Shogun of Wano",
+    price: avgKing,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/26/Kouzuki_Momonosuke_Portrait.png/",
+  },
+  {
+    name: "Kouzuki Hiyori",
+    aka: "Komurasaki",
+    price: avgKing,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/6d/Kouzuki_Hiyori_Portrait.png/",
+  },
 
   // Cipher Pol
   {
@@ -1206,7 +1251,7 @@ export const units = [
   {
     name: "Spandam",
     price: 5.2,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/ac/Spandam_Portrait.png/",
   },
   {
     name: "Blueno",
@@ -1332,22 +1377,23 @@ export const units = [
   {
     name: "Lacroix",
     price: avgMarine + 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2d/Lacroix_Portrait.png/",
   },
   {
     name: "Lonz",
     price: avgMarine + 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c9/Lonz_Portrait.png/",
   },
   {
     name: "Dalmatian",
     price: avgMarine + 0.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/27/Dalmatian_Portrait.png/",
   },
   {
     name: "Bastille",
+    aka: "Shark Cutter",
     price: avgMarine + 0.1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/9/99/Bastille_Portrait.png/",
   },
   {
     name: "Smoker",
@@ -1358,7 +1404,7 @@ export const units = [
   {
     name: "Maynard",
     price: avgMarine - 0.3,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/06/Maynard_Portrait.png/",
   },
   {
     name: "Gion",
@@ -1425,7 +1471,7 @@ export const units = [
   {
     name: "T Bone",
     price: avgMarine,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2d/T_Bone_Portrait.png/",
   },
   {
     name: "Hina",
@@ -1469,7 +1515,7 @@ export const units = [
   {
     name: "Jaguar D. Saul",
     price: avgMarine + 0.4,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f0/Jaguar_D._Saul_Portrait.png/",
   },
   {
     name: "Zephyr",
@@ -2281,9 +2327,9 @@ export const units = [
   },
   {
     name: "Charlotte Compote",
-    aka: "Minister of Fruits - 1st F",
     price: 3.91, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Charlotte_Compote_Portrait.png/",
+    desc: bmp + "<br>- Minister of Fruits (1st daughter, 2nd child)",
   },
   {
     name: "Charlotte Katakuri",
@@ -2326,6 +2372,11 @@ export const units = [
       "1) ",
   },
   {
+    name: "Charlotte Effilée /(5th F)",
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f4/Charlotte_Effil%C3%A9e_Portrait.png/",
+  },
+  {
     name: "Charlotte Amande",
     aka: "Demon Lady",
     price: 9.43, // fixed price
@@ -2337,11 +2388,6 @@ export const units = [
       "1) Shirauo (nodachi)" +
       move +
       "1) ",
-  },
-  {
-    name: "Charlotte Effilée /(5th F)",
-    price: 6.5,
-    img: "https://static.wikia.nocookie.net/onepiece/images/f/f4/Charlotte_Effil%C3%A9e_Portrait.png/",
   },
   {
     name: "Charlotte Opera /Minister of Whipped Cream (5th M)",
@@ -2394,14 +2440,33 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/d/d9/Charlotte_Moscato_Portrait.png/",
   },
   {
-    name: "Charlotte Mont-d'Or /Minister of Cheese (19th M)",
+    name: "Charlotte Mont-d'Or",
+    aka: "The Scribe",
     price: 7.34, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/31/Charlotte_Mont-d%27Or_Portrait.png/",
+    desc:
+      bmp +
+      "<br>- Minister of Cheese (19th son, 30th child)" +
+      ability +
+      "1) Book fruit" +
+      weapon +
+      "1) rifle" +
+      move +
+      "1) World of Books",
   },
   {
-    name: "Charlotte Smoothie /Minister of Juice (14th F)",
-    price: 10.12, // fixed price
+    name: "Charlotte Smoothie",
+    price: 10, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/0/0b/Charlotte_Smoothie_Portrait.png/",
+    desc:
+      bmp +
+      "<br>- Minister of Juice (14th daughter, 35th child)" +
+      ability +
+      "1) Wring fruit (squeeze)" +
+      weapon +
+      "1) large sword" +
+      move +
+      "1) ",
   },
   {
     name: "Charlotte Citron /Minister of Eggs (15th F)",
@@ -2429,9 +2494,18 @@ export const units = [
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b4/Charlotte_Dacquoise_Portrait.png/",
   },
   {
-    name: "Charlotte Galette /Minister of Butter (18th F)",
+    name: "Charlotte Galette",
     price: 7.47, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/4/48/Charlotte_Galette_Portrait.png/",
+    desc:
+      bmp +
+      "<br>- Minister of Butter (18th daughter, 42th child)" +
+      ability +
+      "1) Butter fruit" +
+      weapon +
+      "1) mounted gatling gun" +
+      move +
+      "1) ",
   },
   {
     name: "Charlotte Snack /Minister of Fries (25th M)",
@@ -3095,41 +3169,44 @@ export const units = [
   {
     name: "Gem",
     aka: "Mr. 5",
-    price: 8,
+    price: 7.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/09/Gem_Portrait.png/",
   },
   {
     name: "Mikita",
     aka: "Miss Valentine",
-    price: 8,
+    price: 7,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b0/Mikita_Portrait.png/",
   },
   {
     name: "Bon Kurei",
     aka: "Mr. 2",
-    price: 8,
-    img: comingSoon,
+    price: 7,
+    img: "https://static.wikia.nocookie.net/onepiece/images/2/2b/Bentham_Portrait.png/",
   },
   {
     name: "Marianne",
     aka: "Miss Goldenweek",
-    price: 7,
-    img: comingSoon,
+    price: 6,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/65/Marianne_Portrait.png/",
   },
   {
-    name: "Mr. 4",
-    price: 7,
-    img: comingSoon,
+    name: "Babe",
+    aka: "Mr. 4",
+    price: 6.3,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d2/Babe_Portrait.png/",
   },
   {
-    name: "Miss Merry Christmas",
-    price: 7,
-    img: comingSoon,
+    name: "Drophy",
+    aka: "Miss Merry Christmas",
+    price: 6.5,
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/da/Drophy_Portrait.png/",
   },
   {
-    name: "Miss Doublefinger",
-    price: 8,
-    img: comingSoon,
+    name: "Zala",
+    aka: "Miss Doublefinger /Poison Spider",
+    price: 7.2,
+    img: "https://static.wikia.nocookie.net/onepiece/images/a/a8/Zala_Portrait.png/",
   },
   {
     name: "Fisher Tiger",
@@ -3140,27 +3217,35 @@ export const units = [
   },
   {
     name: "Ripley",
-    price: 8,
+    price: 6.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/a/af/Ripley_Portrait.png/",
   },
   {
     name: "Arlong",
-    price: 8,
+    price: 7.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/0/02/Arlong_Portrait.png/",
     desc: "- sawshark (fishman)",
   },
   {
+    name: "Shyarly",
+    price: 5.1,
+    img: "https://static.wikia.nocookie.net/onepiece/images/6/67/Shyarly_Portrait.png/",
+    desc: "- shortfin mako shark (mermaid)",
+  },
+  {
     name: "Caesar Clown",
-    price: 8,
+    price: 7.9,
     img: "https://static.wikia.nocookie.net/onepiece/images/b/b5/Caesar_Clown_Portrait.png/",
   },
   {
     name: "Shimotsuki Ryuma",
+    aka: "The King",
     price: 10.1,
     img: "https://static.wikia.nocookie.net/onepiece/images/f/f9/Ryuma_%28Zombie%29_Portrait.png/",
   },
   {
     name: "Bartholomew Kuma",
+    aka: "The Tyrant",
     price: 11.5,
     img: "https://static.wikia.nocookie.net/onepiece/images/9/90/Bartholomew_Kuma_Portrait.png/",
   },
@@ -3206,6 +3291,7 @@ export const units = [
   },
   {
     name: "Cavendish",
+    aka: "The White Horse",
     price: 8.79, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/2/21/Cavendish_Portrait.png/",
   },
@@ -3214,6 +3300,60 @@ export const units = [
     aka: "The Cannibal",
     price: 8.22, // fixed price
     img: "https://static.wikia.nocookie.net/onepiece/images/3/35/Bartolomeo_Portrait.png/",
+  },
+  {
+    name: "Leo",
+    aka: "The Warrior",
+    price: 6.6, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f5/Leo_Portrait.png/",
+  },
+  {
+    name: "Ideo",
+    aka: "Destruction Cannon",
+    price: 6.2, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/d8/Ideo_Portrait.png/",
+  },
+  {
+    name: "Blue Gilly",
+    price: 6.2, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/be/Blue_Gilly_Portrait.png/",
+  },
+  {
+    name: "Abdullah",
+    price: 5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/1/1a/Abdullah_Portrait.png/",
+  },
+  {
+    name: "Jeet",
+    price: 5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/d/dd/Jeet_Portrait.png/",
+  },
+  {
+    name: "Don Chinjao",
+    aka: "The Drill",
+    price: 9, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/e/e5/Chinjao_Happo_Navy_Portrait.png/",
+  },
+  {
+    name: "Don Sai",
+    price: 8.7, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/b/b0/Sai_Portrait.png/",
+  },
+  {
+    name: "Boo",
+    price: 5.5, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/f/f6/Boo_Portrait.png/",
+  },
+  {
+    name: "Orlumbus",
+    aka: "Massacre Ruler",
+    price: 5.1, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/c/c4/Orlumbus_Portrait.png/",
+  },
+  {
+    name: "Urashima",
+    price: 5.1, // fixed price
+    img: "https://static.wikia.nocookie.net/onepiece/images/0/03/Urashima_Portrait.png/",
   },
   {
     name: "Enel",
