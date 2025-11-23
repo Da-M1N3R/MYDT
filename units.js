@@ -3237,7 +3237,7 @@ export const units = [
   },
   {
     // done
-    name: "Apollo Creed",
+    name: "Apollo Sparrow Lagat",
     aka: "The Ghost /Deadman /Gun-Shot",
     price: 12.01, // fixed price
     img: "https://i.pinimg.com/736x/66/f9/75/66f975e4549b747ffc4912c3fc22af42.jpg",
@@ -3250,13 +3250,13 @@ export const units = [
       "1) Playful Cloud 2.0<br><br><em>Inspired by: Noel Noa (Blue Lock)</em>",
   },
   {
-    name: "Aella Creed",
+    name: "Aella S. Lagat",
     price: 7,
     img: "https://i.pinimg.com/736x/3f/14/65/3f1465e4a19b120336fb82a568874938.jpg",
     desc: "<strong>Lagat's companion. The Fairy</strong><br>",
   },
   {
-    name: "Starscourge Radahn",
+    name: "Radahn Barbossa",
     aka: "The Fang of Dark",
     price: 12.11, // fixed price
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEFUbto-jTR6ASsBga5pvycG2j6-WNKGBW5Q&s",
@@ -3285,14 +3285,19 @@ export const units = [
     img: "https://static.jojowiki.com/images/3/34/latest/20201217170557/YomaAv.jpg",
   },
   {
-    name: "Megumi Fushiguro*",
-    price: 11.25, // fixed price
-    img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/58/MegumiP.png/",
-  },
-  {
-    name: "Shunsui Kyōraku*",
+    name: "Shunsui Fushiguro",
     price: 11.76, // fixed price
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1p4UIaEZt_lsW2KqVOlJ_BE8DsRMFX0W9Sg&s",
+    desc:
+      "<strong>TBC</strong>" +
+      backstory +
+      "Debuts in the Super 8 fight for now." +
+      ability +
+      "1) Ten Shadows Technique" +
+      weapon +
+      "1) dual katana" +
+      inspire +
+      "Megumi Fushiguro (technique), Shunsui Kyōraku (looks), Super Saiyan 4 (DBZ), Kuroki Gensai (Kengan Ashura), Kuma, Jozu(OP), Tiger Vanguard (black myth wukong)",
   },
   {
     // done
@@ -3307,7 +3312,7 @@ export const units = [
     name: "Abigail Rolar",
     aka: "The Doll",
     price: 12.8, // fixed price
-    img: "https://i.pinimg.com/736x/eb/a8/2a/eba82a646ea7e9a9d453753760583294.jpg",
+    img: "https://i.pinimg.com/736x/3b/30/6c/3b306cb98ec25a0a9759d12b76e3c011.jpg",
     desc: "<strong>Backstory: </strong><br>Comes from a very powerful race of puzzel humans. With indestructible skin, ability to shapeshift and family of power houses. Losses the love of her life, Razor. Then, develops the most intense Haki known to man & becomes an Emperor.<br><br><strong>Abilities: none</strong><br><br><em>Inspired by: Mikasa Ackermann (Attack on Titan)</em>",
   },
   {
@@ -3480,7 +3485,7 @@ export const units = [
 
   // GI* (Great Insect) Squad --- fanfic
   {
-    name: "LaMelo Ball",
+    name: "Hector Ball",
     aka: "The Black Warrior",
     price: 12.5, // fixed price
     img: "https://i.pinimg.com/1200x/42/63/03/42630380811a23a1d58a3139438fe3ee.jpg",
@@ -4476,7 +4481,12 @@ export const units = [
     aka: "Fist of Destruction",
     price: 3.01,
     img: "https://static.wikia.nocookie.net/hunterxhunter/images/6/6a/Uvogin_YC_Portrait.png/",
-    desc: pht + "11",
+    desc:
+      pht +
+      "11" +
+      "<strong>TBC</strong>" +
+      backstory +
+      "Debuts in the Super 8 fight for now.",
   },
   {
     name: "Kortopi",
@@ -4853,18 +4863,18 @@ export const units = [
   {
     name: "Shin Asakura*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/d/d5/Shin_Asakura_Portrait.png/",
   },
   {
     name: "Lu Shaotang*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/d/df/Lu_Shaotang_Portrait.png/",
   },
   {
     name: "Heisuke Mashimo*",
     aka: "Dragoon",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/1/1c/Heisuke_Mashimo_Portrait.png/",
   },
 
   // The Order
@@ -4887,12 +4897,12 @@ export const units = [
   {
     name: "Rion Akao*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/6/6f/Rion_Akao_Portrait.png/",
   },
   {
     name: "Hyo*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/4/4d/Hyo_Portrait.png/",
   },
   {
     name: "Takamura*",
@@ -4904,24 +4914,24 @@ export const units = [
     name: "Kanaguri*",
     aka: "The Cameraman",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/c/c0/Kanaguri_Portrait.png/",
   },
   {
     name: "Kamihate*",
     aka: "The End",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/2/27/Kamihate_Portrait.png/",
   },
   {
     name: "Satoru Yotsumura*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/d/de/Satoru_Yotsumura_Portrait.png/",
   },
   {
     name: "Kindaka*",
     aka: "Steel Dragon",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/2/2b/Kindaka_Portrait.png/",
   },
   {
     name: "Oki*",
@@ -4933,13 +4943,13 @@ export const units = [
     name: "Torres*",
     aka: "The Lucky Gambler",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/b/b8/Torres_Portrait.png/",
   },
   {
     name: "Tanabata*",
     aka: "The Performer",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/9/98/Tanabata_Portrait.png/",
   },
 
   // X gang
@@ -4950,24 +4960,24 @@ export const units = [
     img: "https://static.wikia.nocookie.net/sakamoto-days/images/e/e0/Kei_Uzuki_Portrait.png/",
   },
   {
-    name: "Gaku*",
+    name: "Gaku",
     price: 1,
     img: "https://static.wikia.nocookie.net/sakamoto-days/images/1/1d/Gaku_Portrait.png/",
   },
   {
-    name: "Kumanomi*",
+    name: "Kumanomi",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/a/ac/Kumanomi_Portrait.png/",
   },
   {
     name: "Haruma*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/4/4f/Haruma_Portrait.png/",
   },
   {
     name: "Gozu*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/a/a6/Gozu_Portrait.png/",
   },
   {
     name: "Tenkyu*",
@@ -4979,7 +4989,7 @@ export const units = [
     name: "Atari*",
     aka: "The Fortune Teller",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/f/f8/Atari_Portrait.png/",
   },
   {
     name: "Boiled*",
@@ -4989,22 +4999,22 @@ export const units = [
   {
     name: "Akira Akao*",
     price: 1,
-    img: "https://static.wikia.nocookie.net/sakamoto-days/images/f/f6/Akira_Manga.png/",
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/2/2d/Akira_Akao_Portrait.png/",
   },
   {
     name: "Amane Yotsumura*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/1/19/Amane_Yotsumura_Portrait.png/",
   },
   {
     name: "Natsuki Seba*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/d/db/Natsuki_Seba_Portrait.png/",
   },
   {
     name: "Mafuyu Seba*",
     price: 1,
-    img: comingSoon,
+    img: "https://static.wikia.nocookie.net/sakamoto-days/images/c/cb/Mafuyu_Seba_Portrait.png/",
   },
   {
     name: "Nao Toramaru*",
