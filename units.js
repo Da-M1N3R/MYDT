@@ -205,7 +205,7 @@ export const units = [
       "1) Devil Transformation: Sandworm",
   },
   {
-    name: "Shanks",
+    name: "St. Figarland Shanks",
     aka: "Red Hair",
     price: 12.01, // fixed price
     img: "https://i.pinimg.com/1200x/1a/a5/52/1aa55206bc7f98e65f842c7f473d6546.jpg",
@@ -3419,10 +3419,21 @@ export const units = [
     desc: inspire + "Queen Medusa",
   },
   {
-    name: "Yoma Hashimoto*",
+    name: "Yoma Hashimoto>>>",
     aka: "Hermes",
     price: 10.19, // fixed price
     img: "https://static.jojowiki.com/images/3/34/latest/20201217170557/YomaAv.jpg",
+  },
+  {
+    name: "Noritoshi Kamo",
+    aka: "Kamo Blood Manipulator",
+    price: 7.12,
+    img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6c/ChosoP.png/",
+    desc:
+      ability +
+      "1) Blood Manipulation" +
+      inspire +
+      "1) Choso(ability, looks) (Jujutsu Kaisen)",
   },
   {
     name: "Shunsui Fushiguro",
@@ -3438,6 +3449,11 @@ export const units = [
       "1) dual katana" +
       inspire +
       "Megumi Fushiguro (technique), Shunsui Kyōraku (looks), Super Saiyan 4 (DBZ), Kuroki Gensai (Kengan Ashura), Kuma, Jozu(OP), Tiger Vanguard (black myth wukong)",
+  },
+  {
+    name: "Charles Bernard*",
+    price: 7.12,
+    img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/db/CharlesBernardP.png/",
   },
   {
     // done
@@ -4755,17 +4771,6 @@ export const units = [
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/5/53/GojoP.png/",
   },
   {
-    name: "Noritoshi Kamo",
-    aka: "Kamo Blood Manipulator",
-    price: 7.12,
-    img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/6/6c/ChosoP.png/",
-    desc:
-      ability +
-      "1) Blood Manipulation" +
-      inspire +
-      "1) Choso(ability, looks) (Jujutsu Kaisen)",
-  },
-  {
     name: "Aoi Todo*",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/d1/AoiP.png/",
@@ -4811,11 +4816,6 @@ export const units = [
     name: "Takako Uro*",
     price: 7.12,
     img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/e/e3/TakakoUroP.png/",
-  },
-  {
-    name: "Charles Bernard*",
-    price: 7.12,
-    img: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/d/db/CharlesBernardP.png/",
   },
 
   // Bounty Hunters ---> Space Assassin Sisters
